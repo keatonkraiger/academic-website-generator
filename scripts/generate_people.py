@@ -1,5 +1,6 @@
 import yaml
 import math
+import argparse
 
 def format_person(person):
     """Format a single person's HTML with name, image, and education info."""
@@ -111,7 +112,10 @@ def generate_people_page(people_file, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(html_output)
         
-        
-people_file = 'content/people.yml'
-output_file = 'output/people.html'
-generate_people_page(people_file, output_file)
+if __name__ == '__main__':
+    argparser = argparse.ArgumentParser(description="Generate people page from YAML data")
+    argparser.add_argument('--yaml_path', type=str, help="Path to the YAML file containing people data")
+    argparser.add_argument('--output_path', type=str, help="Path to the output HTML file")
+    args = argparser.parse_args()
+    
+    generate_people_page(args.yaml_path, args.output_path)

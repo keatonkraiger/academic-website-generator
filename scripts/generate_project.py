@@ -104,8 +104,8 @@ def generate_project_page(yaml_file, output_file):
         
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Generate project pages from YAML data")
-    parser.add_argument("--yml_path", type=str, help="Path to project YAML data file")
-    parser.add_argument("--out_path", type=str, help="Output directory for generated HTML files")
+    parser.add_argument("--yaml_path", type=str, help="Path to project YAML data file")
+    parser.add_argument("--output_path", type=str, help="Output directory for generated HTML files")
     args = parser.parse_args()
     
     generate_project_page(args.yml_path, args.out_path)

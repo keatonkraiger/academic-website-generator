@@ -1,137 +1,51 @@
 # Academic Website Generator
 
-A lightweight, YAML-based static website generator designed specifically for academic websites. This tool converts simple YAML data files into a professional academic website without requiring direct HTML manipulation.
+A lightweight, YAML-based static website generator designed specifically for academic websites. This tool converts simple YAML data files into a professional academic website without requiring direct HTML manipulation. The current version was descigned specifically for [LPAC](https://sites.psu.edu/eecslpac/) at Penn State.
 
-## Overview
+## Quick Start
 
-This system generates academic-style web pages by:
-- Storing content in maintainable YAML files
-- Using Python scripts to convert YAML data into HTML
-- Applying clean, academic-focused CSS styling
-- Supporting WordPress integration
+1. Edit YAML files in `data/`:
+   - `people.yml` - Lab members and alumni
+   - `publications.yml` - Publications list
+   - `research.yml` - Research projects
+   - `projects/*.yml` - Individual project pages
 
-## Data Structure
-
-### People Data (`people.yml`)
-Manages all people associated with the lab in a single organized file:
-
-```yaml
-faculty:
-  - name: Full Name
-    status: faculty
-    img: filename.jpg
-    website: https://example.com
-    email: email@university.edu
-    education:
-      - Ph.D. in Field, University
-    info: Current Position/Role
-
-current_students:
-  - name: Student Name
-    status: phd_student  # or ms_student, undergraduate
-    img: filename.jpg
-    education:
-      - Degree Program
-
-alumni:
-  - name: Alumni Name
-    status: alumni
-    img: filename.jpg
-    education:
-      - Degree, University
-    graduation_year: YYYY
-    info: Current Position
-```
-
-Required fields: name, status, img, education
-Optional fields: email, website, info, graduation_year
-
-### Publications (`publist.yml`)
-```yaml
-- title: Publication Title
-  image: image_filename.png
-  description: Brief description
-  authors: Author 1, Author 2
-  month: 1-12
-  year: YYYY
-  link:
-    display: Link Text
-    url: https://publication-url
-  publisher: Publisher Name
-  highlight: 0 or 1  # Featured publication flag
-  project_page: https://project-page-url or null
-```
-
-### Research Projects (`research.yml`)
-```yaml
-projects:
-  ongoing:
-    - name: Project Name
-      img_url: image_url
-      description: Project description
-      project_url: project_webpage
-      status: ongoing
-  
-  previous:
-    - name: Project Name
-      img_url: image_url
-      description: Project description
-      project_url: project_webpage
-      status: previous
-```
-
-## Usage
-
-### 1. Update YAML Files
-Add or modify content in the appropriate YAML files following the structures above.
-
-### 2. Generate HTML
+2. Generate HTML:
 ```bash
-python generate_people.py
-python generate_publications.py
-python generate_research.py
+python generate_people.py --yaml_path data/people.yml --output_path output/people.html
+python generate_publications.py --yaml_path data/publications.yml --output_path output/publications.html 
+python generate_research.py --yaml_path data/research.yml --output_path output/research.html
+python generate_project.py --yaml_path data/projects/example.yml --output_path output/projects/example.html
 ```
 
-### 3. WordPress Integration
-1. Copy generated HTML content
-2. Paste into WordPress using the HTML editor
-3. Ensure custom CSS is added to your WordPress theme
+## Local Development
 
-## CSS Integration
-
-The system uses `custom.css` which provides:
-- Academic-focused typography
-- Responsive layouts for people, publications, and projects
-- Support for profile photos and project images
-- Clean, professional styling
-
-## File Structure
 ```
 .
-├── data/
-│   ├── people.yml
-│   ├── publist.yml
-│   └── research.yml
-├── assets/
-│   ├── images/
-│   │   └── people/
+├── data/           # YAML content files
+├── assets/         # CSS and images
+│   └── images/
+|     └── ...
 │   └── custom.css
-├── scripts/
-│   └── generate_pages.py ...
-└── pages/
-    └── generated HTML files
+├── scripts/        # Python generators
+└── output/         # Generated HTML
 ```
 
-## Requirements
+Serve the site locally in any way you prefer. For example, using Python's built-in HTTP server:
+```bash
+python -m http.server
+# Visit http://localhost:8000/output/
+```
 
-- Python 3.x
-- PyYAML library
-- Web server or WordPress installation
-- Basic understanding of YAML syntax
+## WordPress Integration
 
-## WordPress Setup
+1. Copy `assets/custom.css` content into WordPress Customizer → Additional CSS
+2. For each generated HTML file:
+   - Copy content between `<body>` tags
+   - Paste into WordPress page using Code Editor.
 
-1. Navigate to Appearance → Customize → Additional CSS
-2. Copy the contents of `custom.css`
-3. Paste into the Additional CSS section
-4. Save changes
+Both the custom css file and enabling the code editor in WordPress may require additional plugins.
+
+## Customization
+
+Modify the YAML files to customize content while maintaining the required fields for each type. See example YAML files in `data/` for reference.
