@@ -256,3 +256,153 @@ colophon { display: none; }
     width: 100%;
   }
 }
+
+/* ==================== RESEARCH PROJECT PAGES ==================== */
+.project-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.project-title {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #1a1a1a;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.project-section {
+  margin: 6rem 0;
+  position: relative;
+}
+
+.project-section:before {
+  content: '';
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 1px;
+  background: #cbd5e0;
+}
+
+.project-section:first-of-type:before {
+  display: none;
+}
+
+.project-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.project-members .member-card {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-members .member-card img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #edf2f7;
+  transition: transform 0.2s ease;
+}
+
+.project-members .member-card img:hover {
+  transform: scale(1.05);
+}
+
+.project-members .member-card a {
+  display: block;
+  color: #2d3748;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.project-members .member-card .member-role {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2d3748;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.media-item {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.media-item img,
+.media-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.publications-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.publication-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.publication-card:hover {
+  transform: translateY(-4px);
+}
+
+.publication-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.publication-card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.publication-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.funding-note {
+  margin-top: 6rem;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #64748b;
+  text-align: center;
+}

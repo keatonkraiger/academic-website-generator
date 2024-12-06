@@ -113,5 +113,5 @@ def generate_people_page(people_file, output_file):
         
         
 people_file = 'content/people.yml'
-output_file = 'pages/people.html'
+output_file = 'output/people.html'
 generate_people_page(people_file, output_file)

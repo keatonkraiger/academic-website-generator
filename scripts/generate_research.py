@@ -53,5 +53,5 @@ def generate_research_page(yaml_file, output_file):
 
 if __name__ == "__main__":
     yaml_file = "content/research.yml"
-    output_file = "new_files/research.html"
+    output_file = "output/research.html"
     generate_research_page(yaml_file, output_file)
