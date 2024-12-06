@@ -10,7 +10,7 @@ def format_person(person):
     link_start = f'<a href="{person["website"]}" target="_blank" rel="noopener">' if person.get('website') else '<a>'
     
     # Get image path - assuming images are in a standard location
-    img_src = f"https://sites.psu.edu/eecslpac/files/2024/11/{person['img']}"
+    img_src = f"{person['img']}"
     
     return f'''<div class="person">{link_start}
 <img src="{img_src}" alt="{person['name']}" />

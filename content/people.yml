@@ -17,7 +17,7 @@
 faculty:
   - name: Robert T. Collins
     status: faculty
-    img: bob.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/bob-e1681759265217.jpg
     website: https://www.lipsum.com/
     email: rtc12@psu.edu
     education: 
@@ -26,7 +26,7 @@ faculty:
 
   - name: Yanxi Liu
     status: faculty
-    img: yanxi.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/yanxi-e1681759219588.jpg
     website: https://www.lipsum.com/
     email: yanxi@psu.edu
     education:
@@ -37,21 +37,21 @@ faculty:
 current_students:
   - name: Keaton Kraiger
     status: phd_student
-    img: keatonK_small.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/keatonK_small.jpg
     website: https://www.lipsum.com/
     education:
       - Ph.D. Student in Computer Science and Engineering
 
   - name: Skanda Bharadwaj
     status: phd_student
-    img: skandaB_small.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/skandaB_small.jpg
     website: https://www.lipsum.com/
     education:
       - Ph.D. Student in Computer Science and Engineering
 
   - name: Shimian Zhang
     status: phd_student
-    img: shimianZ.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/shimianZ.jpg
     website: https://www.lipsum.com/
     education:
       - Ph.D. Student in Computer Science and Engineering
@@ -61,7 +61,7 @@ alumni:
   # Ph.D. Alumni
   - name: Jesse Scott
     status: alumni
-    img: jesseS.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: jus121@psu.edu
     education:
       - Ph.D. in Computer Science and Engineering, Penn State University
@@ -70,7 +70,7 @@ alumni:
 
   - name: Christopher Funk
     status: alumni
-    img: chrisF.png
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     education:
       - Ph.D. in Computer Science and Engineering, Penn State University
     graduation_year: 2022
@@ -78,48 +78,48 @@ alumni:
 
   - name: Asad Butt
     status: alumni
-    img: asad_butt.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://www.cse.psu.edu/~asad/
     education:
       - Ph.D. in Computer Science and Engineering, Penn State University
 
   - name: Sitapa Rujikietgumjorn
     status: alumni
-    img: sitapa_rujikietgumjorn.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://www.cse.psu.edu/~sur167/
     education:
       - Ph.D. in Computer Science and Engineering, Penn State University
 
   - name: Minwoo Park
     status: alumni
-    img: minwoo_park.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://mipark2.weebly.com/
     education:
       - Ph.D. in Computer Science and Engineering, Penn State University
 
   - name: Weina Ge
     status: alumni
-    img: weina_ge.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://www.cse.psu.edu/~ge
     education:
       - Ph.D. in Computer Science and Engineering, Penn State University
 
   - name: Seungkyu Lee
     status: alumni
-    img: seungkyu_lee.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     education:
       - Ph.D. in Computer Science and Engineering, Penn State University
 
   - name: Zhaozheng Yin
     status: alumni
-    img: zhaozheng_yin.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://www.cs.cmu.edu/~zhaozhen/
     education:
       - Ph.D. in Computer Science and Engineering, Penn State University
 
   - name: David Capel
     status: alumni
-    img: david_capel.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://www.cse.psu.edu/people/capel
     education:
       - Ph.D. Oxford University
@@ -127,112 +127,112 @@ alumni:
   # M.S. Alumni
   - name: Mingjie Wu
     status: alumni
-    img: mingjie_wu.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: muw211@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Savinay Nagendra
     status: alumni
-    img: savinay_nagendra.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: sxn265@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Jonathan Fry
     status: alumni
-    img: jonathan_fry.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: jrf5030@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Tianhe Wang
     status: alumni
-    img: tianhe_wang.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: tzw43@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Suran Cui
     status: alumni
-    img: suran_cui.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: suc191@psu.edu
     education:
       - M.S. in Electrical Engineering, Penn State University
 
   - name: Diana Koshy
     status: alumni
-    img: diana_koshy.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: dianakoshy5@gmail.com
     education:
       - M.S. in Computer Science, Penn State University
 
   - name: Jingchen Liu
     status: alumni
-    img: jingchen_liu.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://www.cse.psu.edu/~jxl1037/
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Ingmar Rauschert
     status: alumni
-    img: ingmar_rauschert.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://vision.cse.psu.edu/people/ingmarR/index.html
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Anand Raja
     status: alumni
-    img: anand_raja.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://vision.cse.psu.edu/people/anandR/index.shtml
     education:
       - M.S. in Electrical Engineering, Penn State University
 
   - name: Chen-Ping Yu
     status: alumni
-    img: chen-ping_yu.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://vision.cse.psu.edu/people/chenpingY/
     education:
       - M.S. in Computer Science, Penn State University
 
   - name: Somesh Kashyap
     status: alumni
-    img: somesh_kashyap.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://www.linkedin.com/in/someshkashyap
     education:
       - M.S. in Electrical Engineering, Penn State University
 
   - name: Bharadwaj Ravichandran
     status: alumni
-    img: bharadwaj_ravichandran.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: bzr49@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Hong Zhang
     status: alumni
-    img: hong_zhang.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: hongzh@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Haonan Cao
     status: alumni
-    img: haonan_cao.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: hfc5206@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Yashasvi Asthana
     status: alumni
-    img: yashasvi_asthana.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: yxa150@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
 
   - name: Peilin Chai
     status: alumni
-    img: peilin_chai.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: pkc5259@psu.edu
     education:
       - M.S. in Computer Science and Engineering, Penn State University
@@ -240,89 +240,89 @@ alumni:
   # B.S. Alumni
   - name: Aiyu Cui
     status: alumni
-    img: aiyu_cui.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: aiyu.cay@gmail.com
     education:
       - B.S. in Computer Science (Honors), Penn State University
 
   - name: Anthony Marucci
     status: alumni
-    img: anthony_marucci.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: ajm6162@psu.edu
     education:
       - B.S. in Computer Science, Penn State University
 
   - name: Sergey Ivanov
     status: alumni
-    img: sergey_ivanov.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: sui111@psu.edu
     education:
       - B.S. in Computer Science, Penn State University
 
   - name: Molly O'Brien
     status: alumni
-    img: molly_o'brien.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: mlo5114@psu.edu
     education:
       - B.S. in Electrical Engineering, Penn State University
 
   - name: Andy Luo
     status: alumni
-    img: andy_luo.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: venividivici440@gmail.com
     education:
       - B.S. in Computer Science and Electrical Engineering (Honors), Penn State University
 
   - name: Nick Dyszel
     status: alumni
-    img: nick_dyszel.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: nwd5069@psu.edu
     education:
       - B.S. in Computer Science (Honors), Penn State University
 
   - name: Mark Wolff
     status: alumni
-    img: mark_wolff.png
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: wolff@psu.edu
     education:
       - B.S. in Electrical Engineering (Honors), Penn State University
 
   - name: Kyle Brocklehurst
     status: alumni
-    img: kyle_brocklehurst.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://vision.cse.psu.edu/people/kyleB/index.shtml
     education:
       - B.S. in Computer Science, Penn State University
 
   - name: Ken Czuprynski
     status: alumni
-    img: ken_czuprynski.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     education:
       - B.S. in Computer Science, Penn State University
 
   - name: I-K Chiang
     status: alumni
-    img: i-k_chiang.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://www.linkedin.com/in/igorchiang
     education:
       - B.S. in Computer Science (Honors), Penn State University
 
   - name: Tamara Belkina
     status: alumni
-    img: tamara_belkina.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     education:
       - B.S. in Computer Science (Honors), Penn State University
 
   - name: Weisheng Li
     status: alumni
-    img: weisheng_li.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: wjl5238@psu.edu
     education:
       - B.S. in Computer Science (Honors), Penn State University
 
   - name: Mackenzie Myers
     status: alumni
-    img: mackenzie_myers.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: mzm6486@psu.edu
     education:
       - B.S. in Computer Science, Penn State University
@@ -331,49 +331,49 @@ alumni:
 visitors:
   - name: Haoran Wei
     status: visitor
-    img: haoran_wei.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: hrwei@pku.edu.cn
     education:
       - Visiting Scholar from Peking University
 
   - name: Christopher Fedor
     status: visitor
-    img: christopher_fedor.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: clf189@psu.edu
     education:
       - Visiting Scholar
 
   - name: Hui Li
     status: visitor
-    img: hui_li.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     email: hul173@psu.edu
     education:
       - Visiting Scholar
 
   - name: Yongming Li
     status: visitor
-    img: yongming_li.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://sites.google.com/site/lymcentor924924/yong-mingli
     education:
       - Visiting Scholar
 
   - name: Xiaolin Chen
     status: visitor
-    img: xiaolin_chen.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://seis.bris.ac.uk/~eezxxc/
     education:
       - Visiting Scholar
 
   - name: Timothy Smith
     status: visitor
-    img: timothy_smith.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://vision.cse.psu.edu/people/timS/index.shtml
     education:
       - Visiting Scholar
 
   - name: Pingping Xie
     status: visitor
-    img: pingping_xie.jpg
+    img: https://sites.psu.edu/keaton/files/2023/04/A1.png
     website: http://wsx.tjus.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbtreeid=1008&wbnewsid=1066
     education:
       - Visiting Scholar
