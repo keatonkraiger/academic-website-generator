@@ -1,81 +1,126 @@
 # Academic Website Generator
 
-A lightweight, YAML-based static website generator designed specifically for academic websites. This tool was created for the LPAC lab and allows researchers and academic groups to maintain a professional web presence through simple data files, without dealing directly with HTML markup.
+A lightweight, YAML-based static website generator designed specifically for academic websites. This tool converts simple YAML data files into a professional academic website without requiring direct HTML manipulation.
 
 ## Overview
 
 This system generates academic-style web pages by:
-- Storing content in easily maintainable YAML files
+- Storing content in maintainable YAML files
 - Using Python scripts to convert YAML data into HTML
 - Applying clean, academic-focused CSS styling
 - Supporting WordPress integration
 
-## Structure
+## Data Structure
 
-### Data Storage
-Content is stored in YAML files, including:
-- `People.yml`: Faculty, students, alumni, scholars/researchers, etc.
-- `publist.yml`: Publication listings
-- `projects.yml`: Project portfolios
+### People Data (`people.yml`)
+Manages all people associated with the lab in a single organized file:
 
-### Key Components
-- Python conversion scripts
-- Custom CSS for academic styling
-- HTML templates
-- WordPress integration support
+```yaml
+faculty:
+  - name: Full Name
+    status: faculty
+    img: filename.jpg
+    website: https://example.com
+    email: email@university.edu
+    education:
+      - Ph.D. in Field, University
+    info: Current Position/Role
+
+current_students:
+  - name: Student Name
+    status: phd_student  # or ms_student, undergraduate
+    img: filename.jpg
+    education:
+      - Degree Program
+
+alumni:
+  - name: Alumni Name
+    status: alumni
+    img: filename.jpg
+    education:
+      - Degree, University
+    graduation_year: YYYY
+    info: Current Position
+```
+
+Required fields: name, status, img, education
+Optional fields: email, website, info, graduation_year
+
+### Publications (`publist.yml`)
+```yaml
+- title: Publication Title
+  image: image_filename.png
+  description: Brief description
+  authors: Author 1, Author 2
+  month: 1-12
+  year: YYYY
+  link:
+    display: Link Text
+    url: https://publication-url
+  publisher: Publisher Name
+  highlight: 0 or 1  # Featured publication flag
+  project_page: https://project-page-url or null
+```
+
+### Research Projects (`research.yml`)
+```yaml
+projects:
+  ongoing:
+    - name: Project Name
+      img_url: image_url
+      description: Project description
+      project_url: project_webpage
+      status: ongoing
+  
+  previous:
+    - name: Project Name
+      img_url: image_url
+      description: Project description
+      project_url: project_webpage
+      status: previous
+```
 
 ## Usage
 
-### 1. Data Entry
-Add or update information in the appropriate YAML files:
-
-```yaml
-- name: John Doe
-  photo: john_doe.jpg
-  email: mailto:jdoe@university.edu
-  link: http://example.com
-  number_educ: 1
-  education1: Ph.D. in Computer Science
-```
+### 1. Update YAML Files
+Add or modify content in the appropriate YAML files following the structures above.
 
 ### 2. Generate HTML
-Run the Python script to convert YAML to HTML:
-
-```python
-python generate_pages.py
+```bash
+python generate_people.py
+python generate_publications.py
+python generate_research.py
 ```
 
 ### 3. WordPress Integration
-To use with WordPress:
-1. Copy the contents between `<body>` tags from the generated HTML
-2. Paste into a WordPress page using the HTML editor
-3. Add the custom CSS to your WordPress theme's custom CSS section
+1. Copy generated HTML content
+2. Paste into WordPress using the HTML editor
+3. Ensure custom CSS is added to your WordPress theme
 
 ## CSS Integration
 
-The system uses a minimal CSS framework designed for academic websites, featuring:
-- Clean, professional typography
-- Responsive grid layouts
-- Academic-specific styling (publications, people listings, etc.)
-- Support for both light and dark themes
+The system uses `custom.css` which provides:
+- Academic-focused typography
+- Responsive layouts for people, publications, and projects
+- Support for profile photos and project images
+- Clean, professional styling
 
-## WordPress Setup
-
-1. Navigate to Appearance → Customize → Additional CSS
-2. Copy the contents of `custom.css`
-3. Paste into the Additional CSS section
-4. Save changes
-
-## Features
-
-- Clean, academic-focused design
-- Easy content management through YAML files
-- Responsive layouts
-- Publication listings
-- People/team pages
-- Project portfolios
-- News/updates sections
-- WordPress compatibility
+## File Structure
+```
+.
+├── data/
+│   ├── people.yml
+│   ├── publist.yml
+│   └── research.yml
+├── assets/
+│   ├── images/
+│   │   └── people/
+│   └── custom.css
+├── scripts/
+│   └── generate_pages.py ...
+└── pages/
+    └── generated HTML files
+```
 
 ## Requirements
 
@@ -83,3 +128,10 @@ The system uses a minimal CSS framework designed for academic websites, featurin
 - PyYAML library
 - Web server or WordPress installation
 - Basic understanding of YAML syntax
+
+## WordPress Setup
+
+1. Navigate to Appearance → Customize → Additional CSS
+2. Copy the contents of `custom.css`
+3. Paste into the Additional CSS section
+4. Save changes
