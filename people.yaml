@@ -1,0 +1,308 @@
+faculty:
+- name: Robert T. Collins
+  status: faculty
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Robert_T._Collins.jpg
+  website: https://www.cse.psu.edu/~rtc12/
+  email: rtc12@psu.edu
+  education:
+  - Ph.D. in Computer Science, University of Massachusetts
+  info: Professor of Computer Science and Engineering
+- name: Yanxi Liu
+  status: faculty
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg
+  website: https://www.lipsum.com/
+  email: yanxi@psu.edu
+  education:
+  - Ph.D. in Computer Science, University of Massachusetts
+  info: Professor of Computer Science and Engineering
+current_students:
+- name: Keaton Kraiger
+  status: phd_student
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Keaton_Kraiger.jpg
+  website: https://www.lipsum.com/
+  education:
+  - Ph.D. Student in Computer Science and Engineering
+- name: Skanda Bharadwaj
+  status: phd_student
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Skanda_Bharadwaj.jpg
+  website: https://www.lipsum.com/
+  education:
+  - Ph.D. Student in Computer Science and Engineering
+- name: Shimian Zhang
+  status: phd_student
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Shimian_Zhang.jpg
+  website: https://www.lipsum.com/
+  education:
+  - Ph.D. Student in Computer Science and Engineering
+alumni:
+- name: Jesse Scott
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Jesse_Scott.jpg
+  email: jus121@psu.edu
+  education:
+  - Ph.D. in Computer Science and Engineering, Penn State University
+  graduation_year: 2023
+  info: Job hunting
+- name: Christopher Funk
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Christopher_Funk.jpg
+  education:
+  - Ph.D. in Computer Science and Engineering, Penn State University
+  graduation_year: 2022
+  info: Works at Kitware
+- name: Asad Butt
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Asad_Butt.jpg
+  website: http://www.cse.psu.edu/~asad/
+  education:
+  - Ph.D. in Computer Science and Engineering, Penn State University
+- name: Sitapa Rujikietgumjorn
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Sitapa_Rujikietgumjorn.jpg
+  website: http://www.cse.psu.edu/~sur167/
+  education:
+  - Ph.D. in Computer Science and Engineering, Penn State University
+- name: Minwoo Park
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Minwoo_Park.jpg
+  website: http://mipark2.weebly.com/
+  education:
+  - Ph.D. in Computer Science and Engineering, Penn State University
+- name: Weina Ge
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Weina_Ge.jpg
+  website: http://www.cse.psu.edu/~ge
+  education:
+  - Ph.D. in Computer Science and Engineering, Penn State University
+- name: Seungkyu Lee
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Seungkyu_Lee.jpg
+  education:
+  - Ph.D. in Computer Science and Engineering, Penn State University
+- name: Zhaozheng Yin
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Zhaozheng_Yin.jpg
+  website: http://www.cs.cmu.edu/~zhaozhen/
+  education:
+  - Ph.D. in Computer Science and Engineering, Penn State University
+- name: David Capel
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/David_Capel.jpg
+  website: http://www.cse.psu.edu/people/capel
+  education:
+  - Ph.D. Oxford University
+- name: Mingjie Wu
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Mingjie_Wu.jpg
+  email: muw211@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Savinay Nagendra
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Savinay_Nagendra.jpg
+  email: sxn265@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Jonathan Fry
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Jonathan_Fry.jpg
+  email: jrf5030@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Tianhe Wang
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Tianhe_Wang.jpg
+  email: tzw43@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Suran Cui
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Suran_Cui.jpg
+  email: suc191@psu.edu
+  education:
+  - M.S. in Electrical Engineering, Penn State University
+- name: Diana Koshy
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Diana_Koshy.jpg
+  email: dianakoshy5@gmail.com
+  education:
+  - M.S. in Computer Science, Penn State University
+- name: Jingchen Liu
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Jingchen_Liu.jpg
+  website: http://www.cse.psu.edu/~jxl1037/
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Ingmar Rauschert
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Ingmar_Rauschert.jpg
+  website: http://vision.cse.psu.edu/people/ingmarR/index.html
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Anand Raja
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Anand_Raja.jpg
+  website: http://vision.cse.psu.edu/people/anandR/index.shtml
+  education:
+  - M.S. in Electrical Engineering, Penn State University
+- name: Chen-Ping Yu
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Chen-Ping_Yu.jpg
+  website: http://vision.cse.psu.edu/people/chenpingY/
+  education:
+  - M.S. in Computer Science, Penn State University
+- name: Somesh Kashyap
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Somesh_Kashyap.jpg
+  website: http://www.linkedin.com/in/someshkashyap
+  education:
+  - M.S. in Electrical Engineering, Penn State University
+- name: Bharadwaj Ravichandran
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Bharadwaj_Ravichandran.jpg
+  email: bzr49@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Hong Zhang
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Hong_Zhang.jpg
+  email: hongzh@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Haonan Cao
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Haonan_Cao.jpg
+  email: hfc5206@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Yashasvi Asthana
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Yashasvi_Asthana.jpg
+  email: yxa150@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Peilin Chai
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Peilin_Chai.jpg
+  email: pkc5259@psu.edu
+  education:
+  - M.S. in Computer Science and Engineering, Penn State University
+- name: Aiyu Cui
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Aiyu_Cui.jpg
+  email: aiyu.cay@gmail.com
+  education:
+  - B.S. in Computer Science (Honors), Penn State University
+- name: Anthony Marucci
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Anthony_Marucci.jpg
+  email: ajm6162@psu.edu
+  education:
+  - B.S. in Computer Science, Penn State University
+- name: Sergey Ivanov
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Sergey_Ivanov.jpg
+  email: sui111@psu.edu
+  education:
+  - B.S. in Computer Science, Penn State University
+- name: Molly O'Brien
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Molly_O'Brien.jpg
+  email: mlo5114@psu.edu
+  education:
+  - B.S. in Electrical Engineering, Penn State University
+- name: Andy Luo
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Andy_Luo.jpg
+  email: venividivici440@gmail.com
+  education:
+  - B.S. in Computer Science and Electrical Engineering (Honors), Penn State University
+- name: Nick Dyszel
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Nick_Dyszel.jpg
+  email: nwd5069@psu.edu
+  education:
+  - B.S. in Computer Science (Honors), Penn State University
+- name: Mark Wolff
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Mark_Wolff.jpg
+  email: wolff@psu.edu
+  education:
+  - B.S. in Electrical Engineering (Honors), Penn State University
+- name: Kyle Brocklehurst
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Kyle_Brocklehurst.jpg
+  website: http://vision.cse.psu.edu/people/kyleB/index.shtml
+  education:
+  - B.S. in Computer Science, Penn State University
+- name: Ken Czuprynski
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Ken_Czuprynski.jpg
+  education:
+  - B.S. in Computer Science, Penn State University
+- name: I-K Chiang
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/I-K_Chiang.jpg
+  website: http://www.linkedin.com/in/igorchiang
+  education:
+  - B.S. in Computer Science (Honors), Penn State University
+- name: Tamara Belkina
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Tamara_Belkina.jpg
+  education:
+  - B.S. in Computer Science (Honors), Penn State University
+- name: Weisheng Li
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Weisheng_Li.jpg
+  email: wjl5238@psu.edu
+  education:
+  - B.S. in Computer Science (Honors), Penn State University
+- name: Mackenzie Myers
+  status: alumni
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Mackenzie_Myers.jpg
+  email: mzm6486@psu.edu
+  education:
+  - B.S. in Computer Science, Penn State University
+visitors:
+- name: Haoran Wei
+  status: visitor
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Haoran_Wei.jpg
+  email: hrwei@pku.edu.cn
+  education:
+  - Visiting Scholar from Peking University
+- name: Christopher Fedor
+  status: visitor
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Christopher_Fedor.jpg
+  email: clf189@psu.edu
+  education:
+  - Visiting Scholar
+- name: Hui Li
+  status: visitor
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Hui_Li.jpg
+  email: hul173@psu.edu
+  education:
+  - Visiting Scholar
+- name: Yongming Li
+  status: visitor
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Yongming_Li.jpg
+  website: http://sites.google.com/site/lymcentor924924/yong-mingli
+  education:
+  - Visiting Scholar
+- name: Xiaolin Chen
+  status: visitor
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Xiaolin_Chen.jpg
+  website: http://seis.bris.ac.uk/~eezxxc/
+  education:
+  - Visiting Scholar
+- name: Timothy Smith
+  status: visitor
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Timothy_Smith.jpg
+  website: http://vision.cse.psu.edu/people/timS/index.shtml
+  education:
+  - Visiting Scholar
+- name: Pingping Xie
+  status: visitor
+  img: https://sites.psu.edu/eecslpac/files/2024/12/Pingping_Xie.jpg
+  website: http://wsx.tjus.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbtreeid=1008&wbnewsid=1066
+  education:
+  - Visiting Scholar

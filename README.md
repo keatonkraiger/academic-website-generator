@@ -1,6 +1,6 @@
 # Academic Website Generator
 
-A lightweight, YAML-based static website generator designed specifically for academic websites. This tool converts simple YAML data files into a professional academic website without requiring direct HTML manipulation. The current version was descigned specifically for [LPAC](https://sites.psu.edu/eecslpac/) at Penn State.
+A lightweight, YAML-based static website generator designed predominantly for academic websites. This tool converts simple YAML data files into a professional academic website without requiring direct HTML manipulation. The current version was descigned specifically for [LPAC](https://sites.psu.edu/eecslpac/) at Penn State though it can be easily adapted.
 
 ## Quick Start
 

@@ -1,0 +1,115 @@
+title: Symmetry Group-based Regularity Perception in Human and Computer Vision
+slug: symmetry-regularity-perception
+featured_image: /assets/imgs/project_imgs/symmetry_perception.png
+
+members:
+  - name: Yanxi Liu
+    image: /assets/imgs/people/yanxi.jpg
+    link: http://www.cse.psu.edu/~yanxi/
+    institution: Pennsylvania State University
+    role: Principal Investigator  # Optional
+
+  - name: Christopher Funk
+    image: /assets/imgs/people/Chris_funk.png
+    link: mailto:funk@cse.psu.edu
+    institution: Pennsylvania State University
+
+  - name: Shivam Vedak
+    image: /assets/imgs/people/Shivam_Vedak.jpg
+    link: mailto:shivam.vedak@gmail.com
+    institution: Pennsylvania State University
+
+  - name: Rick Gilmore
+    image: /assets/imgs/people/Rick_Gilmore.jpg
+    link: http://www.personal.psu.edu/rog1/
+    institution: Pennsylvania State University
+
+  - name: Peter Jes Kohler
+    image: /assets/imgs/people/Peter_Kohler.jpg
+    link: https://profiles.stanford.edu/kohler
+    institution: Stanford University
+
+  - name: Alexandra Yakovleva
+    image: /assets/imgs/people/Alexandra_Yakovleva.jpg
+    link: https://svndl.stanford.edu/users/alexandra-yakovleva
+    institution: Stanford University
+
+  - name: Anthony Norcia
+    image: /assets/imgs/people/Anthony_Norcia.jpg
+    link: https://psychology.stanford.edu/anorcia
+    institution: Stanford University
+
+  - name: Jeremy Cole
+    image: /assets/imgs/people/Jeremy_Cole.jpg
+    link: http://ist.psu.edu/directory/graduate_students/jrc436
+    institution: Pennsylvania State University
+    role: Collaborator 
+
+  - name: David Reitter
+    image: /assets/imgs/people/David_Reitter.jpg
+    link: http://www.david-reitter.com/
+    institution: Pennsylvania State University
+    role: Collaborator 
+
+  - name: Alasdair D. F. Clarke
+    image: /assets/imgs/people/Alasdair_Clarke.jpeg
+    link: http://homepages.inf.ed.ac.uk/aclark11/
+    institution: University of Edinburgh
+    role: Collaborator 
+
+
+description: |
+  This research integrates theoretical, experimental, and algorithmic approaches to construct a novel conceptual framework for predicting and understanding the full range of regularity perception. The project explores both human perception by measuring brain activation and behavior, and machine perception through a computational framework for adaptive symmetry detection in computer vision. Using symmetry group theory as an organizing principle, the project aims to advance theories in pattern perception and enable new methods for detecting and analyzing real-world regularities.
+
+  The interdisciplinary nature of this project bridges computer science, psychology, neuroscience, and mathematics. The outcomes will contribute to improving the robustness of automatic pattern detection in large digital datasets and could significantly impact various domains, including computer vision, data analysis, and cognitive sciences.
+
+publications:
+  - title: "Beyond Planar Symmetry: Modeling Human Perception of Reflection and Rotation Symmetries in the Wild"
+    link: https://www.researchgate.net/publication/316075758_Beyond_Planar_Symmetry_Modeling_human_perception_of_reflection_and_rotation_symmetries_in_the_wild
+    thumbnail: /assets/imgs/paper_thumbs/BPS.jpg
+
+  - title: "Symmetry reCAPTCHA"
+    link: https://www.researchgate.net/publication/296706719_SYMMETRY_reCAPTCHA
+    thumbnail: /assets/imgs/paper_thumbs/symCap.png
+
+  - title: "Representation of Maximally Regular Textures in Human Visual Cortex"
+    link: https://www.researchgate.net/publication/288003915_Representation_of_Maximally_Regular_Textures_in_Human_Visual_Cortex_The_Journal_of_Neuroscience
+    thumbnail: /assets/imgs/paper_thumbs/regular_textures.jpg
+
+presentations:
+  - title: "Human Visual Perception of the 17 Wallpaper-Group Patterns using Timed Trials"
+    authors: Yanxi Liu, Jeremy Cole, David Reitter
+    venue: Vision Sciences Society, St. Pete, Florida. 2016
+    attachment:
+      file: /assets/docs/cole_2016.pdf
+      thumbnail: /assets/imgs/thumbnails/cole_2016.png
+
+  - title: "Parametric Responses to Rotation Symmetry in Mid-Level Visual Cortex"
+    authors: Peter J. Kohler, Alexandra Yakovleva, Alasdair D.F. Clarke, Yanxi Liu, Anthony M. Norcia
+    venue: Vision Sciences Society, St. Pete, Florida. 2015
+    attachment:
+      file: /assets/videos/kohler_VSS2015.m4v
+      thumbnail: /assets/imgs/thumbnails/kohler_VSS2015.png
+
+samples:
+  - title: "Example P4M Stimulus"
+    attachment:
+      file: /assets/imgs/samples/P4M_1.jpeg
+      thumbnail: /assets/imgs/samples/P4M_1.jpeg
+
+  - title: "Inner-structure of wallpaper groups"
+    attachment:
+      file: /assets/imgs/samples/Yanxi_Graph.png
+      thumbnail: /assets/imgs/samples/Yanxi_Graph.png
+
+resources:
+  - title: "GitHub repository for creating Synthetic Wallpaper Patterns"
+    link: https://github.com/computational-symmetry
+
+  - title: "PSU Near Regular Texture Database"
+    link: http://vivid.cse.psu.edu/texturedb/gallery/
+
+funding:
+  - agency: National Science Foundation (NSF)
+    award: "INSPIRE: Symmetry Group-based Regularity Perception in Human and Computer Vision (NSF IIS-1248076)"
+    url: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1248076&HistoricalAwards=false
