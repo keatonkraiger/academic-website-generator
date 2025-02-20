@@ -43,6 +43,7 @@ def generate_members_section(data):
             <a href="{member.get('link', '#')}">
                 {member['name']}<sup>{institution_map.get(member.get("institution", ""), "")}</sup>
             </a>
+            
         </div>
     ''' for member in core_members])
 
@@ -85,13 +86,105 @@ def generate_datasets_section(data):
             {f'<div class="dataset-image"><img src="{dataset["image"]}" alt="{dataset["name"]} visualization"></div>' if dataset.get('image') else ''}
             <div class="dataset-text">
                 <div class="dataset-description">{dataset['description']}</div>
-                {f'<div class="dataset-actions"><a href="{dataset["url"]}" class="dataset-link">Access Dataset</a></div>' if dataset.get('url') else ''}
+                {f'<div class="dataset-actions"><a href="{dataset["url"]}" class="dataset-link">[Access Dataset]</a></div>' if dataset.get('url') else ''}
                 {f'<div class="citation-block"><pre class="dataset-citation">{dataset["citation"]}</pre></div>' if dataset.get('citation') else ''}
             </div>
         </div>
     ''' for dataset in data['datasets']])
 
-    return f'<div class="project-page-section"><h2>Datasets</h2>{datasets_html}</div>'
+    return f'<div class="project-page-section"><h1 class="page-section-title">Datasets</h1>{datasets_html}</div>'
+
+def generate_presentations_section(data):
+    """Generates HTML for presentations section."""
+
+    if not data.get('presentations'):
+        return ''
+    
+    presentations_html = ""
+
+    for presentation in data['presentations']:
+        # Boilerplate code for the each presentation block
+        presentation_html = f'''
+            <div class="abstract-card">
+                <div class="abstract-content">
+                    <div class="abstract-info">
+                        <h2 class="abstract-title">{presentation['title']}</h2>
+                        <div class="abstract-metadata">
+                            <p>{presentation['authors']}</p>
+                            <p>{presentation['publisher']}</p>
+                            <p>{presentation['location']}</p>
+                        </div>'''
+
+        # If contains an abstract, add that in
+        if presentation.get('abstract'):
+            presentation_html += f'''<h3 style="font-size: medium; font-weight: bold; margin-top: 20px;">Abstract:</h3>
+                    <div class="abstract-desc"> 
+                        <span>{presentation['abstract']}</span>
+                        <a href="{presentation['abstract_link']}" rel="noopener">
+                            [Read Full]
+                        </a> 
+                    </div>'''
+        else:
+            presentation_html += '<h3 style="font-size: medium; font-weight: bold; margin-top: 20px;">[No Abstract]</h3>'
+        
+        presentation_html += '</div>'
+
+        # If contains a poster, add that in
+        if presentation.get('poster'):
+            presentation_html += f'''<a href="{presentation['link']}" rel="noopener" class="abstract-doc">
+                <img src="{presentation['poster']}" alt="Poster">
+                </a>'''
+
+        presentation_html += '</div></div>'
+        presentations_html += presentation_html
+
+    return f'<div class="project-page-section"><h1 class="page-section-title">Presentations</h1><div class="abstract-list">{presentations_html}</div></div>'
+
+def generate_abstracts_section(data):
+    """Generates HTML for abstracts section."""
+
+    if not data.get('abstracts'):
+        return ''
+    
+    abstracts_html = ""
+
+    for abstract in data['abstracts']:
+        # Boilerplate code for the each abstract block
+        abstract_html = f'''
+            <div class="abstract-card">
+                <div class="abstract-content">
+                    <div class="abstract-info">
+                        <h2 class="abstract-title">{abstract['title']}</h2>
+                        <div class="abstract-metadata">
+                            <p>{abstract['authors']}</p>
+                            <p>{abstract['publisher']}</p>
+                            <p>{abstract['location']}</p>
+                        </div>'''
+
+        # If contains an abstract, add that in
+        if abstract.get('abstract'):
+            abstract_html += f'''<h3 style="font-size: medium; font-weight: bold; margin-top: 20px;">Abstract:</h3>
+                    <div class="abstract-desc"> 
+                        <span>{abstract['abstract']}</span>
+                        <a href="{abstract['abstract_link']}" rel="noopener">
+                            [Read Full]
+                        </a> 
+                    </div>'''
+        else:
+            abstract_html += '<h3 style="font-size: medium; font-weight: bold; margin-top: 20px;">[No Abstract]</h3>'
+        
+        abstract_html += '</div>'
+
+        # If contains a poster, add that in
+        if abstract.get('poster'):
+            abstract_html += f'''<a href="{abstract['link']}" rel="noopener" class="abstract-doc">
+                <img src="{abstract['poster']}" alt="Poster">
+                </a>'''
+
+        abstract_html += '</div></div>'
+        abstracts_html += abstract_html
+
+    return f'<div class="project-page-section"><h1 class="page-section-title">Abstracts</h1><div class="abstract-list">{abstracts_html}</div></div>'
 
 
 def generate_media_section(data):
@@ -107,7 +200,7 @@ def generate_media_section(data):
         image_html = "".join([f'''
             <div class="media-item">
                 <img src="{img['path']}" alt="{img.get('caption', 'Media Image')}">
-                {f'<p>{img["caption"]}</p>' if 'caption' in img else ''}
+                {f'<div class="caption">{img["caption"]}</div>' if 'caption' in img else ''}
             </div>
         ''' for img in media_items['images']])
         media_html += f'<div class="media-grid">{image_html}</div>'
@@ -120,12 +213,19 @@ def generate_media_section(data):
                     <source src="{vid['url']}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                {f'<p>{vid["caption"]}</p>' if 'caption' in vid else ''}
+                {f'<div class="caption">{vid["caption"]}</div>' if 'caption' in vid else ''}
             </div>
         ''' for vid in media_items['videos']])
         media_html += f'<div class="media-grid">{video_html}</div>'
 
-    return f'<div class="project-page-section"><h2>Media</h2>{media_html}</div>'
+    if data['media'].get('citations'):
+        citation_html = "".join([f'''
+            <div class="citation-item">{citation['desc']}</div>
+        '''for citation in data['media']['citations']])
+        
+        media_html += f'<div class="citation-list">{"".join(citation_html)}</div>'
+
+    return f'<div class="project-page-section"><h1 class="page-section-title">Media</h1>{media_html}</div>'
 
 
 def generate_project_sections(data):
@@ -158,7 +258,13 @@ def generate_project_sections(data):
                 </a>
             </div>
         ''' for pub in data['publications']])
-        sections.append(f'<div class="project-page-section"><h2>Publications</h2><div class="publications-list">{pubs_html}</div></div>')
+        sections.append(f'<div class="project-page-section"><h1 class="page-section-title">Publications</h1><div class="publications-list">{pubs_html}</div></div>')
+
+    if data.get('presentations'):
+        sections.append(generate_presentations_section(data))
+
+    if data.get('abstracts'):
+        sections.append(generate_abstracts_section(data))
 
     return "\n".join(sections)
 
@@ -177,7 +283,7 @@ def generate_funding_section(funding_data):
             funding_items.append(grant['agency'])
     
     if funding_items:
-        return '<div class="funding-section">This research is funded in part by ' + " and ".join(funding_items) + '</div>'
+        return '<div class="funding-note">This research is funded in part by ' + " and ".join(funding_items) + '</div>'
     return ""
 
 def generate_project_page(yaml_file, output_file):
