@@ -1,0 +1,203 @@
+title: Symmetry Group-based Regularity Perception in Human and Computer Vision
+slug: project-url-slug  # For generating URLs/filenames
+featured_image: /mnt/e/Random/lab_site/imgs/regulariity_perception.jpg  # Optional hero/thumbnail image
+
+members:
+  - name: Yanxi Liu
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg
+    link: https://www.cse.psu.edu/~yul11/
+    role: Principal Investigator  # Optional
+    institution: Pennsylvania State University
+
+  - name: Rick Gilmore
+    image: https://sites.psu.edu/eecslpac/files/2025/02/rick.jpg
+    link: https://rick-gilmore.com/teaching.html
+    institution: Pennsylvania State University
+
+  - name: Shivam Vedak 
+    image: https://sites.psu.edu/eecslpac/files/2025/02/shivam.jpg
+    link: https://med.stanford.edu/profiles/shivam-vedak
+    institution: Pennsylvania State University
+
+  - name: Christopher Funk
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Christopher_Funk.jpg
+    link: https://cfunk1210.github.io/
+    institution: Pennsylvania State University
+
+  - name: Peter Jes Kohler
+    image: https://sites.psu.edu/eecslpac/files/2025/02/peter.jpeg
+    link: https://www.kohlerlab.com/
+    institution: Stanford University
+
+  - name: Alexandra Yakovleva
+    image: https://sites.psu.edu/eecslpac/files/2025/02/Alexandra_1.jpg
+    link: https://www.linkedin.com/in/alexandraayakovleva/
+    institution: Stanford University
+  
+  - name: Anthony Norcia
+    image: https://sites.psu.edu/eecslpac/files/2025/02/anthony.jpg
+    link: https://psychology.stanford.edu/people/anthony-norcia
+    institution: Stanford University
+
+  - name: Jeremy Cole
+    image: https://sites.psu.edu/eecslpac/files/2025/02/jeremy_cole.jpg
+    link: https://jrc436.github.io/
+    role: Collaborator
+    institution: Pennsylvania State University
+  
+  - name: David Reitter
+    image: https://sites.psu.edu/eecslpac/files/2025/02/reitter.png
+    link: https://david-reitter.com/
+    role: Collaborator
+    institution: Pennsylvania State University
+  
+  - name: Alasdair D. F. Clarke
+    image: https://sites.psu.edu/eecslpac/files/2025/02/alasdair.jpeg
+    link: https://www.linkedin.com/in/alasdair-clarke-a4b1a56/
+    role: Collaborator
+    institution: University of Essex
+
+description: |
+  This research integrates theoretical, experimental and algorithmic thrusts to construct a novel conceptual framework for predicting and understanding the full range of regularity perception, both in humans, by measuring human brain activation and behavior, and in machines, through a computational framework for adaptive symmetry detection in computer vision. The ability to detect patterns in natural scenes serves critical biological needs while posing substantial computational difficulties for machine intelligence. A unique feature of the proposed project is to use symmetry group theory as an organizing principle for the study of both human and computer perception of patterns. Symmetry group theory, instantiated by its subgroup hierarchy, provides a formal and exhaustive categorization of all regular patterns.
+  <br><br>
+  The project sits at an interdisciplinary nexus between computer science, psychology, neuroscience, and mathematics. The outcomes of this research could potentially transform the theory of human pattern perception and make a quantum leap in robust automatic detection of real world regularities. Because patterns are ubiquitous, this research impacts all information processing systems challenged by large digital datasets that are hard to explore manually.
+  <br><br>
+  The project is high risk given the ambitious nature of what the PIs propose to do, but it is also high reward given the potential impact on science, education, and a wide set of potential applications.
+
+media:
+  images:
+    - path: https://sites.psu.edu/eecslpac/files/2024/11/P4M-e1680804277743.gif
+      caption: P4M Static
+    - path: https://sites.psu.edu/eecslpac/files/2024/12/P4M.gif
+      caption: P4M Animated
+    - path: https://sites.psu.edu/eecslpac/files/2025/02/fig2symmetry.jpg
+      caption: Fig 2. Inner-structure of wallpaper groups from [1]. First appeared in [2], is a pictorial interpretation of wallpaper group relations from [3].
+  citations:
+    - desc: "[1] Y. Liu, Hagit Hel-Or, C.S. Kaplan, L. Van Gool. \"Computational symmetry in computer vision and computer graphics.\" in Foundations and Trends in Computer Graphics and Vision. Vol. 5, Nos. 1-2 (2009) 1-195. Now publishers Inc. 2010"
+    - desc: "[2] Y. Liu and R. T. Collins, \"Skewed Symmetry Groups.\" in Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR01), pp. 872-879, Kauai, HI: IEEE Computer Society Press. December 2001."
+    - desc: "[3] H. S. M. Coxeter and W. O. J. Moser, \"Generators and Relations for Discrete Groups.\" New York: Springer-Verlag, 4th Edition, 1980."
+
+  
+publications:
+  - title: "Beyond Planar Symmetry: Modeling human perception of reflection and rotation symmetries in the wild"
+    link: https://www.researchgate.net/publication/316075758_Beyond_Planar_Symmetry_Modeling_human_perception_of_reflection_and_rotation_symmetries_in_the_wild
+    thumbnail: https://sites.psu.edu/eecslpac/files/2025/02/BPS.jpg
+
+  - title: "Symmetry reCAPTCHA"
+    link: https://www.researchgate.net/publication/296706719_SYMMETRY_reCAPTCHA
+    thumbnail: https://sites.psu.edu/eecslpac/files/2025/02/SymmetryReCaptcha.png
+
+  - title: "Regularity-driven Building Façade Matching between Aerial and Street-Views"
+    link: https://www.researchgate.net/publication/296706513_Regularity-Driven_Building_Facade_Matching_between_Aerial_and_Street_Views
+    thumbnail: https://sites.psu.edu/eecslpac/files/2025/02/RegDrivenFacadeMatch.png
+
+  - title: "Representation of Maximally Regular Textures in Human Visual Cortex"
+    link: https://www.researchgate.net/publication/288003915_Representation_of_Maximally_Regular_Textures_in_Human_Visual_Cortex_The_Journal_of_Neuroscience
+    thumbnail: https://sites.psu.edu/eecslpac/files/2025/02/maxRegTexture.png
+
+# datasets:
+  # - name: Dataset Name
+  #   description: Brief description
+  #   url: https://dataset-download.com
+  #   citation: How to cite this dataset
+
+datasets:
+  - name: Computational Symmetry GitHub Repository
+    description: Code for creating Synthetic Wallpaper Patterns
+    url: https://github.com/computational-symmetry
+
+
+# presentations: 
+  # title: title of presentation
+  # authors: authors of presentation
+  # publisher: who facilitated the presentation
+  # location : where it happened
+  # abstract : blurb/short of what is discussed in presentation "OPTIONAL"
+  # abstract_link: link to full abstract
+  # poster: image to poster presented at presebntation "OPTIONAL"
+  # link: media link to image
+
+presentations: 
+
+  - title: Human Visual Perception of the 17 Wallpaper-Group Patterns using Timed Trials
+    authors: Yanxi Liu, Jeremy Cole, David Reitter
+    publisher: Vision Sciences Society
+    location: St. Pete, Florida. 2016
+    abstract: "Most literature on symmetry perception has focused on bilateral reflection symmetry, with some suggesting that it is the only type of symmetry humans can perceive (Wilson&Wilkinson, Vis. Res. 42(5), 2002). 
+    Using image-stimuli generated from mathematically well-defined 17 wallpaper groups (Kohler et al., J. Neurosci., in press) and timed trials, we seek to demonstrate that humans can discriminate various symmetries found in 2D wallpaper patterns (Liu, et al Found.&Trends in Comp.Graph.&Vis., 2010). 
+    Furthermore, we examine which features play an essential role in wallpaper pattern perception. The features include: reflection, maximum order of rotation, glide reflection, tile shape and subgroup distance, referring to the shortest path between the two wallpaper groups in the group hierarchy. 
+    We recruited 106 individuals (Amazon Mechanical Turks) to compare three images (target, probe, probe) and to choose the probe most similar to the target within five seconds. Each participant performed 272 (=17x16) trials. 
+    Participants compare among all possible wallpaper group pairs. Every group comparison except one is distinguishable (p< 0.05); all are likely distinguishable (p< 0.10). After modeling every defining feature of symmetry groups using linear mixed-effects regression (GLMM), we used AIC selection to compare models. 
+    ur selected model includs subgroup distance, 3-fold rotation, 4-fold rotation, and the T1 and D1 axes. Even in a model with all other features, subgroup distance is a significant additional predictor (p< 0.0001). This distance measure has shown to be a better proxy describing human perceptual processes than individual features. 
+    This suggests that the mathematically motivated symmetry group hierarchy may be a valid model of pattern perception."
+    abstract_link: https://jov.arvojournals.org/article.aspx?articleid=2550924
+
+  - title: Symmetry features and group hierarchy model human symmetry perception.
+    authors: Jeremy Cole, David Reitter, Yanxi Liu
+    publisher: International Meeting of Psychonomic Society
+    location: Granada, Spain. 2016
+    poster: https://sites.psu.edu/eecslpac/files/2025/02/cole_2016.png
+    link: https://sites.psu.edu/eecslpac/files/2025/02/cole_2016.pdf
+
+  - title: Parametric responses to rotation symmetry in mid-level visual cortex.
+    authors: Peter J. Kohler, Alexandra Yakovleva, Alasdair D.F. Clarke, Yanxi Liu, Anthony M. Norcia
+    publisher: Vision Sciences Society
+    location: St. Pete, Florida. 2015
+    abstract: "Symmetry is a fundamental principle of perceptual organization that contributes to multiple aspects of vision, running the gamut from judgments of aesthetics and mate selection, to shape processing and surface orientation. 
+    Crystallographic group theory categorizes all possible two-dimensional repetitive patterns into 17 wallpaper groups, as unique combinations of the four fundamental symmetries: mirror reflection, translation, rotation and glide reflection (Liu et al., 2010). 
+    We have developed an algorithm that can generate a near-infinite number of well-controlled exemplars belonging to each of the 17 wallpaper groups. 
+    Here, we focus on four wallpaper groups that all contain rotation symmetry exclusively – only differing in the maximum order of rotation symmetry found in each group. 
+    We use an fMRI block design that isolates the symmetry-specific BOLD response by alternating group exemplar images with matched control images. 
+    Using scalp EEG, we have previously shown that the neural responses to the groups increase linearly with maximum order of rotation symmetry (Kohler et al., VSS 2014), indicating that rotation is represented parametrically. 
+    Our fMRI experiment (n=12) localizes this parametric effect in several extra-striate areas of human visual cortex (V4, VO1, LOC), while other visual areas have little response to rotation symmetry (e.g. MT). 
+    Interestingly, the parametric response is also seen in V3, an area that has previously been found to have little or no response to mirror symmetry (Sasaki et al 2005). 
+    The fact that V1 and V2 do not show the effect suggests a functional distinction between V3 and earlier visual areas. Neurons in intermediate-level visual areas like V4 have complex and diverse response properties (Roe et al., 2012) that are difficult to characterize systematically (Gallant et al., 1996). 
+    These results present a novel, well-defined stimulus set, the wallpaper groups, that can drive V4 and other mid-level visual areas in a robust and systematic way."
+    abstract_link: https://jov.arvojournals.org/article.aspx?articleid=2434232
+    poster: https://sites.psu.edu/eecslpac/files/2025/02/kohler_VSS2015.thumbnail.jpg
+    link: /assets/projects/hsDpdfs/kohler_VSS2015.m4v
+
+
+# Optional
+
+# abstracts: 
+  # title: title of abstract
+  # authors: authors of abstract
+  # publisher: who facilitated the abstract
+  # location : where it happened
+  # abstract : abstract "OPTIONAL"
+  # abstract_link: link to full abstract
+  # poster: image to poster presented at presebntation "OPTIONAL"
+  # link: media link to image
+abstracts:
+  - title: The Salience of Lower-Order Features in Highly Self-Similar Wallpaper Groups
+    authors: Shivam Vedak, Rick Gilmore, Peter J. Kohler, Yanxi Liu, Anthony M. Norcia
+    publisher: Vision Sciences Society
+    location: St. Pete, Florida. 2015
+    abstract: Symmetric visual patterns arise frequently in natural images and human cultural artifacts. All 2-D symmetric patterns that tile the plane represent one of 17 wallpapers -- combinations of the fundamental symmetries of rotation, translation, glide reflection and reflection. Most research on human perception has focused on two-fold reflection. Here we examine how human observers classify patterns with varying combinations of the fundamental symmetries. Clarke et al. (2011) found that five of the seventeen wallpaper groups (P1, P3M1, P31M, P6, and P6M) had a high degree of self-similarity. We presented adult participants (n=11) with twenty spatial-frequency-normalized exemplars from each of the five highly self-similar wallpaper groups. Each exemplar was generated from a seed region containing random grayscale noise, which was then replicated, rotated, reflected, and translated according to the pattern of regularity reflected in each wallpaper group. Observers were instructed to sort the exemplars into as many subsets as they wished based on any criteria they saw appropriate. We used the Jaccard index to measure the degree to which observers sorted exemplars from the wallpaper patterns into consistent categories. Observers found consistent patterns of self-similarity between the wallpaper groups, p<.001. P1 exemplars were judged to be more self-similar than than the other groups, p<.001, and P6M exemplars were judged to be more self-similar than P6, p<.001. The findings suggest that mirror and translational symmetry influence unconstrained observer judgments about pattern regularity. Visual inspection of the subsets generated by observers suggested that the presence of salient secondary features (i.e. emergent global geometric structures such as striations, grid patterns, and characteristic shapes) influences the detection of self-similarity in wallpaper patterns. The results contribute to an emerging understanding of how group theory may shed light on human and machine pattern detection.
+    abstract_link: https://jov.arvojournals.org/article.aspx?articleid=2433947
+    poster: https://sites.psu.edu/eecslpac/files/2025/02/vedak-etal-vss-2015-poster-rev.thumbnail.jpg
+    link: https://sites.psu.edu/eecslpac/files/2025/02/vedak-etal-vss-2015-poster-rev.pdf
+
+  - title: The Neural Response to Visual Symmetry in Wallpaper Patterns.
+    authors: Peter J. Kohler, Alasdair D.F. Clark, J. Liu-Shang, Alexandra Yakovleva, Yanxi Liu, and Anthony M. Norcia.
+    publisher: Vision Sciences Society
+    location: St. Pete, Florida. 2014
+    abstract: Symmetry is a striking visual attribute that occurs in nature and has been used by artists since the Neolithic age. All two-dimensional periodic patterns can be mathematically associated with one of 17 wallpaper symmetry groups, each containing unique combinations of Euclidean plane isometries (translation, rotation, reflection and glide). Recent behavioral work has shown that pattern similarity judgments by human observers are to a large extent driven by this group structure (Clarke et al., Symmetry, 2011). How are these perceptual and mathematically defined similarities between wallpaper groups represented in human neural activity? We investigated this question with Visual Evoked Potentials. Our experimental design allowed us to clearly separate the configural response to the symmetry from the evoked response to local contrast change. We presented patterns associated with five different wallpaper groups that have different rotation isometries, but are otherwise equivalent (P1,P2,P3,P4,P6). Participants (n=9) performed a contrast-change detection task that was orthogonal to judging pattern similarities. They all elicited a configural response, but there were differences in the symmetry response dynamics and waveforms between the groups, with at least three qualitatively distinct types of neural responses. P3, a group that human observers found difficult to categorize (Clarke et al., Symmetry, 2011), had the weakest configural response of the five wallpaper groups tested, suggesting a correspondence between behavioral and neural data. We also found systematic group-level differences in the latency of the symmetry response, such that simpler groups with fewer rotation isometries (P1,P2) elicited an earlier response than groups with more rotation isometries (P4,P6). The weak response to P3 echoes low perceptual salience, while prolonged latency for patterns with more rotation isometries may reflect processing costs associated with wallpaper group complexity. Future work will explore and distinguish the ways in which both types of information are represented in the brain.
+    abstract_link: https://jov.arvojournals.org/article.aspx?articleid=2145308
+    poster: https://sites.psu.edu/eecslpac/files/2025/02/symmetry_poster.thumbnail.jpg
+    link: https://sites.psu.edu/eecslpac/files/2025/02/symmetry_poster.pdf
+  
+  - title: Visual patterns with rotational symmetry activate distinct cortical regions.
+    authors: A.L. Thomas, J. Liu-Shang, Yanxi Liu, Anthony M. Norcia, J. Stitt, J.D. Fesi, K.R. Hwang, Rick Gilmore.
+    publisher: Presented for Society for Neuroscience
+    location: New Orleans, LA, 2014
+    abstract: "Symmetry is important for the discrimination of patterns and the detection of objects. Most research concerning the processing of visual symmetry, however, has focused on 2- or 4-fold reflection. Little is known about brain mechanisms involved in processing other types of symmetry such as translation or rotation, nor do we know whether processing reflects the underlying mathematical aspects of symmetry as reflected in group theory. Using fMRI, we measured brain responses of n=21 adult subjects to 2D grayscale patterns with varying symmetry properties. The patterns were generated by adding sine wave gratings with the same spatial frequency but positioned in different orientations. Patterns that represented 5 distinct exemplars from the 17 wallpaper symmetry groups were presented. Participants viewed each pattern 6 times in a 12s stimulation phase, followed by a 12s fixation-only phase; the 24s on/off cycle was repeated twice for each pattern and for all five patterns within a run. Two to 4 runs were collected in a single scanning session. Analysis of BOLD activation patterns by symmetry subgroup was conducted using FSL. Patterns of brain activation varied depending on symmetry type: there were distinctive regions that responded to the contrast between patterns with both rotational and reflection symmetry (P4M and P4G) versus those that had reflection symmetry alone (CM, PG, PMG). Brain regions that were strongly activated included lateral occipital cortex (LOC) and right anterior frontal cortex (AntF). The findings indicate that a network of brain regions discriminates rotational from reflection symmetry. These networks may reflect aspects of the structure of symmetric patterns described by the mathematical theory of wallpaper groups."
+    abstract_link: https://www.pnas.org/doi/10.1073/pnas.0500319102
+    poster: https://sites.psu.edu/eecslpac/files/2025/02/SfN12_Symm-v05.thumbnail.jpg
+    link: https://sites.psu.edu/eecslpac/files/2025/02/SfN12_Symm-v05.pdf
+    
+funding:
+  - agency: NSF
+    award: "#1248076"
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1248076&HistoricalAwards=false
