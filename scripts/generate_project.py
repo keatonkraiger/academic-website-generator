@@ -104,16 +104,16 @@ def generate_presentations_section(data):
 
     for presentation in data['presentations']:
         # Boilerplate code for the each presentation block
-        presentation_html = f'''
+        presentation_html = f"""
             <div class="abstract-card">
                 <div class="abstract-content">
                     <div class="abstract-info">
-                        <h2 class="abstract-title">{presentation['title']}</h2>
+                        <h2 class="abstract-title">{presentation["title"]}</h2>
                         <div class="abstract-metadata">
-                            <p>{presentation['authors']}</p>
-                            <p>{presentation['publisher']}</p>
-                            <p>{presentation['location']}</p>
-                        </div>'''
+                            {f'<p>{presentation["authors"]}</p>' if presentation.get("authors") else ''}
+                            {f'<p>{presentation["publisher"]}</p>' if presentation.get("publisher") else ''}
+                            {f'<p>{presentation["location"]}</p>' if presentation.get("location") else ''}
+                        </div>"""
 
         # If contains an abstract, add that in
         if presentation.get('abstract'):
@@ -150,16 +150,16 @@ def generate_abstracts_section(data):
 
     for abstract in data['abstracts']:
         # Boilerplate code for the each abstract block
-        abstract_html = f'''
+        abstract_html = f"""
             <div class="abstract-card">
                 <div class="abstract-content">
                     <div class="abstract-info">
-                        <h2 class="abstract-title">{abstract['title']}</h2>
+                        <h2 class="abstract-title">{abstract["title"]}</h2>
                         <div class="abstract-metadata">
-                            <p>{abstract['authors']}</p>
-                            <p>{abstract['publisher']}</p>
-                            <p>{abstract['location']}</p>
-                        </div>'''
+                            {f'<p>{abstract["authors"]}</p>' if abstract.get("authors") else ''}
+                            {f'<p>{abstract["publisher"]}</p>' if abstract.get("publisher") else ''}
+                            {f'<p>{abstract["location"]}</p>' if abstract.get("location") else ''}
+                        </div>"""
 
         # If contains an abstract, add that in
         if abstract.get('abstract'):
