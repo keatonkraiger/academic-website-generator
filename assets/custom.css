@@ -453,6 +453,7 @@ colophon { display: none; }
 }
 
 .caption {
+  color: #2d3748;
   margin: 10px;
   font-style: italic;
   text-align: center;
@@ -504,6 +505,7 @@ colophon { display: none; }
 }
 
 .publication-title {
+  color: #2d3748;
   position: absolute;
   bottom: 0;
   left: 0;
