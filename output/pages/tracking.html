@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicit and Implicit Regularity Perception</title>
+</head>
+<body>
+    <div class="project-page-container">
+        <h1 class="project-page-title">Explicit and Implicit Regularity Perception</h1>
+        
+        <div class="project-page-section">
+            <div class="project-members">
+        <div class="member-card">
+            <a href="https://www.cse.psu.edu/~rtc12/">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/11/bob-e1681759265217.jpg" alt="Robert T. Collins">
+            </a>
+            <a href="https://www.cse.psu.edu/~rtc12/">
+                Robert T. Collins<sup>1</sup>
+            </a>
+            
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.cs.stonybrook.edu/people/faculty/zhaozhengyin">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Zhaozheng_Yin.jpg" alt="Zhaozheng Yin">
+            </a>
+            <a href="https://www.cs.stonybrook.edu/people/faculty/zhaozhengyin">
+                Zhaozheng Yin<sup>2</sup>
+            </a>
+            
+        </div>
+    </div>
+            <div class="collaborator-row"></div>
+            <div class="institution-key"><sup>1</sup> [Pennsylvania State University], <sup>2</sup> [Stony Brook University]</div>
+        </div>
+
+        <div class="project-page-section"><h1 class="page-section-title">Publications</h1>
+            <div class="collapsible-list">
+                <div class="collapsible-item">
+                    <div class="collapsible">
+                        <div class="collapsible-title">Online Figure-Ground Segmentation with Edge Pixel Classification</div>
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+
+                    <div class="collapsible-content">
+                        <!--Thumbnail picture-->
+                        <div class="collapsible-misc" style="display: flex; justify-content: center; margin-bottom: 1rem;">
+                            <img src="https://sites.psu.edu/eecslpac/files/2025/02/rgb.jpg" style="max-width: 50%; height: auto;">
+                            <img src="https://sites.psu.edu/eecslpac/files/2025/02/salpts.jpg" style="max-width: 50%; height: auto;">
+                        </div>
+
+                        <div class="collapsible-description">
+                            The need for figure-ground segmentation in video arises in many vision problems like tracker initialization, accurate object shape representation and drift-free appearance model adaptation. This paper uses a 3D spatio-temporal Conditional Random Field (CRF) to combine different segmentation cues while enforcing temporal coherence. Without supervised parameter training, the weighting factors for different data potential functions in the CRF model are adapted online to reflect changes in object appearance and environment. To get an accurate boundary based on the 3D CRF segmentation result, edge pixels are classified into three classes: foreground, background and boundary. The final foreground region bitmask is constructed from the foreground and boundary edge pixels. The effectiveness of our approach is demonstrated on several airborne videos where objects undergo large appearance change and heavy occlusion.
+                        </div>
+
+                        <br>
+
+                        <div class="collapsible-misc">
+                            <h1 class="page-section-title">Media</h1>
+                            <div class="media-grid">
+                                <div class="media-item" style="aspect-ratio: 1264/384; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/motor.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Motorcycle Tracking</div>
+                                </div>
+                                
+                                <div class="media-item" style="aspect-ratio: 28/9; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/redvan.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Red Van Tracking</div>
+                                </div>
+                                
+                                <div class="media-item" style="aspect-ratio: 1184/432; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/truckinwoods.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Truck Tracking in Woods</div>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="collapsible-misc">
+                            <h1 class="page-section-title">Citation</h1>
+                            <div class="citation-item">
+                                Zhaozheng Yin and Robert T. Collins. Online Figure-Ground Segmentation with Edge Pixel Classification , <em>19th British Machine Vision Conferrence (BMVC)</em>, September, 2008.
+                                <br><br>
+                                <a href="https://www.cs.cmu.edu/~zhaozhen/Papers/BMVC2008_FigureGroundSegmentation.pdf" rel="noopener" target="_blank">[PDF]</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapsible-item">                
+                    <div class="collapsible">
+                        <div class="collapsible-title">Object Tracking and Detection after Occlusion via Numerical Hybrid Local and Global Mode-seeking</div>
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+
+                    <div class="collapsible-content">
+                            <!--Thumbnail picture-->
+                        <div class="collapsible-misc" style="display: flex; justify-content: center; margin-bottom: 1rem;">
+                            <img src="https://sites.psu.edu/eecslpac/files/2025/02/system.jpg" style="max-width: 100%; height: auto; max-height: 300px;">
+                        </div>
+
+                        <div class="collapsible-description">
+                            Given an object model and a black-box measure of similarity between the model and candidate targets, we consider visual object tracking as a numerical optimization problem. During normal tracking conditions when the object is visible from frame to frame, local optimization is used to track the local mode of the similarity measure in a parameter space of translation, rotation and scale. However, when the object becomes partially or totally occluded, such local tracking is prone to failure, especially when common prediction techniques like the Kalman filter do not provide a good estimate of object parameters in future frames. To recover from these inevitable tracking failures, we consider object detection as a global optimization problem and solve it via Adaptive Simulated Annealing (ASA), a method that avoids becoming trapped at local modes and is much faster than exhaustive search. As a Monte Carlo approach, ASA stochastically samples the parameter space, in contrast to local deterministic search. We apply cluster analysis on the sampled parameter space to redetect the object and renew the local tracker. Our numerical hybrid local and global mode-seeking tracker is validated on challenging airborne videos with heavy occlusion and large camera motions. Our approach outperforms state-of-the-art trackers on the VIVID benchmark datasets.
+                        </div>
+
+                        <br>
+
+                        <div class="collapsible-misc">
+                            <h1 class="page-section-title">Media</h1>
+                            <div class="media-grid">
+                                <div class="media-item" style="aspect-ratio: 368/240; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/1_dudekface.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Face Tracking</div>
+                                </div>
+                                
+                                <div class="media-item" style="aspect-ratio: 4/3; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/2_hand.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Hand Tracking</div>
+                                </div>
+                                
+                                <div class="media-item" style="aspect-ratio: 368/240; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/3_ponoma.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Ponoma Tracking</div>
+                                </div>
+
+                                <div class="media-item" style="aspect-ratio: 368/240; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/4_cabriolet.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Cabriolet Tracking</div>
+                                </div>
+
+                                <div class="media-item" style="aspect-ratio: 4/3; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/5_egtest05.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Occluded Car Tracking</div>
+                                </div>
+
+                                <div class="media-item" style="aspect-ratio: 320/256; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/6_pktest01.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Far & Low Quality Tracking</div>
+                                </div>
+
+                                <div class="media-item" style="aspect-ratio: 3/1; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/10_anneal.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Anneal Tracking</div>
+                                </div>
+
+                                <div class="media-item" style="aspect-ratio: 4/3; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/7_local_steepest.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Local Steepest Algorithm</div>
+                                </div>
+
+                                <div class="media-item" style="aspect-ratio: 4/3; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/8_local_trustregion.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Local Trust Region Algorithm</div>
+                                </div>
+
+                                <div class="media-item" style="aspect-ratio: 4/3; max-width: 400px;">
+                                    <video controls style="object-fit: contain;">
+                                        <source src="https://sites.psu.edu/eecslpac/files/2025/02/9_local_Nelder-Mead.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="caption">Local Nelder-Mead Algorithm</div>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="collapsible-misc">
+                            <h1 class="page-section-title">Citation</h1>
+                            <div class="citation-item">
+                                Zhaozheng Yin and Robert T. Collins. Object Tracking and Detection after Occlusion via Numerical Hybrid Local and Global Mode-seeking , <em>IEEE Computer Vision and Pattern Recognition (CVPR'08)</em>, Anchorage, Alaska, June 2008.
+                                <br><br>
+                                <a href="https://ieeexplore.ieee.org/document/4587542" rel="noopener" target="_blank">[PDF]</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="funding-note">This research is funded in part by <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=0535324&HistoricalAwards=false">NSF Award #0535324</a></div>
+
+    <script>
+        var collapsibles = document.getElementsByClassName("collapsible");
+
+        for (var i = 0; i < collapsibles.length; i++) {
+            collapsibles[i].addEventListener("click", function (e) {
+                let arrow = this.querySelector(".collapsible-arrow");
+                let content = this.nextElementSibling;
+
+                this.classList.toggle("active");
+                arrow.classList.toggle("active");
+                
+                if (content.style.height === "0px" || content.style.height === "") {
+                    // Expand: Set height to the scrollHeight (natural height)
+                    content.style.height = content.scrollHeight + "px";
+
+                    // Wait for transition to finish before showing content
+                    setTimeout(() => {
+                        content.classList.add("shown");
+                    }, 0); // Match transition duration
+                } else {
+                    // Collapse: Reset height before shrinking
+                    content.classList.remove("shown");
+                    
+                    // Wait for opacity to change before shrinking
+                    setTimeout(() => {
+                        content.style.height = "0px";
+                    }, 0);
+                }
+            })
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+title: Explicit and Implicit Regularity Perception
+slug: project-url-slug  # For generating URLs/filenames
+featured_image: /mnt/e/Random/lab_site/imgs/regulariity_perception.jpg  # Optional hero/thumbnail image
+
+members:
+  - name: Robert T. Collins
+    image: https://sites.psu.edu/eecslpac/files/2024/11/bob-e1681759265217.jpg
+    link: https://www.cse.psu.edu/~rtc12/
+    institution: Pennsylvania State University
+    role: Principal Investigator  # Optional
+
+  - name: Zhaozheng Yin
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Zhaozheng_Yin.jpg
+    link: https://www.cs.stonybrook.edu/people/faculty/zhaozhengyin
+    institution: Stony Brook University
+  
+# Hard coding the sub-publications
+
+# datasets:
+  # - name: Dataset Name
+  #   description: Brief description
+  #   url: https://dataset-download.com
+  #   citation: How to cite this dataset
+
+funding:
+  - agency: NSF
+    award: "#0535324"
+    url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0535324&HistoricalAwards=false"

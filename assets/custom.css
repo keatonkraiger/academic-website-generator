@@ -438,6 +438,7 @@ colophon { display: none; }
 }
 
 .media-item {
+  align-self: center;
   width: 100%;
   max-width: 420px;
   aspect-ratio: 16/9;
@@ -466,7 +467,6 @@ colophon { display: none; }
 
 .citation-item {
   color: gray;
-  font-style: italic;
   text-align: start;
 }
 
@@ -686,6 +686,7 @@ colophon { display: none; }
   transform-origin: top;
   transform: scaleY(0);
   transition: height 0.4s 0.1s ease-in-out, transform 0.4s 0.1s ease-in-out;
+  padding: 20px 20px 0;
 
   background-color: #f9f9f9;
   border: 1px solid #ccc;
@@ -697,7 +698,6 @@ colophon { display: none; }
 .collapsible-misc {
   transition: opacity 0.2s ease-in-out;
   opacity: 0;
-  padding: 20px;
 }
 
 .collapsible-misc {
