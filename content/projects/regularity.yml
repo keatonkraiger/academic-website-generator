@@ -7,18 +7,22 @@ members:
     image: https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg
     link: https://www.cse.psu.edu/~yul11/
     role: Principal Investigator  # Optional
+    institution: Pennsylvania State University
 
   - name: Shimian Zhang
     image: https://sites.psu.edu/eecslpac/files/2024/12/Shimian_Zhang.jpg
     link: https://www.linkedin.com/in/shimian-zhang-abb89b2ba/?locale=en_US
+    institution: Pennsylvania State University
 
   - name: Skanda Bharadwaj
     image: https://sites.psu.edu/eecslpac/files/2024/11/skandaB_small.jpg
     link: https://www.skandabharadwaj.com/
+    institution: Pennsylvania State University
 
   - name: Keaton Kraiger
     image: https://sites.psu.edu/eecslpac/files/2024/11/keatonK_small.jpg
     link: https://keatonkraiger.github.io/
+    institution: Pennsylvania State University
 
 description: |
   This is an era of pervasive big data, streaming in from all sorts of sensors such as medical scanners, surveillance cameras, smart appliances and cellphones. Even equipped with the most powerful hardware and software for data processing, one may still get lost in this massive collection of noisy data and miss “seeing the forest for the trees”. This project addresses a fundamental issue in the data sciences: what are we looking for in a seemingly structure-less complex data set? Based on proven mathematical theories about symmetry and inspired by human vision, the investigator will construct a roadmap for discovering all possible potential patterns in these datasets and provide computationally effective tools to discover such patterns even in their distorted and disguised forms. Such a relentless pattern-seeking algorithm will illustrate the power of a “treasure hunt” type search, promote automatic pattern discovery, and fill a gap in current practice of data analysis, thus advancing data science. The outcome from this project will be applicable to data sets from diverse fields, from biomedical domains such as drug discovery, gene mapping and human movement monitoring, to computer vision applications like driverless car navigation, urban scene understanding, and anomalous activity detection for surveillance.
