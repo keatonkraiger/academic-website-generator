@@ -1,0 +1,24 @@
+title: Optimized Pedestrian Detection
+slug: optimized-pedestrian-detection
+
+members:
+  - name: Robert T. Collins
+    image: https://sites.psu.edu/eecslpac/files/2024/11/bob-e1681759265217.jpg
+    link: https://www.cse.psu.edu/~rtc12/
+    institution: Pennsylvania State University
+    role: Principal Investigator  # Optional
+
+  - name: Sitapa Rujikietgumjorn
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Sitapa_Rujikietgumjorn.jpg
+    link: https://www.linkedin.com/in/sitapa
+    institution: Pennsylvania State University
+
+description: |
+  We present a quadratic unconstrained binary optimization (QUBO) framework for reasoning about multiple object detections with spatial overlaps. The method maximizes an objective function composed of unary detection confidence scores and pairwise overlap constraints to determine which overlapping detections should be suppressed, and which should be kept. The framework is flexible enough to handle the problem of detecting objects as a shape covering of a foreground mask, and to handle the problem of filtering confidence weighted detections produced by a traditional sliding window object detector. In our experiments, we show that our method outperforms two existing state-of-the-art pedestrian detectors.
+
+# Rest of the file will be hard-coded
+
+funding:
+  - agency: National Science Foundation (NSF)
+    award: "#1218729"
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1218729

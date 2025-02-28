@@ -369,7 +369,8 @@ colophon { display: none; }
   display: none;
 }
 
-.project-page-description {
+.project-page-description,
+.project-section-description {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #2d3748;

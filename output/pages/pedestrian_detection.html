@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimized Pedestrian Detection</title>
+</head>
+<body>
+    <div class="project-page-container">
+        <h1 class="project-page-title">Optimized Pedestrian Detection</h1>
+        
+        <img src="https://sites.psu.edu/eecslpac/files/2025/02/cvpr2013_opd.jpg" alt="QUBO Teaser" style="display: block; margin: auto; width: 100%; max-width: 500px;">
+
+        <div class="project-page-section">
+            <div class="project-members">
+        <div class="member-card">
+            <a href="https://www.cse.psu.edu/~rtc12/">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/11/bob-e1681759265217.jpg" alt="Robert T. Collins">
+            </a>
+            <a href="https://www.cse.psu.edu/~rtc12/">
+                Robert T. Collins<sup>1</sup>
+            </a>
+            
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.linkedin.com/in/sitapa">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Sitapa_Rujikietgumjorn.jpg" alt="Sitapa Rujikietgumjorn">
+            </a>
+            <a href="https://www.linkedin.com/in/sitapa">
+                Sitapa Rujikietgumjorn<sup>1</sup>
+            </a>
+            
+        </div>
+    </div>
+            <div class="collaborator-row"></div>
+            <div class="institution-key"><sup>1</sup> [Pennsylvania State University]</div>
+        </div>
+    
+<div class="project-page-section"><div class="project-page-description">We present a quadratic unconstrained binary optimization (QUBO) framework for reasoning about multiple object detections with spatial overlaps. The method maximizes an objective function composed of unary detection confidence scores and pairwise overlap constraints to determine which overlapping detections should be suppressed, and which should be kept. The framework is flexible enough to handle the problem of detecting objects as a shape covering of a foreground mask, and to handle the problem of filtering confidence weighted detections produced by a traditional sliding window object detector. In our experiments, we show that our method outperforms two existing state-of-the-art pedestrian detectors.
+</div></div>
+
+        <div class="project-page-section">
+            <!--FRAMEWORK-->
+            <h1 class="page-section-title">Framework</h1>
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/framework.png" alt="Framework" style="width: 100%;">
+            <div class="caption">An overview of our proposed method</div>
+
+        </div>
+            
+        <div class="project-page-section">
+            <!--GENERATION-->
+            <h1 class="page-section-title">Generating a Set of Detection Candidates</h1>
+            <div class="project-section-description">We show two approaches for generating a set of detection candidates:</div>
+
+            <div class="abstract-list">
+                <div class="abstract-card">
+                    <div class="abstract-content">
+                        <div class="abstract-info">
+                            <h2 class="abstract-title">Detection Candidates by Shape Covering:</h2><br>
+                            
+                            <div class="abstract-desc">
+                                Unary confidence scores are computing using:
+                            </div><br>
+                            
+                            <img src="https://sites.psu.edu/eecslpac/files/2025/02/unaryshapecovering.jpg" alt="Unary confidence equation" style="width: 100%; max-width: 300px;">
+                        </div>
+
+                        <div class="abstract-doc">
+                            <img src="https://sites.psu.edu/eecslpac/files/2025/02/shapecovering.png" alt="Shape Covering" style="width: 100%; height: auto;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="abstract-card">
+                    <div class="abstract-content">
+                        <div class="abstract-info">
+                            <h2 class="abstract-title">Detection Candidates by Bounding Box Filtering:</h2><br>
+                            
+                            <div class="abstract-desc">
+                                Histogram of Oriented Gradients (HOG) based pedestrian detector without non maximum suppression
+                            </div><br>
+                            
+                        </div>
+
+                        <div class="abstract-doc">
+                            <img src="https://sites.psu.edu/eecslpac/files/2025/02/hogdetector.png" alt="Hog Detector" style="width: 100%; height: auto;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-page-section">
+            <!--OPTIMIZATION-->
+            <h1 class="page-section-title">Optimization</h1>
+            <div class="project-section-description">We select the best set of candidates using Quadratic Unconstrained Binary Optimization (QUBO) framework. Our quadratic objective function is:</div>
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/qubo1.jpg" alt="QUBO Objective Function" style="display: block; margin: auto; width: 100%; max-width: 300px; padding: 20px;">     
+            
+            <div class="project-section-description">where x is binary variables, ci are unary coefficients, and cij are pairwise coefficients. The goal is to assign 0,1 values to each xi in a way that maximizes the objective f(x). We can combine all the coefficients ci and cij into a single square matrix Q and solve the binary integer maximization:</div>
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/qubo3.jpg" alt="QUBO Binary Integer Maximization (1)" style="display: block; margin: auto; width: 100%; max-width: 200px; padding-top: 20px;"> 
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/qubo2.png" alt="QUBO Binary Integer Maximization (2)" style="display: block; margin: auto; width: 100%; max-width: 200px; padding: 0px 20px 20px 20px"> 
+
+            <div class="project-section-description">The resulting Quadratic Unconstrained Binary Optimization (QUBO) problem is known to be NP-hard. The following figure is a simple example showing a solution from QUBO framework:</div>
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/quboexample.png" alt="Example solution from QUBO framework" style="display: block; margin: auto; width: 100%; max-width: 700px; padding: 20px;">   
+        </div>  
+        <div class="project-page-section">
+            <h1 class="page-section-title">Experimental Results</h1>
+
+            <div class="media-grid">
+                <div class="media-item" style="aspect-ratio: auto; width: 90%; max-width: none;">
+                    <img src="https://sites.psu.edu/eecslpac/files/2025/02/result1.jpg" alt="Experimental Results (1)">
+                </div>
+                <div class="media-item" style="aspect-ratio: auto; width: 90%; max-width: none;">
+                    <img src="https://sites.psu.edu/eecslpac/files/2025/02/result2.jpg" alt="Experimental Results (2)">
+                </div>
+                <div class="media-item" style="aspect-ratio: auto; width: 90%; max-width: none;">
+                    <img src="https://sites.psu.edu/eecslpac/files/2025/02/resulttable.png" alt="Result Table">
+                </div>
+                <div class="caption">Accuracy of Methods on Given Datasets</div>
+            </div>
+
+        </div>
+
+        <div class="project-page-section">
+            <h1 class="page-section-title">Conclusion</h1>
+
+            <div class="project-section-description">We have presented a QUBO framework for improving pedestrian detection performance in cases where there are multiple, overlapping objects. A quadratic objective function is formed from unary confidence scores and pairwise overlap penalties. The unary terms are not limited to a specific type of detector and can be applied to various types of detection confidence scores. Solving for the binary solution vector that maximizes this quadratic objective function automatically balances the trade off between encouraging multiple, high quality detections, while discouraging excessive amounts of overlap.</div>
+        </div>
+
+        <div class="project-page-section">
+            <h1 class="page-section-title">Citation</h1>
+            <div class="citation-item">
+                S.Rujikietgumjorn and R.Collins, "Optimized Pedestrian Detection for Multiple and Occluded People" <em>IEEE Computer Vision and Pattern Recognition (CVPR'13)</em>, Portland, OR, June 2013, pp.3690-3697.
+                <br><br>
+                <a href="https://ieeexplore.ieee.org/document/6619317/metrics#metrics" rel="noopener" target="_blank">[PDF]</a>
+            </div>
+        </div>
+
+        <div class="funding-note">This research is funded in part by <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1218729">NSF Award #1218729</a></div>
+    </div>
+</body>
+</html>
