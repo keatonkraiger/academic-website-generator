@@ -12,8 +12,52 @@
 #   highlight: 0 or 1
 #   project_page: https://project-page-url or null
 
+# ------------------- 2024 --------------------
+
+- title: Recurrence-based Vanishing Point Detection
+  image: https://sites.psu.edu/eecslpac/files/2025/02/rec_based_vanish.png
+  description: null
+  authors: Skanda Bharadwaj, Robert T. Collins and Yanxi Liu
+  month: 12
+  year: 2024
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/2412.20666
+  publisher: Arxiv Preprint
+  highlight: 1
+  #project_page: will be added
+
+# ------------------- 2023 --------------------
+
+
+- title: EscherNet 101
+  image: https://sites.psu.edu/eecslpac/files/2025/02/escher_net.png
+  description: A deep learning model, EscherNet 101, is constructed to categorize images of 2D periodic patterns into their respective 17 wallpaper groups. Beyond evaluating EscherNet 101 performance by classification rates, at a micro-level we investigate the filters learned at different layers in the network, capable of capturing second-order invariants beyond edge and curvature.
+  authors: Christopher Funk and Yanxi Liu
+  month: 3
+  year: 2023
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/2303.04208
+  publisher: Arxiv Preprint
+  highlight: 1
+  #project_page: will be added
+
+- title: A Light-Weight Contrastive Approach for Aligning Human Pose Sequences
+  image: https://sites.psu.edu/eecslpac/files/2024/11/pose-align.png
+  description: We present a simple unsupervised method for learning an encoder mapping short 3D pose sequences into embedding vectors suitable for sequence-to-sequence alignment by dynamic time warping. 
+  authors: Robert T. Collins
+  month: 3
+  year: 2023
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/2303.04244
+  publisher: Arxiv Preprint
+  highlight: 1
+  #project_page: will be added
+
 - title: Image-based Stability Quantification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/TNSRE_image-stability1.jpg
   description: 'We propose a novel image-based method to estimate three key components
     for stability computation: Center of Mass (CoM), Base of Support (BoS), and Center
     of Pressure (CoP). Furthermore, we quantitatively validate our image-based methods
@@ -30,8 +74,10 @@
   highlight: 1
   project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
 
+# ------------------- 2022 --------------------
+
 - title: Novel 3D Scene Understanding Applications From Recurrence in a Single Image
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2024/11/3D.jpg
   description: We demonstrate the utility of recurring pattern discovery from a single
     image for spatial understanding of a 3D scene in terms of (1) vanishing point
     detection, (2) hypothesizing 3D translation symmetry and (3) counting the number
@@ -47,8 +93,24 @@
   highlight: 1
   project_page: http://vision.cse.psu.edu/research/regularity_perception/index.shtml
 
+- title: Image-based Stability Quantification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2022_image_stability.jpg
+  #image:  Will be added
+  description: We present a simple unsupervised method for learning an encoder mapping short 3D pose sequences into embedding vectors suitable for sequence-to-sequence alignment by dynamic time warping. 
+  authors: Jesse Scott, John Challis, Robert T. Collins and Yanxi Liu
+  month: 10
+  year: 2022
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/abs/2206.11443
+  publisher: Arxiv Preprint
+  highlight: 0
+  #project_page: will be added
+
+# ------------------- 2021 --------------------
+
 - title: Computational Symmetry
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2021_comp_symmetry.png
   description: This survey provides a succinct summary of the relevant mathemati-cal
     theory, a historic perspective of some important symmetry-relatedideas, a partial
     yet timely report on the state of the arts symmetrydetection algorithms along
@@ -64,8 +126,10 @@
   highlight: 1
   project_page: null
 
+# ------------------- 2020 --------------------
+
 - title: 'From Image to Stability: Learning Dynamics from Human Pose'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2020_dynamics_pose.jpg
   description: null
   authors: Jesse Scott*, Bharadwaj Ravichandran*, Christopher Funk, Robert T. Collins,
     Yanxi Liu
@@ -80,7 +144,7 @@
 
 - title: 'From Kinematics To Dynamics: Estimating Center of Pressure and Base of Support
     from Video Frames of Human Motion'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2020_kinematics.jpg
   description: null
   authors: Jesse Scott, Christopher Funk, Bharadwaj Ravichandran, John H. Challis,
     Robert T. Collins, Yanxi Liu
@@ -93,9 +157,11 @@
   highlight: 0
   project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
 
+# ------------------- 2019 --------------------
+
 - title: 'Learning Dynamics from Kinematics: Estimating 2D Foot Pressure Maps from
     Video Frames'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2019_foot_pressure.jpg
   description: null
   authors: Christopher Funk, Savinay Nagendra, Jesse Scott, Bharadwaj Ravichandran,
     John H. Challis, Robert T. Collins, Yanxi Liu
@@ -108,8 +174,10 @@
   highlight: 0
   project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
 
+# ------------------- 2018 --------------------
+
 - title: 'Learning Dynamics from Kinematics: Estimating Foot Pressure from Video'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2018_foot_pressure.png
   description: null
   authors: Christopher Funk, Savinay Nagendra, Jesse Scott, John H. Challis, Robert
     T. Collins, Yanxi Liu
@@ -122,9 +190,11 @@
   highlight: 0
   project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
 
+# ------------------- 2017 --------------------
+
 - title: 'Beyond Planar Symmetry: Modeling human perception of reflection and rotation
     symmetries in the wild'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2017funk1.png
   description: We employ novel methods to convert discrete human labels into symmetry
     heatmaps, capture symmetry densely in an image and quantitatively evaluate Sym-NET
     against multiple existing computer vision algorithms.
@@ -139,7 +209,7 @@
   project_page: http://vision.cse.psu.edu/research/beyondPlanarSymmetry/index.shtml
 
 - title: '2017 ICCV Challenge: Detecting Symmetry in the Wild'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2017funk2.png
   description: null
   authors: Christopher Funk, Seungkyu Lee, Martin R.  Oswald, Stavros Tsogkas, Wei
     Shen, Andrea Cohen, Sven Dickinson, Yanxi Liu
@@ -153,7 +223,7 @@
   project_page: null
 
 - title: 4D Model-based Spatiotemporal Alignment of Scripted Taiji Quan Sequences
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2017spatiotemporal.jpg
   description: null
   authors: Jesse Scott, Robert T. Collins, Christopher Funk, Yanxi Liu
   month: 10
@@ -166,7 +236,7 @@
   project_page: null
 
 - title: Symmetry-aware Facade Parsing with Occlusions
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/IC3DV_2017_Cohen.png
   description: null
   authors: Andrea Cohen, Martin R. Oswald, Yanxi Liu, Marc Pollefeys
   month: 10
@@ -178,9 +248,11 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2016 --------------------
+
 - title: "Regularity-driven Building Fa\xEF\xBF\xBDade Matching between Aerial and\
     \ Street-Views"
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016wolff.jpg
   description: null
   authors: Mark Wolff, Robert T. Collins, Yanxi Liu
   month: 6
@@ -193,7 +265,7 @@
   project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
 
 - title: Symmetry reCAPTCHA
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016_reCaptcha.png
   description: null
   authors: Christopher Funk, Yanxi Liu
   month: 6
@@ -205,8 +277,21 @@
   highlight: 0
   project_page: null
 
+- title: "LabelMe Symmetry: a tool for human symmetry perception"
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016funk.gif
+  description: null
+  authors: Christopher Funk, Yanxi Liu
+  month: 9
+  year: 2016
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/307892474_LabelMeSymmetry_a_tool_for_human_symmetry_perception
+  publisher: Vision Sciences Society
+  highlight: 0
+  project_page: null
+
 - title: Human Visual Perception of the 17 Wallpaper-Group Patterns using Timed Trials
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2024/11/P4M-1.gif
   description: null
   authors: Yanxi Liu, Jeremy Cole, David Reitter
   month: 5
@@ -219,7 +304,7 @@
   project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
 
 - title: Symmetry features and group hierarchy model human symmetry perception
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016_P4M_Cole.png
   description: null
   authors: Jeremy Cole, David Reitter, Yanxi Liu
   month: 5
@@ -233,7 +318,7 @@
 
 - title: Assessing tracking performance in complex scenarios using mean time between
     failures
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016_carr_collins.jpg
   description: null
   authors: Peter Carr, Robert T. Collins
   month: 3
@@ -246,7 +331,7 @@
   project_page: null
 
 - title: Representation of Maximally Regular Textures in Human Visual Cortex
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016Kohler.jpg
   description: null
   authors: Peter Kohler, Alasdair Clarke, Alexandra Yakovleva, Yanxi Liu, Anthony
     Norcia
@@ -260,8 +345,10 @@
   highlight: 0
   project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
 
+# ------------------- 2015 --------------------
+
 - title: Dancing with Turks
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2024/12/danceICON.jpg
   description: null
   authors: I-Kao Chiang, Ian Spiro, Seungkyu Lee, Alyssa Lees, Jingchen Liu, Chris
     Bregler, Yanxi Liu
@@ -275,7 +362,7 @@
   project_page: null
 
 - title: Parametric responses to rotation symmetry in mid-level visual cortex
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2015Kohler.png
   description: null
   authors: Peter Kohler, Alexandra Yakovleva, Alasdair DF Clarke, Yanxi Liu, Anthony
     Norcia
@@ -289,7 +376,7 @@
   project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
 
 - title: The Salience of Lower-Order Features in Highly Self-Similar Wallpaper Groups
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2015Vedak.jpg
   description: null
   authors: Shivam Vedak, Rick Gilmore, Peter Kohler, Yanxi Liu, Anthony Norcia
   month: 9
@@ -301,8 +388,10 @@
   highlight: 0
   project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
 
+# ------------------- 2014 --------------------
+
 - title: The Neural Response to Visual Symmetry in Wallpaper Patterns
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014Kohler.jpg
   description: null
   authors: P.J. Kohler, A.D.F. Clark, J. Liu-Shang, A. Yakovleva, Yanxi Liu, A.M.
     Norcia
@@ -316,7 +405,7 @@
   project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
 
 - title: Visual patterns with rotational symmetry activate distinct cortical regions
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014ThomasNuero.jpg
   description: null
   authors: A.L. Thomas, J. Liu, Yanxi Liu, A.M. Norcia, J. Stitt, J.D. Fesi, K.R.
     Hwang, R.O. Gilmore
@@ -331,7 +420,7 @@
 
 - title: Hybrid Stochastic/Deterministic Optimization for Tracking Sports Players
     and Pedestrians
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014eccvCollinsCarr.jpg
   description: null
   authors: Robert Collins, Peter Carr
   month: 9
@@ -344,7 +433,7 @@
   project_page: null
 
 - title: Estimating the Camera Direction of A Geotagged Image using Reference Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014prPark.png
   description: null
   authors: Minwoo Park, Jiebo Luo, Robert T. Collins, Yanxi Liu
   month: 9
@@ -357,7 +446,7 @@
   project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
 
 - title: Local Regularity-driven City-scale Facade Detection from Aerial Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014liuCvpr.jpg
   description: null
   authors: Jingchen Liu, Yanxi Liu
   month: 6
@@ -370,7 +459,7 @@
   project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
 
 - title: Entrance Detection from Street-View Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014liuSUNw.jpg
   description: null
   authors: Jingchen Liu, Thommen Korah, Varsha Hedau, Vasu Parameswaran, Radek Grzeszczuk,
     Yanxi Liu
@@ -384,7 +473,7 @@
   project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
 
 - title: 3D Blob based Brain Tumor Detection and Segmentation in MR Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014-3d_brain_blobs.jpg
   description: null
   authors: Chen-Ping Yu, Guilherme Ruppert, Robert Collins, Dan Nguyen, Alexandre
     Xavier, Yanxi Liu
@@ -398,7 +487,7 @@
   project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
 
 - title: Automatic Detection of Exploding Aggregates in a Colloidal Suspension
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014_automatic.png
   description: null
   authors: Benjamin D. McPheron, Vincent H. Crespi, Robert Collins, Yanxi Liu
   month: 1
@@ -410,9 +499,11 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2013 --------------------
+
 - title: 'Symmetry Detection from Real World Images Competition 2013: Summary and
     Results'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013symComp.jpg
   description: null
   authors: Jingchen Liu, George Slota, Gang Zheng, Zhaohui Wu, Minwoo Park, Seungkyu
     Lee, Ingmar Rauschert, Yanxi Liu
@@ -426,7 +517,7 @@
   project_page: http://vision.cse.psu.edu/research/symComp13/index.shtml
 
 - title: Tracking Sports Players with Context-Conditioned Motion Models
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013liuSport.jpg
   description: null
   authors: Jingchen Liu, Peter Carr, Robert T. Collins, Yanxi Liu
   month: 6
@@ -439,7 +530,7 @@
   project_page: null
 
 - title: GRASP Recurring Patterns from a Single View
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013liuRecur.jpg
   description: null
   authors: Jingchen Liu, Yanxi Liu
   month: 6
@@ -452,7 +543,7 @@
   project_page: http://vision.cse.psu.edu/research/recur/index.shtml
 
 - title: Multi-target Tracking by Larangian Relaxation to Min-Cost Network Flow
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013asad_mtt.jpg
   description: null
   authors: Asad A. Butt, Robert T. Collins
   month: 6
@@ -465,7 +556,7 @@
   project_page: null
 
 - title: Optimized Pedestrian Detection for Multiple and Occluded People
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013cvpr.jpg
   description: null
   authors: Sitapa Rujikietgumjorn, Robert T. Collins
   month: 6
@@ -478,7 +569,7 @@
   project_page: http://vision.cse.psu.edu/research/optdetection/index.shtml
 
 - title: Robust Autocalibration for Surveillance Camera Network
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013wacvLiu.jpg
   description: null
   authors: Jingchen Liu, Robert T. Collins, Yanxi Liu
   month: 1
@@ -490,8 +581,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2012 --------------------
+
 - title: Training Data Recycling for Multi-Level Learning
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012icprLiu.jpg
   description: null
   authors: Jingchen Liu, Scott McCloskey, Yanxi Liu
   month: 1
@@ -504,7 +597,7 @@
   project_page: null
 
 - title: Multiple Target Tracking Using Frame Triplets
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012asad.jpg
   description: null
   authors: Asad A. Butt, Robert T. Collins
   month: 11
@@ -517,7 +610,7 @@
   project_page: null
 
 - title: Local Expert Forest of Score Fusion for Video Event Classification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012eccvLiu.png
   description: null
   authors: Jingchen Liu, Scott McCloskey, Yanxi Liu
   month: null
@@ -531,7 +624,7 @@
 
 - title: A Generative Model for Simultaneous Estimation of Human Body Shape and Pixel-level
     Segmentation
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: Ingmar Rauschert, Robert T. Collins
   month: 10
@@ -544,7 +637,7 @@
   project_page: null
 
 - title: Multitarget Data Association with Higher-Order Motion Models
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012multidata.jpg
   description: null
   authors: Robert T. Collins
   month: 6
@@ -557,7 +650,7 @@
   project_page: null
 
 - title: Vision-based Analysis of Small Groups in Pedestrian Crowds
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012ge2.jpg
   description: null
   authors: W. Ge, Robert T. Collins, B. Ruback
   month: 5
@@ -570,7 +663,7 @@
   project_page: null
 
 - title: Curved Glide-Reflection Symmetry Detection
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012lee1.png
   description: null
   authors: Seungkyu Lee, Yanxi Liu
   month: 6
@@ -583,7 +676,7 @@
   project_page: http://vision.cse.psu.edu/research/curvedSym/index.shtml
 
 - title: Statistical Asymmetry-based Brain Tumor Segmentation from 3D MR Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012Yu1.jpg
   description: null
   authors: Chenping Yu, Guilherme C. S. Ruppert, Dan T. D. Nguyen, Alexandre X. Falcao,
     Yanxi Liu
@@ -597,8 +690,10 @@
   highlight: 0
   project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
 
+# ------------------- 2011 --------------------
+
 - title: Surveillance Camera Autocalibration based on Pedestrian Height Distributions
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011bmvcLiu.jpg
   description: null
   authors: Jingchen Liu, Robert T. Collins, Yanxi Liu
   month: 1
@@ -611,7 +706,7 @@
   project_page: null
 
 - title: Supervised Machine Learning for Brain Tumor Detection in Structural MRI
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011koshyRSNA.png
   description: null
   authors: Diana Koshy, Chen-Ping Yu, Dan T. Nguyen, Somesh Kashyap, Robert T. Collins,
     Yanxi Liu
@@ -625,7 +720,7 @@
   project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
 
 - title: A New Symmetry-Based Method For Mid-Sagittal Plane Extraction In Neuroimages
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011ruppert1.jpg
   description: null
   authors: Guilherme Ruppert, Leonid Teverovskiy, Chen-Ping Yu, Alexandre Falc\E3o,
     Yanxi Liu
@@ -638,8 +733,21 @@
   highlight: 0
   project_page: http://vision.cse.psu.edu/research/brainAsym/index.shtml
 
+- title: Curved Glide-Reflection Symmetry Detection
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011lee2.jpg
+  description: null
+  authors: Seungkyu Lee and Yanxi Liu
+  month: 6
+  year: 2011
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/51216590_Curved_Glide-Reflection_Symmetry_Detection
+  publisher: IEEE
+  highlight: 0
+  project_page: ' http://vision.cse.psu.edu/research/symmComp/index.shtml'
+
 - title: 'First Symmetry Detection Competition: Summary and Results'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011symmetry.jpg
   description: null
   authors: Ingmar Rauschert, Kyle Brocklehurst, Somesh Kashyap, Jingchen Liu, Yanxi
     Liu
@@ -652,8 +760,10 @@
   highlight: 0
   project_page: ' http://vision.cse.psu.edu/research/symmComp/index.shtml'
 
+# ------------------- 2010 --------------------
+
 - title: 'Beyond GPS: Determining The Camera Viewing Direction of a Geotagged Image'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010park4.jpg
   description: null
   authors: Minwoo Park, Jiebo Luo, Robert T. Collins, Yanxi Liu
   month: 10
@@ -666,7 +776,7 @@
   project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
 
 - title: Curved Reflection Symmetry Detection with Self-validation
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010liu2.jpg
   description: null
   authors: Jingchen Liu, Yanxi Liu
   month: 11
@@ -679,7 +789,7 @@
   project_page: http://vision.cse.psu.edu/research/curvedSym/index.shtml
 
 - title: Image De-fencing Revisited
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010park2.jpg
   description: null
   authors: Minwoo Park, Kyle Brocklehurst, Robert T. Collins, Yanxi Liu
   month: 11
@@ -693,7 +803,7 @@
 
 - title: Translation-Symmetry-based Perceptual Grouping with Applications to Urban
     Scenes
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010park3.jpg
   description: null
   authors: Minwoo Park, Kyle Brocklehurst, Robert T. Collins, Yanxi Liu
   month: null
@@ -706,7 +816,7 @@
   project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
 
 - title: Crowd Density Analysis with Marked Point Processings [Applications Corner]
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010geCollins.jpg
   description: null
   authors: W. Ge, Robert T. Collins
   month: 9
@@ -719,7 +829,7 @@
   project_page: null
 
 - title: Skewed Rotation Symmetry Group Detection
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010lee1.jpg
   description: null
   authors: Seungkyu Lee, Yanxi Liu
   month: null
@@ -732,7 +842,7 @@
   project_page: http://vision.cse.psu.edu/research/rotationSymmetryGroupDetection/index.shtml
 
 - title: Computational Symmetry in Computer Vision and Computer Graphics
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010liu-CSinCVCG.jpg
   description: null
   authors: Yanxi Liu, Hagit Hel-Or, Craig S. Kaplan, Luc Van Gool
   month: null
@@ -745,7 +855,7 @@
   project_page: http://dx.doi.org/10.1561/0600000008
 
 - title: Translation Symmetry-Based Perceptual Grouping for Urban Scene Understanding
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010parkTechReport.jpg
   description: null
   authors: Minwoo Park, Kyle Brocklehurst, Robert T. Collins, Yanxi Liu
   month: null
@@ -758,7 +868,7 @@
   project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
 
 - title: Crowd Detection with a Multiview Sampler
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010ge1.jpg
   description: null
   authors: Weina Ge, Robert T. Collins
   month: null
@@ -771,7 +881,7 @@
   project_page: http://vision.cse.psu.edu/research/multiviewmcmc/index.shtml
 
 - title: Multi-Target Tracking of Time-Varying Spatial Patterns
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010liu1.jpg
   description: null
   authors: Jingchen Liu, Yanxi Liu
   month: null
@@ -784,7 +894,7 @@
   project_page: http://vision.cse.psu.edu/research/dynamicNRTTracking/index.shtml
 
 - title: Data Driven Mean-Shift Belief Propagation For non-Gaussian MRFs
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010park1.jpg
   description: null
   authors: Minwoo Park, Somesh Kashyap, Robert T. Collins, Yanxi Liu
   month: null
@@ -796,9 +906,11 @@
   highlight: 0
   project_page: http://vision.cse.psu.edu/research/deformedLattice/DDMSBP.html
 
+# ------------------- 2009 --------------------
+
 - title: Evaluation of Sampling-based Pedestrian Detection for Crowd Counting (invited
     paper)
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009ge1.jpg
   description: null
   authors: Weina Ge, Robert T. Collins
   month: null
@@ -811,7 +923,7 @@
   project_page: null
 
 - title: Automatically Detecting the Small Group Structure of a Crowd
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009ge2.jpg
   description: null
   authors: Weina Ge, Robert T. Collins, B. Ruback
   month: null
@@ -824,7 +936,7 @@
   project_page: http://vision.cse.psu.edu/research/mpp/index.shtml
 
 - title: Deformed Lattice Detection in Real-World Images using Mean-Shift Belief Propagation
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009park1.jpg
   description: null
   authors: Minwoo Park, Kyle Brocklehurst, Robert T. Collins, Yanxi Liu
   month: null
@@ -837,7 +949,7 @@
   project_page: http://vision.cse.psu.edu/research/deformedLattice/Deformed_Lattice_Detection.html
 
 - title: Shape Constrained Figure-Ground Segmentation and Tracking
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009yin1.jpg
   description: null
   authors: Zhaozheng Yin, Robert T. Collins
   month: null
@@ -850,7 +962,7 @@
   project_page: http://vision.cse.psu.edu/research/figureground/index.shtml
 
 - title: Marked Point Processes for Crowd Counting
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009ge3.jpg
   description: null
   authors: Weina Ge, Robert T. Collins
   month: null
@@ -863,7 +975,7 @@
   project_page: http://vision.cse.psu.edu/research/mpp/index.shtml
 
 - title: Curved Glide-Reflection Symmetry Detection
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009lee2.jpg
   description: null
   authors: Seungkyu Lee, Yanxi Liu
   month: null
@@ -877,7 +989,7 @@
 
 - title: A Quantitative Comparison Study of Neuroimage Midsagittal Plans Extraction
     Algorithms
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: Guilherme C. S. Ruppert, Leonid Teverovskiy, Chenping Yu, Alexandre X.
     Falcao, Yanxi Liu
@@ -891,7 +1003,7 @@
   project_page: http://vision.cse.psu.edu/research/brainAsym/index.shtml
 
 - title: Kalman Filter Based Video Background Estimation
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009kalman_quad.jpg
   description: null
   authors: Jesse Scott, Michael Pusateri, Duane Cornish
   month: 10
@@ -904,7 +1016,7 @@
   project_page: null
 
 - title: Towards real-time hardware gamma correction for dynamic contrast enhancement
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009gamma_quad.jpg
   description: null
   authors: Jesse Scott, Michael Pusateri
   month: 10
@@ -917,7 +1029,7 @@
   project_page: null
 
 - title: Biologically-inspired visible and infrared camera technology development
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009rods_cones.jpg
   description: null
   authors: Elmer (Al) Williams, Michael Pusateri, Jesse Scott
   month: 10
@@ -929,9 +1041,11 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2008 --------------------
+
 - title: 'CSDD Features: Center-Surround Distribution Distance for Feature Extraction
     and Matching'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008collins1.jpg
   description: null
   authors: Robert T. Collins, Weina Ge
   month: null
@@ -944,7 +1058,7 @@
   project_page: http://vision.cse.psu.edu/research/CSDD/index.shtml
 
 - title: Deformed Lattice Detection via Mean-Shift Belief Propagation
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008park1.jpg
   description: null
   authors: Minwoo Park, Robert T. Collins, Yanxi Liu
   month: null
@@ -957,7 +1071,7 @@
   project_page: http://vision.cse.psu.edu/research/MSBPlattice/index.shtml
 
 - title: Multi-target Data Association by Tracklets with Unsupervised Parameter Estimation
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008ge1.jpg
   description: null
   authors: Weina Ge, Robert T. Collins
   month: null
@@ -970,7 +1084,7 @@
   project_page: http://vision.cse.psu.edu/research/mcmcda/index.shtml
 
 - title: Online Figure-Ground Segmentation with Edge Pixel Classification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008yin1.jpg
   description: null
   authors: Zhaozheng Yin, Robert T. Collins
   month: null
@@ -983,7 +1097,7 @@
   project_page: http://vision.cse.psu.edu/research/figureground/index.shtml
 
 - title: Automatic Lattice Detection in Near-Regular Histology Array Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008canada1.jpg
   description: null
   authors: B.A. Canada, G.K. Thomas, K.C. Cheng, J.Z. Wang, Yanxi Liu
   month: null
@@ -997,7 +1111,7 @@
 
 - title: Towards Efficient Automated Characterization of Irregular Histology Images
     via Transformation to Frieze-Like Patterns
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008canada2.jpg
   description: null
   authors: B.A. Canada, G.K. Thomas, K.C. Cheng, J.Z. Wang, Yanxi Liu
   month: null
@@ -1010,7 +1124,7 @@
   project_page: null
 
 - title: Rotation Symmetry Group Detection Via Frequency Analysis of Frieze-Expansions
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008lee1.jpg
   description: null
   authors: Seungkyu Lee, Robert T. Collins, Yanxi Liu
   month: null
@@ -1023,7 +1137,7 @@
   project_page: http://vision.cse.psu.edu/research/rotationSymmetryGroupDetection/index.shtml
 
 - title: Image De-fencing
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008liu1.jpg
   description: null
   authors: Yanxi Liu, Tamara Belkina, James H. Hays, Roberto Lublinerman
   month: null
@@ -1036,7 +1150,7 @@
   project_page: http://vision.cse.psu.edu/research/imageDe-fencing/index.shtml
 
 - title: Performance Evaluation of State-of-the-Art Discrete Symmetry Detection Algorithms
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008park2.jpg
   description: null
   authors: Minwoo Park, Seungkyu Lee, Po-Chun Chen, Somesh Kashyap, Asad A. Butt,
     Yanxi Liu
@@ -1050,7 +1164,7 @@
   project_page: http://vision.cse.psu.edu/research/performanceEvaluation/index.shtml
 
 - title: Efficient Mean Shift Belief Propagation for Vision Tracking
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008park3.jpg
   description: null
   authors: Minwoo Park, Yanxi Liu, Robert T. Collins
   month: null
@@ -1064,7 +1178,7 @@
 
 - title: Detecting and Matching Repeated Patterns for Automatic Geo-tagging in Urban
     Environments
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008schindler1.jpg
   description: null
   authors: Grant Schindler, Panchapagesan Krishnamurthy, Roberto Lublinerman, Yanxi
     Liu, Frank Dellaert
@@ -1079,7 +1193,7 @@
 
 - title: Object Tracking and Detection after Occlusion via Numerical Hybrid Local
     and Global Mode-seeking
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008yin2.jpg
   description: null
   authors: Zhaozheng Yin, Robert T. Collins
   month: null
@@ -1092,7 +1206,7 @@
   project_page: http://vision.cse.psu.edu/research/modeseeking/index.shtml
 
 - title: Quantified Brain Asymmetry for Age Estimation of Normal and AD/MCI Subjects
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008teverovskiy1.jpg
   description: null
   authors: Leonid Teverovskiy, James Becker, Oscar Lopez, Yanxi Liu
   month: null
@@ -1105,7 +1219,7 @@
   project_page: http://vision.cse.psu.edu/research/brainAsym/index.shtml
 
 - title: Likelihood Map Fusion for Visual Object Tracking
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008yin3.jpg
   description: null
   authors: Zhaozheng Yin, Fatih Porikli, Robert T. Collins
   month: null
@@ -1119,7 +1233,7 @@
 
 - title: Symmetry Group-based Categorization, Indexing, and Retrieval of Paper-cut
     Patterns
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: Asad A. Butt, Yanxi Liu
   month: null
@@ -1131,8 +1245,10 @@
   highlight: 0
   project_page: null
 
+  # ------------------- 2007 --------------------
+
 - title: A Quantitative Evaluation of Symmetry Detection Algorithms
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007chen1.jpg
   description: null
   authors: P. Chen, J.H. Hays, Seungkyu Lee, Minwoo Park, Yanxi Liu
   month: null
@@ -1145,7 +1261,7 @@
   project_page: null
 
 - title: Quantified Symmetry for Entorhinal Spatial Maps
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007chastain.jpg
   description: null
   authors: E. Chastain, Yanxi Liu
   month: null
@@ -1158,7 +1274,7 @@
   project_page: null
 
 - title: Shape Variation-based Frieze Pattern for Robust Gait Recognition
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007lee1.jpg
   description: null
   authors: Seungkyu Lee, Yanxi Liu, Robert T. Collins
   month: null
@@ -1171,7 +1287,7 @@
   project_page: http://vision.cse.psu.edu/research/gait/index.shtml
 
 - title: A Lattice-based MRF Model for Dynamic Near-regular Texture Tracking
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007lin1.jpg
   description: null
   authors: W. Lin, Yanxi Liu
   month: null
@@ -1184,7 +1300,7 @@
   project_page: null
 
 - title: Symmetries of Dance
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: Yanxi Liu, X. Yang, M. Spivak, C. Bregler
   month: null
@@ -1198,7 +1314,7 @@
 
 - title: Discovery of "Biomarkers" for Alzheimer's Disease Prediction from Structural
     MR Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007liu2.jpg
   description: null
   authors: Yanxi Liu, L. Teverovskiy, O. Lopez, H. Aizenstein, C. Meltzer, J. Becker
   month: null
@@ -1211,7 +1327,7 @@
   project_page: http://vision.cse.psu.edu/research/brainAsym/index.shtml
 
 - title: Understanding the Role of Facial Asymmetry in Human Face Identification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007mitra1.jpg
   description: null
   authors: S. Mitra, N. Lazar, Yanxi Liu
   month: null
@@ -1224,7 +1340,7 @@
   project_page: http://www.ri.cmu.edu/research_project_detail.html?project_id=437
 
 - title: On-the-fly Object Modeling while Tracking
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007yin1.jpg
   description: null
   authors: Zhaozheng Yin, Robert T. Collins
   month: null
@@ -1237,7 +1353,7 @@
   project_page: null
 
 - title: Belief Propagation in a 3D Spatio-temporal MRF for Moving Object Detection
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007yin2.jpg
   description: null
   authors: Zhaozheng Yin, Robert T. Collins
   month: null
@@ -1250,7 +1366,7 @@
   project_page: null
 
 - title: Temporally Static Region Detection in Multi-Camera Systems
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007porikli1.jpg
   description: null
   authors: Fatih Porikli, Zhaozheng Yin
   month: null
@@ -1262,8 +1378,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2006 --------------------
+
 - title: Spatial Divide and Conquer with Motion Cues for Tracking through Clutter
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006yin1.jpg
   description: null
   authors: Zhaozheng Yin, Robert T. Collins
   month: null
@@ -1276,7 +1394,7 @@
   project_page: null
 
 - title: Moving Object Localization in Thermal Imagery by Forward-backward MHI
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006yin2.jpg
   description: null
   authors: Zhaozheng Yin, Robert T. Collins
   month: null
@@ -1290,7 +1408,7 @@
   project_page: null
 
 - title: Body Localization in Still Images Using Hierarchical Models and Hybrid Search
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006zhang1.jpg
   description: null
   authors: J. Zhang, J. Luo, Robert T. Collins, Yanxi Liu
   month: null
@@ -1303,7 +1421,7 @@
   project_page: null
 
 - title: Quantified Symmetry for Entorhinal Spatial Maps
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006quantified.jpg
   description: null
   authors: E. Chastain, Yanxi Liu
   month: null
@@ -1316,7 +1434,7 @@
   project_page: null
 
 - title: Quantitative Evaluation on Near Regular Texture Synthesis Algorithms
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006quanteval.jpg
   description: null
   authors: W.C. Lin, J. Hays, C. Wu, V. Kwatra, Yanxi Liu
   month: null
@@ -1329,7 +1447,7 @@
   project_page: null
 
 - title: Discovering Texture Regularity as a Higher-Order Correspondence Problem
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006disc_regularity.jpg
   description: null
   authors: J. Hays, M. Leordeanu, A. Efros, Yanxi Liu
   month: null
@@ -1342,7 +1460,7 @@
   project_page: null
 
 - title: Tracking Dynamic Near-regular Textures under Occlusion and Rapid Movements
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006track.jpg
   description: null
   authors: W.C. Lin, Yanxi Liu
   month: null
@@ -1356,8 +1474,7 @@
 
 - title: "Mapping Ventricular Changes Related to Dementia and Mild Cognitive \nImpairment\
     \ in a Large Community-Based Cohort"
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
-    in a Large Community-Based Cohort.jpg
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006carmichael.jpg
   description: null
   authors: O. Carmichael, P.M. Thompson, R.A. Dutton, A. Lu, S.E. Lee, J.Y. Lee, L.H.
     Kuller, O. Lopez, H. Aizenstein, C. Cidismeltzer, Yanxi Liu, A.W. Toga, J. Becker
@@ -1371,7 +1488,7 @@
   project_page: null
 
 - title: Truly 3D Midsagittal Plane Extraction for Robust Neuroimage Registration
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006teverosky.jpg
   description: null
   authors: L. Teverovskiy, Yanxi Liu
   month: null
@@ -1384,7 +1501,7 @@
   project_page: null
 
 - title: The role of structural facial asymmetry in asymmetry of peak facial expressions
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006schmidt.png
   description: null
   authors: Karen L Schmidt, Yanxi Liu, Jeffrey F Cohn
   month: 11
@@ -1397,8 +1514,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2005 --------------------
+
 - title: Unsupervised Learning of Object Features from Video Sequences
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005marius.jpg
   description: null
   authors: Marius Leordeanu, Robert T. Collins, Martial Hebert
   month: 6
@@ -1411,7 +1530,7 @@
   project_page: null
 
 - title: Background Estimation under Rapid Gain Change in Thermal Imagery
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005hulya.jpg
   description: null
   authors: Hulya Yalcin, Robert T. Collins, Martial Hebert
   month: 6
@@ -1425,7 +1544,7 @@
   project_page: null
 
 - title: Three-Dimensional Scene Flow
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005vedula.jpg
   description: null
   authors: S.Vedula, S.Baker, P.Rander, Robert T. Collins, T.Kanade
   month: 3
@@ -1438,7 +1557,7 @@
   project_page: null
 
 - title: An Open Source Tracking Testbed and Evaluation Web Site
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005collins.jpg
   description: null
   authors: Robert T. Collins, X.Zhou, S.Teh
   month: 1
@@ -1452,7 +1571,7 @@
   project_page: null
 
 - title: Multilevel Spectral Partitioning for Efficient Image Segmentation and Tracking
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005tolliver.jpg
   description: null
   authors: D.Tolliver, Robert T. Collins, S.Baker
   month: 1
@@ -1465,7 +1584,7 @@
   project_page: null
 
 - title: Motion Texture
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005motionTexture.jpg
   description: null
   authors: Harriet Pashley, James Hays, Yanxi Liu
   month: 11
@@ -1479,7 +1598,7 @@
 
 - title: 'Computer Vision for Biomedical Image Applications: Current Techniques and
     Future Trends'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005liubook.jpg
   description: null
   authors: Yanxi Liu, T. Jiang, S. Zhang
   month: 11
@@ -1494,7 +1613,7 @@
 
 - title: On Improving the Performace of the Wallpaper Symmetry Group Classification
     Algorithm
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005reddy.png
   description: null
   authors: S. Reddy, Yanxi Liu
   month: 11
@@ -1507,7 +1626,7 @@
   project_page: null
 
 - title: Bayesian Body Localization Using Mixture of Nonlinear Shape Models
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005zhang.jpg
   description: null
   authors: J. Zhang, Robert T. Collins, Yanxi Liu
   month: 10
@@ -1520,7 +1639,7 @@
   project_page: null
 
 - title: On-Line Selection of Discriminative Tracking Features
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005collins2.jpg
   description: null
   authors: Robert T. Collins, Yanxi Liu, M. Leordeanu
   month: 10
@@ -1533,7 +1652,7 @@
   project_page: null
 
 - title: SVM Decision Boundary Based Discriminative Subspace Induction
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005zhang2.png
   description: null
   authors: J. Zhang, Yanxi Liu
   month: 10
@@ -1547,7 +1666,7 @@
 
 - title: Atlas-Based Hippocampus Segmentation in Alzheimer's Disease and Mild Cognitive
     Impairment
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005carmichael.jpg
   description: null
   authors: O. Carmichael, H. Aizenstein, S.W. Davis, J. Becker, P.M. Thompson, C.
     Meltzer, Yanxi Liu
@@ -1561,7 +1680,7 @@
   project_page: null
 
 - title: The Promise and Perils of Near-Regular Texture
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005liu1.jpg
   description: null
   authors: Yanxi Liu, Y. Tsin, W. Lin
   month: 4
@@ -1574,7 +1693,7 @@
   project_page: null
 
 - title: Digital Papercutting
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005liu3.jpg
   description: null
   authors: Yanxi Liu, James Hays, Y. Xu, W. Lin
   month: null
@@ -1586,8 +1705,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2004 --------------------
+
 - title: Articulated Motion Modeling for Activity Analysis
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004gao.jpg
   description: null
   authors: J. Gao, Robert T. Collins, A.Hauptmann, H. Wactler
   month: 6
@@ -1601,7 +1722,7 @@
   project_page: null
 
 - title: Autonomous river navigation
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004roboat.jpg
   description: null
   authors: F. Snyder, D.Morris, P.Haley, Robert T. Collins, A.Okerholm
   month: 12
@@ -1615,7 +1736,7 @@
 
 - title: Atlas-Based Hippocampus Segmentation in Alzheimer's Disease and Mild Cognitive
     Impairment
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005carmichael.jpg
   description: null
   authors: O. Carmichael, H. Aizenstein, S.W. Davis, J. Becker, P.M. Thompson, C.
     Meltzer, Yanxi Liu
@@ -1630,7 +1751,7 @@
 
 - title: Discriminative MR Image Feature Analysis for Automatic Schizophrenia and
     Alzheimer's Disease Classification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004liu.jpg
   description: null
   authors: Yanxi Liu, L. Teverovskiy, O. Carmichael, R. Kikinis, M. Shenton, C.S.
     Carter, V.A. Stenger, S. Davis, H. Aizenstein, J. Becker, O. Lopez, C. Meltzer
@@ -1645,7 +1766,7 @@
   project_page: null
 
 - title: Learning-Based Neuroimage Registration
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004terevoskiy.jpg
   description: null
   authors: L. Teverovskiy, Yanxi Liu
   month: 10
@@ -1658,7 +1779,7 @@
   project_page: null
 
 - title: Cervical Cancer Detection Using SVM Based Feature Screening
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004zhang.jpg
   description: null
   authors: J. Zhang, Yanxi Liu
   month: 9
@@ -1672,7 +1793,7 @@
   project_page: null
 
 - title: Near-Regular Texture Analysis and Manipulation
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004liu2.png
   description: null
   authors: Yanxi Liu, W. Lin, James Hays
   month: 8
@@ -1685,7 +1806,7 @@
   project_page: null
 
 - title: Local Facial Asymmetry for Expression Classification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004mitra.jpg
   description: null
   authors: S. Mitra, Yanxi Liu
   month: 6
@@ -1699,7 +1820,7 @@
   project_page: null
 
 - title: Representation and Matching of Articulated Shapes
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004zhang3.jpg
   description: null
   authors: J. Zhang, Robert T. Collins, Yanxi Liu
   month: 6
@@ -1714,7 +1835,7 @@
 
 - title: A Computational Model for Periodic Pattern Perception Based on Frieze and
     Wallpaper Groups
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004liu_pami.jpg
   description: null
   authors: Yanxi Liu, Robert T. Collins, Y. Tsin
   month: 3
@@ -1726,8 +1847,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2003 --------------------
+
 - title: Mean-shift Blob Tracking through Scale Space
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003cvpr.jpg
   description: null
   authors: Robert T. Collins
   month: 6
@@ -1740,7 +1863,7 @@
   project_page: null
 
 - title: A Master-Slave System to Acquire Biometric Imagery of Humans at a Distance
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003zhou.jpg
   description: null
   authors: X. Zhou, Robert T. Collins, T. Kanade, P. Metes
   month: 11
@@ -1753,7 +1876,7 @@
   project_page: null
 
 - title: Gait Shape Estimation for Identification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003tolliver.jpg
   description: null
   authors: D. Tolliver, Robert T. Collins
   month: 6
@@ -1767,7 +1890,7 @@
   project_page: null
 
 - title: A Quantified Study of Facial Asymmetry in 3D Faces
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003liu1.jpg
   description: null
   authors: Yanxi Liu, J. Palmer
   month: null
@@ -1781,7 +1904,7 @@
   project_page: null
 
 - title: 'Deformable Texture: the Irregular-Regular-Irregular Cycle'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003liu2.jpg
   description: null
   authors: Yanxi Liu, W. Lin
   month: null
@@ -1794,7 +1917,7 @@
   project_page: null
 
 - title: On-Line Selection of Discriminative Tracking Features
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005collins2.jpg
   description: null
   authors: Robert T. Collins, Yanxi Liu
   month: null
@@ -1807,7 +1930,7 @@
   project_page: null
 
 - title: Facial Asymmetry Quantification for Expression Invariant Human Identification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003liu3.jpg
   description: null
   authors: Yanxi Liu, K. Schmidt, J. Chon, S. Mitra
   month: null
@@ -1819,8 +1942,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2002 --------------------
+
 - title: Silhouette-based Human Identification from Body Shape and Gait
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002collins.jpg
   description: null
   authors: Robert T. Collins, R.Gross, J.Shi
   month: 10
@@ -1833,7 +1958,7 @@
   project_page: null
 
 - title: An Active Camera System for Acquiring Multi-View Video
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002collins2.jpg
   description: null
   authors: Robert T. Collins, O.Amidi, T.Kanade
   month: 9
@@ -1846,7 +1971,7 @@
   project_page: null
 
 - title: Does Multispectral Texture Features Really Improve Cervical Cancer Detection?
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002zhao.jpg
   description: null
   authors: T. Zhao, J. Zhang, Yanxi Liu
   month: null
@@ -1859,7 +1984,7 @@
   project_page: null
 
 - title: Semantic-based Biomedical Image Indexing and Retrieval
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu1.png
   description: null
   authors: Yanxi Liu, T. Zhao, J. Zhang
   month: null
@@ -1872,7 +1997,7 @@
   project_page: null
 
 - title: SVM Based Feature Screening Applied to Hierarchical Cervial Cancer Detection
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002zhang.png
   description: null
   authors: J. Zhang, Yanxi Liu, T. Zhao
   month: null
@@ -1885,7 +2010,7 @@
   project_page: null
 
 - title: Measurement of Asymmetry in Persons with Facial Paralysis
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: G.S. Wachtman, Yanxi Liu, T. Zhao, J. Cohn, K. Schmidt, T.C. Henkelmann,
     J.M. VanSwearingen, E.K. Manders
@@ -1900,7 +2025,7 @@
   project_page: null
 
 - title: Facial Asymmetry Quantification for Expression Invariant Human Identification
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007mitra1.jpg
   description: null
   authors: Yanxi Liu, K. Schmidt, J. Chon, R.L. Weaver
   month: 5
@@ -1914,7 +2039,7 @@
   project_page: null
 
 - title: Gait Sequence Analysis using Frieze Patterns
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu3.jpg
   description: null
   authors: Yanxi Liu, Robert T. Collins, Y. Tsin
   month: null
@@ -1927,7 +2052,7 @@
   project_page: null
 
 - title: Computational Symmetry
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu5.jpg
   description: null
   authors: Yanxi Liu
   month: null
@@ -1940,7 +2065,7 @@
   project_page: null
 
 - title: The Promise and Perils of Near-Regular Texture
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu6.jpg
   description: null
   authors: Yanxi Liu, Y. Tsin
   month: null
@@ -1953,8 +2078,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2001 --------------------
+
 - title: Skewed Symmetry Groups
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001liu1.jpg
   description: null
   authors: Yanxi Liu, Robert T. Collins, Y. Tsin
   month: null
@@ -1967,7 +2094,7 @@
   project_page: null
 
 - title: Texture Replacement in Real Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001tsin.jpg
   description: null
   authors: Y. Tsin, Yanxi Liu
   month: null
@@ -1981,7 +2108,7 @@
 
 - title: Classification-Driven Pathological Neuroimage Retrieval Using Statistical
     Asymmetry Measures
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001liu2.jpg
   description: null
   authors: Yanxi Liu, F. Dellaert, W.E. Rothfus, A. Moore, J. Schneider, T. Kanade
   month: null
@@ -1995,7 +2122,7 @@
 
 - title: Robust Midsagittal Plane Extraction from Normal and Pathological 3D Neuroradiology
     Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001liu3.jpg
   description: null
   authors: Yanxi Liu, Robert T. Collins, W.E. Rothfus
   month: null
@@ -2007,9 +2134,11 @@
   highlight: 0
   project_page: null
 
+# ------------------- 2000 --------------------
+
 - title: Robust Midsagittal Plane Extraction Algorithm for Coarse, Pathological 3D
     Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001liu3.jpg
   description: null
   authors: Yanxi Liu, Robert T. Collins, W.E. Rothfus
   month: null
@@ -2024,7 +2153,7 @@
 
 - title: A Computational Model for Repeated Pattern Perception using Frieze and Wallpaper
     Groups
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2000liu.jpg
   description: null
   authors: Yanxi Liu, Robert T. Collins
   month: null
@@ -2037,7 +2166,7 @@
   project_page: null
 
 - title: A Group Theoretical Formalization of Contact Motion
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2000liu2.jpg
   description: null
   authors: Yanxi Liu
   month: null
@@ -2050,7 +2179,7 @@
   project_page: null
 
 - title: Periodic Pattern Analysis Under Affine Distortions Using Wallpaper Groups
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2000liu3.jpg
   description: null
   authors: Yanxi Liu
   month: null
@@ -2063,8 +2192,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1998 --------------------
+
 - title: A Classification Based Similarity Metric for 3D Image Retrieval
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998lu.jpg
   description: null
   authors: Yanxi Liu, F. Dellaert
   month: null
@@ -2078,7 +2209,7 @@
 
 - title: Automatic Bilateral Symmetry (Midsagittal) Plane Extraction from Pathological
     3D Neuroradiological Images
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998liu1.jpg
   description: null
   authors: Yanxi Liu, Robert T. Collins, W.E. Rothfus
   month: null
@@ -2091,7 +2222,7 @@
   project_page: null
 
 - title: 'Content-based 3D Neuroradiologic Image Retrieval: Preliminary Results'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998liu2.jpg
   description: null
   authors: Yanxi Liu, W.E.Rothfus, M.D., T. Kanade
   month: null
@@ -2105,7 +2236,7 @@
   project_page: null
 
 - title: Classification Driven Medical Image Retrieval
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998liu4.jpg
   description: null
   authors: Yanxi Liu, F.Dellaert
   month: null
@@ -2118,7 +2249,7 @@
   project_page: null
 
 - title: On Generating Multi-resolution Representations of Polygonal Meshes
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998zhang.jpg
   description: null
   authors: D.Zhang, M. Hebert, A. Johnson, Yanxi Liu
   month: null
@@ -2130,8 +2261,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1997 --------------------
+
 - title: A Computational Representation for Rigid and Articulated Assembly
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1997liu.jpg
   description: null
   authors: Yanxi Liu
   month: null
@@ -2144,7 +2277,7 @@
   project_page: null
 
 - title: Case Studies on Discrete Mathematics Software for K-12 Education
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: N. Dean, Yanxi Liu
   month: null
@@ -2156,8 +2289,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1996 --------------------
+
 - title: 'CAD Modeling of the Birth Process: 2'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1996liu.jpg
   description: null
   authors: Yanxi Liu, M. Scudder, M.L. Gimvovsky
   month: null
@@ -2169,8 +2304,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1995 --------------------
+
 - title: 'CAD Modeling of the Birth Process: A Preliminary Report'
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: Yanxi Liu, M. Scudder, M.L. Gimvovsky
   month: null
@@ -2182,8 +2319,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1994 --------------------
+
 - title: A Multilevel Assembly Planning System
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: G. Dakin, Yanxi Liu, R.J. Popplestone
   month: null
@@ -2196,7 +2335,7 @@
   project_page: null
 
 - title: A Group Theoretic Formalization of Surface Contact
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1994liu.jpg
   description: null
   authors: Yanxi Liu, R.J. Popplestone
   month: null
@@ -2208,8 +2347,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1992 --------------------
+
 - title: From Symmetry Groups to Stiffness Matrices
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1992liu.jpg
   description: null
   authors: Yanxi Liu, R.J. Popplestone
   month: null
@@ -2222,7 +2363,7 @@
   project_page: null
 
 - title: Symmetry Groups in Solid Model-based Assembly Planning
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: Yanxi Liu, R.J. Popplestone
   month: null
@@ -2234,8 +2375,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1991 --------------------
+
 - title: Symmetry Groups in Analysis of Assembly Kinematics
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1991liu.jpg
   description: null
   authors: Yanxi Liu, R.J. Popplestone
   month: null
@@ -2247,8 +2390,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1990 --------------------
+
 - title: Symmetry Constraint Inference in Assembly Planning
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1990liu.jpg
   description: null
   authors: Yanxi Liu, R.J. Popplestone
   month: null
@@ -2262,7 +2407,7 @@
 
 - title: A Justification for the Characteristic Invariant Representation of TR Subgroups
     of the Proper Euclidean Group
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: Yanxi Liu
   month: null
@@ -2275,7 +2420,7 @@
   project_page: null
 
 - title: A Group Theoretical Approach to Assembly Planning
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1990popplestone.jpg
   description: null
   authors: R.J. Popplestone, Yanxi Liu, R. Weiss
   month: null
@@ -2287,8 +2432,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1989 --------------------
+
 - title: Planning for Assembly with Robot Hands
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: R.J. Popplestone, R.A. Grupen, Yanxi Liu, G. Dakin, D. Oskard, S. Nair
   month: null
@@ -2301,7 +2448,7 @@
   project_page: null
 
 - title: Planning for Assembly from Solid Models
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1989liu.jpg
   description: null
   authors: Yanxi Liu, R.J. Popplestone
   month: null
@@ -2314,7 +2461,7 @@
   project_page: null
 
 - title: Symmetry Inference in Planning Assembly
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1990liu.jpg
   description: null
   authors: G. Dakin, Yanxi Liu, R.J. Popplestone, R. Weiss
   month: null
@@ -2326,8 +2473,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1988 --------------------
+
 - title: Using Characteristic Invariants to Infer New Spatial Relationships from Old
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1988liu.jpg
   description: null
   authors: R.J. Popplestone, R. Weiss, Yanxi Liu
   month: null
@@ -2339,8 +2488,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1987 --------------------
+
 - title: A Sensor-based Robot Planner for Assembly Tasks
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: Yanxi Liu
   month: null
@@ -2352,8 +2503,10 @@
   highlight: 0
   project_page: null
 
+# ------------------- 1985 --------------------
+
 - title: Dynamic Planning for Sensor-Based Robots
-  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
   description: null
   authors: R. Vijaykumar, M.A. Arbib, Yanxi Liu
   month: null
