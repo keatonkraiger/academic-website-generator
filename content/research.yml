@@ -22,31 +22,31 @@ projects:
     - name: "Detecting Symmetry in the Wild - A Competition"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/iccv2017_SymmetryChallenge.jpg"
       description: "ICCV 2017 workshop in Venice, Italy"
-      project_url: "http://vision.cse.psu.edu/research/symComp13/index.shtml"
+      project_url: "https://sites.google.com/view/symcomp17"
       status: previous 
 
     - name: "Dancing with Turks"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/danceICON.jpg"
       description: "Motion analysis and comparison of dance movements."
-      project_url: "http://vision.cse.psu.edu/research/MTurkDancing/index.shtml"
+      project_url: "https://sites.psu.edu/eecslpac/dancing-with-turks/"
       status: previous
 
     - name: "Optimized Pedestrian Detection"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/optdetection.jpg"
       description: "We propose a quadratic unconstrained binary optimization (QUBO) framework for reasoning about multiple object detections with spatial overlaps."
-      project_url: "http://vision.cse.psu.edu/research/optdetection/index.shtml"
+      project_url: "https://sites.psu.edu/eecslpac/optimized-pedestrian-detection/"
       status: previous
 
     - name: "Tracking and Association"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/figureground.jpg"
       description: "Multi-object tracking and data association research."
-      project_url: "http://vision.cse.psu.edu/research/figureground/index.shtml"
+      project_url: "https://sites.psu.edu/eecslpac/tracking-and-association/"
       status: previous
 
     - name: "Brain Tumor Detection/Segmentation"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/2012yu1.jpg"
       description: "We use supervised and unsupervised learning to classify blobby tumor candidates."
-      project_url: "http://vision.cse.psu.edu/research/tumorDetect/index.shtml"
+      project_url: "https://sites.psu.edu/eecslpac/brain-tumor-detection/"
       status: previous
 
     - name: "Symmetry Detection from Real World Images - A Competition (2013)"
