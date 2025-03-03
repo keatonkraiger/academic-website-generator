@@ -442,7 +442,6 @@ colophon { display: none; }
   align-self: center;
   width: 100%;
   max-width: 420px;
-  aspect-ratio: 16/9;
   overflow: visible;
   border-radius: 4px;
 }
