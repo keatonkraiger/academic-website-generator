@@ -13,6 +13,7 @@ project_template = '''<!DOCTYPE html>
 <body>
     <div class="project-page-container">
         <h1 class="project-page-title">{title}</h1>
+        {featured_image}
         {content}
         {funding_section}
     </div>
@@ -286,16 +287,23 @@ def generate_funding_section(funding_data):
         return '<div class="funding-note">This research is funded in part by ' + " and ".join(funding_items) + '</div>'
     return ""
 
+def generate_featured_image(data):
+    if data.get('featured_image'):
+        return f'<img src="{data["featured_image"]}" class="featured-image" alt="{data["title"]}">'
+    return ""
+
 def generate_project_page(yaml_file, output_file):
     try:
         with open(yaml_file, 'r', encoding='utf-8') as f:
             data = yaml.safe_load(f)
-            
+        
+        featured_image = generate_featured_image(data)
         content = generate_project_sections(data)
         funding_section = generate_funding_section(data.get('funding', []))
         
         html = project_template.format(
             title=data['title'],
+            featured_image=featured_image,
             content=content,
             funding_section=funding_section
         )
