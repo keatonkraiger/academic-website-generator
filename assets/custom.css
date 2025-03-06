@@ -385,6 +385,37 @@ colophon { display: none; }
   color: #2d3748;
 }
 
+.project-section-table {
+  width: 100%;
+  align-items: center;
+  border-collapse: collapse;
+}
+
+.project-section-table th,
+.project-section-table td {
+  border-right: 2px solid grey;
+  border-bottom: 1px solid grey;
+  width: 20%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.project-section-table th {
+  border-bottom: 2px solid grey;
+}
+
+.project-section-table th:first-child,
+.project-section-table td:first-child {
+  width: 10%;
+}
+
+.project-section-table th:last-child,
+.project-section-table td:last-child {
+  width: 10%;
+  border-right: none;
+}
+
 .page-section-title {
   font-size: 2rem;
   font-weight: 500;
