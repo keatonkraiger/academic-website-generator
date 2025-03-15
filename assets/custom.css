@@ -511,7 +511,7 @@ colophon { display: none; }
 }
 
 /* Publications Grid */
-.publications-list {
+.publications-list{
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -544,7 +544,7 @@ colophon { display: none; }
   object-fit: cover;
 }
 
-.publication-title {
+.publication-title{
   color: #2d3748;
   position: absolute;
   bottom: 0;
@@ -564,6 +564,51 @@ colophon { display: none; }
   font-size: 0.9rem;
   color: #64748b;
   text-align: center;
+}
+
+/* Download List */
+.download-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.download-card {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.download-card:hover {
+  transform: translateY(-4px);
+}
+
+.download-title {
+  color: #2d3748;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.download-card a {
+  background-color: rgb(232, 232, 232);
+  padding: 10px;
+  border-radius: 8px;
+  color: #2d3748;
+  transition: all ease-in-out 0.1s;
+}
+
+.download-card a:hover {
+  background-color: rgb(200, 200, 200);
 }
 
 /* Dataset List */
@@ -798,5 +843,11 @@ colophon { display: none; }
   
   .project-listing-content {
     width: 100%;
+  }
+
+  .download-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
