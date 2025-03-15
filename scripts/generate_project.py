@@ -44,7 +44,7 @@ def generate_members_section(data):
             <a href="{member.get('link', '#')}">
                 {member['name']}<sup>{institution_map.get(member.get("institution", ""), "")}</sup>
             </a>
-            
+            {f'<div class="member-role">{member["role"]}</div>' if member.get('role') else ''}
         </div>
     ''' for member in core_members])
 
