@@ -1,0 +1,116 @@
+title: "CVPR 2013: Symmetry Detection from Real World Images -- A Competition"
+slug: project-url-slug  # For generating URLs/filenames
+#featured_image: /mnt/e/Random/lab_site/imgs/regulariity_perception.jpg  # Optional hero/thumbnail image
+
+members:
+  - name: Yanxi Liu
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg
+    link: https://www.cse.psu.edu/~yul11/
+    role: Co-Chair
+    institution: Pennsylvania State University
+
+  - name: Luc Van Gool
+    image: https://sites.psu.edu/eecslpac/files/2025/03/lucVanGool.jpg
+    link: https://people.ee.ethz.ch/~vangool/
+    role: Co-Chair
+    institution: ETH Zurich
+
+  - name: Seungkyu Lee
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Seungkyu_Lee.jpg
+    link: http://cvlab.khu.ac.kr/
+    role: Organizing Committee
+    institution: Kyung Hee University
+
+  - name: Jingchen Liu
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Jingchen_Liu.jpg
+    link: https://www.linkedin.com/in/jingchen-liu-9b764924/
+    role: Organizing Committee
+    institution: Pennsylvania State University
+
+  - name: Minwoo Park
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Minwoo_Park.jpg
+    link: https://mipark2.weebly.com/
+    role: Organizing Committee
+    institution: NVIDIA
+  
+  - name: Gang Zheng
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Gang_Zheng.jpg
+    link: https://ieeexplore.ieee.org/author/37073932100
+    role: Organizing Committee
+    institution: Pennsylvania State University
+
+  - name: George Slota
+    image: https://sites.psu.edu/eecslpac/files/2025/03/slota.png
+    link: https://www.cs.rpi.edu/~slotag/
+    role: Organizing Committee
+    institution: Rensselaer Polytechnic Institute
+
+  - name: Zhaohui Wu
+    image: https://sites.psu.edu/eecslpac/files/2025/03/image028.jpg
+    link: https://www.linkedin.com/in/zhaohui-wu/
+    role: Organizing Committee
+    institution: Pennsylvania State University
+
+  - name: Jacob Feldman
+    image: https://sites.psu.edu/eecslpac/files/2025/03/jacob.jpg
+    link: https://ruccs.rutgers.edu/jacob
+    role: Advisory Committee
+    institution: Rutgers University
+
+  - name: Richard Hartley
+    image: https://sites.psu.edu/eecslpac/files/2025/03/hartley.jpg
+    link: https://comp.anu.edu.au/people/richard-hartley/
+    role: Advisory Committee
+    institution: Australian National University
+
+  - name: Takeo Kanade
+    image: https://sites.psu.edu/eecslpac/files/2025/03/kanade_takeo.jpg
+    link: https://www.ri.cmu.edu/ri-faculty/takeo-kanade/
+    role: Advisory Committee
+    institution: Carnegie Mellon University
+
+  - name: Jitendra Malik
+    image: https://sites.psu.edu/eecslpac/files/2025/03/malik.gif
+    link: https://people.eecs.berkeley.edu/~malik/
+    role: Advisory Committee
+    institution: University of California, Berkeley
+
+  - name: Doris Schattschneider
+    image: https://sites.psu.edu/eecslpac/files/2025/03/schatt.jpg
+    link: https://mathwomen.agnesscott.org/women/schatt.htm
+    role: Advisory Committee
+    institution: Moravian College
+
+  - name: Marjorie Senechal
+    image: https://sites.psu.edu/eecslpac/files/2025/03/Marjorie.jpg
+    link: https://www.science.smith.edu/~senechal/
+    role: Advisory Committee
+    institution: Smith College
+
+  - name: Christopher Tyler
+    image: https://sites.psu.edu/eecslpac/files/2025/03/tyler.jpg
+    link: https://www.ski.org/labs/tyler-lab
+    role: Advisory Committee
+    institution: Smith-Kettlewell Eye Research Institute
+
+  - name: Laurent Younes
+    image: https://sites.psu.edu/eecslpac/files/2025/03/younesPicture.jpg
+    link: https://www.cis.jhu.edu/~younes/
+    role: Advisory Committee
+    institution: Johns Hopkins University
+
+  - name: Alan Yuille
+    image: https://sites.psu.edu/eecslpac/files/2025/03/alan.jpg
+    link: https://bri.ucla.edu/people/alan-yuille/
+    role: Advisory Committee
+    institution: University of California, Los Angeles
+
+  - name: Andreww Zisserman
+    image: https://sites.psu.edu/eecslpac/files/2025/03/fellows-2008-az.jpg
+    link: https://www.robots.ox.ac.uk/~az/
+    role: Advisory Committee
+    institution: University of Oxford
+
+description: 
+  Symmetry is a pervasive phenomenon present in all forms and scales in natural and man-made environments. It is not surprising, therefore, that humans, animals and insects have evolved an innate ability to perceive and take advantage of symmetry. What IS surprising is that perception and recognition of symmetry have yet to be fully explored in machine intelligence, in particular computer vision. Despite an understanding of how the concept of repeated patterns is generalized by the mathematics of group theory, and despite attempts over four decades to design algorithms that seek symmetry from digital data, there are very few effective computational tools for automated symmetry analysis available today. The goal of this competition is to benchmark state of the art symmetry detection algorithms (previously published and new algorithms) on real images.
+

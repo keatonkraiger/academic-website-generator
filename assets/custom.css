@@ -601,10 +601,8 @@ colophon { display: none; }
 
 .download-options {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
-
-  align-items: center;
-  justify-content: center;
 }
 
 .download-card a {
@@ -853,7 +851,7 @@ colophon { display: none; }
     width: 100%;
   }
 
-  .download-card {
+  .download-card{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
