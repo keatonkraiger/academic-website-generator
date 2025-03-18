@@ -599,6 +599,14 @@ colophon { display: none; }
   margin: 0;
 }
 
+.download-options {
+  display: flex;
+  gap: 0.5rem;
+
+  align-items: center;
+  justify-content: center;
+}
+
 .download-card a {
   background-color: rgb(232, 232, 232);
   padding: 10px;
