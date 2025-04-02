@@ -385,6 +385,12 @@ colophon { display: none; }
   color: #2d3748;
 }
 
+.project-page-description *,
+.project-section-description * {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
 .project-section-table {
   width: 100%;
   align-items: center;
