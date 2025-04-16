@@ -1006,3 +1006,253 @@ colophon { display: none; }
   width: 100%;
   flex-shrink: 0;
 }
+/* ==================== Full News Page ==================== */
+.fullnews-container {
+  width: 100%;
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.fullnews-header {
+  text-align: center;
+  font-size: 2.5em;
+  color: #055099;
+  margin-bottom: 30px;
+}
+
+.fullnews-table-container {
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin: 0 auto;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.fullnews-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1em;
+}
+
+.fullnews-table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.fullnews-table tr:hover {
+  background-color: #e0e0e0;
+}
+
+.news-date {
+  width: 15%;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #ddd;
+}
+
+.news-content {
+  width: 85%;
+  padding: 10px;
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .news-date, .news-content {
+    display: block;
+    width: 100%;
+  }
+  
+  .news-date {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+/* ==================== Homepage Layout ==================== */
+
+/* Main wrapper for content */
+.content-columns {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Left column: Main content and carousel */
+.left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Right column: News */
+.news-container {
+  width: 300px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==================== Page Title ==================== */
+.page-header {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.page-title {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 2rem;
+  color: #055099;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* ==================== Main Content ==================== */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.highlight-block {
+  font-size: 1.1rem;
+  line-height: 1.0;
+  margin-bottom: 0rem;
+  color: #2d3748;
+}
+
+.highlight-words {
+  color: #055099;
+  font-size: 18pt;
+}
+
+/* ==================== Slideshow ==================== */
+.slideshow-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  flex-shrink: 0;
+  display: block;
+  object-fit: cover;
+}
+
+/* ==================== News Section ==================== */
+.news-container h2 {
+  font-family: helvetica, arial, sans-serif;
+  color: #055099;
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14pt;
+  flex-grow: 1;
+}
+
+.news-list li {
+  margin-bottom: 10px;
+}
+
+.all-news-link {
+  display: block;
+  text-align: right;
+  margin-top: 20px;
+  font-family: helvetica, arial, sans-serif;
+  text-decoration: none;
+  color: #055099;
+}
+
+/* Optional: Scrollable news container (if needed) */
+.news-table-container {
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin: 20px 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==================== Datasets ==================== */
+/* ==================== Datasets ==================== */
+.dataset-listing-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 30px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.dataset-listing-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.dataset-listing-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.dataset-listing-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f09228;
+  margin: 0 0 10px 0;
+}
+
+.dataset-listing-description {
+  font-size: 1rem;
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+/* .dataset-image-rect {
+  max-height: 300px;
+  aspect-ratio: 16 / 9;     
+  object-fit: contain;      
+  flex-shrink: 0;
+} 
+*/
+
+.dataset-image-rect {
+  height: 60%;
+  width: auto;
+  max-width: 400px;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+}
