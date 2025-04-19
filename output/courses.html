@@ -482,10 +482,7 @@
     </div>
 
     <script>
-        const modals = document.getElementsByClassName("course-modal");
         const modalTriggers = document.getElementsByClassName("modal-trigger");
-        const linkTriggers = document.getElementsByClassName("link-trigger");
-        const modalCloseButtons = document.getElementsByClassName("modal-close-button");
         
         // Set click events for opening the modal
         // First grabs the html, then opens the modal
@@ -496,12 +493,20 @@
                 modal.showModal();
             });
         }
+</script>
+<script>
+        const linkTriggers = document.getElementsByClassName("link-trigger");
 
         for (const linkTrigger of linkTriggers) {
             linkTrigger.addEventListener("click", function (e) {
                 window.open(linkTrigger.dataset.link).focus();
             });
         }
+
+        
+</script>
+<script>
+        const modalCloseButtons = document.getElementsByClassName("modal-close-button");
 
         // Set click events for closing the modal
         for (const modalCloseButton of modalCloseButtons) {
@@ -511,19 +516,21 @@
                 modal.close();
             });
         }
+</script>
+<script>
+        const modals = document.getElementsByClassName("course-modal");
         
         // Allows closing of the modal by clicking outside the modal
         // Credit: https://stackoverflow.com/questions/25864259/how-to-close-the-new-html-dialog-tag-by-clicking-on-its-backdrop
         for (const modal of modals) {
-            modal.addEventListener('click', function(event) {
-                var rect = this.getBoundingClientRect();
-                var isInModal = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height && 
-                                 rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
-                if (!isInModal) {
-                    modal.close();
-                }
-            });
-        }
-    </script>
+    modal.addEventListener('click', function(event) {
+        const r = this.getBoundingClientRect(), x = event.clientX, y = event.clientY;
+        if (!(r.top <= y)) { modal.close(); return; }
+        if (!(y <= r.top + r.height)) { modal.close(); return; }
+        if (!(r.left <= x)) { modal.close(); return; }
+        if (!(x <= r.left + r.width)) { modal.close(); return; }
+    });
+}
+</script>
 </body>
 </html>
