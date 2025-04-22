@@ -1,398 +1,151 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="/assets/custom.css">
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vision to Dynamics</title>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="../assets/custom.css">
+    <style>
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a {
+    color: #1772d0;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links a:hover {
+    color: #f09228;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+</style>
+  </head>
+  <body>
+    
+<nav class="navbar">
+  <div class="nav-container">
+    <a href='index.html' class='nav-brand'>LPAC</a>
+    <div class='nav-links'>
+      <a href='../index.html'>Home</a>
+      <a href='../output/people.html'>People</a>
+      <a href='../output/research.html'>Research</a>
+      <a href='../output/publications.html'>Publications</a>
+      <a href='../output/news.html'>News</a>
+      <a href='../output/datasets.html'>Datasets</a>
+    </div>
+  </div>
+</nav>
+
     <div class="project-page-container">
-        <h1 class="project-page-title">Vision to Dynamics</h1>
-        
-        <div class="project-page-section">
-            <div class="project-members">
-        <div class="member-card">
-            <a href="https://www.cse.psu.edu/~rtc12/">
-                <img src="https://sites.psu.edu/eecslpac/files/2024/11/bob-e1681759265217.jpg" alt="Robert Collins">
-            </a>
-            <a href="https://www.cse.psu.edu/~rtc12/">
-                Robert Collins<sup>1</sup>
-            </a>
-            
-        </div>
-    
-        <div class="member-card">
-            <a href="https://www.cse.psu.edu/~yul11/">
-                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg" alt="Yanxi Liu">
-            </a>
-            <a href="https://www.cse.psu.edu/~yul11/">
-                Yanxi Liu<sup>1</sup>
-            </a>
-            
-        </div>
-    
-        <div class="member-card">
-            <a href="https://keatonkraiger.github.io/">
-                <img src="https://sites.psu.edu/eecslpac/files/2024/11/keatonK_small.jpg" alt="Keaton Kraiger">
-            </a>
-            <a href="https://keatonkraiger.github.io/">
-                Keaton Kraiger<sup>1</sup>
-            </a>
-            
-        </div>
-    
-        <div class="member-card">
-            <a href="https://www.skandabharadwaj.com/">
-                <img src="https://sites.psu.edu/eecslpac/files/2024/11/skandaB_small.jpg" alt="Skanda Bharadwaj">
-            </a>
-            <a href="https://www.skandabharadwaj.com/">
-                Skanda Bharadwaj<sup>1</sup>
-            </a>
-            
-        </div>
+      <h1 class="project-page-title">Vision to Dynamics</h1>
+      <div class="project-page-section">
+      <div class="project-members">
+      <div class="member-card">
+        <a href="https://www.lipsum.com/"><img src="/assets/imgs/people_thumbnails/Robert_T._Collins.jpg" alt="Robert Collins"></a>
+        <a href="https://www.lipsum.com/">Robert Collins<sup>1</sup></a>
+      </div>
+      <div class="member-card">
+        <a href="https://www.lipsum.com/"><img src="/assets/imgs/people_thumbnails/Yanxi_Liu.jpg" alt="Yanxi Liu"></a>
+        <a href="https://www.lipsum.com/">Yanxi Liu<sup>1</sup></a>
+      </div>
+      <div class="member-card">
+        <a href="https://www.lipsum.com/"><img src="/assets/imgs/people_thumbnails/Keaton_Kraiger.jpg" alt="Keaton Kraiger"></a>
+        <a href="https://www.lipsum.com/">Keaton Kraiger<sup>1</sup></a>
+      </div>
+      <div class="member-card">
+        <a href="https://www.lipsum.com/"><img src="/assets/imgs/people_thumbnails/Skanda_Bharadwaj.jpg" alt="Skanda Bharadwaj"></a>
+        <a href="https://www.lipsum.com/">Skanda Bharadwaj<sup>1</sup></a>
+      </div></div>
+      <div class="collaborator-row">
+      <div class="member-card">
+        <a href="https://www.lipsum.com/"><img src="/assets/imgs/people/John_Challis.jpg" alt="John Challis"></a>
+        <a href="https://www.lipsum.com/">John Challis<sup>1</sup></a>
+        <div class="member-role">Collaborator</div>
+      </div>
+      <div class="member-card">
+        <a href="https://www.lipsum.com/"><img src="/assets/imgs/people/Chris_funk.png" alt="Chris Funk"></a>
+        <a href="https://www.lipsum.com/">Chris Funk<sup>2</sup></a>
+        <div class="member-role">Collaborator</div>
+      </div>
+      <div class="member-card">
+        <a href="https://www.lipsum.com/"><img src="/assets/imgs/people/Jesse_Scott.jpg" alt="Jesse Scott"></a>
+        <a href="https://www.lipsum.com/">Jesse Scott<sup></sup></a>
+        <div class="member-role">Collaborator</div>
+      </div></div>
+      <div class="institution-key"><sup>1</sup> [Pennsylvania State University], <sup>2</sup> [Kitware]</div>
     </div>
-            <div class="collaborator-row">
-        <div class="member-card">
-            <a href="https://hhd.psu.edu/contact/john-challis-phd">
-                <img src="https://sites.psu.edu/eecslpac/files/2025/02/challis.jpg" alt="John Challis">
-            </a>
-            <a href="https://hhd.psu.edu/contact/john-challis-phd">
-                John Challis<sup>1</sup>
-            </a>
-            <div class="member-role">Collaborator</div>
-        </div>
-    
-        <div class="member-card">
-            <a href="https://cfunk1210.github.io/">
-                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Christopher_Funk.jpg" alt="Chris Funk">
-            </a>
-            <a href="https://cfunk1210.github.io/">
-                Chris Funk<sup>2</sup>
-            </a>
-            <div class="member-role">Collaborator</div>
-        </div>
-    
-        <div class="member-card">
-            <a href="ttps://www.linkedin.com/in/scottjessepsu/">
-                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Jesse_Scott.jpg" alt="Jesse Scott">
-            </a>
-            <a href="ttps://www.linkedin.com/in/scottjessepsu/">
-                Jesse Scott<sup></sup>
-            </a>
-            <div class="member-role">Collaborator</div>
-        </div>
-    </div>
-            <div class="institution-key"><sup>1</sup> [Pennsylvania State University], <sup>2</sup> [Kitware]</div>
-        </div>
-    
-<div class="project-page-section"><div class="project-page-description">Pose stability analysis is the key to understanding locomotion and control of body equilibrium, with applications in numerous fields such as kinesiology, medicine, and robotics. In biomechanics, Center of Pressure (CoP) is used in studies of human postural control and gait. We propose a novel approach to learn CoP from pose of a human body to aid stability analysis, learning foot pressure heatmaps (dynamics) from 2D human pose (kinematics) derived from video. We validated our learned results on a collection of long (5min +) choreographed Taiji (Tai Chi) sequences of multiple subjects with synchronized foot pressure and video data. Cross-subject validation results show promising performance, significantly outperforming the baseline methods. Furthermore, we demonstrate that our computation of center of pressure (CoP) approaches the expectations of corresponding lab-based measurements.
+<div class="project-page-section"><div class="project-page-description">"Pose stability analysis is the key to understanding locomotion and control of body equilibrium, with applications in numerous fields such as kinesiology, medicine, and robotics. In biomechanics, Center of Pressure (CoP) is used in studies of human postural control and gait. We propose a novel approach to learn CoP from pose of a human body to aid stability analysis, learning foot pressure heatmaps (dynamics) from 2D human pose (kinematics) derived from video. We validated our learned results on a collection of long (5min +) choreographed Taiji (Tai Chi) sequences of multiple subjects with synchronized foot pressure and video data. Cross-subject validation results show promising performance, significantly outperforming the baseline methods. Furthermore, we demonstrate that our computation of center of pressure (CoP) approaches the expectations of corresponding lab-based measurements. "
 </div></div>
-<div class="project-page-section"><h1 class="page-section-title">Media</h1>
-    <div class="media-grid">
-        <div class="media-item">
-            <video controls>
-                <source src="https://sites.psu.edu/eecslpac/files/2025/02/ECCV2020_short1.mp4#t=1" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="caption">ECCV 2020 Short Presentation Video</div>
+<div class="project-page-section"><h2>Datasets</h2>
+      <div class="dataset-card">
+        <h2 class="dataset-name">PSUTMM-100 Dataset Dataset</h2>
+        <div class="dataset-image"><img src="/assets/imgs/project_imgs/psu-tmm100_source.gif" alt="PSUTMM-100 Dataset visualization"></div>
+        <div class="dataset-text">
+          <div class="dataset-description"><br>The PSU Taiji MultiModal (PSU-TMM100) Dataset contains 100 Taiji motion sequences, 24-form Simplified Taiji-Quan, aka Tai Chi, performed by 10 human subjects. The dataset includes time-synchronized measurements: <br> - motion capture markers and body joints recorded using Vicon Nexus 2.6.1 <br> - foot pressure recorded using Tekscan F-scan 7.0 insole sensors <br> - 1080p video from two views recorded using Vicon Nexus 2.6.1 <br> Additionally, OpenPose and HRNet pose detection networks networks are applied on both video views to generate 2D and triangulated 3D vision-based joints estimates. </div>
+          <div class="dataset-actions"><a href="https://forms.office.com/r/ceCgdJGkE7" class="dataset-link">Access Dataset</a></div>
+          <div class="citation-block"><pre class="dataset-citation">@inproceedings{Scott2020,<br> title = {From Image to Stability: Learning Dynamics from Human Pose},<br> author = {Scott, Jesse and Ravichandran, Bharadwaj and Funk, Christopher and Collins, Robert T. and Liu, Yanxi},<br> booktitle = {Computer Vision -- ECCV 2020},<br> pages = {536--554},<br> isbn = {978-3-030-58592-1},<br> year = {2020},<br> editor = {Vedaldi, Andrea and Bischof, Horst and Brox, Thomas and Frahm, Jan-Michael},<br> publisher = {Springer International Publishing},<br> address = {Cham},<br> doi = {10.1007/978-3-030-58592-1_32},<br> }</pre></div>
         </div>
-        <div class="media-item">
-            <video controls>
-                <source src="https://sites.psu.edu/eecslpac/files/2025/02/ECCV2020_long1.mp4#t=1" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="caption">ECCV 2020 Full Presentation Video</div>
-        </div>
-        <div class="media-item" style="aspect-ratio: 43/30;">
-            <video controls>
-                <source src="https://sites.psu.edu/eecslpac/files/2025/02/ExampleResults_Subject7_1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="caption">Example Results</div>
-        </div>
-    </div>
-</div>
-<div class="project-page-section"><h1 class="page-section-title">Datasets</h1>
-        <div class="dataset-card">
-            <h2 class="dataset-name">PSUTMM-100 Dataset Dataset</h2>
-            <div class="dataset-image"><img src="https://sites.psu.edu/eecslpac/files/2025/02/psu-tmm100_source.gif" alt="PSUTMM-100 Dataset visualization"></div>
-            <div class="dataset-text">
-                <div class="dataset-description"><br>The PSU Taiji MultiModal (PSU-TMM100) Dataset contains 100 Taiji motion sequences, 24-form Simplified Taiji-Quan, aka Tai Chi, performed by 10 human subjects. The dataset includes time-synchronized measurements:
-                    <ul> 
-                        <li>motion capture markers and body joints recorded using Vicon Nexus 2.6.1</li>
-                        <li>foot pressure recorded using Tekscan F-scan 7.0 insole sensors</li>
-                        <li>1080p video from two views recorded using Vicon Nexus 2.6.1 </li>
-                    </ul> Additionally, OpenPose and HRNet pose detection networks networks are applied on both video views to generate 2D and triangulated 3D vision-based joints estimates. <br> </div>
-                <div class="dataset-actions"><a href="https://forms.office.com/r/ceCgdJGkE7" class="dataset-link">[Access Dataset]</a></div>
-                <div class="citation-block">
-                    <p>If you use this dataset for publication, we kindly ask you to attribute credit by citing the <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680528.pdf">[ECCV2020 Paper]</a> providing detailed description of the dataset and benchmarks:</p>
-                    <pre class="dataset-citation">@inproceedings{Scott2020,<br> title = {From Image to Stability: Learning Dynamics from Human Pose},<br> author = {Scott, Jesse and Ravichandran, Bharadwaj and Funk, Christopher and Collins, Robert T. and Liu, Yanxi},<br> booktitle = {Computer Vision -- ECCV 2020},<br> pages = {536--554},<br> isbn = {978-3-030-58592-1},<br> year = {2020},<br> editor = {Vedaldi, Andrea and Bischof, Horst and Brox, Thomas and Frahm, Jan-Michael},<br> publisher = {Springer International Publishing},<br> address = {Cham},<br> doi = {10.1007/978-3-030-58592-1_32},<br> }</pre>
-                </div>
-            </div>
-        </div>
-    </div>
-<div class="project-page-section">
-    <h1 class="page-section-title">Publications</h1>
-    <div class="publications-list">
-        <div class="publication-card">
+      </div></div>
+<div class="project-page-section"><h2>Publications</h2><div class="publications-list">
+          <div class="publication-card">
             <a href="https://arxiv.org/abs/2303.04244">
-                <img src="https://sites.psu.edu/eecslpac/files/2024/11/pose-align.png" alt="A Light-Weight Contrastive Approach for Aligning Human Pose Sequences">
-                <div class="publication-title">A Light-Weight Contrastive Approach for Aligning Human Pose Sequences</div>
+              <img src="/assets/imgs/paper_thumbs/Lightweight.png" alt="A Light-Weight Contrastive Approach for Aligning Human Pose Sequences">
+              <div class="publication-title">A Light-Weight Contrastive Approach for Aligning Human Pose Sequences</div>
             </a>
-        </div>
-
-        <div class="publication-card">
+          </div>
+          <div class="publication-card">
             <a href="https://ieeexplore.ieee.org/document/9968276">
-                <img src="https://sites.psu.edu/eecslpac/files/2025/02/Image-based_stability.gif" alt="Image-Based Stability Quantification">
-                <div class="publication-title">Image-Based Stability Quantification</div>
+              <img src="/assets/imgs/paper_thumbs/Image-based_stability.gif" alt="Image-Based Stability Quantification">
+              <div class="publication-title">Image-Based Stability Quantification</div>
             </a>
-        </div>
-
-        <div class="publication-card">
+          </div>
+          <div class="publication-card">
             <a href="https://etda.libraries.psu.edu/catalog/24465jus121">
-                <img src="https://sites.psu.edu/eecslpac/files/2025/02/Jesse_Diss.png" alt="Dynamic Stability Monitoring of Complex Human Motion Sequences via Precision Computer Vision">
-                <div class="publication-title">Dynamic Stability Monitoring of Complex Human Motion Sequences via Precision Computer Vision</div>
+              <img src="/assets/imgs/paper_thumbs/Jesse_Diss.png" alt="Dynamic Stability Monitoring of Complex Human Motion Sequences via Precision Computer Vision">
+              <div class="publication-title">Dynamic Stability Monitoring of Complex Human Motion Sequences via Precision Computer Vision</div>
             </a>
-        </div>
-
-        <div class="publication-card">
+          </div>
+          <div class="publication-card">
             <a href="https://arxiv.org/abs/2206.11443">
-                <img src="https://sites.psu.edu/eecslpac/files/2025/02/img-based-stability-quant-arxiv.png" alt="Image-based Stability Quantification">
-                <div class="publication-title">Image-based Stability Quantification</div>
+              <img src="/assets/imgs/paper_thumbs/img-based-stability-quant-arxiv.png" alt="Image-based Stability Quantification">
+              <div class="publication-title">Image-based Stability Quantification</div>
             </a>
-        </div>
-
-        <div class="publication-card">
+          </div>
+          <div class="publication-card">
             <a href="https://www.researchgate.net/publication/343139766_From_Image_to_Stability_Learning_Dynamics_from_Human_Pose">
-                <img src="https://sites.psu.edu/eecslpac/files/2025/02/learning_dynamics.png" alt="From Image to Stability: Learning Dynamics from Human Pose">
-                <div class="publication-title">From Image to Stability: Learning Dynamics from Human Pose</div>
+              <img src="/assets/imgs/paper_thumbs/learning_dynamics.png" alt="From Image to Stability: Learning Dynamics from Human Pose">
+              <div class="publication-title">From Image to Stability: Learning Dynamics from Human Pose</div>
             </a>
-        </div>
+          </div></div></div>
+      <div class="funding-note">This research is funded in part by Penn State College of Engineering Dean's Office and NSF Award IIS-1218729 and NSF Award IIS-190931</div>
     </div>
-</div>
-    <div class="project-page-section"><h1 class="page-section-title">Extra Resources</h1>
-        <div class="collapsible-list">
-            <div class="collapsible-item">
-                <div class="collapsible">
-                    <div class="collapsible-title">Motion Capture Lab Info</div>
-                    <span class="collapsible-arrow">▼</span>
-                </div>
-                <div class="collapsible-content">
-                    <div class="collapsible-description">Located in the Supplemental Mail Building on Penn State University, University Park Campus, the Motion Capture Lab is a College of Engineering Supported facility jointly utilized by:
-                    <br>
-                    <ul>
-                        <li>Laboratory for Perception, Action, and Cognition (LPAC),</li>
-                        <li>Air Vehicle Intelligence and Autonomy Laboratory (AVIA), and</li>
-                        <li>Vertical Lift Research Center of Excellence (VLRCOE).</li>
-                    </ul>
-                    The facility is a class B commercial space that facilitates a motion capture volume that is 25x20x15 foot with smooth concrete floor and concrete block walls on 3 sides with safety netting on the 4th wall to protect the system operator and research technician.
-                    <br><br>
-                    For motion capture and video data recording, the laboratory uses a Vicon motion capture system with 12 T40 motion capture cameras and 2 Vue video cameras controlled through 2 MX control units and Nexus software. The motion capture and video data are spatiotemporally synchronized. For foot presure data recording, the laboratory uses Tekscan F-scan insole foot pressure sensors and software. This data is recorded simultaneously and synchronized with motion capture during post processing. This equipment is made available through John Challis and the Biomechanics Laboratory.
-                    </div>
-                </div>
-            </div>
-            <div class="collapsible-item">
-                <div class="collapsible">
-                    <div class="collapsible-title">From Kinematics To Dynamics (Samples)</div>
-                    <span class="collapsible-arrow">▼</span>
-                </div>
-                <div class="collapsible-content">
-                    <div class="collapsible-misc">
-                        <div class="media-grid" style="padding: 30px 0 30px 0;">
-                            <div class="media-item" style="max-width: 400px; aspect-ratio: 43/30;">
-                                <img src="https://sites.psu.edu/eecslpac/files/2025/02/Sub6_2702.jpg" alt="Subject 6">
-                            </div>
-                            <div class="media-item" style="max-width: 400px; aspect-ratio: 43/30;">
-                                <img src="https://sites.psu.edu/eecslpac/files/2025/02/Sub5_2839.jpg" alt="Subject 5">
-                            </div>
-                            <div class="media-item" style="max-width: 400px; aspect-ratio: 43/30;">
-                                <img src="https://sites.psu.edu/eecslpac/files/2025/02/Sub4_2010.jpg" alt="Subject 4">
-                            </div>
-                            <div class="media-item" style="max-width: 400px; aspect-ratio: 43/30;">
-                                <img src="https://sites.psu.edu/eecslpac/files/2025/02/Sub3_1736.jpg" alt="Subject 3">
-                            </div>
-                            <div class="media-item" style="max-width: 400px; aspect-ratio: 43/30;">
-                                <img src="https://sites.psu.edu/eecslpac/files/2025/02/Sub2_2061.jpg" alt="Subject 2">
-                            </div>
-                            <div class="media-item" style="max-width: 400px; aspect-ratio: 43/30;">
-                                <img src="https://sites.psu.edu/eecslpac/files/2025/02/Sub1_2755.jpg" alt="Subject 1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="collapsible-item">
-                <div class="collapsible">
-                    <div class="collapsible-title">Data Visualizations</div>
-                    <span class="collapsible-arrow">▼</span>
-                </div>
-                <div class="collapsible-content">
-                    <div class="collapsible-description">Each video includes a single subject performance displaying video, mocap based pose and measured foot pressures, as well as stability metrics calculated from the ground truth data.</div>
-                    <div class="collapsible-media">
-                        <video style="aspect-ratio: 16/9;" controls>
-                            <source src="https://sites.psu.edu/eecslpac/files/2025/02/Subject1-Session1-Take2_stability_compressed_NEW.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        <div class="caption">Sample of video from select subjects in the dataset.</div>
-                    </div>
-                    <div class="collapsible-description">Each video includes a single subject performance displaying the source video with pose data as well as the the predicted pressures from our KNN, PressNET, and PressNet-Simple methods and their associated absolute errors from ground truth.</div>
-                    <br>
-                    <div class="collapsible-misc">
-                        <div class="media-grid" style="padding-bottom: 30px;">
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/Subject1-Session1-Take2_bosOverlay_6subject_compressed.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/Subject2-Session1-Take1_bosOverlay_6subject_compressed.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/Subject3-Session1-Take1_bosOverlay_6subject_compressed.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/Subject4-Session1-Take1_bosOverlay_6subject_compressed.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/Subject5-Session1-Take1_bosOverlay_6subject_compressed.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/Subject6-Session1-Take1_bosOverlay_6subject_compressed.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="collapsible-item">
-                <div class="collapsible">
-                    <div class="collapsible-title">External Applications</div>
-                    <span class="collapsible-arrow">▼</span>
-                </div>
-                <div class="collapsible-content">
-                    <div class="collapsible-description">
-                        Application of dataset using open source software for Maya, based on <a href="https://smpl.is.tue.mpg.de/" rel="noopener">SMPL</a> originally created by Michael J. Black (Director - Perceiving Systems, Max Planck Institute for Intelligent Systems, Tubingen Campus)
-                    </div>
-                    <br>
-                    <div class="collapsible-misc">
-                        <div class="media-grid">
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/demo.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/demo1.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="media-item" style="max-width: 400px;">
-                                <video controls>
-                                    <source src="https://sites.psu.edu/eecslpac/files/2025/02/demo2.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="collapsible-item">
-                <div class="collapsible">
-                    <div class="collapsible-title">Education</div>
-                    <span class="collapsible-arrow">▼</span>
-                </div>
-                <div class="collapsible-content">
-                    <div class="collapsible-media">
-                        <video style="aspect-ratio: 4/3;" controls>
-                            <source src="https://sites.psu.edu/eecslpac/files/2025/02/CMPSC458-Fall2019-Project4.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        <div class="caption">CMPSC458: Computer Graphics - Fall 2019 Project 4</div>
-                        <video style="aspect-ratio: 16/9;" controls>
-                            <source src="https://sites.psu.edu/eecslpac/files/2025/02/CMPSC458-Fall2018-Project4.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        <div class="caption">CMPSC458: Computer Graphics - Fall 2018 Project 4</div>
-                    </div>
-                </div>
-            </div>
-            <div class="collapsible-item">
-                <div class="collapsible">
-                    <div class="collapsible-title">Outreach</div>
-                    <span class="collapsible-arrow">▼</span>
-                </div>
-                <div class="collapsible-content">
-                    <div class="collapsible-description">Dancing with Robots Summer Camp - Summer 2019</div>
-                    <div class="collapsible-misc">
-                        <div class="media-grid">
-                            <div class="media-item" style="max-width: 400px;">
-                                <img src="https://sites.psu.edu/eecslpac/files/2025/02/taiji_robots1.jpg" alt="Taiji Robots 1">
-                            </div>
-                            <div class="media-item" style="max-width: 400px;">
-                                <img src="https://sites.psu.edu/eecslpac/files/2025/02/taiji_robots.jpg" alt="Taiji Robots">
-                            </div>
-                            <iframe width="560" height="315" style="padding-bottom: 30px;" src="https://www.youtube.com/embed/pg_KXW8RjQ0?si=RcxtgwFftIAVkM1F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        </div></div>
-        <div class="funding-note">This research is funded in part by Penn State College of Engineering Dean's Office and NSF Award 
-            <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1218729">IIS-1218729</a> 
-            and NSF Award
-            <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1909315">IIS-1909315</a>.</div>
-    </div>
-    
-    <script>
-        var collapsibles = document.getElementsByClassName("collapsible");
-
-        for (var i = 0; i < collapsibles.length; i++) {
-            collapsibles[i].addEventListener("click", function (e) {
-                let arrow = this.querySelector(".collapsible-arrow");
-                let content = this.nextElementSibling;
-
-                this.classList.toggle("active");
-                arrow.classList.toggle("active");
-                
-                if (content.style.height === "0px" || content.style.height === "") {
-                    // Expand: Set height to the scrollHeight (natural height)
-                    content.style.height = content.scrollHeight + "px";
-
-                    // Wait for transition to finish before showing content
-                    setTimeout(() => {
-                        content.classList.add("shown");
-                    }, 0); // Match transition duration
-                } else {
-                    // Collapse: Reset height before shrinking
-                    content.classList.remove("shown");
-                    
-                    // Wait for opacity to change before shrinking
-                    setTimeout(() => {
-                        content.style.height = "0px";
-                    }, 0);
-                }
-            })
-        }
-    </script>
-</body>
+  </body>
 </html>

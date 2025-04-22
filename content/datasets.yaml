@@ -1,0 +1,37 @@
+datasets:
+  - title:   RPVP 
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/RPVP.png
+    description: >
+      We created two VP benchmark datasets – (a) Synthetic images (RPVP-Synthetic) comprised of 3,200 images created in Blender with the ground truth VP and cam- era parameters (intrinsic and extrinsic matrices) used to create the 2D images, and (b) Real-world images (RPVP-Real) with 1,400 annotated real-world images containing RPs.
+    dataset_url: https://sites.psu.edu/eecslpac/rpvp/
+
+  - title:    PSU Taiji MultiModal (PSU-TMM100) Dataset 
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/psu-tmm100_source.gif
+    description: >
+      The PSU Taiji MultiModal (PSU-TMM100) Dataset contains 100 Taiji motion sequences, 24-form Simplified Taiji-Quan, aka Tai Chi, performed by 10 human subjects.
+    dataset_url: https://sites.psu.edu/eecslpac/vision-to-dynamics/
+
+  - title:   Database of Near-Regular Textures
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/nrt.jpg
+    description: >
+      This database contains textures from completely regular to completely irregular patterns, with a focus on near-regular textures. It also includes video of near-regular textures in motion. Also available: groundtruth for translation, rotation and reflection/glide-reflection symmetry detection algorithms.
+    dataset_url: https://vivid.cse.psu.edu/
+
+  - title:   PSU HUB Dataset 
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/psuhubdataicon.png
+    description: >
+      Ground truth trajectory and grouping information for pedestrians walking in the PSU student union building.
+    dataset_url: http://www.cse.psu.edu/~rcollins/Software/PSUHubDatasetReleaseV1.zip
+
+  - title:  Deformed Lattice Detection In Real-World Images 
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/lattice.png
+    description: >
+      We have developed a robust and fast lattice detection algorithm using a probabilistic graph model that has a better detection rate and is approximately 10 times faster than current state-of-the-art algorithms.
+    dataset_url: http://vision.cse.psu.edu/research/deformedLattice/Deformed_Lattice_Detection.html
+
+  - title:  Digital Papercutting 
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/papercut.jpg
+    description: >
+      Papercutting is a widespread and ancient artform which, as far as we could tell, had no previous computational treatment. We developed algorithms to analyze the symmetry of papercut patterns and produce efficient folding and cutting plans.
+    dataset_url: http://vision.cse.psu.edu/publications/pdfs/papercuttingSketch.pdf
+

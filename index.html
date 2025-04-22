@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/custom.css">
     <title>Academic Lab Website</title>
     <style>
+        /* CSS for this local file, not to be used in the main CSS file */
         body {
             margin: 0;
             font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -43,15 +45,6 @@
             font-size: 1rem;
         }
         
-        .nav-links a:hover {
-            color: #f09228;
-        }
-        
-        .content {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
         
         @media (max-width: 768px) {
             .nav-container {
@@ -66,22 +59,86 @@
             }
         }
     </style>
-</head>
-<body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-brand">LPAC</a>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="output/people.html">People</a>
-                <a href="output/research.html">Research</a>
-                <a href="output/publications.html">Publications</a>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">LPAC</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="output/people.html">People</a>
+                    <a href="output/research.html">Research</a>
+                    <a href="output/publications.html">Publications</a>
+                    <a href="output/news.html">News</a>
+                    <a href="output/datasets.html">Datasets</a>
+                </div>
             </div>
-        </div>
-    </nav>
-    <main class="content">
-        <h1>Home</h1>
-        <p>Welcome to our research lab.</p>
-    </main>
-</body>
-</html>
+        </nav>
+        <div class="page-wrapper">
+            <!-- Page Header -->
+            <header class="page-header">
+              <h1 class="page-title">
+                Penn State Laboratory for Perception, Action, and Cognition (LPAC)
+              </h1>
+            </header>
+        
+            <!-- Main layout: Two columns -->
+            <main class="content-columns">
+              <!-- Left column: Main content + carousel -->
+              <div class="left-column">
+                <section class="main-content">
+                    <p class="highlight-block">
+                        <strong><span class="highlight-words">Perception</span>:</strong>
+                        Visual sensor data allows us to measure 3D scene structure, infer the identity and location of objects, and recognize dynamically occurring activities and events.
+                    </p>
+                    <p class="highlight-block">
+                    <strong><span class="highlight-words">Action</span>:</strong> 
+                        Active vision systems and smart spaces couple computer vision with robotic actuators to exhibit intriguing, emergent behaviors.
+                    </p>
+                    <p class="highlight-block">
+                        <strong><span class="highlight-words">Cognition</span>:</strong> 
+                        Component intelligence systems can learn from training examples and their own exploration. Mathematical representations allow us to model and take advantage of fundamental constraints in the physical world.
+                    </p>
+                </section>
+        
+                <!-- Carousel below main content -->
+                <div class="slideshow-container">
+                  <div class="slides">
+                    <img src="https://sites.psu.edu/eecslpac/files/2025/03/taijiBanner.jpg" alt="Slide 1" />
+                    <img src="https://sites.psu.edu/eecslpac/files/2025/03/defencingBanner.jpg" alt="Slide 2" />
+                    <img src="https://sites.psu.edu/eecslpac/files/2025/03/latticeBanner2.jpg" alt="Slide 3" />
+                    <!-- Add more images as needed -->
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Right column: News -->
+              <aside class="news-container">
+                <h2>News</h2>
+                <ul class="news-list">
+                  <li>03/20/2025 – Paper accepted at CVPR!</li>
+                  <li>03/10/2025 – Welcome new PhD student Jane Doe.</li>
+                  <li>03/01/2025 – Invited talk at XYZ conference.</li>
+                  <li>03/01/2025 – Invited talk at XYZ conference.</li>
+                  <li>03/01/2025 – Invited talk at XYZ conference.</li>
+                </ul>
+                <a class="all-news-link" href="all-news.html">...all news</a>
+              </aside>
+            </main>
+          </div>
+        
+          <!-- Carousel script -->
+          <script>
+            let index = 0;
+            const slides = document.querySelector('.slides');
+            const totalSlides = document.querySelectorAll('.slides img').length;
+        
+            function nextSlide() {
+              index = (index + 1) % totalSlides;
+              slides.style.transform = `translateX(-${index * 100}%)`;
+            }
+        
+            setInterval(nextSlide, 3000);
+          </script>
+        </body>
+        </html>

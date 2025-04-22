@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="../assets/custom.css">
+  <head>
+    <meta charset="UTF-8">
     <title>Publications</title>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="../assets/custom.css">
+    <style>
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a {
+    color: #1772d0;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links a:hover {
+    color: #f09228;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+</style>
+  </head>
+  <body>
+    
+<nav class="navbar">
+  <div class="nav-container">
+    <a href='index.html' class='nav-brand'>LPAC</a>
+    <div class='nav-links'>
+      <a href='../index.html'>Home</a>
+      <a href='../output/people.html'>People</a>
+      <a href='../output/research.html'>Research</a>
+      <a href='../output/publications.html'>Publications</a>
+      <a href='../output/news.html'>News</a>
+      <a href='../output/datasets.html'>Datasets</a>
+    </div>
+  </div>
+</nav>
+
     <div class="publications-container">
-        <div class="pub-year">
-            <h2>2024</h2>
-            <div class="pub-list">
+      <div class="pub-year">
+<h2>2024</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/rec_based_vanish.png" alt="Recurrence-based Vanishing Point Detection" />
@@ -18,39 +77,14 @@
             <div class="pub-authors">Skanda Bharadwaj, Robert T. Collins and Yanxi Liu</div>
             <div class="pub-venue">Arxiv Preprint</div>
             <div class="pub-publisher">Arxiv Preprint</div>
-            <div class="pub-links"><a href="https://arxiv.org/pdf/2412.20666" class="pub-link">[PDF]</a></div>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2412.20666" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/regularity_perception/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2023</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2023</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/escher_net.png" alt="EscherNet 101" />
-        </div>
-        <div class="pub-details">
-            <div class="pub-title">EscherNet 101</div>
-            <div class="pub-authors">Christopher Funk and Yanxi Liu</div>
-            <div class="pub-venue">Arxiv Preprint</div>
-            <div class="pub-publisher">Arxiv Preprint</div>
-            <div class="pub-links"><a href="https://arxiv.org/pdf/2303.04208" class="pub-link">[PDF]</a></div>
-        </div>
-    </div>
-    <div class="pub-entry">
-        <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2024/11/pose-align.png" alt="A Light-Weight Contrastive Approach for Aligning Human Pose Sequences" />
-        </div>
-        <div class="pub-details">
-            <div class="pub-title">A Light-Weight Contrastive Approach for Aligning Human Pose Sequences</div>
-            <div class="pub-authors">Robert T. Collins</div>
-            <div class="pub-venue">Arxiv Preprint</div>
-            <div class="pub-publisher">Arxiv Preprint</div>
-            <div class="pub-links"><a href="https://arxiv.org/pdf/2303.04244" class="pub-link">[PDF]</a></div>
-        </div>
-    </div>
-    <div class="pub-entry">
-        <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/TNSRE_image-stability1.jpg" alt="Image-based Stability Quantification" />
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2022_image_stability.jpg" alt="Image-based Stability Quantification" />
         </div>
         <div class="pub-details">
             <div class="pub-title">Image-based Stability Quantification</div>
@@ -59,10 +93,9 @@
             <div class="pub-publisher">IEEE Transactions on Neural Systems and Rehabilitation Engineering</div>
             <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/9968276" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2022</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2022</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2024/11/3D.jpg" alt="Novel 3D Scene Understanding Applications From Recurrence in a Single Image" />
@@ -74,25 +107,12 @@
             <div class="pub-publisher">Arxiv Preprint</div>
             <div class="pub-links"><a href="https://arxiv.org/abs/2210.07991" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/regularity_perception/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div>
+    </div></div></div><div class="pub-year">
+<h2>2021</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2022_image_stability.jpg" alt="Image-based Stability Quantification" />
-        </div>
-        <div class="pub-details">
-            <div class="pub-title">Image-based Stability Quantification</div>
-            <div class="pub-authors">Jesse Scott, John Challis, Robert T. Collins and Yanxi Liu</div>
-            <div class="pub-venue">Arxiv Preprint</div>
-            <div class="pub-publisher">Arxiv Preprint</div>
-            <div class="pub-links"><a href="https://arxiv.org/abs/2206.11443" class="pub-link">[PDF]</a></div>
-        </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2021</h2>
-            <div class="pub-list">
-    <div class="pub-entry">
-        <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2021_comp_symmetry.png" alt="Computational Symmetry" />
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2002liu5.jpg" alt="Computational Symmetry" />
         </div>
         <div class="pub-details">
             <div class="pub-title">Computational Symmetry</div>
@@ -101,10 +121,9 @@
             <div class="pub-publisher">In: Ikeuchi K. (eds) Computer Vision. Springer, Cham</div>
             <div class="pub-links"><a href="https://doi.org/10.1007/978-3-030-03243-2_640-2" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2020</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2020</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2020_dynamics_pose.jpg" alt="From Image to Stability: Learning Dynamics from Human Pose" />
@@ -128,10 +147,9 @@
             <div class="pub-publisher">Arxiv Preprint</div>
             <div class="pub-links"><a href="https://arxiv.org/pdf/2001.00657v1.pdf" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2019</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2019</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2019_foot_pressure.jpg" alt="Learning Dynamics from Kinematics: Estimating 2D Foot Pressure Maps from Video Frames" />
@@ -143,10 +161,9 @@
             <div class="pub-publisher">Arxiv Preprint</div>
             <div class="pub-links"><a href="https://arxiv.org/pdf/1811.12607v4.pdf" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2018</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2018</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2018_foot_pressure.png" alt="Learning Dynamics from Kinematics: Estimating Foot Pressure from Video" />
@@ -158,10 +175,9 @@
             <div class="pub-publisher">Arxiv Preprint</div>
             <div class="pub-links"><a href="https://arxiv.org/pdf/1811.12607v2" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2017</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2017</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2017funk1.png" alt="Beyond Planar Symmetry: Modeling human perception of reflection and rotation symmetries in the wild" />
@@ -209,22 +225,9 @@
             <div class="pub-publisher">International Conference on 3D Vision</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/319461353_Symmetry-aware_Facade_Parsing_with_Occlusions" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2016</h2>
-            <div class="pub-list">
-    <div class="pub-entry">
-        <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2016funk.gif" alt="LabelMe Symmetry: a tool for human symmetry perception" />
-        </div>
-        <div class="pub-details">
-            <div class="pub-title">LabelMe Symmetry: a tool for human symmetry perception</div>
-            <div class="pub-authors">Christopher Funk, Yanxi Liu</div>
-            <div class="pub-venue">Conference</div>
-            <div class="pub-publisher">Vision Sciences Society</div>
-            <div class="pub-links"><a href="https://www.researchgate.net/publication/307892474_LabelMeSymmetry_a_tool_for_human_symmetry_perception" class="pub-link">[PDF]</a></div>
-        </div>
-    </div>
+    </div></div></div><div class="pub-year">
+<h2>2016</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2016wolff.jpg" alt="Regularity-driven Building Faï¿½ade Matching between Aerial and Street-Views" />
@@ -296,10 +299,9 @@
             <div class="pub-publisher">The Journal of Neuroscience: The Official Journal of the Society of Neuroscience</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/288003915_Representation_of_Maximally_Regular_Textures_in_Human_Visual_Cortex_The_Journal_of_Neuroscience_in_press" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2015</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2015</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2024/12/danceICON.jpg" alt="Dancing with Turks" />
@@ -335,10 +337,9 @@
             <div class="pub-publisher">Vision Sciences Society</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/281519710_The_Salience_of_Lower-Order_Features_in_Highly_Self-Similar_Wallpaper_Groups" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2014</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2014</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2014ThomasNuero.jpg" alt="Visual patterns with rotational symmetry activate distinct cortical regions" />
@@ -434,10 +435,9 @@
             <div class="pub-publisher">Technical Report CSE 14-002</div>
             <div class="pub-links"><a href="http://vision.cse.psu.edu/publications/pdfs/McPheron_tech_report_CSE_14-002" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2013</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2013</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2013symComp.jpg" alt="Symmetry Detection from Real World Images Competition 2013: Summary and Results" />
@@ -509,10 +509,9 @@
             <div class="pub-publisher">Applications of Computer Vision (WACV)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/261158032_Robust_autocalibration_for_a_surveillance_camera_network" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2012</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2012</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2012asad.jpg" alt="Multiple Target Tracking Using Frame Triplets" />
@@ -551,7 +550,7 @@
     </div>
     <div class="pub-entry">
         <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2012lee1.png" alt="Curved Glide-Reflection Symmetry Detection" />
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2009lee2.jpg" alt="Curved Glide-Reflection Symmetry Detection" />
         </div>
         <div class="pub-details">
             <div class="pub-title">Curved Glide-Reflection Symmetry Detection</div>
@@ -608,10 +607,9 @@
             <div class="pub-publisher">European Conference on Computer Vision (ECCV)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/262396121_Local_Expert_Forest_of_Score_Fusion_for_Video_Event_Classification" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2011</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2011</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2011koshyRSNA.png" alt="Supervised Machine Learning for Brain Tumor Detection in Structural MRI" />
@@ -638,18 +636,6 @@
     </div>
     <div class="pub-entry">
         <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2011lee2.jpg" alt="Curved Glide-Reflection Symmetry Detection" />
-        </div>
-        <div class="pub-details">
-            <div class="pub-title">Curved Glide-Reflection Symmetry Detection</div>
-            <div class="pub-authors">Seungkyu Lee and Yanxi Liu</div>
-            <div class="pub-venue">Conference</div>
-            <div class="pub-publisher">IEEE</div>
-            <div class="pub-links"><a href="https://www.researchgate.net/publication/51216590_Curved_Glide-Reflection_Symmetry_Detection" class="pub-link">[PDF]</a><a href=" http://vision.cse.psu.edu/research/symmComp/index.shtml" class="pub-link">[Project]</a></div>
-        </div>
-    </div>
-    <div class="pub-entry">
-        <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2011ruppert1.jpg" alt="A New Symmetry-Based Method For Mid-Sagittal Plane Extraction In Neuroimages" />
         </div>
         <div class="pub-details">
@@ -671,10 +657,9 @@
             <div class="pub-publisher">British Machine Vision Conference (BMVC)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/269132923_Surveillance_Camera_Autocalibration_based_on_Pedestrian_Height_Distributions" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2010</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2010</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2010liu2.jpg" alt="Curved Reflection Symmetry Detection with Self-validation" />
@@ -806,10 +791,9 @@
             <div class="pub-publisher">Computer Vision and Pattern Recognition (CVPR)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/224164292_Data_driven_mean-shift_belief_propagation_for_non-gaussian_MRFs" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/deformedLattice/DDMSBP.html" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2009</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2009</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2009kalman_quad.jpg" alt="Kalman Filter Based Video Background Estimation" />
@@ -929,10 +913,9 @@
             <div class="pub-publisher">PSU CSE #09-014</div>
             <div class="pub-links"><a href="http://vision.cse.psu.edu/research/brainAsym/2012Yu1.pdf" class="pub-link">[PDF]</a><a href="http://vision.cse.psu.edu/research/brainAsym/index.shtml" class="pub-link">[Project]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2008</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2008</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2008collins1.jpg" alt="CSDD Features: Center-Surround Distribution Distance for Feature Extraction and Matching" />
@@ -1112,10 +1095,9 @@
             <div class="pub-publisher">PSU #08-009</div>
             <div class="pub-links"></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2007</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2007</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2007chen1.jpg" alt="A Quantitative Evaluation of Symmetry Detection Algorithms" />
@@ -1130,7 +1112,7 @@
     </div>
     <div class="pub-entry">
         <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2007chastain.jpg" alt="Quantified Symmetry for Entorhinal Spatial Maps" />
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2006quantified.jpg" alt="Quantified Symmetry for Entorhinal Spatial Maps" />
         </div>
         <div class="pub-details">
             <div class="pub-title">Quantified Symmetry for Entorhinal Spatial Maps</div>
@@ -1235,10 +1217,9 @@
             <div class="pub-publisher">Performance Evaluation of Tracking and Surveillance (PETS)</div>
             <div class="pub-links"><a href="http://www.cs.cmu.edu/~zhaozhen/Papers/ICCVW2007_LeftLuggageDetection.pdf" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2006</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2006</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2006schmidt.png" alt="The role of structural facial asymmetry in asymmetry of peak facial expressions" />
@@ -1337,7 +1318,7 @@
     </div>
     <div class="pub-entry">
         <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2006carmichael.jpg" alt="Mapping Ventricular Changes Related to Dementia and Mild Cognitive 
+            <img src="https://sites.psu.edu/eecslpac/files/2024/11/A2.png in a Large Community-Based Cohort.jpg" alt="Mapping Ventricular Changes Related to Dementia and Mild Cognitive 
 Impairment in a Large Community-Based Cohort" />
         </div>
         <div class="pub-details">
@@ -1360,10 +1341,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">International Symposium on Biomedical Imaging: Macro to Nano</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/224633227_Truly_3D_midsagittal_plane_extraction_for_robust_neuroimage_registration" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2005</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2005</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2005motionTexture.jpg" alt="Motion Texture" />
@@ -1474,7 +1454,7 @@ Impairment in a Large Community-Based Cohort</div>
     </div>
     <div class="pub-entry">
         <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2005liu1.jpg" alt="The Promise and Perils of Near-Regular Texture" />
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2002liu6.jpg" alt="The Promise and Perils of Near-Regular Texture" />
         </div>
         <div class="pub-details">
             <div class="pub-title">The Promise and Perils of Near-Regular Texture</div>
@@ -1531,10 +1511,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">SIGGRAPH</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/234805163_Digital_papercutting" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2004</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2004</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2004roboat.jpg" alt="Autonomous river navigation" />
@@ -1654,10 +1633,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/3193689_A_Computational_Model_for_Periodic_Perception_Based_on_Frieze_and_Wallpaper_Goups" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2003</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2003</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2003zhou.jpg" alt="A Master-Slave System to Acquire Biometric Imagery of Humans at a Distance" />
@@ -1732,7 +1710,7 @@ Impairment in a Large Community-Based Cohort</div>
     </div>
     <div class="pub-entry">
         <div class="pub-thumbnail">
-            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2003liu3.jpg" alt="Facial Asymmetry Quantification for Expression Invariant Human Identification" />
+            <img src="https://sites.psu.edu/eecslpac/files/2025/02/2007mitra1.jpg" alt="Facial Asymmetry Quantification for Expression Invariant Human Identification" />
         </div>
         <div class="pub-details">
             <div class="pub-title">Facial Asymmetry Quantification for Expression Invariant Human Identification</div>
@@ -1741,10 +1719,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Computer Vision and Image Understanding (CVIU)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/2525970_Facial_Asymmetry_Quantification_for_Expression_Invariant_Human_Identification" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2002</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2002</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2002collins.jpg" alt="Silhouette-based Human Identification from Body Shape and Gait" />
@@ -1864,10 +1841,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Texture Analysis and Synthesis in the European Conference on Computer Vision (ECCV)</div>
             <div class="pub-links"><a href="http://www.ri.cmu.edu/publication_view.html?pub_id=5580" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2001</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2001</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2001liu1.jpg" alt="Skewed Symmetry Groups" />
@@ -1915,10 +1891,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">IEEE Transactions on Medical Imaging</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/3221195_Robust_Midsagittal_Plane_Extraction_from_Normal_and_Pathological_3-D_Neuroradiology_Images" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>2000</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>2000</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/2001liu3.jpg" alt="Robust Midsagittal Plane Extraction Algorithm for Coarse, Pathological 3D Images" />
@@ -1966,10 +1941,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">International Workshop on Algebraic Frames for the Perception Action Cycle (AFPAC)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/225164433_Periodic_Pattern_Analysis_under_Affine_Distortions_Using_Wallpaper_Groups" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1998</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1998</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/1998lu.jpg" alt="A Classification Based Similarity Metric for 3D Image Retrieval" />
@@ -2029,10 +2003,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">International Conference on Computer Vision(ICCV)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/247005704_On_Generating_Multi-resolution_Representations_of_Polygonal_Meshes" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1997</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1997</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/1997liu.jpg" alt="A Computational Representation for Rigid and Articulated Assembly" />
@@ -2056,10 +2029,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Discrete mathematics in the schools (DIMACS/AMS)</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/238674850_Discrete_mathematics_software_for_k-12_education" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1996</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1996</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/1996liu.jpg" alt="CAD Modeling of the Birth Process: 2" />
@@ -2071,10 +2043,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Proceedings of Medicine Meets Virtual Reality Conference</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/2509638_CAD_Modeling_of_the_Birth_Process_II" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1995</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1995</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg" alt="CAD Modeling of the Birth Process: A Preliminary Report" />
@@ -2086,10 +2057,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Proceedings of Medicine Meets Virtual Reality Conference</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/228603391_CAD_modelling_of_the_birth_process_A_preliminary_report" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1994</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1994</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg" alt="A Multilevel Assembly Planning System" />
@@ -2113,10 +2083,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">International Journal of Robotics Research</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/220122919_A_Group_Theoretic_Formalization_of_Surface_Contact" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1992</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1992</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/1992liu.jpg" alt="From Symmetry Groups to Stiffness Matrices" />
@@ -2140,10 +2109,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Artificial Intelligence Applications in Manufacturing</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/34836498_Symmetry_Groups_in_Robotic_Assembly_Planning" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1991</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1991</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/1991liu.jpg" alt="Symmetry Groups in Analysis of Assembly Kinematics" />
@@ -2155,10 +2123,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Proceedings of IEEE International Conference on Robotics and Automation</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/3508240_Symmetry_groups_in_analysis_of_assembly_kinematics" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1990</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1990</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/1990liu.jpg" alt="Symmetry Constraint Inference in Assembly Planning" />
@@ -2194,10 +2161,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Artificial Intelligence Magazine</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/257879913_A_Group_Theoretical_Approach_to_Assembly_Planning" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1989</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1989</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg" alt="Planning for Assembly with Robot Hands" />
@@ -2233,10 +2199,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Proceedings of IEEE International Conference on Robotics and Automation</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/224722777_Symmetry_inference_in_planning_assembly" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1988</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1988</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/1988liu.jpg" alt="Using Characteristic Invariants to Infer New Spatial Relationships from Old" />
@@ -2248,10 +2213,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Proceedings of IEEE International Conference on Robotics and Automation</div>
             <div class="pub-links"><a href="https://www.researchgate.net/publication/224743325_Using_characteristic_invariants_to_infer_new_spatial_relationships_from_old" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1987</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1987</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg" alt="A Sensor-based Robot Planner for Assembly Tasks" />
@@ -2263,10 +2227,9 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Proceedings of the First International Artificial Intelligence Conference</div>
             <div class="pub-links"><a href="https://www.ri.cmu.edu/publications/a-sensor-based-robot-planner-for-assembly-tasks/" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div>
-        <div class="pub-year">
-            <h2>1985</h2>
-            <div class="pub-list">
+    </div></div></div><div class="pub-year">
+<h2>1985</h2>
+<div class="pub-list">
     <div class="pub-entry">
         <div class="pub-thumbnail">
             <img src="https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg" alt="Dynamic Planning for Sensor-Based Robots" />
@@ -2278,4 +2241,7 @@ Impairment in a Large Community-Based Cohort</div>
             <div class="pub-publisher">Proceedings of the first International Federation of Automatic Control (IFAC) Symposium on Robot Control</div>
             <div class="pub-links"><a href="https://www.sciencedirect.com/science/article/pii/S1474667017599875" class="pub-link">[PDF]</a></div>
         </div>
-    </div></div></div></div></body></html>
+    </div></div></div>
+    </div>
+  </body>
+</html>

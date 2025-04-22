@@ -1,47 +1,42 @@
 import yaml
-import os
+from bs4 import BeautifulSoup
+from pathlib import Path
 
-def update_image_urls(yaml_content):
-    """
-    Update image URLs in the YAML content to the new WordPress format.
-    """
-    base_url = "https://sites.psu.edu/eecslpac/files/2024/12/"
-    
-    # Helper function to update a single person's image URL
-    def update_person(person):
-        name = person['name']
-        # Convert name to filename format (replace spaces with underscores)
-        filename = name.replace(' ', '_') + '.jpg'
-        # Update the image URL
-        person['img'] = base_url + filename
-        return person
-    
-    # Process each section of the YAML
-    for section in ['faculty', 'current_students', 'alumni', 'visitors']:
-        if section in yaml_content:
-            yaml_content[section] = [update_person(person) for person in yaml_content[section]]
-    
-    return yaml_content
+# --- CONFIG ---
+html_path = "publications.html"  # Your HTML file
+yaml_path = "content/publications.yml"             # Your YAML file
+output_path = "content/publications_updated.yml"   # Output file with updated YAML
 
-def main(input_file, output_file):
-    # Read the existing YAML
-    with open(input_file, 'r', encoding='utf-8') as f:
-        content = yaml.safe_load(f)
-    
-    # Update the URLs
-    updated_content = update_image_urls(content)
-    
-    # Write the updated YAML
-    with open(output_file, 'w', encoding='utf-8') as f:
-        yaml.dump(updated_content, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
-        
-if __name__ == '__main__':
-    import argparse
-    
-    parser = argparse.ArgumentParser(description='Update image URLs in YAML file')
-    parser.add_argument('input_file', help='Path to input YAML file')
-    parser.add_argument('output_file', help='Path to output YAML file')
-    
-    args = parser.parse_args()
-    
-    main(args.input_file, args.output_file)
+# --- LOAD HTML & YAML ---
+with open(html_path, 'r', encoding='utf-8') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+with open(yaml_path, 'r', encoding='utf-8') as f:
+    pubs = yaml.safe_load(f)
+
+# --- PARSE HTML FOR TITLE → IMAGE MAP ---
+html_pubs = {}
+for entry in soup.select(".pub-entry"):
+    title_tag = entry.select_one(".pub-title")
+    img_tag = entry.select_one("img")
+    if title_tag and img_tag:
+        title = title_tag.text.strip()
+        image_url = img_tag['src']
+        html_pubs[title] = image_url
+
+# --- UPDATE YAML ---
+updated = 0
+for pub in pubs:
+    title = pub.get('title', '').strip()
+    if title in html_pubs:
+        pub['image'] = html_pubs[title]
+        updated += 1
+
+with open(output_path, 'w', encoding='utf-8') as f:
+    yaml_str = yaml.dump(pubs, sort_keys=False, allow_unicode=True)
+    entries = yaml_str.split('\n- ')  # Separate each top-level item
+    spaced_yaml_str = '\n\n- '.join(entries)  # Add newline before each new item
+    f.write(spaced_yaml_str)
+
+
+print(f"✅ Updated {updated} entries with images.")

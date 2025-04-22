@@ -1,5 +1,83 @@
 import yaml
 import argparse
+from pathlib import Path
+
+navbar_html = """
+<nav class="navbar">
+  <div class="nav-container">
+    <a href='index.html' class='nav-brand'>LPAC</a>
+    <div class='nav-links'>
+      <a href='../index.html'>Home</a>
+      <a href='../output/people.html'>People</a>
+      <a href='../output/research.html'>Research</a>
+      <a href='../output/publications.html'>Publications</a>
+      <a href='../output/news.html'>News</a>
+      <a href='../output/datasets.html'>Datasets</a>
+    </div>
+  </div>
+</nav>
+"""
+
+style_html = """
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a {
+    color: #1772d0;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links a:hover {
+    color: #f09228;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+"""
+
+html_template = """<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <link rel="stylesheet" type="text/css" href="../assets/custom.css">
+    <style>{style}</style>
+  </head>
+  <body>
+    {navbar}
+    <div class="publications-container">
+      {body}
+    </div>
+  </body>
+</html>
+"""
 
 def format_publication(pub):
     links = []
@@ -26,7 +104,7 @@ def format_publication(pub):
 def generate_publications_page(yaml_file, output_file):
     with open(yaml_file, 'r', encoding='utf-8') as f:
         publications = yaml.safe_load(f)
-    
+
     pubs_by_year = {}
     for pub in publications:
         year = pub['year']
@@ -34,42 +112,23 @@ def generate_publications_page(yaml_file, output_file):
             pubs_by_year[year] = []
         pubs_by_year[year].append(pub)
 
-    html_output = '''<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="../assets/custom.css">
-    <title>Publications</title>
-</head>
-<body>
-    <div class="publications-container">'''
-    
+    content = ""
     for year in sorted(pubs_by_year.keys(), reverse=True):
-        html_output += f'''
-        <div class="pub-year">
-            <h2>{year}</h2>
-            <div class="pub-list">'''
-        
-        sorted_pubs = sorted(
-            pubs_by_year[year],
-            key=lambda x: x.get('month', 0) or 0,
-            reverse=True
-        )
-        
-        for pub in sorted_pubs:
-            html_output += format_publication(pub)
-            
-        html_output += '</div></div>'
-    
-    html_output += '</div></body></html>'
-    
+        content += f'<div class="pub-year">\n<h2>{year}</h2>\n<div class="pub-list">'
+        for pub in sorted(pubs_by_year[year], key=lambda x: x.get('month', 0) or 0, reverse=True):
+            content += format_publication(pub)
+        content += '</div></div>'
+
+    html = html_template.format(title="Publications", navbar=navbar_html, style=style_html, body=content)
+
+    Path(output_file).parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(html_output)
-        
+        f.write(html)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Generate publications page from YAML data")
     parser.add_argument('--yaml_path', type=str, help="Path to the YAML file containing publication data")
     parser.add_argument('--output_path', type=str, help="Path to the output HTML file")
     args = parser.parse_args()
-    
+
     generate_publications_page(args.yaml_path, args.output_path)

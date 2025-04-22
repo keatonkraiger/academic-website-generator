@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="UTF-8">
     <title>Lab Members</title>
     <link rel="stylesheet" type="text/css" href="../assets/custom.css">
-</head>
-<body>
+    <style>
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a {
+    color: #1772d0;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links a:hover {
+    color: #f09228;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+</style>
+  </head>
+  <body>
+    
+<nav class="navbar">
+  <div class="nav-container">
+    <a href='index.html' class='nav-brand'>LPAC</a>
+    <div class='nav-links'>
+      <a href='../index.html'>Home</a>
+      <a href='../output/people.html'>People</a>
+      <a href='../output/research.html'>Research</a>
+      <a href='../output/publications.html'>Publications</a>
+      <a href='../output/news.html'>News</a>
+      <a href='../output/datasets.html'>Datasets</a>
+    </div>
+  </div>
+</nav>
 
-<!------------------------ Faculty -------------------------------------------->
-<h2 style="text-align: center;"><span style="color: #055099;">Faculty</span></h2>
+    <h2 style="text-align: center;"><span style="color: #055099;">Faculty</span></h2>
 <div class="people-container">
-
 <div class="people-row">
 <div class="person"><a href="https://www.cse.psu.edu/~rtc12/" target="_blank" rel="noopener">
 <img src="https://sites.psu.edu/eecslpac/files/2024/11/bob-e1681759265217.jpg" alt="Robert T. Collins" />
@@ -23,12 +79,8 @@
 </a></div>
 </div>
 </div>
-
-
-<!------------------------ Graduate Students -------------------------------------------->
 <h2 style="text-align: center;"><span style="color: #055099;">Graduate Students</span></h2>
 <div class="people-container">
-
 <div class="people-row">
 <div class="person"><a href="https://www.lipsum.com/" target="_blank" rel="noopener">
 <img src="https://sites.psu.edu/eecslpac/files/2024/11/keatonK_small.jpg" alt="Keaton Kraiger" />
@@ -47,12 +99,8 @@
 </a></div>
 </div>
 </div>
-
-<h2 style="text-align: center;"><span style="color: #055099;">Alumni</span></h2>
-<!------------------------ Ph.D. Alumni -------------------------------------------->
-<h2 style="text-align: center;"><span style="color: #055099;">Ph.D. Alumni</span></h2>
+<h2 style="text-align: center;"><span style="color: #055099;">Alumni</span></h2><h2 style="text-align: center;"><span style="color: #055099;">Ph.D. Alumni</span></h2>
 <div class="people-container">
-
 <div class="people-row">
 <div class="person"><a>
 <img src="https://sites.psu.edu/eecslpac/files/2024/12/Jesse_Scott.jpg" alt="Jesse Scott" />
@@ -98,19 +146,15 @@
 <span class="person-name">Zhaozheng Yin</span>
 <span class="person-edu">Ph.D. in Computer Science and Engineering, Penn State University</span>
 </a></div>
-<div class="person"><a href="http://www.cse.psu.edu/people/capel" target="_blank" rel="noopener">
+<div class="person"><a href="https://www.linkedin.com/in/david-capel-1181113b/" target="_blank" rel="noopener">
 <img src="https://sites.psu.edu/eecslpac/files/2024/12/David_Capel.jpg" alt="David Capel" />
 <span class="person-name">David Capel</span>
 <span class="person-edu">Ph.D. Oxford University</span>
 </a></div>
 </div>
 </div>
-
-
-<!------------------------ M.S. Alumni -------------------------------------------->
 <h2 style="text-align: center;"><span style="color: #055099;">M.S. Alumni</span></h2>
 <div class="people-container">
-
 <div class="people-row">
 <div class="person"><a>
 <img src="https://sites.psu.edu/eecslpac/files/2024/12/Mingjie_Wu.jpg" alt="Mingjie Wu" />
@@ -193,12 +237,8 @@
 </a></div>
 </div>
 </div>
-
-
-<!------------------------ B.S. Alumni -------------------------------------------->
 <h2 style="text-align: center;"><span style="color: #055099;">B.S. Alumni</span></h2>
 <div class="people-container">
-
 <div class="people-row">
 <div class="person"><a>
 <img src="https://sites.psu.edu/eecslpac/files/2024/12/Aiyu_Cui.jpg" alt="Aiyu Cui" />
@@ -271,12 +311,8 @@
 </a></div>
 </div>
 </div>
-
-
-<!------------------------ Visitors -------------------------------------------->
 <h2 style="text-align: center;"><span style="color: #055099;">Visitors</span></h2>
 <div class="people-container">
-
 <div class="people-row">
 <div class="person"><a>
 <img src="https://sites.psu.edu/eecslpac/files/2024/12/Haoran_Wei.jpg" alt="Haoran Wei" />
@@ -318,5 +354,5 @@
 </div>
 </div>
 
-</body>
+  </body>
 </html>

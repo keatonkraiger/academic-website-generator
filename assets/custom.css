@@ -65,6 +65,9 @@
 }
 
 /* ==================== BASE STYLES ==================== */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -132,7 +135,7 @@ name { font-size: 32px; }
   box-sizing: border-box;
 }
 
-.course-listing-content {
+.course-listing-card {
   background: #fafafa;
   border-color: #fafafa;
   text-align: start;
@@ -140,7 +143,6 @@ name { font-size: 32px; }
 
   flex-direction: column;
   justify-content: center;
-  width: 100%;
 
   cursor: pointer;
 }
@@ -155,18 +157,11 @@ name { font-size: 32px; }
   }
 }
 
-.project-listing-image,
-.course-listing-image {
+.project-listing-image {
   width: 300px;
   min-width: 300px;
   height: 220px;
   object-fit: cover;
-}
-
-.course-listing-image {
-  width: 200px;
-  min-width: 200px;
-  height: auto;
 }
 
 .project-listing-content {
@@ -743,7 +738,6 @@ colophon { display: none; }
 }
 
 /* Dataset List */
-
 .dataset-card {
   position: relative;
 }
@@ -775,7 +769,9 @@ colophon { display: none; }
   justify-content: center;
   background-color: lightgrey;
   border-radius: 8px;
-  padding: 5px 20px 5px 20px;
+  padding: 1rem 2rem;
+  margin: 2rem auto;       /* Centers the block */
+  box-sizing: border-box;
 }
 
 .citation-block p {
@@ -848,6 +844,7 @@ colophon { display: none; }
 .acknowledgement-notes {
   color: grey;
   font-style: italic;
+  text-align: center;
 }
 
 /* Collapsible Content CSS */
@@ -961,14 +958,12 @@ colophon { display: none; }
     width: auto;
   }
 
-  .project-listing-card,
-  .course-listing-card {
+  .project-listing-card {
     height: auto;
     flex-direction: column;
   }
   
-  .project-listing-image,
-  .course-listing-image {
+  .project-listing-image {
     width: 100%;
     height: 200px;
     min-width: 0;
@@ -978,10 +973,6 @@ colophon { display: none; }
     width: 100%;
   }
 
-  .course-listing-content {
-    width: auto;
-  }
-
   .download-card{
     display: flex;
     flex-direction: column;
@@ -989,23 +980,6 @@ colophon { display: none; }
   }
 }
 
-/* ==================== Slideshow ==================== */
-.slideshow-container {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  overflow: hidden;
-  margin: auto;
-  margin-top: 20px;
-}
-.slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-.slides img {
-  width: 100%;
-  flex-shrink: 0;
-}
 /* ==================== Full News Page ==================== */
 .fullnews-container {
   width: 100%;
@@ -1240,14 +1214,6 @@ colophon { display: none; }
   line-height: 1.6;
 }
 
-/* .dataset-image-rect {
-  max-height: 300px;
-  aspect-ratio: 16 / 9;     
-  object-fit: contain;      
-  flex-shrink: 0;
-} 
-*/
-
 .dataset-image-rect {
   height: 60%;
   width: auto;
@@ -1255,4 +1221,122 @@ colophon { display: none; }
   object-fit: contain;
   flex-shrink: 0;
   display: block;
+}
+
+/* ==================== Datasets ==================== */
+
+.dataset-listing-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 30px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.dataset-listing-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.dataset-listing-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.dataset-listing-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f09228;
+  margin: 0 0 10px 0;
+}
+
+.dataset-listing-description {
+  font-size: 1rem;
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+.dataset-image-rect {
+  max-height: 300px;
+  aspect-ratio: 16 / 9;     
+  object-fit: contain;      
+  flex-shrink: 0;
+} 
+
+
+/* ==================== Downloads ==================== */
+.download-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.download-card {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.download-card:hover {
+  transform: translateY(-4px);
+}
+
+.download-title {
+  color: #2d3748;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.download-options a {
+  background-color: rgb(232, 232, 232);
+  padding: 10px;
+  border-radius: 8px;
+  color: #2d3748;
+  transition: all ease-in-out 0.1s;
+  text-decoration: none;
+}
+
+.download-options a:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.download-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-description {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.25rem 0;
+}
+
+.download-meta {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #888;
+  margin: 0;
+}
+
+.styled-hr {
+  border: none; /* Remove the default gray border */
+  height: 4px; /* Thicker line */
+  background-color: #055099; /* Blue color (or any hex code you want) */
+  margin: 2rem 0; /* Nice spacing above and below */
 }

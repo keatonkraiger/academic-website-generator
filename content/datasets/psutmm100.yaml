@@ -1,0 +1,28 @@
+title: PSU Taiji MultiModal (PSU-TMM100) Dataset
+image: https://sites.psu.edu/eecslpac/files/2025/02/psu-tmm100_source.gif
+description: |
+  The PSU Taiji MultiModal (PSU-TMM100) Dataset contains 100 Taiji motion sequences...
+citation: |
+  @inproceedings{Scott2020,
+    title = {From Image to Stability: Learning Dynamics from Human Pose},
+    ...
+  }
+funding:
+  - agency: Penn State College of Engineering Dean's Office
+  - agency: NSF
+    award: IIS-1218729
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1218729
+  - agency: NSF
+    award: IIS-1909315
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1909315
+
+downloads:
+  - title: Dataset Request Form
+    description: Submit this form to request access to the dataset files.
+    format: ZIP (30GB)
+    url: https://forms.office.com/r/ceCgdJGkE7
+
+  - title: Readme File
+    description: Instructions for using and understanding the dataset contents.
+    format: PDF (180KB)
+    url: https://sites.psu.edu/eecslpac/files/2025/04/PSUHubDatasetREADME.pdf

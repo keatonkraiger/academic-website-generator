@@ -1,0 +1,2379 @@
+# Publication entry template:
+# - title: Publication Title
+#   image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png
+#   description: A brief description of the publication.
+#   authors: Author 1, Author 2, ...
+#   month: 1-12
+#   year: YYYY
+#   link:
+#     display: Link Text
+#     url: https://link-to-publication
+#   publisher: Publisher Name
+#   highlight: 0 or 1
+#   project_page: https://project-page-url or null
+
+- title: Recurrence-based Vanishing Point Detection
+  image: https://sites.psu.edu/eecslpac/files/2025/02/rec_based_vanish.png
+  description: null
+  authors: Skanda Bharadwaj, Robert T. Collins and Yanxi Liu
+  month: 11
+  year: 2024
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/2412.20666
+  publisher: Arxiv Preprint
+  highlight: 1
+  project_page: http://vision.cse.psu.edu/research/regularity_perception/index.shtml
+
+- title: Image-based Stability Quantification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2022_image_stability.jpg
+  description: 'We propose a novel image-based method to estimate three key components
+    for stability computation: Center of Mass (CoM), Base of Support (BoS), and Center
+    of Pressure (CoP). Furthermore, we quantitatively validate our image-based methods
+    for computing two classic stability measures, CoMtoCoP and CoMtoBoS distances,
+    against values generated directly from laboratory-based sensor output using a
+    publicly available, multi-modality, ten-subject human motion dataset.'
+  authors: Jesse Scott, John Challis, Robert T. Collins, Yanxi Liu
+  month: 1
+  year: 2023
+  link:
+    display: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+    url: https://ieeexplore.ieee.org/document/9968276
+  publisher: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+  highlight: 1
+  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+
+- title: Novel 3D Scene Understanding Applications From Recurrence in a Single Image
+  image: https://sites.psu.edu/eecslpac/files/2024/11/3D.jpg
+  description: We demonstrate the utility of recurring pattern discovery from a single
+    image for spatial understanding of a 3D scene in terms of (1) vanishing point
+    detection, (2) hypothesizing 3D translation symmetry and (3) counting the number
+    of RP instances in the image.
+  authors: Shimian Zhang, Skanda Bharadwaj, Keaton Kraiger, Yashasvi Asthana, Hong
+    Zhang, Robert T. Collins, Yanxi Liu
+  month: 10
+  year: 2022
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/abs/2210.07991
+  publisher: Arxiv Preprint
+  highlight: 1
+  project_page: http://vision.cse.psu.edu/research/regularity_perception/index.shtml
+
+- title: Computational Symmetry
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu5.jpg
+  description: This survey provides a succinct summary of the relevant mathemati-cal
+    theory, a historic perspective of some important symmetry-relatedideas, a partial
+    yet timely report on the state of the arts symmetrydetection algorithms along
+    with its first quantitative benchmark, adiverse set of real world applications,
+    suggestions for future directionsand a comprehensive reference list.
+  authors: Yanxi Liu
+  month: 2
+  year: 2021
+  link:
+    display: Springer
+    url: https://doi.org/10.1007/978-3-030-03243-2_640-2
+  publisher: 'In: Ikeuchi K. (eds) Computer Vision. Springer, Cham'
+  highlight: 1
+  project_page: null
+
+- title: 'From Image to Stability: Learning Dynamics from Human Pose'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2020_dynamics_pose.jpg
+  description: null
+  authors: Jesse Scott*, Bharadwaj Ravichandran*, Christopher Funk, Robert T. Collins,
+    Yanxi Liu
+  month: 8
+  year: 2020
+  link:
+    display: Conference
+    url: https://www.researchgate.net/profile/Yanxi_Liu/publication/343139766_From_Image_to_Stability_Learning_Dynamics_from_Human_Pose/links/5f1b00c892851cd5fa429131/From-Image-to-Stability-Learning-Dynamics-from-Human-Pose.pdf
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+
+- title: 'From Kinematics To Dynamics: Estimating Center of Pressure and Base of Support
+    from Video Frames of Human Motion'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2020_kinematics.jpg
+  description: null
+  authors: Jesse Scott, Christopher Funk, Bharadwaj Ravichandran, John H. Challis,
+    Robert T. Collins, Yanxi Liu
+  month: 1
+  year: 2020
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/2001.00657v1.pdf
+  publisher: Arxiv Preprint
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+
+- title: 'Learning Dynamics from Kinematics: Estimating 2D Foot Pressure Maps from
+    Video Frames'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2019_foot_pressure.jpg
+  description: null
+  authors: Christopher Funk, Savinay Nagendra, Jesse Scott, Bharadwaj Ravichandran,
+    John H. Challis, Robert T. Collins, Yanxi Liu
+  month: 5
+  year: 2019
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/1811.12607v4.pdf
+  publisher: Arxiv Preprint
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+
+- title: 'Learning Dynamics from Kinematics: Estimating Foot Pressure from Video'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2018_foot_pressure.png
+  description: null
+  authors: Christopher Funk, Savinay Nagendra, Jesse Scott, John H. Challis, Robert
+    T. Collins, Yanxi Liu
+  month: 12
+  year: 2018
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/1811.12607v2
+  publisher: Arxiv Preprint
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+
+- title: 'Beyond Planar Symmetry: Modeling human perception of reflection and rotation
+    symmetries in the wild'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2017funk1.png
+  description: We employ novel methods to convert discrete human labels into symmetry
+    heatmaps, capture symmetry densely in an image and quantitatively evaluate Sym-NET
+    against multiple existing computer vision algorithms.
+  authors: Christopher Funk, Yanxi Liu
+  month: 10
+  year: 2017
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/316075758_Beyond_Planar_Symmetry_Modeling_human_perception_of_reflection_and_rotation_symmetries_in_the_wild
+  publisher: International Conference on Computer Vision (ICCV)
+  highlight: 1
+  project_page: http://vision.cse.psu.edu/research/beyondPlanarSymmetry/index.shtml
+
+- title: '2017 ICCV Challenge: Detecting Symmetry in the Wild'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2017funk2.png
+  description: null
+  authors: Christopher Funk, Seungkyu Lee, Martin R.  Oswald, Stavros Tsogkas, Wei
+    Shen, Andrea Cohen, Sven Dickinson, Yanxi Liu
+  month: 10
+  year: 2017
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/319311740_2017_ICCV_Challenge_Detecting_Symmetry_in_the_Wild
+  publisher: International Conference on Computer Vision (ICCV) Workshop
+  highlight: 0
+  project_page: null
+
+- title: 4D Model-based Spatiotemporal Alignment of Scripted Taiji Quan Sequences
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2017spatiotemporal.jpg
+  description: null
+  authors: Jesse Scott, Robert T. Collins, Christopher Funk, Yanxi Liu
+  month: 10
+  year: 2017
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/319311636_4D_Model-based_Spatiotemporal_Alignment_of_Scripted_Taiji_Quan_Sequences
+  publisher: International Conference on Computer Vision (ICCV) Workshop
+  highlight: 0
+  project_page: null
+
+- title: Symmetry-aware Facade Parsing with Occlusions
+  image: https://sites.psu.edu/eecslpac/files/2025/02/IC3DV_2017_Cohen.png
+  description: null
+  authors: Andrea Cohen, Martin R. Oswald, Yanxi Liu, Marc Pollefeys
+  month: 10
+  year: 2017
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/319461353_Symmetry-aware_Facade_Parsing_with_Occlusions
+  publisher: International Conference on 3D Vision
+  highlight: 0
+  project_page: null
+
+- title: Regularity-driven Building Faï¿½ade Matching between Aerial and Street-Views
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016wolff.jpg
+  description: null
+  authors: Mark Wolff, Robert T. Collins, Yanxi Liu
+  month: 6
+  year: 2016
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/296706513_Regularity-Driven_Building_Facade_Matching_between_Aerial_and_Street_Views
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
+
+- title: Symmetry reCAPTCHA
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016_reCaptcha.png
+  description: null
+  authors: Christopher Funk, Yanxi Liu
+  month: 6
+  year: 2016
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/296706719_SYMMETRY_reCAPTCHA
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Human Visual Perception of the 17 Wallpaper-Group Patterns using Timed Trials
+  image: https://sites.psu.edu/eecslpac/files/2024/11/P4M-1.gif
+  description: null
+  authors: Yanxi Liu, Jeremy Cole, David Reitter
+  month: 5
+  year: 2016
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/307904113_Human_Visual_Perception_of_the_17_Wallpaper-Group_Patterns_using_Timed_Trials
+  publisher: Vision Sciences Society
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+
+- title: Symmetry features and group hierarchy model human symmetry perception
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016_P4M_Cole.png
+  description: null
+  authors: Jeremy Cole, David Reitter, Yanxi Liu
+  month: 5
+  year: 2016
+  link:
+    display: Conference
+    url: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+  publisher: International Meeting of Psychonomic Society
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+
+- title: Assessing tracking performance in complex scenarios using mean time between
+    failures
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016_carr_collins.jpg
+  description: null
+  authors: Peter Carr, Robert T. Collins
+  month: 3
+  year: 2016
+  link:
+    display: Conference
+    url: https://www.cse.psu.edu/~rtc12/Papers/wacv2016CarrCollins.pdf
+  publisher: IEEE Winter Conference on Applications of Computer Vision (WACV)
+  highlight: 0
+  project_page: null
+
+- title: Representation of Maximally Regular Textures in Human Visual Cortex
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016Kohler.jpg
+  description: null
+  authors: Peter Kohler, Alasdair Clarke, Alexandra Yakovleva, Yanxi Liu, Anthony
+    Norcia
+  month: 1
+  year: 2016
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/288003915_Representation_of_Maximally_Regular_Textures_in_Human_Visual_Cortex_The_Journal_of_Neuroscience_in_press
+  publisher: 'The Journal of Neuroscience: The Official Journal of the Society of
+    Neuroscience'
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+
+- title: Dancing with Turks
+  image: https://sites.psu.edu/eecslpac/files/2024/12/danceICON.jpg
+  description: null
+  authors: I-Kao Chiang, Ian Spiro, Seungkyu Lee, Alyssa Lees, Jingchen Liu, Chris
+    Bregler, Yanxi Liu
+  month: 10
+  year: 2015
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/280054406_Dancing_with_Turks_ACM_Multimedia_2015_long_paper
+  publisher: ACM Multimedia Conference
+  highlight: 0
+  project_page: null
+
+- title: Parametric responses to rotation symmetry in mid-level visual cortex
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2015Kohler.png
+  description: null
+  authors: Peter Kohler, Alexandra Yakovleva, Alasdair DF Clarke, Yanxi Liu, Anthony
+    Norcia
+  month: 9
+  year: 2015
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/281519871_Parametric_responses_to_rotation_symmetry_in_mid-level_visual_cortex
+  publisher: Vision Sciences Society
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+
+- title: The Salience of Lower-Order Features in Highly Self-Similar Wallpaper Groups
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2015Vedak.jpg
+  description: null
+  authors: Shivam Vedak, Rick Gilmore, Peter Kohler, Yanxi Liu, Anthony Norcia
+  month: 9
+  year: 2015
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/281519710_The_Salience_of_Lower-Order_Features_in_Highly_Self-Similar_Wallpaper_Groups
+  publisher: Vision Sciences Society
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+
+- title: The Neural Response to Visual Symmetry in Wallpaper Patterns
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014Kohler.jpg
+  description: null
+  authors: P.J. Kohler, A.D.F. Clark, J. Liu-Shang, A. Yakovleva, Yanxi Liu, A.M.
+    Norcia
+  month: 8
+  year: 2014
+  link:
+    display: Conference
+    url: https://jov.arvojournals.org/article.aspx?articleid=2145308
+  publisher: Vision Sciences Society
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+
+- title: Visual patterns with rotational symmetry activate distinct cortical regions
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014ThomasNuero.jpg
+  description: null
+  authors: A.L. Thomas, J. Liu, Yanxi Liu, A.M. Norcia, J. Stitt, J.D. Fesi, K.R.
+    Hwang, R.O. Gilmore
+  month: 10
+  year: 2014
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/273089866_The_neural_response_to_visual_symmetry_in_wallpaper_patterns
+  publisher: Presented for Society for Neuroscience
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+
+- title: Hybrid Stochastic/Deterministic Optimization for Tracking Sports Players
+    and Pedestrians
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014eccvCollinsCarr.jpg
+  description: null
+  authors: Robert Collins, Peter Carr
+  month: 9
+  year: 2014
+  link:
+    display: Conference
+    url: https://link.springer.com/chapter/10.1007/978-3-319-10605-2_20
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: null
+
+- title: Estimating the Camera Direction of A Geotagged Image using Reference Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014prPark.png
+  description: null
+  authors: Minwoo Park, Jiebo Luo, Robert T. Collins, Yanxi Liu
+  month: 9
+  year: 2014
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/261251793_Estimating_the_Camera_Direction_of_a_Geotagged_Image_using_Reference_Images
+  publisher: Pattern Recognition Journal
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
+
+- title: Local Regularity-driven City-scale Facade Detection from Aerial Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014liuCvpr.jpg
+  description: null
+  authors: Jingchen Liu, Yanxi Liu
+  month: 6
+  year: 2014
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/286594726_Local_Regularity-Driven_City-Scale_Facade_Detection_from_Aerial_Images
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
+
+- title: Entrance Detection from Street-View Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014liuSUNw.jpg
+  description: null
+  authors: Jingchen Liu, Thommen Korah, Varsha Hedau, Vasu Parameswaran, Radek Grzeszczuk,
+    Yanxi Liu
+  month: 6
+  year: 2014
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/294427195_Entrance_Detection_from_Street-View_Images
+  publisher: Computer Vision and Pattern Recognition (CVPR) Workshop
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
+
+- title: 3D Blob based Brain Tumor Detection and Segmentation in MR Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014-3d_brain_blobs.jpg
+  description: null
+  authors: Chen-Ping Yu, Guilherme Ruppert, Robert Collins, Dan Nguyen, Alexandre
+    Xavier, Yanxi Liu
+  month: 4
+  year: 2014
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/259482926_3D_Blob_based_Brain_Tumor_Detection_and_Segmentation_in_MR_Images
+  publisher: IEEE Internation Symposium on Biomedical Imaging (ISBI) Beijing, China
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
+
+- title: Automatic Detection of Exploding Aggregates in a Colloidal Suspension
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2014_automatic.png
+  description: null
+  authors: Benjamin D. McPheron, Vincent H. Crespi, Robert Collins, Yanxi Liu
+  month: 1
+  year: 2014
+  link:
+    display: Conference
+    url: http://vision.cse.psu.edu/publications/pdfs/McPheron_tech_report_CSE_14-002
+  publisher: Technical Report CSE 14-002
+  highlight: 0
+  project_page: null
+
+- title: 'Symmetry Detection from Real World Images Competition 2013: Summary and
+    Results'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013symComp.jpg
+  description: null
+  authors: Jingchen Liu, George Slota, Gang Zheng, Zhaohui Wu, Minwoo Park, Seungkyu
+    Lee, Ingmar Rauschert, Yanxi Liu
+  month: 6
+  year: 2013
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/256476760_Symmetry_Detection_from_Real_World_Images_Competition_2013_Summary_and_Results
+  publisher: Computer Vision and Pattern Recognition (CVPR) Workshop
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/symComp13/index.shtml
+
+- title: Tracking Sports Players with Context-Conditioned Motion Models
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013liuSport.jpg
+  description: null
+  authors: Jingchen Liu, Peter Carr, Robert T. Collins, Yanxi Liu
+  month: 6
+  year: 2013
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/237009469_Tracking_Sports_Players_with_Context-Conditioned_Motion_Models
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: GRASP Recurring Patterns from a Single View
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013liuRecur.jpg
+  description: null
+  authors: Jingchen Liu, Yanxi Liu
+  month: 6
+  year: 2013
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/237009285_GRASP_recurring_patterns_from_a_single_view
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/recur/index.shtml
+
+- title: Multi-target Tracking by Larangian Relaxation to Min-Cost Network Flow
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013asad_mtt.jpg
+  description: null
+  authors: Asad A. Butt, Robert T. Collins
+  month: 6
+  year: 2013
+  link:
+    display: Conference
+    url: https://openaccess.thecvf.com/content_cvpr_2013/papers/Butt_Multi-target_Tracking_by_2013_CVPR_paper.pdf
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Optimized Pedestrian Detection for Multiple and Occluded People
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013cvpr.jpg
+  description: null
+  authors: Sitapa Rujikietgumjorn, Robert T. Collins
+  month: 6
+  year: 2013
+  link:
+    display: Conference
+    url: https://openaccess.thecvf.com/content_cvpr_2013/papers/Rujikietgumjorn_Optimized_Pedestrian_Detection_2013_CVPR_paper.pdf
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/optdetection/index.shtml
+
+- title: Robust Autocalibration for Surveillance Camera Network
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2013wacvLiu.jpg
+  description: null
+  authors: Jingchen Liu, Robert T. Collins, Yanxi Liu
+  month: 1
+  year: 2013
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/261158032_Robust_autocalibration_for_a_surveillance_camera_network
+  publisher: Applications of Computer Vision (WACV)
+  highlight: 0
+  project_page: null
+
+- title: Training Data Recycling for Multi-Level Learning
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012icprLiu.jpg
+  description: null
+  authors: Jingchen Liu, Scott McCloskey, Yanxi Liu
+  month: 1
+  year: 2012
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/261151601_Training_data_recycling_for_multi-level_learning
+  publisher: International Conference on Pattern Recognition (ICPR)
+  highlight: 0
+  project_page: null
+
+- title: Multiple Target Tracking Using Frame Triplets
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012asad.jpg
+  description: null
+  authors: Asad A. Butt, Robert T. Collins
+  month: 11
+  year: 2012
+  link:
+    display: Conference
+    url: https://www.cse.psu.edu/~rtc12/Papers/accv12AsadTriplets.pdf
+  publisher: Asian Conference on Computer Vision (ACCV)
+  highlight: 0
+  project_page: null
+
+- title: Local Expert Forest of Score Fusion for Video Event Classification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012eccvLiu.png
+  description: null
+  authors: Jingchen Liu, Scott McCloskey, Yanxi Liu
+  month: null
+  year: 2012
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/262396121_Local_Expert_Forest_of_Score_Fusion_for_Video_Event_Classification
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: null
+
+- title: A Generative Model for Simultaneous Estimation of Human Body Shape and Pixel-level
+    Segmentation
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: Ingmar Rauschert, Robert T. Collins
+  month: 10
+  year: 2012
+  link:
+    display: Conference
+    url: https://link.springer.com/chapter/10.1007/978-3-642-33715-4_51
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: null
+
+- title: Multitarget Data Association with Higher-Order Motion Models
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012multidata.jpg
+  description: null
+  authors: Robert T. Collins
+  month: 6
+  year: 2012
+  link:
+    display: Conference
+    url: https://www.cse.psu.edu/~rtc12/Papers/CollinsCVPR2012.pdf
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Vision-based Analysis of Small Groups in Pedestrian Crowds
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012ge2.jpg
+  description: null
+  authors: W. Ge, Robert T. Collins, B. Ruback
+  month: 5
+  year: 2012
+  link:
+    display: Journal
+    url: https://ieeexplore.ieee.org/document/5989835
+  publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  highlight: 0
+  project_page: null
+
+- title: Curved Glide-Reflection Symmetry Detection
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009lee2.jpg
+  description: null
+  authors: Seungkyu Lee, Yanxi Liu
+  month: 6
+  year: 2012
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/51216590_Curved_Glide-Reflection_Symmetry_Detection
+  publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/curvedSym/index.shtml
+
+- title: Statistical Asymmetry-based Brain Tumor Segmentation from 3D MR Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2012Yu1.jpg
+  description: null
+  authors: Chenping Yu, Guilherme C. S. Ruppert, Dan T. D. Nguyen, Alexandre X. Falcao,
+    Yanxi Liu
+  month: 2
+  year: 2012
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/257656570_Statistical_Asymmetry-based_Brain_Tumor_Segmentation_from_3D_MR_Images
+  publisher: 'Proceedings of the 5th International Conference on Bio-inspired Systems
+    and Signal Processing, '
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
+
+- title: Surveillance Camera Autocalibration based on Pedestrian Height Distributions
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011bmvcLiu.jpg
+  description: null
+  authors: Jingchen Liu, Robert T. Collins, Yanxi Liu
+  month: 1
+  year: 2011
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/269132923_Surveillance_Camera_Autocalibration_based_on_Pedestrian_Height_Distributions
+  publisher: British Machine Vision Conference (BMVC)
+  highlight: 0
+  project_page: null
+
+- title: Supervised Machine Learning for Brain Tumor Detection in Structural MRI
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011koshyRSNA.png
+  description: null
+  authors: Diana Koshy, Chen-Ping Yu, Dan T. Nguyen, Somesh Kashyap, Robert T. Collins,
+    Yanxi Liu
+  month: 11
+  year: 2011
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/263963910_Supervised_Machine_Learning_for_Brain_Tumor_Detection_in_Structural_MRI
+  publisher: Radiological Society of North America (RSNA)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
+
+- title: A New Symmetry-Based Method For Mid-Sagittal Plane Extraction In Neuroimages
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011ruppert1.jpg
+  description: null
+  authors: Guilherme Ruppert, Leonid Teverovskiy, Chen-Ping Yu, Alexandre Falc\E3o,
+    Yanxi Liu
+  month: 3
+  year: 2011
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221624648_A_new_symmetry-based_method_for_mid-sagittal_plane_extraction_in_neuroimages
+  publisher: IEEE International Symposium on Biomedical Imaging (ISBI)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/brainAsym/index.shtml
+
+- title: 'First Symmetry Detection Competition: Summary and Results'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2011symmetry.jpg
+  description: null
+  authors: Ingmar Rauschert, Kyle Brocklehurst, Somesh Kashyap, Jingchen Liu, Yanxi
+    Liu
+  month: 10
+  year: 2011
+  link:
+    display: Technical Report
+    url: http://vision.cse.psu.edu/research/symmComp/TR-CSE-11-012.pdf
+  publisher: 'CSE Dept Technical Report No. CSE11-012, October '
+  highlight: 0
+  project_page: ' http://vision.cse.psu.edu/research/symmComp/index.shtml'
+
+- title: 'Beyond GPS: Determining The Camera Viewing Direction of a Geotagged Image'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010park4.jpg
+  description: null
+  authors: Minwoo Park, Jiebo Luo, Robert T. Collins, Yanxi Liu
+  month: 10
+  year: 2010
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221572963_Beyond_GPS_Determining_the_camera_viewing_direction_of_a_geotagged_image
+  publisher: ACM Multimedia
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
+
+- title: Curved Reflection Symmetry Detection with Self-validation
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010liu2.jpg
+  description: null
+  authors: Jingchen Liu, Yanxi Liu
+  month: 11
+  year: 2010
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/220745426_Curved_Reflection_Symmetry_Detection_with_Self-validation
+  publisher: Asian Conference on Computer Vision (ACCV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/curvedSym/index.shtml
+
+- title: Image De-fencing Revisited
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010park2.jpg
+  description: null
+  authors: Minwoo Park, Kyle Brocklehurst, Robert T. Collins, Yanxi Liu
+  month: 11
+  year: 2010
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/220744941_Image_De-fencing_Revisited
+  publisher: Asian Conference on Computer Vision (ACCV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/imageDe-fencing/index.shtml
+
+- title: Translation-Symmetry-based Perceptual Grouping with Applications to Urban
+    Scenes
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010park3.jpg
+  description: null
+  authors: Minwoo Park, Kyle Brocklehurst, Robert T. Collins, Yanxi Liu
+  month: null
+  year: 2010
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/220744856_Translation-Symmetry-Based_Perceptual_Grouping_with_Applications_to_Urban_Scenes
+  publisher: Asian Conference on Computer Vision (ACCV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
+
+- title: Crowd Density Analysis with Marked Point Processings [Applications Corner]
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010geCollins.jpg
+  description: null
+  authors: W. Ge, Robert T. Collins
+  month: 9
+  year: 2010
+  link:
+    display: Magazine
+    url: http://vision.cse.psu.edu/publications/pdfs/spm2010GeCollinsCounting.pdf
+  publisher: Signal Processing Magazine
+  highlight: 0
+  project_page: null
+
+- title: Skewed Rotation Symmetry Group Detection
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010lee1.jpg
+  description: null
+  authors: Seungkyu Lee, Yanxi Liu
+  month: null
+  year: 2010
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/45200129_Skewed_Rotation_Symmetry_Group_Detection
+  publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/rotationSymmetryGroupDetection/index.shtml
+
+- title: Computational Symmetry in Computer Vision and Computer Graphics
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010liu-CSinCVCG.jpg
+  description: null
+  authors: Yanxi Liu, Hagit Hel-Or, Craig S. Kaplan, Luc Van Gool
+  month: null
+  year: 2010
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/220427988_Computational_Symmetry_in_Computer_Vision_and_Computer_Graphics
+  publisher: Foundations and Trends\AE in Computer Graphics and Vision
+  highlight: 0
+  project_page: http://dx.doi.org/10.1561/0600000008
+
+- title: Translation Symmetry-Based Perceptual Grouping for Urban Scene Understanding
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010parkTechReport.jpg
+  description: null
+  authors: Minwoo Park, Kyle Brocklehurst, Robert T. Collins, Yanxi Liu
+  month: null
+  year: 2010
+  link:
+    display: TechReport
+    url: https://www.researchgate.net/publication/228485174_Translation_Symmetry-based_Perceptual_Grouping_for_Urban_Scene_Understanding
+  publisher: 'CSE #10-004'
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
+
+- title: Crowd Detection with a Multiview Sampler
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010ge1.jpg
+  description: null
+  authors: Weina Ge, Robert T. Collins
+  month: null
+  year: 2010
+  link:
+    display: Conference
+    url: https://www.cse.psu.edu/~rtc12/Papers/eccv2010GeCollins.pdf
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/multiviewmcmc/index.shtml
+
+- title: Multi-Target Tracking of Time-Varying Spatial Patterns
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010liu1.jpg
+  description: null
+  authors: Jingchen Liu, Yanxi Liu
+  month: null
+  year: 2010
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221364831_Multi-target_tracking_of_time-varying_spatial_patterns
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/dynamicNRTTracking/index.shtml
+
+- title: Data Driven Mean-Shift Belief Propagation For non-Gaussian MRFs
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2010park1.jpg
+  description: null
+  authors: Minwoo Park, Somesh Kashyap, Robert T. Collins, Yanxi Liu
+  month: null
+  year: 2010
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/224164292_Data_driven_mean-shift_belief_propagation_for_non-gaussian_MRFs
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/deformedLattice/DDMSBP.html
+
+- title: Evaluation of Sampling-based Pedestrian Detection for Crowd Counting (invited
+    paper)
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009ge1.jpg
+  description: null
+  authors: Weina Ge, Robert T. Collins
+  month: null
+  year: 2009
+  link:
+    display: Workshop
+    url: https://ieeexplore.ieee.org/document/5399553
+  publisher: Performance Evaluation of Tracking and Surveillance (Winter-PETS)
+  highlight: 0
+  project_page: null
+
+- title: Automatically Detecting the Small Group Structure of a Crowd
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009ge2.jpg
+  description: null
+  authors: Weina Ge, Robert T. Collins, B. Ruback
+  month: null
+  year: 2009
+  link:
+    display: Workshop
+    url: http://vision.cse.psu.edu/publications/pdfs/2009ge2.pdf
+  publisher: Applications of Computer Vision (WACV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/mpp/index.shtml
+
+- title: Deformed Lattice Detection in Real-World Images using Mean-Shift Belief Propagation
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009park1.jpg
+  description: null
+  authors: Minwoo Park, Kyle Brocklehurst, Robert T. Collins, Yanxi Liu
+  month: null
+  year: 2009
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/26756908_Deformed_Lattice_Detection_in_Real-World_Images_Using_Mean-Shift_Belief_Propagation
+  publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/deformedLattice/Deformed_Lattice_Detection.html
+
+- title: Shape Constrained Figure-Ground Segmentation and Tracking
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009yin1.jpg
+  description: null
+  authors: Zhaozheng Yin, Robert T. Collins
+  month: null
+  year: 2009
+  link:
+    display: Conference
+    url: http://www.cs.cmu.edu/~zhaozhen/Papers/CVPR2009_ShapeSeg.pdf
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/figureground/index.shtml
+
+- title: Marked Point Processes for Crowd Counting
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009ge3.jpg
+  description: null
+  authors: Weina Ge, Robert T. Collins
+  month: null
+  year: 2009
+  link:
+    display: Conference
+    url: https://ieeexplore.ieee.org/document/5206621
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/mpp/index.shtml
+
+- title: Curved Glide-Reflection Symmetry Detection
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009lee2.jpg
+  description: null
+  authors: Seungkyu Lee, Yanxi Liu
+  month: null
+  year: 2009
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/51216590_Curved_Glide-Reflection_Symmetry_Detection
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://www.sciweavers.org/publications/curved-glide-reflection-symmetry-detection
+
+- title: A Quantitative Comparison Study of Neuroimage Midsagittal Plans Extraction
+    Algorithms
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: Guilherme C. S. Ruppert, Leonid Teverovskiy, Chenping Yu, Alexandre X.
+    Falcao, Yanxi Liu
+  month: null
+  year: 2009
+  link:
+    display: TechReport
+    url: http://vision.cse.psu.edu/research/brainAsym/2012Yu1.pdf
+  publisher: 'PSU CSE #09-014'
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/brainAsym/index.shtml
+
+- title: Kalman Filter Based Video Background Estimation
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009kalman_quad.jpg
+  description: null
+  authors: Jesse Scott, Michael Pusateri, Duane Cornish
+  month: 10
+  year: 2009
+  link:
+    display: Conferences
+    url: https://ieeexplore.ieee.org/document/5466306
+  publisher: Applied Imagery Pattern Recognition Workshop (AIPRW)
+  highlight: 0
+  project_page: null
+
+- title: Towards real-time hardware gamma correction for dynamic contrast enhancement
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009gamma_quad.jpg
+  description: null
+  authors: Jesse Scott, Michael Pusateri
+  month: 10
+  year: 2009
+  link:
+    display: Conferences
+    url: https://ieeexplore.ieee.org/document/5466305
+  publisher: Applied Imagery Pattern Recognition Workshop (AIPRW)
+  highlight: 0
+  project_page: null
+
+- title: Biologically-inspired visible and infrared camera technology development
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2009rods_cones.jpg
+  description: null
+  authors: Elmer (Al) Williams, Michael Pusateri, Jesse Scott
+  month: 10
+  year: 2009
+  link:
+    display: Conferences
+    url: http://dx.doi.org/10.1109/AIPR.2009.5466298
+  publisher: Applied Imagery Pattern Recognition Workshop (AIPRW)
+  highlight: 0
+  project_page: null
+
+- title: 'CSDD Features: Center-Surround Distribution Distance for Feature Extraction
+    and Matching'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008collins1.jpg
+  description: null
+  authors: Robert T. Collins, Weina Ge
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: http://dx.doi.org/10.1109/AIPR.2009.5466298
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/CSDD/index.shtml
+
+- title: Deformed Lattice Detection via Mean-Shift Belief Propagation
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008park1.jpg
+  description: null
+  authors: Minwoo Park, Robert T. Collins, Yanxi Liu
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/225178812_Deformed_Lattice_Discovery_Via_Efficient_Mean-Shift_Belief_Propagation
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/MSBPlattice/index.shtml
+
+- title: Multi-target Data Association by Tracklets with Unsupervised Parameter Estimation
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008ge1.jpg
+  description: null
+  authors: Weina Ge, Robert T. Collins
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: http://vision.cse.psu.edu/publications/pdfs/2008ge1.pdf
+  publisher: British Machine Vision Conference (BMVC)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/mcmcda/index.shtml
+
+- title: Online Figure-Ground Segmentation with Edge Pixel Classification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008yin1.jpg
+  description: null
+  authors: Zhaozheng Yin, Robert T. Collins
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: http://www.cs.cmu.edu/~zhaozhen/Papers/BMVC2008_FigureGroundSegmentation.pdf
+  publisher: British Machine Vision Conference (BMVC)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/figureground/index.shtml
+
+- title: Automatic Lattice Detection in Near-Regular Histology Array Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008canada1.jpg
+  description: null
+  authors: B.A. Canada, G.K. Thomas, K.C. Cheng, J.Z. Wang, Yanxi Liu
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/224359287_Automatic_lattice_detection_in_near-regular_histology_array_images
+  publisher: International Conference on Image Processing (ICIP)
+  highlight: 0
+  project_page: null
+
+- title: Towards Efficient Automated Characterization of Irregular Histology Images
+    via Transformation to Frieze-Like Patterns
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008canada2.jpg
+  description: null
+  authors: B.A. Canada, G.K. Thomas, K.C. Cheng, J.Z. Wang, Yanxi Liu
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221368908_Towards_efficient_automated_characterization_of_irregular_histology_images_via_transformation_to_frieze-like_patterns
+  publisher: International Conference on Image and Video Retrieval (CIVR)
+  highlight: 0
+  project_page: null
+
+- title: Rotation Symmetry Group Detection Via Frequency Analysis of Frieze-Expansions
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008lee1.jpg
+  description: null
+  authors: Seungkyu Lee, Robert T. Collins, Yanxi Liu
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221362073_Rotation_symmetry_group_detection_via_frequency_analysis_of_frieze-expansions
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/rotationSymmetryGroupDetection/index.shtml
+
+- title: Image De-fencing
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008liu1.jpg
+  description: null
+  authors: Yanxi Liu, Tamara Belkina, James H. Hays, Roberto Lublinerman
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/224323261_Image_de-fencing
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/imageDe-fencing/index.shtml
+
+- title: Performance Evaluation of State-of-the-Art Discrete Symmetry Detection Algorithms
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008park2.jpg
+  description: null
+  authors: Minwoo Park, Seungkyu Lee, Po-Chun Chen, Somesh Kashyap, Asad A. Butt,
+    Yanxi Liu
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221363939_Performance_evaluation_of_state-of-the-art_discrete_symmetry_detection_algorithms
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/performanceEvaluation/index.shtml
+
+- title: Efficient Mean Shift Belief Propagation for Vision Tracking
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008park3.jpg
+  description: null
+  authors: Minwoo Park, Yanxi Liu, Robert T. Collins
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221362686_Efficient_mean_shift_belief_propagation_for_vision_tracking
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/MSBP/index.shtml
+
+- title: Detecting and Matching Repeated Patterns for Automatic Geo-tagging in Urban
+    Environments
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008schindler1.jpg
+  description: null
+  authors: Grant Schindler, Panchapagesan Krishnamurthy, Roberto Lublinerman, Yanxi
+    Liu, Frank Dellaert
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/4351126_Detecting_and_matching_repeated_patterns_for_automatic_geo-tagging_in_urban_environments_In_Proceedings_of_IEEE_CVPR
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/perceptualGroupingUrbanAnalysis/index.shtml
+
+- title: Object Tracking and Detection after Occlusion via Numerical Hybrid Local
+    and Global Mode-seeking
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008yin2.jpg
+  description: null
+  authors: Zhaozheng Yin, Robert T. Collins
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: http://www.cs.cmu.edu/~zhaozhen/Papers/CVPR2008_HybridModeSeeking.pdf
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/modeseeking/index.shtml
+
+- title: Quantified Brain Asymmetry for Age Estimation of Normal and AD/MCI Subjects
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008teverovskiy1.jpg
+  description: null
+  authors: Leonid Teverovskiy, James Becker, Oscar Lopez, Yanxi Liu
+  month: null
+  year: 2008
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221625486_Quantified_brain_asymmetry_for_age_estimation_of_normal_and_ADMCI_subjects
+  publisher: 'International Symposium on Biomedical Imaging: From Nano to Macro'
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/brainAsym/index.shtml
+
+- title: Likelihood Map Fusion for Visual Object Tracking
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2008yin3.jpg
+  description: null
+  authors: Zhaozheng Yin, Fatih Porikli, Robert T. Collins
+  month: null
+  year: 2008
+  link:
+    display: Workshop
+    url: http://vision.cse.psu.edu/paper/fusionWACV2008.pdf
+  publisher: Applications of Computer Vision (WACV)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/wacv2008fusion/fusion.htm
+
+- title: Symmetry Group-based Categorization, Indexing, and Retrieval of Paper-cut
+    Patterns
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: Asad A. Butt, Yanxi Liu
+  month: null
+  year: 2008
+  link:
+    display: null
+    url: null
+  publisher: 'PSU #08-009'
+  highlight: 0
+  project_page: null
+
+- title: A Quantitative Evaluation of Symmetry Detection Algorithms
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007chen1.jpg
+  description: null
+  authors: P. Chen, J.H. Hays, Seungkyu Lee, Minwoo Park, Yanxi Liu
+  month: null
+  year: 2007
+  link:
+    display: TechReport
+    url: https://www.researchgate.net/publication/248804899_A_Quantitative_Evaluation_of_Symmetry_Detection_Algorithms
+  publisher: PSU-CSE-07-011
+  highlight: 0
+  project_page: null
+
+- title: Quantified Symmetry for Entorhinal Spatial Maps
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006quantified.jpg
+  description: null
+  authors: E. Chastain, Yanxi Liu
+  month: null
+  year: 2007
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/222674541_Quantified_symmetry_for_entorhinal_spatial_maps
+  publisher: Special Issue in Neurocomputing Journal
+  highlight: 0
+  project_page: null
+
+- title: Shape Variation-based Frieze Pattern for Robust Gait Recognition
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007lee1.jpg
+  description: null
+  authors: Seungkyu Lee, Yanxi Liu, Robert T. Collins
+  month: null
+  year: 2007
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221364266_Shape_Variation-Based_Frieze_Pattern_for_Robust_Gait_Recognition
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/gait/index.shtml
+
+- title: A Lattice-based MRF Model for Dynamic Near-regular Texture Tracking
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007lin1.jpg
+  description: null
+  authors: W. Lin, Yanxi Liu
+  month: null
+  year: 2007
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/6451387_A_Lattice-Based_MRF_Model_for_Dynamic_Near-Regular_Texture_Tracking
+  publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  highlight: 0
+  project_page: null
+
+- title: Symmetries of Dance
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: Yanxi Liu, X. Yang, M. Spivak, C. Bregler
+  month: null
+  year: 2007
+  link:
+    display: TechReport
+    url: https://www.ri.cmu.edu/publications/symmetries-of-dance/
+  publisher: CMU-RI-TR-07-09
+  highlight: 0
+  project_page: null
+
+- title: Discovery of "Biomarkers" for Alzheimer's Disease Prediction from Structural
+    MR Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007liu2.jpg
+  description: null
+  authors: Yanxi Liu, L. Teverovskiy, O. Lopez, H. Aizenstein, C. Meltzer, J. Becker
+  month: null
+  year: 2007
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221623438_Discovery_of_biomarkers_for_Alzheimer's_Disease_Prediction_from_Structural_MR_Images
+  publisher: International Symposium on Biomedical Imaging
+  highlight: 0
+  project_page: http://vision.cse.psu.edu/research/brainAsym/index.shtml
+
+- title: Understanding the Role of Facial Asymmetry in Human Face Identification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007mitra1.jpg
+  description: null
+  authors: S. Mitra, N. Lazar, Yanxi Liu
+  month: null
+  year: 2007
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/220286456_Understanding_the_role_of_facial_asymmetry_in_human_face_identification
+  publisher: Statistics and Computing
+  highlight: 0
+  project_page: http://www.ri.cmu.edu/research_project_detail.html?project_id=437
+
+- title: On-the-fly Object Modeling while Tracking
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007yin1.jpg
+  description: null
+  authors: Zhaozheng Yin, Robert T. Collins
+  month: null
+  year: 2007
+  link:
+    display: Conference
+    url: http://www.cs.cmu.edu/~zhaozhen/Papers/CVPR2007_OnTheFly.pdf
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Belief Propagation in a 3D Spatio-temporal MRF for Moving Object Detection
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007yin2.jpg
+  description: null
+  authors: Zhaozheng Yin, Robert T. Collins
+  month: null
+  year: 2007
+  link:
+    display: Conference
+    url: http://www.cs.cmu.edu/~zhaozhen/Papers/CVPR2007_BPMotion.pdf
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Temporally Static Region Detection in Multi-Camera Systems
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007porikli1.jpg
+  description: null
+  authors: Fatih Porikli, Zhaozheng Yin
+  month: null
+  year: 2007
+  link:
+    display: Workshop
+    url: http://www.cs.cmu.edu/~zhaozhen/Papers/ICCVW2007_LeftLuggageDetection.pdf
+  publisher: Performance Evaluation of Tracking and Surveillance (PETS)
+  highlight: 0
+  project_page: null
+
+- title: Spatial Divide and Conquer with Motion Cues for Tracking through Clutter
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006yin1.jpg
+  description: null
+  authors: Zhaozheng Yin, Robert T. Collins
+  month: null
+  year: 2006
+  link:
+    display: Conference
+    url: http://www.cs.cmu.edu/~zhaozhen/Papers/CVPR2006_FeatureSelection.pdf
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Moving Object Localization in Thermal Imagery by Forward-backward MHI
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006yin2.jpg
+  description: null
+  authors: Zhaozheng Yin, Robert T. Collins
+  month: null
+  year: 2006
+  link:
+    display: Workshop
+    url: https://www.cse.psu.edu/~rtc12/Papers/zyin06OTCBVS.pdf
+  publisher: Object Tracking and Classification in and Beyond the Visible Spectrum
+    (OTCBVS)
+  highlight: 0
+  project_page: null
+
+- title: Body Localization in Still Images Using Hierarchical Models and Hybrid Search
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006zhang1.jpg
+  description: null
+  authors: J. Zhang, J. Luo, Robert T. Collins, Yanxi Liu
+  month: null
+  year: 2006
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/4246354_Body_Localization_in_Still_Images_Using_Hierarchical_Models_and_Hybrid_Search
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Quantified Symmetry for Entorhinal Spatial Maps
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006quantified.jpg
+  description: null
+  authors: E. Chastain, Yanxi Liu
+  month: null
+  year: 2006
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/222674541_Quantified_symmetry_for_entorhinal_spatial_maps
+  publisher: Computational Neuroscience Meeting (CNS)
+  highlight: 0
+  project_page: null
+
+- title: Quantitative Evaluation on Near Regular Texture Synthesis Algorithms
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006quanteval.jpg
+  description: null
+  authors: W.C. Lin, J. Hays, C. Wu, V. Kwatra, Yanxi Liu
+  month: null
+  year: 2006
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/4246132_Quantitative_Evaluation_of_Near_Regular_Texture_Synthesis_Algorithms
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Discovering Texture Regularity as a Higher-Order Correspondence Problem
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006disc_regularity.jpg
+  description: null
+  authors: J. Hays, M. Leordeanu, A. Efros, Yanxi Liu
+  month: null
+  year: 2006
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221305353_Discovering_Texture_Regularity_as_a_Higher-Order_Correspondence_Problem
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: null
+
+- title: Tracking Dynamic Near-regular Textures under Occlusion and Rapid Movements
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006track.jpg
+  description: null
+  authors: W.C. Lin, Yanxi Liu
+  month: null
+  year: 2006
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/221305067_Tracking_Dynamic_Near-Regular_Texture_Under_Occlusion_and_Rapid_Movements
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: null
+
+- title: "Mapping Ventricular Changes Related to Dementia and Mild Cognitive \nImpairment\
+    \ in a Large Community-Based Cohort"
+  image: https://sites.psu.edu/eecslpac/files/2024/11/A2.png in a Large Community-Based
+    Cohort.jpg
+  description: null
+  authors: O. Carmichael, P.M. Thompson, R.A. Dutton, A. Lu, S.E. Lee, J.Y. Lee, L.H.
+    Kuller, O. Lopez, H. Aizenstein, C. Cidismeltzer, Yanxi Liu, A.W. Toga, J. Becker
+  month: null
+  year: 2006
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/4238564_Mapping_ventricular_changes_related_to_dementia_and_mild_cognitive_impairment_in_a_large_community-based_cohort
+  publisher: 'International Symposium on Biomedical Imaging: Macro to Nano'
+  highlight: 0
+  project_page: null
+
+- title: Truly 3D Midsagittal Plane Extraction for Robust Neuroimage Registration
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006teverosky.jpg
+  description: null
+  authors: L. Teverovskiy, Yanxi Liu
+  month: null
+  year: 2006
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/224633227_Truly_3D_midsagittal_plane_extraction_for_robust_neuroimage_registration
+  publisher: 'International Symposium on Biomedical Imaging: Macro to Nano'
+  highlight: 0
+  project_page: null
+
+- title: The role of structural facial asymmetry in asymmetry of peak facial expressions
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2006schmidt.png
+  description: null
+  authors: Karen L Schmidt, Yanxi Liu, Jeffrey F Cohn
+  month: 11
+  year: 2006
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/6825231_The_role_of_structural_facial_asymmetry_in_asymmetry_of_peak_facial_expressions
+  publisher: 'Laterality: Asymmetries of Body, Brain and Cognition. Taylor & Francis
+    Group'
+  highlight: 0
+  project_page: null
+
+- title: Unsupervised Learning of Object Features from Video Sequences
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005marius.jpg
+  description: null
+  authors: Marius Leordeanu, Robert T. Collins, Martial Hebert
+  month: 6
+  year: 2005
+  link:
+    display: Conference
+    url: https://ieeexplore.ieee.org/abstract/document/1467395
+  publisher: IEEE Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Background Estimation under Rapid Gain Change in Thermal Imagery
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005hulya.jpg
+  description: null
+  authors: Hulya Yalcin, Robert T. Collins, Martial Hebert
+  month: 6
+  year: 2005
+  link:
+    display: Conference
+    url: http://vision.cse.psu.edu/publications/pdfs/hulya_gain.pdf
+  publisher: IEEE Workshop on Object Tracking and Classification in and Beyond the
+    Visible Spectrum (OTCBVS)
+  highlight: 0
+  project_page: null
+
+- title: Three-Dimensional Scene Flow
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005vedula.jpg
+  description: null
+  authors: S.Vedula, S.Baker, P.Rander, Robert T. Collins, T.Kanade
+  month: 3
+  year: 2005
+  link:
+    display: Journal
+    url: https://www.ri.cmu.edu/pub_files/pub2/vedula_sundar_1999_1/vedula_sundar_1999_1.pdf
+  publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  highlight: 0
+  project_page: null
+
+- title: An Open Source Tracking Testbed and Evaluation Web Site
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005collins.jpg
+  description: null
+  authors: Robert T. Collins, X.Zhou, S.Teh
+  month: 1
+  year: 2005
+  link:
+    display: Conference
+    url: http://vision.cse.psu.edu/publications/pdfs/opensourceweb.pdf
+  publisher: IEEE Workshop on Performance Evaluation of Tracking and Surveillance
+    (PETS)
+  highlight: 0
+  project_page: null
+
+- title: Multilevel Spectral Partitioning for Efficient Image Segmentation and Tracking
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005tolliver.jpg
+  description: null
+  authors: D.Tolliver, Robert T. Collins, S.Baker
+  month: 1
+  year: 2005
+  link:
+    display: Conference
+    url: https://ieeexplore.ieee.org/document/4129511
+  publisher: EEE Workshop on Applications of Computer Vision (WACV)
+  highlight: 0
+  project_page: null
+
+- title: Motion Texture
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005motionTexture.jpg
+  description: null
+  authors: Harriet Pashley, James Hays, Yanxi Liu
+  month: 11
+  year: 2005
+  link:
+    display: TechReport
+    url: http://vision.cse.psu.edu/publications/pdfs/05motionTexture.pdf
+  publisher: Robotics Institute, CMU-RI-TR-05-61
+  highlight: 0
+  project_page: null
+
+- title: 'Computer Vision for Biomedical Image Applications: Current Techniques and
+    Future Trends'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005liubook.jpg
+  description: null
+  authors: Yanxi Liu, T. Jiang, S. Zhang
+  month: 11
+  year: 2005
+  link:
+    display: Workshop
+    url: https://www.researchgate.net/publication/239442939_Proceedings_of_the_ICCV_Workshop_on_Computer_Vision_for_BiomedicalImage_Applications_Current_Techniques_and_Future_Trends_CVBIA
+  publisher: International Workshop on Computer Vision for Biomedical Image Applications
+    (CVBIA)
+  highlight: 0
+  project_page: https://www.ri.cmu.edu/publication_view.html?pub_id=5169
+
+- title: On Improving the Performace of the Wallpaper Symmetry Group Classification
+    Algorithm
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005reddy.png
+  description: null
+  authors: S. Reddy, Yanxi Liu
+  month: 11
+  year: 2005
+  link:
+    display: TechReport
+    url: https://www.researchgate.net/publication/228822276_On_Improving_the_Performance_of_the_Wallpaper_Symmetry_Group_Classification_Algorithm
+  publisher: Robotics Institute, CMU-RI-TR-05-49
+  highlight: 0
+  project_page: null
+
+- title: Bayesian Body Localization Using Mixture of Nonlinear Shape Models
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005zhang.jpg
+  description: null
+  authors: J. Zhang, Robert T. Collins, Yanxi Liu
+  month: 10
+  year: 2005
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/4193892_Bayesian_body_localization_using_mixture_of_nonlinear_shape_models
+  publisher: International Conference of Computer Vision (ICCV)
+  highlight: 0
+  project_page: null
+
+- title: On-Line Selection of Discriminative Tracking Features
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005collins2.jpg
+  description: null
+  authors: Robert T. Collins, Yanxi Liu, M. Leordeanu
+  month: 10
+  year: 2005
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/7528499_On-Line_Selection_of_Discriminative_Tracking_Features
+  publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  highlight: 0
+  project_page: null
+
+- title: SVM Decision Boundary Based Discriminative Subspace Induction
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005zhang2.png
+  description: null
+  authors: J. Zhang, Yanxi Liu
+  month: 10
+  year: 2005
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/222697407_SVM_Decision_Boundary_Based_Discriminative_Subspace_Induction
+  publisher: Pattern Recognition
+  highlight: 0
+  project_page: null
+
+- title: Atlas-Based Hippocampus Segmentation in Alzheimer's Disease and Mild Cognitive
+    Impairment
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005carmichael.jpg
+  description: null
+  authors: O. Carmichael, H. Aizenstein, S.W. Davis, J. Becker, P.M. Thompson, C.
+    Meltzer, Yanxi Liu
+  month: 6
+  year: 2005
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/7754400_Atlas-based_hippocampus_segmentation_in_Alzheimer's_disease_and_mild_cognitive_impairment
+  publisher: NeuroImage
+  highlight: 0
+  project_page: null
+
+- title: The Promise and Perils of Near-Regular Texture
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu6.jpg
+  description: null
+  authors: Yanxi Liu, Y. Tsin, W. Lin
+  month: 4
+  year: 2005
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/220660454_The_Promise_and_Perils_of_Near-Regular_Texture
+  publisher: International Journal of Computer Vision (IJCV)
+  highlight: 0
+  project_page: null
+
+- title: Digital Papercutting
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005liu3.jpg
+  description: null
+  authors: Yanxi Liu, James Hays, Y. Xu, W. Lin
+  month: null
+  year: 2005
+  link:
+    display: Technical Sketch
+    url: https://www.researchgate.net/publication/234805163_Digital_papercutting
+  publisher: SIGGRAPH
+  highlight: 0
+  project_page: null
+
+- title: Articulated Motion Modeling for Activity Analysis
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004gao.jpg
+  description: null
+  authors: J. Gao, Robert T. Collins, A.Hauptmann, H. Wactler
+  month: 6
+  year: 2004
+  link:
+    display: Conference
+    url: http://vision.cse.psu.edu/publications/pdfs/cvpr04gao.pdf
+  publisher: IEEE Workshop on Articulated and NonRigid Motion, held in conjunction
+    with CVPR
+  highlight: 0
+  project_page: null
+
+- title: Autonomous river navigation
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004roboat.jpg
+  description: null
+  authors: F. Snyder, D.Morris, P.Haley, Robert T. Collins, A.Okerholm
+  month: 12
+  year: 2004
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/253351981_Autonomous_river_navigation
+  publisher: Proceedings of SPIE -Volume  Mobile Robots
+  highlight: 0
+  project_page: null
+
+- title: Atlas-Based Hippocampus Segmentation in Alzheimer's Disease and Mild Cognitive
+    Impairment
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005carmichael.jpg
+  description: null
+  authors: O. Carmichael, H. Aizenstein, S.W. Davis, J. Becker, P.M. Thompson, C.
+    Meltzer, Yanxi Liu
+  month: 12
+  year: 2004
+  link:
+    display: TechReport
+    url: https://www.researchgate.net/publication/7754400_Atlas-based_hippocampus_segmentation_in_Alzheimer's_disease_and_mild_cognitive_impairment
+  publisher: CMU-RI-TR-04-53
+  highlight: 0
+  project_page: null
+
+- title: Discriminative MR Image Feature Analysis for Automatic Schizophrenia and
+    Alzheimer's Disease Classification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004liu.jpg
+  description: null
+  authors: Yanxi Liu, L. Teverovskiy, O. Carmichael, R. Kikinis, M. Shenton, C.S.
+    Carter, V.A. Stenger, S. Davis, H. Aizenstein, J. Becker, O. Lopez, C. Meltzer
+  month: 10
+  year: 2004
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/49641102_Discriminative_MR_Image_Feature_Analysis_for_Automatic_Schizophrenia_and_Alzheimer's_Disease_Classification
+  publisher: Proceedings of the 7th International Conference on MedicalImage Computing
+    and Computer Aided Intervention (MICCAI)
+  highlight: 0
+  project_page: null
+
+- title: Learning-Based Neuroimage Registration
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004terevoskiy.jpg
+  description: null
+  authors: L. Teverovskiy, Yanxi Liu
+  month: 10
+  year: 2004
+  link:
+    display: TechReport
+    url: https://www.researchgate.net/publication/249828509_Learning-based_Neuroimage_Registration
+  publisher: CMU-RI-TR-04-59
+  highlight: 0
+  project_page: null
+
+- title: Cervical Cancer Detection Using SVM Based Feature Screening
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004zhang.jpg
+  description: null
+  authors: J. Zhang, Yanxi Liu
+  month: 9
+  year: 2004
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/221401411_Cervical_Cancer_Detection_Using_SVM_Based_Feature_Screening
+  publisher: Proceedings of the 7th International Conference on MedicalImage Computing
+    and Computer Aided Intervention (MICCAI)
+  highlight: 0
+  project_page: null
+
+- title: Near-Regular Texture Analysis and Manipulation
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004liu2.png
+  description: null
+  authors: Yanxi Liu, W. Lin, James Hays
+  month: 8
+  year: 2004
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/2915262_Near-Regular_Texture_Analysis_and_Manipulation
+  publisher: ACM Transactions on Graphics (SIGGRAPH 2004)
+  highlight: 0
+  project_page: null
+
+- title: Local Facial Asymmetry for Expression Classification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004mitra.jpg
+  description: null
+  authors: S. Mitra, Yanxi Liu
+  month: 6
+  year: 2004
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/4082364_Local_facial_asymmetry_for_expression_classification
+  publisher: Proceedings of the 2004 IEEE Conference on Computer Vision and Pattern
+    Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Representation and Matching of Articulated Shapes
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004zhang3.jpg
+  description: null
+  authors: J. Zhang, Robert T. Collins, Yanxi Liu
+  month: 6
+  year: 2004
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/4082283_Representation_and_matching_of_articulated_shapes
+  publisher: Proceedings of the 2004 IEEE Conference on Computer Vision and Pattern
+    Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: A Computational Model for Periodic Pattern Perception Based on Frieze and
+    Wallpaper Groups
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2004liu_pami.jpg
+  description: null
+  authors: Yanxi Liu, Robert T. Collins, Y. Tsin
+  month: 3
+  year: 2004
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/3193689_A_Computational_Model_for_Periodic_Perception_Based_on_Frieze_and_Wallpaper_Goups
+  publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  highlight: 0
+  project_page: null
+
+- title: Mean-shift Blob Tracking through Scale Space
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003cvpr.jpg
+  description: null
+  authors: Robert T. Collins
+  month: 6
+  year: 2003
+  link:
+    display: Conference
+    url: http://vision.cse.psu.edu/publications/pdfs/cvpr2003.pdf
+  publisher: IEEE Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: A Master-Slave System to Acquire Biometric Imagery of Humans at a Distance
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003zhou.jpg
+  description: null
+  authors: X. Zhou, Robert T. Collins, T. Kanade, P. Metes
+  month: 11
+  year: 2003
+  link:
+    display: Conference
+    url: https://dl.acm.org/doi/10.1145/982452.982467
+  publisher: ACM Special Interest Group on Multimedia (SIGMM) Workshop on Video Surveillance
+  highlight: 0
+  project_page: null
+
+- title: Gait Shape Estimation for Identification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003tolliver.jpg
+  description: null
+  authors: D. Tolliver, Robert T. Collins
+  month: 6
+  year: 2003
+  link:
+    display: Conference
+    url: http://vision.cse.psu.edu/publications/pdfs/avbpa2003.pdf
+  publisher: ' International Conference on Audio and Video-Based Biometric Person
+    Authentication'
+  highlight: 0
+  project_page: null
+
+- title: A Quantified Study of Facial Asymmetry in 3D Faces
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003liu1.jpg
+  description: null
+  authors: Yanxi Liu, J. Palmer
+  month: null
+  year: 2003
+  link:
+    display: Workshop
+    url: https://www.researchgate.net/publication/4040752_A_quantified_study_of_facial_asymmetry_in_3D_faces
+  publisher: Analysis and Modeling of Faces and Gestures, in International Conference
+    on Computer Vision (ICCV)
+  highlight: 0
+  project_page: null
+
+- title: 'Deformable Texture: the Irregular-Regular-Irregular Cycle'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2003liu2.jpg
+  description: null
+  authors: Yanxi Liu, W. Lin
+  month: null
+  year: 2003
+  link:
+    display: Workshop
+    url: https://www.researchgate.net/publication/243531254_Deformable_texture_the_irregular-regular-irregular_cycle
+  publisher: Texture Analysis and Synthesis
+  highlight: 0
+  project_page: null
+
+- title: On-Line Selection of Discriminative Tracking Features
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2005collins2.jpg
+  description: null
+  authors: Robert T. Collins, Yanxi Liu
+  month: null
+  year: 2003
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/7528499_On-Line_Selection_of_Discriminative_Tracking_Features
+  publisher: Internation Conference of Computer Vision (ICCV)
+  highlight: 0
+  project_page: null
+
+- title: Facial Asymmetry Quantification for Expression Invariant Human Identification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007mitra1.jpg
+  description: null
+  authors: Yanxi Liu, K. Schmidt, J. Chon, S. Mitra
+  month: null
+  year: 2003
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/2525970_Facial_Asymmetry_Quantification_for_Expression_Invariant_Human_Identification
+  publisher: Computer Vision and Image Understanding (CVIU)
+  highlight: 0
+  project_page: null
+
+- title: Silhouette-based Human Identification from Body Shape and Gait
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002collins.jpg
+  description: null
+  authors: Robert T. Collins, R.Gross, J.Shi
+  month: 10
+  year: 2002
+  link:
+    display: Conference
+    url: https://www.cs.cmu.edu/~jshi/papers/Silhouette-FG2002.pdf
+  publisher: International Conference on Face and Gesture
+  highlight: 0
+  project_page: null
+
+- title: An Active Camera System for Acquiring Multi-View Video
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002collins2.jpg
+  description: null
+  authors: Robert T. Collins, O.Amidi, T.Kanade
+  month: 9
+  year: 2002
+  link:
+    display: Conference
+    url: https://ieeexplore.ieee.org/document/1038074
+  publisher: International Conference on Image Processing (ICIP)
+  highlight: 0
+  project_page: null
+
+- title: Does Multispectral Texture Features Really Improve Cervical Cancer Detection?
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002zhao.jpg
+  description: null
+  authors: T. Zhao, J. Zhang, Yanxi Liu
+  month: null
+  year: 2002
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/244134277_Does_Multispectral_Texture_Features_Really_Improve_Cervical_Cancer_Detection
+  publisher: International Conference on Diagnostic Imaging and Analysis (ICDIA)
+  highlight: 0
+  project_page: null
+
+- title: Semantic-based Biomedical Image Indexing and Retrieval
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu1.png
+  description: null
+  authors: Yanxi Liu, T. Zhao, J. Zhang
+  month: null
+  year: 2002
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/2916809_Semantic-based_Biomedical_Image_Indexing_and_Retrieval
+  publisher: International Conference on Diagnostic Imaging and Analysis (ICDIA)
+  highlight: 0
+  project_page: null
+
+- title: SVM Based Feature Screening Applied to Hierarchical Cervial Cancer Detection
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002zhang.png
+  description: null
+  authors: J. Zhang, Yanxi Liu, T. Zhao
+  month: null
+  year: 2002
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/239207474_SVM_Based_Feature_Screening_Applied_To_Hierarchical_Cervical_Cancer_Detection
+  publisher: International Conference on Diagnostic Imaging and Analysis (ICDIA)
+  highlight: 0
+  project_page: null
+
+- title: Measurement of Asymmetry in Persons with Facial Paralysis
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: G.S. Wachtman, Yanxi Liu, T. Zhao, J. Cohn, K. Schmidt, T.C. Henkelmann,
+    J.M. VanSwearingen, E.K. Manders
+  month: null
+  year: 2002
+  link:
+    display: Conference
+    url: http://www.ri.cmu.edu/publication_view.html?pub_id=5580
+  publisher: Combined Annual Conference of the Robert H. Ivy and Ohio Valley societies
+    of Plastic and Reconstructive Surgeons
+  highlight: 0
+  project_page: null
+
+- title: Facial Asymmetry Quantification for Expression Invariant Human Identification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2007mitra1.jpg
+  description: null
+  authors: Yanxi Liu, K. Schmidt, J. Chon, R.L. Weaver
+  month: 5
+  year: 2002
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/2525970_Facial_Asymmetry_Quantification_for_Expression_Invariant_Human_Identification
+  publisher: Proceedings of the 5th International Conference on Automatic Face and
+    Gesture Recognition (FG'02)
+  highlight: 0
+  project_page: null
+
+- title: Gait Sequence Analysis using Frieze Patterns
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu3.jpg
+  description: null
+  authors: Yanxi Liu, Robert T. Collins, Y. Tsin
+  month: null
+  year: 2002
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/225422347_Gait_Sequence_Analysis_Using_Frieze_Patterns
+  publisher: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  project_page: null
+
+- title: Computational Symmetry
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu5.jpg
+  description: null
+  authors: Yanxi Liu
+  month: null
+  year: 2002
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/2520695_Computational_Symmetry
+  publisher: Proceedings of Symmetry 2000
+  highlight: 0
+  project_page: null
+
+- title: The Promise and Perils of Near-Regular Texture
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu6.jpg
+  description: null
+  authors: Yanxi Liu, Y. Tsin
+  month: null
+  year: 2002
+  link:
+    display: Workshop
+    url: http://www.ri.cmu.edu/publication_view.html?pub_id=5580
+  publisher: Texture Analysis and Synthesis in the European Conference on Computer
+    Vision (ECCV)
+  highlight: 0
+  project_page: null
+
+- title: Skewed Symmetry Groups
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001liu1.jpg
+  description: null
+  authors: Yanxi Liu, Robert T. Collins, Y. Tsin
+  month: null
+  year: 2001
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/3940634_Skewed_symmetry_groups
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Texture Replacement in Real Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001tsin.jpg
+  description: null
+  authors: Y. Tsin, Yanxi Liu
+  month: null
+  year: 2001
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/2850890_Texture_Replacement_in_Real_Images
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Classification-Driven Pathological Neuroimage Retrieval Using Statistical
+    Asymmetry Measures
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001liu2.jpg
+  description: null
+  authors: Yanxi Liu, F. Dellaert, W.E. Rothfus, A. Moore, J. Schneider, T. Kanade
+  month: null
+  year: 2001
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/225490192_Classification-Driven_Pathological_Neuroimage_Retrieval_Using_Statistical_Asymmetry_Measures
+  publisher: Medical Imaging Computing and Computer Assisted Intervention (MICCAI)
+  highlight: 0
+  project_page: null
+
+- title: Robust Midsagittal Plane Extraction from Normal and Pathological 3D Neuroradiology
+    Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001liu3.jpg
+  description: null
+  authors: Yanxi Liu, Robert T. Collins, W.E. Rothfus
+  month: null
+  year: 2001
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/3221195_Robust_Midsagittal_Plane_Extraction_from_Normal_and_Pathological_3-D_Neuroradiology_Images
+  publisher: IEEE Transactions on Medical Imaging
+  highlight: 0
+  project_page: null
+
+- title: Robust Midsagittal Plane Extraction Algorithm for Coarse, Pathological 3D
+    Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2001liu3.jpg
+  description: null
+  authors: Yanxi Liu, Robert T. Collins, W.E. Rothfus
+  month: null
+  year: 2000
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/2857917_Robust_Midsagittal_Plane_Extraction_from_Coarse_Pathological_3D_Images
+  publisher: Medical Imaging Computing and Computer Assisted Intervention Conference
+    (MICCAI)
+  highlight: 0
+  project_page: null
+
+- title: A Computational Model for Repeated Pattern Perception using Frieze and Wallpaper
+    Groups
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2000liu.jpg
+  description: null
+  authors: Yanxi Liu, Robert T. Collins
+  month: null
+  year: 2000
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/3854120_A_computational_model_for_repeated_pattern_perception_using_frieze_and_wallpaper_groups
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: A Group Theoretical Formalization of Contact Motion
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2000liu2.jpg
+  description: null
+  authors: Yanxi Liu
+  month: null
+  year: 2000
+  link:
+    display: workshop
+    url: https://www.researchgate.net/publication/2373781_A_Group_Theoretical_Formalization_of_Contact_Motion
+  publisher: Workshop on Algebraic Frames for the Perception Action Cycle (AFPAC)
+  highlight: 0
+  project_page: null
+
+- title: Periodic Pattern Analysis Under Affine Distortions Using Wallpaper Groups
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2000liu3.jpg
+  description: null
+  authors: Yanxi Liu
+  month: null
+  year: 2000
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/225164433_Periodic_Pattern_Analysis_under_Affine_Distortions_Using_Wallpaper_Groups
+  publisher: International Workshop on Algebraic Frames for the Perception Action
+    Cycle (AFPAC)
+  highlight: 0
+  project_page: null
+
+- title: A Classification Based Similarity Metric for 3D Image Retrieval
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998lu.jpg
+  description: null
+  authors: Yanxi Liu, F. Dellaert
+  month: null
+  year: 1998
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/3758616_A_classification_based_similarity_metric_for_3D_image_retrieval
+  publisher: Computer Vision and Pattern Recognition (CVPR)
+  highlight: 0
+  project_page: null
+
+- title: Automatic Bilateral Symmetry (Midsagittal) Plane Extraction from Pathological
+    3D Neuroradiological Images
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998liu1.jpg
+  description: null
+  authors: Yanxi Liu, Robert T. Collins, W.E. Rothfus
+  month: null
+  year: 1998
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/2312641_Automatic_Bilateral_Symmetry_Midsagittal_Plane_Extraction_from_Pathological_3D_Neuroradiological_Images
+  publisher: SPIE International Symposium on Medical Imaging
+  highlight: 0
+  project_page: null
+
+- title: 'Content-based 3D Neuroradiologic Image Retrieval: Preliminary Results'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998liu2.jpg
+  description: null
+  authors: Yanxi Liu, W.E.Rothfus, M.D., T. Kanade
+  month: null
+  year: 1998
+  link:
+    display: workshop
+    url: https://www.researchgate.net/publication/3728367_Content-based_3D_neuroradiologic_image_retrieval_Preliminary_results
+  publisher: IEEE International Workshop on Content-based Access of Image and Video
+    Databases
+  highlight: 0
+  project_page: null
+
+- title: Classification Driven Medical Image Retrieval
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998liu4.jpg
+  description: null
+  authors: Yanxi Liu, F.Dellaert
+  month: null
+  year: 1998
+  link:
+    display: workshop
+    url: https://www.researchgate.net/publication/2278315_Classification-Driven_Medical_Image_Retrieval
+  publisher: Proc. of the Image Understanding Workshop
+  highlight: 0
+  project_page: null
+
+- title: On Generating Multi-resolution Representations of Polygonal Meshes
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1998zhang.jpg
+  description: null
+  authors: D.Zhang, M. Hebert, A. Johnson, Yanxi Liu
+  month: null
+  year: 1998
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/247005704_On_Generating_Multi-resolution_Representations_of_Polygonal_Meshes
+  publisher: International Conference on Computer Vision(ICCV)
+  highlight: 0
+  project_page: null
+
+- title: A Computational Representation for Rigid and Articulated Assembly
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1997liu.jpg
+  description: null
+  authors: Yanxi Liu
+  month: null
+  year: 1997
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/3708026_A_computational_representation_for_rigid_and_articulated_assembly
+  publisher: IEEE International Symposium of Assembly and Task Planning (ISATP)
+  highlight: 0
+  project_page: null
+
+- title: Case Studies on Discrete Mathematics Software for K-12 Education
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: N. Dean, Yanxi Liu
+  month: null
+  year: 1997
+  link:
+    display: Book
+    url: https://www.researchgate.net/publication/238674850_Discrete_mathematics_software_for_k-12_education
+  publisher: Discrete mathematics in the schools (DIMACS/AMS)
+  highlight: 0
+  project_page: null
+
+- title: 'CAD Modeling of the Birth Process: 2'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1996liu.jpg
+  description: null
+  authors: Yanxi Liu, M. Scudder, M.L. Gimvovsky
+  month: null
+  year: 1996
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/2509638_CAD_Modeling_of_the_Birth_Process_II
+  publisher: Proceedings of Medicine Meets Virtual Reality Conference
+  highlight: 0
+  project_page: null
+
+- title: 'CAD Modeling of the Birth Process: A Preliminary Report'
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: Yanxi Liu, M. Scudder, M.L. Gimvovsky
+  month: null
+  year: 1995
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/228603391_CAD_modelling_of_the_birth_process_A_preliminary_report
+  publisher: Proceedings of Medicine Meets Virtual Reality Conference
+  highlight: 0
+  project_page: null
+
+- title: A Multilevel Assembly Planning System
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: G. Dakin, Yanxi Liu, R.J. Popplestone
+  month: null
+  year: 1994
+  link:
+    display: conference
+    url: http://www.ri.cmu.edu/publication_view.html?pub_id=5580
+  publisher: Proceedings of International Mechanical Engineering Congress and Exposition
+  highlight: 0
+  project_page: null
+
+- title: A Group Theoretic Formalization of Surface Contact
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1994liu.jpg
+  description: null
+  authors: Yanxi Liu, R.J. Popplestone
+  month: null
+  year: 1994
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/220122919_A_Group_Theoretic_Formalization_of_Surface_Contact
+  publisher: International Journal of Robotics Research
+  highlight: 0
+  project_page: null
+
+- title: From Symmetry Groups to Stiffness Matrices
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1992liu.jpg
+  description: null
+  authors: Yanxi Liu, R.J. Popplestone
+  month: null
+  year: 1992
+  link:
+    display: conference
+    url: http://vision.cse.psu.edu/publications/pdfs/liu92_1.pdf
+  publisher: Proceedings of IEEE International Conference on Robotics and Automation
+  highlight: 0
+  project_page: null
+
+- title: Symmetry Groups in Solid Model-based Assembly Planning
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: Yanxi Liu, R.J. Popplestone
+  month: null
+  year: 1992
+  link:
+    display: Journal
+    url: https://www.researchgate.net/publication/34836498_Symmetry_Groups_in_Robotic_Assembly_Planning
+  publisher: Artificial Intelligence Applications in Manufacturing
+  highlight: 0
+  project_page: null
+
+- title: Symmetry Groups in Analysis of Assembly Kinematics
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1991liu.jpg
+  description: null
+  authors: Yanxi Liu, R.J. Popplestone
+  month: null
+  year: 1991
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/3508240_Symmetry_groups_in_analysis_of_assembly_kinematics
+  publisher: Proceedings of IEEE International Conference on Robotics and Automation
+  highlight: 0
+  project_page: null
+
+- title: Symmetry Constraint Inference in Assembly Planning
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1990liu.jpg
+  description: null
+  authors: Yanxi Liu, R.J. Popplestone
+  month: null
+  year: 1990
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/240271889_Symmetry_Constraint_Inference_in_Assembly_Planning
+  publisher: Proceedings of the Eighth National Conference on Artificial Intelligence
+  highlight: 0
+  project_page: null
+
+- title: A Justification for the Characteristic Invariant Representation of TR Subgroups
+    of the Proper Euclidean Group
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: Yanxi Liu
+  month: null
+  year: 1990
+  link:
+    display: conference
+    url: https://www.ri.cmu.edu/publications/a-justification-for-the-characteristic-invariant-representation-of-tr-subgroups-of-the-proper-euclidean-group/
+  publisher: the fifth SIAM Conference on Discrete Mathematics
+  highlight: 0
+  project_page: null
+
+- title: A Group Theoretical Approach to Assembly Planning
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1990popplestone.jpg
+  description: null
+  authors: R.J. Popplestone, Yanxi Liu, R. Weiss
+  month: null
+  year: 1990
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/257879913_A_Group_Theoretical_Approach_to_Assembly_Planning
+  publisher: Artificial Intelligence Magazine
+  highlight: 0
+  project_page: null
+
+- title: Planning for Assembly with Robot Hands
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: R.J. Popplestone, R.A. Grupen, Yanxi Liu, G. Dakin, D. Oskard, S. Nair
+  month: null
+  year: 1989
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/252329088_Planning_for_assembly_with_robot_hands
+  publisher: Proceedings of SPIE Conference on Intelligent Robotic Systems
+  highlight: 0
+  project_page: null
+
+- title: Planning for Assembly from Solid Models
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1989liu.jpg
+  description: null
+  authors: Yanxi Liu, R.J. Popplestone
+  month: null
+  year: 1989
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/3500601_Planning_for_assembly_from_solid_models
+  publisher: Proceedings of IEEE International Conference on Robotics and Automation
+  highlight: 0
+  project_page: null
+
+- title: Symmetry Inference in Planning Assembly
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1990liu.jpg
+  description: null
+  authors: G. Dakin, Yanxi Liu, R.J. Popplestone, R. Weiss
+  month: null
+  year: 1989
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/224722777_Symmetry_inference_in_planning_assembly
+  publisher: Proceedings of IEEE International Conference on Robotics and Automation
+  highlight: 0
+  project_page: null
+
+- title: Using Characteristic Invariants to Infer New Spatial Relationships from Old
+  image: https://sites.psu.edu/eecslpac/files/2025/02/1988liu.jpg
+  description: null
+  authors: R.J. Popplestone, R. Weiss, Yanxi Liu
+  month: null
+  year: 1988
+  link:
+    display: conference
+    url: https://www.researchgate.net/publication/224743325_Using_characteristic_invariants_to_infer_new_spatial_relationships_from_old
+  publisher: Proceedings of IEEE International Conference on Robotics and Automation
+  highlight: 0
+  project_page: null
+
+- title: A Sensor-based Robot Planner for Assembly Tasks
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: Yanxi Liu
+  month: null
+  year: 1987
+  link:
+    display: conference
+    url: https://www.ri.cmu.edu/publications/a-sensor-based-robot-planner-for-assembly-tasks/
+  publisher: Proceedings of the First International Artificial Intelligence Conference
+  highlight: 0
+  project_page: null
+
+- title: Dynamic Planning for Sensor-Based Robots
+  image: https://sites.psu.edu/eecslpac/files/2025/02/lpac.jpg
+  description: null
+  authors: R. Vijaykumar, M.A. Arbib, Yanxi Liu
+  month: null
+  year: 1985
+  link:
+    display: conference
+    url: https://www.sciencedirect.com/science/article/pii/S1474667017599875
+  publisher: Proceedings of the first International Federation of Automatic Control
+    (IFAC) Symposium on Robot Control
+  highlight: 0
+  project_page: null

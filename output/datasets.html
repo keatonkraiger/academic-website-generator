@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Datasets</title>
+    <link rel="stylesheet" type="text/css" href="../assets/custom.css">
+    <style>
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a {
+    color: #1772d0;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links a:hover {
+    color: #f09228;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+</style>
+  </head>
+  <body>
+    
+<nav class="navbar">
+  <div class="nav-container">
+    <a href='index.html' class='nav-brand'>LPAC</a>
+    <div class='nav-links'>
+      <a href='../index.html'>Home</a>
+      <a href='../output/people.html'>People</a>
+      <a href='../output/research.html'>Research</a>
+      <a href='../output/publications.html'>Publications</a>
+      <a href='../output/news.html'>News</a>
+      <a href='../output/datasets.html'>Datasets</a>
+    </div>
+  </div>
+</nav>
+
+    <div class="projects-wrapper">
+      <div class="projects-container">
+        <h1 class="section-title">Available Datasets</h1>
+        
+    <div class="dataset-listing-card">
+        <img src="https://sites.psu.edu/eecslpac/files/2025/04/RPVP.png" alt="RPVP" class="dataset-image-rect">
+        <div class="dataset-listing-content">
+            <h2 class="dataset-listing-title">RPVP</h2>
+            <p class="dataset-listing-description">We created two VP benchmark datasets – (a) Synthetic images (RPVP-Synthetic) comprised of 3,200 images created in Blender with the ground truth VP and cam- era parameters (intrinsic and extrinsic matrices) used to create the 2D images, and (b) Real-world images (RPVP-Real) with 1,400 annotated real-world images containing RPs.
+</p>
+            <a href="https://sites.psu.edu/eecslpac/rpvp/" class="dataset-listing-link">View Dataset</a>
+        </div>
+    </div>
+
+    <div class="dataset-listing-card">
+        <img src="https://sites.psu.edu/eecslpac/files/2025/04/psu-tmm100_source.gif" alt="PSU Taiji MultiModal (PSU-TMM100) Dataset" class="dataset-image-rect">
+        <div class="dataset-listing-content">
+            <h2 class="dataset-listing-title">PSU Taiji MultiModal (PSU-TMM100) Dataset</h2>
+            <p class="dataset-listing-description">The PSU Taiji MultiModal (PSU-TMM100) Dataset contains 100 Taiji motion sequences, 24-form Simplified Taiji-Quan, aka Tai Chi, performed by 10 human subjects.
+</p>
+            <a href="./datasets/PSUTMM100.html" class="dataset-listing-link">View Dataset</a>
+        </div>
+    </div>
+
+    <div class="dataset-listing-card">
+        <img src="https://sites.psu.edu/eecslpac/files/2025/04/nrt.jpg" alt="Database of Near-Regular Textures" class="dataset-image-rect">
+        <div class="dataset-listing-content">
+            <h2 class="dataset-listing-title">Database of Near-Regular Textures</h2>
+            <p class="dataset-listing-description">This database contains textures from completely regular to completely irregular patterns, with a focus on near-regular textures. It also includes video of near-regular textures in motion. Also available: groundtruth for translation, rotation and reflection/glide-reflection symmetry detection algorithms.
+</p>
+            <a href="https://vivid.cse.psu.edu/" class="dataset-listing-link">View Dataset</a>
+        </div>
+    </div>
+
+    <div class="dataset-listing-card">
+        <img src="https://sites.psu.edu/eecslpac/files/2025/04/psuhubdataicon.png" alt="PSU HUB Dataset" class="dataset-image-rect">
+        <div class="dataset-listing-content">
+            <h2 class="dataset-listing-title">PSU HUB Dataset</h2>
+            <p class="dataset-listing-description">Ground truth trajectory and grouping information for pedestrians walking in the PSU student union building.
+</p>
+            <a href="./datasets/PSUHub.html" class="dataset-listing-link">View Dataset</a>
+        </div>
+    </div>
+
+    <div class="dataset-listing-card">
+        <img src="https://sites.psu.edu/eecslpac/files/2025/04/lattice.png" alt="Deformed Lattice Detection In Real-World Images" class="dataset-image-rect">
+        <div class="dataset-listing-content">
+            <h2 class="dataset-listing-title">Deformed Lattice Detection In Real-World Images</h2>
+            <p class="dataset-listing-description">We have developed a robust and fast lattice detection algorithm using a probabilistic graph model that has a better detection rate and is approximately 10 times faster than current state-of-the-art algorithms.
+</p>
+            <a href="http://vision.cse.psu.edu/research/deformedLattice/Deformed_Lattice_Detection.html" class="dataset-listing-link">View Dataset</a>
+        </div>
+    </div>
+
+    <div class="dataset-listing-card">
+        <img src="https://sites.psu.edu/eecslpac/files/2025/04/papercut.jpg" alt="Digital Papercutting" class="dataset-image-rect">
+        <div class="dataset-listing-content">
+            <h2 class="dataset-listing-title">Digital Papercutting</h2>
+            <p class="dataset-listing-description">Papercutting is a widespread and ancient artform which, as far as we could tell, had no previous computational treatment. We developed algorithms to analyze the symmetry of papercut patterns and produce efficient folding and cutting plans.
+</p>
+            <a href="http://vision.cse.psu.edu/publications/pdfs/papercuttingSketch.pdf" class="dataset-listing-link">View Dataset</a>
+        </div>
+    </div>
+      </div>
+    </div>
+  </body>
+</html>
