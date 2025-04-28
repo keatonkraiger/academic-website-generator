@@ -1,0 +1,119 @@
+title: "Symmetry Detection from Real World Images - CVPR 2011 Competition"
+slug: project-url-slug  # For generating URLs/filenames
+#featured_image: /mnt/e/Random/lab_site/imgs/regulariity_perception.jpg  # Optional hero/thumbnail image
+
+members:
+  - name: Yanxi Liu
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg
+    link: https://www.cse.psu.edu/~yul11/
+    role: Organizing Committee
+    institution: Pennsylvania State University
+
+  - name: Somesh Kashyap
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Somesh_Kashyap.jpg
+    link: http://www.linkedin.com/in/someshkashyap
+    role: Organizing Committee
+    institution: Medtronic
+
+  - name: Jingchen Liu
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Jingchen_Liu.jpg
+    link: https://www.linkedin.com/in/jingchen-liu-9b764924/
+    role: Organizing Committee
+    institution: Pennsylvania State University
+
+  - name: Kyle Brocklehurst
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Kyle_Brocklehurst.jpg
+    link: https://www.linkedin.com/in/kyle-brocklehurst-86083829/
+    role: Organizing Committee
+    institution: UnitX
+
+  - name: Ingmar Rauschert
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Ingmar_Rauschert.jpg
+    link: http://vision.cse.psu.edu/people/ingmarR/index.html
+    role: Organizing Committee
+    institution: Pennsylvania State University
+
+  - name: Jacob Feldman
+    image: https://sites.psu.edu/eecslpac/files/2025/03/jacob.jpg
+    link: https://ruccs.rutgers.edu/jacob
+    role: Advisory Committee
+    institution: Rutgers University
+
+  - name: Richard Hartley
+    image: https://sites.psu.edu/eecslpac/files/2025/03/hartley.jpg
+    link: https://comp.anu.edu.au/people/richard-hartley/
+    role: Advisory Committee
+    institution: Australian National University
+
+  - name: Takeo Kanade
+    image: https://sites.psu.edu/eecslpac/files/2025/03/kanade_takeo.jpg
+    link: https://www.ri.cmu.edu/ri-faculty/takeo-kanade/
+    role: Advisory Committee
+    institution: Carnegie Mellon University
+
+  - name: Jitendra Malik
+    image: https://sites.psu.edu/eecslpac/files/2025/03/malik.gif
+    link: https://people.eecs.berkeley.edu/~malik/
+    role: Advisory Committee
+    institution: University of California, Berkeley
+
+  - name: Doris Schattschneider
+    image: https://sites.psu.edu/eecslpac/files/2025/03/schatt.jpg
+    link: https://mathwomen.agnesscott.org/women/schatt.htm
+    role: Advisory Committee
+    institution: Moravian College
+
+  - name: Marjorie Senechal
+    image: https://sites.psu.edu/eecslpac/files/2025/03/Marjorie.jpg
+    link: https://www.science.smith.edu/~senechal/
+    role: Advisory Committee
+    institution: Smith College
+
+  - name: Christopher Tyler
+    image: https://sites.psu.edu/eecslpac/files/2025/03/tyler.jpg
+    link: https://www.ski.org/labs/tyler-lab
+    role: Advisory Committee
+    institution: Smith-Kettlewell Eye Research Institute
+
+  - name: Laurent Younes
+    image: https://sites.psu.edu/eecslpac/files/2025/03/younesPicture.jpg
+    link: https://www.cis.jhu.edu/~younes/
+    role: Advisory Committee
+    institution: Johns Hopkins University
+
+  - name: Alan Yuille
+    image: https://sites.psu.edu/eecslpac/files/2025/03/alan.jpg
+    link: https://bri.ucla.edu/people/alan-yuille/
+    role: Advisory Committee
+    institution: University of California, Los Angeles
+
+  - name: Andreww Zisserman
+    image: https://sites.psu.edu/eecslpac/files/2025/03/fellows-2008-az.jpg
+    link: https://www.robots.ox.ac.uk/~az/
+    role: Advisory Committee
+    institution: University of Oxford
+
+  - name: Luc Van Gool
+    image: https://sites.psu.edu/eecslpac/files/2025/03/lucVanGool.jpg
+    link: https://people.ee.ethz.ch/~vangool/
+    role: Advisory Committee
+    institution: ETH Zurich
+
+description:
+  Symmetry is a pervasive phenomenon presenting itself in all forms and scales in natural and manmade environments. Symmetry detection plays an essential role at all levels of human as well as machine perception. Given current interest in the vision community for semantic level tasks like object recognition, scene understanding and activity classification, there remains a missing link in most computer vision systems between a bag of low-level features and high-level semantic meanings. It therefore is acutely important to develop intermediate-level computer vision tools for perceptual-organization and grouping that are robust, general, semantically meaningful and biologically justifiable.
+  <br><br>
+  Humans and animals have an innate ability to perceive and take advantage of symmetry in everyday life. In computer vision, however, the use of symmetry in real world images remains inadequate. Even though the pursuit of symmetry detection algorithmically predates computer vision itself and has lasted for almost four decades, few symmetry detection tools are readily available for real world problems. Motivated by a growing intellectual interests of symmetry in vision and graphics (see Figures 1 and 2) and for practical needs of robust computational symmetry tools, this NSF-funded, first of a kind symmetry detection competition will serve as a timely, systematic and quantitative account of state of the art symmetry detection algorithms.
+  <br><br>
+  Since the first tutorial on computational symmetry at ACCV 2007 (followed by one at CVPR08 then ECCV10), there has been a drastic jump in the interest in computational symmetry (algorithms and applications), as evidenced by the increasing number of papers submitted and published in both computer vision and computer graphics (Figure 1 from Liu et al 2010 Survey). Several very promising new results have been presented. Most notably, the concept of symmetry has been expanded beyond bilateral reflection symmetry, which dominated computer vision research on symmetry for the past 40 years (Figure 2 from Liu et al 2010 Survey).
+
+media:
+  images:
+    - path: https://sites.psu.edu/eecslpac/files/2025/04/image001.png
+      caption: Number of Symmetry related publications in major computer vision and computer graphics journals/conferences.
+    - path: https://sites.psu.edu/eecslpac/files/2025/04/image003.png
+      caption: Dividing papers into on reflection symmetry alone versus other types of symmetries (rotation, translation, glide-reflection).
+
+funding:
+  - agency: NSF
+    award: "IIS-1040711"
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1040711

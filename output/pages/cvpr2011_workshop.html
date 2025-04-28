@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symmetry Detection from Real World Images - CVPR 2011 Competition</title>
+</head>
+<body>
+    <style>
+        .img-desc-card {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            gap: 2rem;
+        }
+
+        .img-desc-card-thumbnail {
+            border-radius: 10px;
+            max-width: 100%;
+        }
+        
+        .cvpr-speaker-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .round-heading {
+            font-size: larger;
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        /* CSS Override */
+        .project-section-table th:last-child,
+        .project-section-table td:last-child {
+        width: 30%;
+        border-right: none;
+        }
+    </style>
+
+    <div class="project-page-container">
+        <h1 class="project-page-title">Symmetry Detection from Real World Images - CVPR 2011 Competition</h1>
+
+        <img src="https://sites.psu.edu/eecslpac/files/2025/04/symmTypes.jpg" alt="CVPR 2011 Competition Teaser" style="width: 100%; border-radius: 10px;">
+
+        <div class="page-section-title" style="text-align: center; font-weight: bold; color: red;">Competition Concluded - Reference Information Below</div><br>
+        
+        
+        <div class="project-page-section">
+            <div class="project-members">
+        <div class="member-card">
+            <a href="https://www.cse.psu.edu/~yul11/">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg" alt="Yanxi Liu">
+            </a>
+            <a href="https://www.cse.psu.edu/~yul11/">
+                Yanxi Liu<sup>1</sup>
+            </a>
+            <div class="member-role">Organizing Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="http://www.linkedin.com/in/someshkashyap">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Somesh_Kashyap.jpg" alt="Somesh Kashyap">
+            </a>
+            <a href="http://www.linkedin.com/in/someshkashyap">
+                Somesh Kashyap<sup>2</sup>
+            </a>
+            <div class="member-role">Organizing Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.linkedin.com/in/jingchen-liu-9b764924/">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Jingchen_Liu.jpg" alt="Jingchen Liu">
+            </a>
+            <a href="https://www.linkedin.com/in/jingchen-liu-9b764924/">
+                Jingchen Liu<sup>1</sup>
+            </a>
+            <div class="member-role">Organizing Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.linkedin.com/in/kyle-brocklehurst-86083829/">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Kyle_Brocklehurst.jpg" alt="Kyle Brocklehurst">
+            </a>
+            <a href="https://www.linkedin.com/in/kyle-brocklehurst-86083829/">
+                Kyle Brocklehurst<sup>3</sup>
+            </a>
+            <div class="member-role">Organizing Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="http://vision.cse.psu.edu/people/ingmarR/index.html">
+                <img src="https://sites.psu.edu/eecslpac/files/2024/12/Ingmar_Rauschert.jpg" alt="Ingmar Rauschert">
+            </a>
+            <a href="http://vision.cse.psu.edu/people/ingmarR/index.html">
+                Ingmar Rauschert<sup>1</sup>
+            </a>
+            <div class="member-role">Organizing Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://ruccs.rutgers.edu/jacob">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/jacob.jpg" alt="Jacob Feldman">
+            </a>
+            <a href="https://ruccs.rutgers.edu/jacob">
+                Jacob Feldman<sup>4</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://comp.anu.edu.au/people/richard-hartley/">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/hartley.jpg" alt="Richard Hartley">
+            </a>
+            <a href="https://comp.anu.edu.au/people/richard-hartley/">
+                Richard Hartley<sup>5</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.ri.cmu.edu/ri-faculty/takeo-kanade/">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/kanade_takeo.jpg" alt="Takeo Kanade">
+            </a>
+            <a href="https://www.ri.cmu.edu/ri-faculty/takeo-kanade/">
+                Takeo Kanade<sup>6</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://people.eecs.berkeley.edu/~malik/">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/malik.gif" alt="Jitendra Malik">
+            </a>
+            <a href="https://people.eecs.berkeley.edu/~malik/">
+                Jitendra Malik<sup>7</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://mathwomen.agnesscott.org/women/schatt.htm">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/schatt.jpg" alt="Doris Schattschneider">
+            </a>
+            <a href="https://mathwomen.agnesscott.org/women/schatt.htm">
+                Doris Schattschneider<sup>8</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.science.smith.edu/~senechal/">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/Marjorie.jpg" alt="Marjorie Senechal">
+            </a>
+            <a href="https://www.science.smith.edu/~senechal/">
+                Marjorie Senechal<sup>9</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.ski.org/labs/tyler-lab">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/tyler.jpg" alt="Christopher Tyler">
+            </a>
+            <a href="https://www.ski.org/labs/tyler-lab">
+                Christopher Tyler<sup>10</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.cis.jhu.edu/~younes/">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/younesPicture.jpg" alt="Laurent Younes">
+            </a>
+            <a href="https://www.cis.jhu.edu/~younes/">
+                Laurent Younes<sup>11</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://bri.ucla.edu/people/alan-yuille/">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/alan.jpg" alt="Alan Yuille">
+            </a>
+            <a href="https://bri.ucla.edu/people/alan-yuille/">
+                Alan Yuille<sup>12</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://www.robots.ox.ac.uk/~az/">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/fellows-2008-az.jpg" alt="Andreww Zisserman">
+            </a>
+            <a href="https://www.robots.ox.ac.uk/~az/">
+                Andreww Zisserman<sup>13</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    
+        <div class="member-card">
+            <a href="https://people.ee.ethz.ch/~vangool/">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/03/lucVanGool.jpg" alt="Luc Van Gool">
+            </a>
+            <a href="https://people.ee.ethz.ch/~vangool/">
+                Luc Van Gool<sup>14</sup>
+            </a>
+            <div class="member-role">Advisory Committee</div>
+        </div>
+    </div>
+            <div class="institution-key"><sup>1</sup> [Pennsylvania State University], <sup>2</sup> [Medtronic], <sup>3</sup> [UnitX], <sup>4</sup> [Rutgers University], <sup>5</sup> [Australian National University], <sup>6</sup> [Carnegie Mellon University], <sup>7</sup> [University of California, Berkeley], <sup>8</sup> [Moravian College], <sup>9</sup> [Smith College], <sup>10</sup> [Smith-Kettlewell Eye Research Institute], <sup>11</sup> [Johns Hopkins University], <sup>12</sup> [University of California, Los Angeles], <sup>13</sup> [University of Oxford], <sup>14</sup> [ETH Zurich]</div>
+        </div>
+    
+<div class="project-page-section"><div class="project-page-description">Symmetry is a pervasive phenomenon presenting itself in all forms and scales in natural and manmade environments. Symmetry detection plays an essential role at all levels of human as well as machine perception. Given current interest in the vision community for semantic level tasks like object recognition, scene understanding and activity classification, there remains a missing link in most computer vision systems between a bag of low-level features and high-level semantic meanings. It therefore is acutely important to develop intermediate-level computer vision tools for perceptual-organization and grouping that are robust, general, semantically meaningful and biologically justifiable. <br><br> Humans and animals have an innate ability to perceive and take advantage of symmetry in everyday life. In computer vision, however, the use of symmetry in real world images remains inadequate. Even though the pursuit of symmetry detection algorithmically predates computer vision itself and has lasted for almost four decades, few symmetry detection tools are readily available for real world problems. Motivated by a growing intellectual interests of symmetry in vision and graphics (see Figures 1 and 2) and for practical needs of robust computational symmetry tools, this NSF-funded, first of a kind symmetry detection competition will serve as a timely, systematic and quantitative account of state of the art symmetry detection algorithms. <br><br> Since the first tutorial on computational symmetry at ACCV 2007 (followed by one at CVPR08 then ECCV10), there has been a drastic jump in the interest in computational symmetry (algorithms and applications), as evidenced by the increasing number of papers submitted and published in both computer vision and computer graphics (Figure 1 from Liu et al 2010 Survey). Several very promising new results have been presented. Most notably, the concept of symmetry has been expanded beyond bilateral reflection symmetry, which dominated computer vision research on symmetry for the past 40 years (Figure 2 from Liu et al 2010 Survey).</div></div>
+<div class="project-page-section"><h1 class="page-section-title">Media</h1><div class="media-grid">
+            <div class="media-item">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/04/image001.png" alt="Number of Symmetry related publications in major computer vision and computer graphics journals/conferences.">
+                <div class="caption">Number of Symmetry related publications in major computer vision and computer graphics journals/conferences.</div>
+            </div>
+        
+            <div class="media-item">
+                <img src="https://sites.psu.edu/eecslpac/files/2025/04/image003.png" alt="Dividing papers into on reflection symmetry alone versus other types of symmetries (rotation, translation, glide-reflection).">
+                <div class="caption">Dividing papers into on reflection symmetry alone versus other types of symmetries (rotation, translation, glide-reflection).</div>
+            </div>
+        </div></div>
+
+        <div class="project-page-section">
+            <h1 class="page-section-title">Call for Competition</h1>
+            <div class="img-desc-card">
+                <div style="display: flex; flex-direction: column;">
+                    <a href="https://sites.psu.edu/eecslpac/files/2025/04/PosterHQ.pdf">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/cvpr2011poster_thumbnail.png" alt="CVPR 2011 Poster Thumbnail" class="img-desc-card-thumbnail">
+                    </a>
+                    <div class="caption">Click thumbnail for PDF</div>
+                </div>
+                <div class="project-section-description">
+                    We call for participation to the first symmetry detection competition from all researchers worldwide, especially students. Three types of symmetries are targeted in real images: reflection, translation and rotation This competition is set-up as a two-stage process, though a participant can enter at any point.
+                </div>
+            </div>
+        </div>
+
+        <div class="project-page-section">
+            <h1 class="page-section-title">Image Submission</h1>
+            <div class="project-section-description">
+                We call for submissions of real world images depicting various kinds of symmetries, especially reflection (mirror), rotation and translation (wallpaper) symmetries. We welcome your contribution whether you are a professional or amateur photographer, or simply happen to have some interesting snapshots of symmetries in the real world. Please visit our Flickr group for more information.
+                <br><br>
+                <a href="https://vision.cse.psu.edu/research/symmComp/imageSubmission/index.shtml">[Real World Symmetry Image Submission]</a>
+            </div>
+        </div>
+
+        <div class="project-page-section">
+            <h1 class="page-section-title">Competition</h1>
+            <div class="img-desc-card">
+                <div class="project-section-description">
+                    <h3 class="round-heading" style="display: flex; align-items: center; gap: 1rem;">
+                        Round One:
+                        <div style="font-style: italic; font-weight: 100; color: gray; font-size: small;">(preliminary, background review, for feedback only)</div>
+                    </h3>
+                    <div style="margin-left: 20px;">
+                        At ECCV 2010, we organized a full-day tutorial on Computational Symmetry: Past, Present, and Future [link] to launch the competition by providing a succinct and multi-faceted review of computational symmetry in computer vision.
+                    </div>
+
+                    <h3 class="round-heading" style="display: flex; align-items: center; gap: 1rem;">
+                        Round Two:
+                        <div style="font-style: italic; font-weight: 100; color: gray; font-size: small;">(First countable, CVPR 2011)</div>
+                    </h3>
+                    <div style="margin-left: 20px;">
+                        <strong>Summary:</strong>
+                        <div style="margin-left: 20px;">
+                            We completed the second round of the symmetry detection competition and presented results at a dedicated workshop hosted at the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2011 in Colorado Springs, CO. The competition was divided into three parts, each focusing on one of three types of symmetries: reflection, rotation and translation respectively. We received eight submissions for symmetry detection, three for reflection, two for rotation and three for translation symmetry. Adding one baseline algorithm to each symmetry group for comparison, we evaluated a total of eleven algorithms.
+                            <br><br>
+                            In comparison, tested algorithms performed best on reflection symmetry, second best on rotation symmetry and last translation symmetry. Looking at sub categories of reflection symmetries, we found that one algorithm performed superior to all other tested algorithms on real images with multiple reflection axis present (judged on recall rate). Another algorithm outperforms all other algorithms on real and synthetic images depicting only a single reflection symmetry, when the number of false positives has been taken into account (judged on precision rate).
+                            <br><br>
+                            We established a testbed for the evaluation of symmetry detection algorithms, devised evaluation metrics and automated the evaluation process. We tested our process on eleven algorithms and established a performance baseline that can be used as reference for future work on symmetry detection.
+                        </div><br>
+                        <strong>Workshop:</strong>
+                        <div style="margin-left: 20px;">
+                            Completed <a href="#cvpr-workshop">CVPR 2011 workshop</a> on 'Symmetry Detection from Real World Images'.
+                            <br><br>
+                            We have called for participation in the first symmetry detection competition from all researchers worldwide, especially students. Three types of symmetries are targeted in real images: reflection, translation and rotation. The top winners of Round Two competition have received travel funds from US NSF and presented their algorithms, results and analysis at the Symmetry Detection from Real World Image workshop at CVPR 2011, Colorado Springs, CO, held in June 2011.
+                        </div><br>
+                        <strong>Results:</strong>
+                        <div style="margin-left: 20px;">
+                            See in the <strong>Resources</strong> section.
+                            Also see <a href="#cvpr-workshop">CVPR 2011 workshop.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-page-section">
+            <h1 class="page-section-title">Resources</h1>
+            <div class="project-section-description">
+                <strong>Training Data, Test Data, Ground Truth, and Results:</strong><br><br>
+                <div style="display: flex; align-items: center; gap: 2rem;">
+                    <div class="course-listing-card modal-trigger">
+                        <div class="course-listing-content" style="display: flex; justify-content: center;">
+                            <h1 class="course-title"">Translation Dataset</h1>
+                        </div>
+                    </div>
+
+                    <dialog class="course-modal">
+                        <div class="modal-close-button">✕</div>
+                        <div class="modal-content">
+                            <h1 class="page-section-title">Translational Symmetry</h1>
+
+                            <div class="project-page-description">
+                                We provide a data set of 20 images with translation symmetry. They show a variety of objects with varying difficulty: buildings, fences, cloth, etc.<br><br>
+                                The information in the ground truth files follows this format:<br><br>
+                                W H<br>
+                                X Y V X Y V ...<br>
+                                X Y V X Y V ...<br>
+                                ...<br><br>
+                                Where:<br><br>
+                                W = the number of nodes in each row of the lattice<br>
+                                H = the number of nodes in each column of the lattice<br>
+                                X = x-coordinate of a node (in pixels)<br>
+                                Y = y-coordinate of a node (in pixels)<br>
+                                V = 1 if the node is valid, 0 if the node is invalid (useful for occlusion)
+                            </div>   
+                            
+                            <h1 class="page-section-title">Download Links</h1>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Training Images and Ground Truth
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download (13.1 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Test Images Sets
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download Set 1 (9.2 mb)</a>
+                                        <a href="#">Download Set 2a (6.4 mb)</a>
+                                        <a href="#">Download Set 2b (1.2 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Results
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download (19.6 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </dialog>
+
+                    <div class="course-listing-card modal-trigger">
+                        <div class="course-listing-content"  style="display: flex; justify-content: center;">
+                            <h1 class="course-title">Rotation Dataset</h1>
+                        </div>
+                    </div>
+
+                    <dialog class="course-modal">
+                        <div class="modal-close-button">✕</div>
+                        <div class="modal-content">
+                            <h1 class="page-section-title">Rotation Symmetry</h1>
+
+                            <div class="project-page-description">
+                                We provide a data set of 20 images with rotation symmetry. 10 of them have a single rotation center, such as the one shown above, 10 of them have multiple rotation centers. With the images, we provide ground truth files, which label and describe the rotation symmetries in the image.<br><br>
+                                The information in the ground truth files follows this format for each row:<br><br>
+                                X Y | W H | F | T<br><br>
+                                Where:<br><br>
+                                X = x-coordinate of rotation center (in pixels)<br>
+                                Y = y-coordinate of rotation center (in pixels)<br>
+                                W = width (in pixels) of an ellipse indicating the area exhibiting symmetry<br>
+                                H = height (in pixels) of an ellipse indicating the area exhibiting symmetry<br>
+                                F = # of folds (the # of repetitions in one rotation)<br>
+                                T = the type of symmetry: D for dihedral or C for cyclic
+                            </div>   
+                            
+                            <h1 class="page-section-title">Download Links</h1>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Training Images and Ground Truth
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download (1.3 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Test Images Sets
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download (0.4 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Results
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download (19.6 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </dialog>
+
+                    <div class="course-listing-card modal-trigger">
+                        <div class="course-listing-content"  style="display: flex; justify-content: center;">
+                            <h1 class="course-title">Reflection Dataset</h1>
+                        </div>
+                    </div>
+
+                    <dialog class="course-modal">
+                        <div class="modal-close-button">✕</div>
+                        <div class="modal-content">
+                            <h1 class="page-section-title">Rotation Symmetry</h1>
+
+                            <div class="project-page-description">
+                                We provide an extensive data set of real and synthetic images with reflection symmetry. Some have a single axis of reflection, others have multiple axes of reflection. With the images we provide a ground truth labeling of the axis or axes of reflection in the image, as well as an ellipse indicating the extent of the area exhibiting symmetry. These are stored in the form of a Matlab cell array. We also provide an interface, explained in the video below, which you may use to label ground truth on your own image set.
+                            </div>   
+                            
+                            <h1 class="page-section-title">Download Links</h1>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Training Images and Ground Truth
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download (25.6 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Test Images Sets
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download (4.6 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="download-link-list">
+                                <div class="download-card">
+                                    <div class="download-title" style="font-weight: bolder;">
+                                        Results
+                                    </div>
+                                    <div class="download-options">
+                                        <a href="#">Download (9.6 mb)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </dialog>
+
+                </div>
+                Relevant survey paper: <a href="http://www.nowpublishers.com/product.aspx?product=CGV&doi=0600000008">Computational Symmetry in Computer Vision and Computer Graphics</a><br>
+                Online order form for it: <a href="https://www.nowpublishers.com/bookorder.aspx?doi=0600000008&product=CGV">[Order Form]</a><br><br>
+                Relevant Databases:
+                <ul>
+                    <li><a href="https://sites.psu.edu/eecslpac/nrt-2/">Near-Regular Texture Database</a></li>
+                    <li><a href="https://web.engr.oregonstate.edu/~sinisa/datasets.html">2.1D Database from UIUC</a></li>
+                    <li><a href="https://www.mldta.com/dataset/zurich-buildings-database/">Zurich Building Image Database</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project-page-section" id="cvpr-workshop">
+            <h1 class="page-section-title">CVPR 2011 Workshop</h1>
+            <div class="project-section-description">
+                We have called for participation in the first symmetry detection competition from all researchers worldwide, especially students. Three types of symmetries are targeted in real images: reflection, translation and rotation. <strong>The top winners of Round Two competition have received travel funds from US NSF</strong> and presented their algorithms, results and analysis at the Symmetry Detection from Real World Image workshop at CVPR 2011, Colorado Springs, CO, held in June 2011.
+                <br><br>
+                A <a href="http://www.cvpr2011.org/">CVPR 2011 workshop</a> on 'Symmetry Detection from Real World Images'.
+            </div><br><br>
+            <table class="project-section-table">
+                <thead>
+                    <tr>
+                        <th colspan="4" style="font-size: 30px;">
+                            Schedule:
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event/Title</th>
+                        <th>Speaker(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td><a href="#">A Brief Introduction</a></td>
+                        <td>
+                            <div class="caption">Dr. Yanxi Liu</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9:15 - 10:00 AM</td>
+                        <td><a href="#">A Summary of how the Competition is Carried Out (Technical Overview & Results) - Part 1</a></td>
+                        <td>
+                            <div class="caption">Ingmar Rauschert</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 10:15 AM</td>
+                        <td>Short Break</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:15 - 11:00 AM</td>
+                        <td><strong style="font-size: large;">Reflection & Rotation Symmetry Detection</strong><br>Competition Winner Presentations</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="">Detecting Bilateral Symmetry with Feature Mirroring</a></td>
+                        <td>
+                            <div class="cvpr-speaker-list">
+                                <div class="caption">Quanyi Mo</div>
+                                <div class="caption">Bruce Draper</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="">Multi-Scale Kernel Operators for Reflection and Rotation Symmetry</a></td>
+                        <td>
+                            <div class="cvpr-speaker-list">
+                                <div class="caption">Alessio Ferone</div>
+                                <div class="caption">Shripad Kondra</div>
+                                <div class="caption">Alfredo Petrosino</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="">Symmetry-growing for skewed rotational symmetry detection</a></td>
+                        <td>
+                            <div class="cvpr-speaker-list">
+                                <div class="caption">Hyo Jin Kim</div>
+                                <div class="caption">Minsu Cho</div>
+                                <div class="caption">Kyoung Mu Lee</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM - 12:00 PM</td>
+                        <td><stron style="font-size: large;">Symmetry-based Segmentation and Object Recognition</strong><br>Panel Speech and Discussion</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Symmetric Parts and Their Role in Object Recognition</a></td>
+                        <td>
+                            <div class="caption">Sven Dickinson</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Symmetry-integrated Image Segmentation</a></td>
+                        <td>
+                            <div class="cvpr-speaker-list">
+                                <div class="caption">Bir Bhanu</div>
+                                <div class="caption">Yu Sun</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Symmetric Parts and Their Role in Object Recognition</a></td>
+                        <td>
+                            <div class="cvpr-speaker-list">
+                                <div class="caption">Xue Tianfan</div>
+                                <div class="caption">Liu Jianzhuang</div>
+                                <div class="caption">Tang Xiaoou</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:00 / Noon</td>
+                        <td><strong style="font-size: large;">Lunch Break</strong></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1:30 - 2:00 PM</td>
+                        <td>
+                            <a href="">
+                                A Summary of how the Competition is Carried Out (Technical Overview & Results) - Part 2
+                            </a>
+                        </td>
+                        <td>
+                            <div class="caption">Ingmar Rauschert</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2:00- 3:00 PM</td>
+                        <td><strong style="font-size: large;">Symmetries in Urban Scene Analysis</strong><br>Panel Speech</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            Competition Winner of Translation Symmetry<br>
+                            <a href="">Translational and reflection symmetry for detection of salient repeating regions in urban scenes</a>
+                        </td>
+                        <td>
+                            <div class="cvpr-speaker-list">
+                                <div class="caption">Changchang Wu</div>
+                                <div class="caption">Jan-Michael Frahm</div>
+                                <div class="caption">Marc Pollefeys</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Image-based Facade Modeling and Symmetry Detection</a></td>
+                        <td>
+                            <div class="caption">Long Quan</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Parsing Facade Images using Reinforcement Learning</a></td>
+                        <td>
+                            <div class="cvpr-speaker-list">
+                                <div class="caption">Iasonas Kokkinos</div>
+                                <div class="caption">Nikos Paragios</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3:00 - 3:15 PM</td>
+                        <td><strong style="font-size: large;">Short Break</strong></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3:15 - 3:45 PM</td>
+                        <td><strong style="font-size: large;">Symmetries in Urban Scene Analysis</strong><br>Panel Discussion</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4:00 PM</td>
+                        <td><strong style="font-size: large;">Summary and Conclusion</strong></td>
+                        <td><div class="caption">Yanxi Liu</div></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h1 class="page-section-title" style="text-align: center;">Speaker List</h1>
+
+            <div class="project-members">
+                <div class="member-card">
+                    <a href="https://www.cse.psu.edu/~yul11/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg" alt="Yanxi Liu">
+                    </a>
+                    <a href="https://www.cse.psu.edu/~yul11/">
+                        Yanxi Liu<sup>1</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="http://vision.cse.psu.edu/people/ingmarR/index.html">
+                        <img src="https://sites.psu.edu/eecslpac/files/2024/12/Ingmar_Rauschert.jpg" alt="Ingmar Rauschert">
+                    </a>
+                    <a href="http://vision.cse.psu.edu/people/ingmarR/index.html">
+                        Ingmar Rauschert<sup>1</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.cs.toronto.edu/~sven/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/sdickinson.jpg" alt="Sven Dickinson">
+                    </a>
+                    <a href="https://www.cs.toronto.edu/~sven/">
+                        Sven Dickinson<sup>2</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/bbhanu.jpg" alt="Bir Bhanu">
+                    </a>
+                    <a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">
+                        Bir Bhanu<sup>3</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.linkedin.com/in/yu-sun-455a3338/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/yusun.jpg" alt="Yu Sun">
+                    </a>
+                    <a href="https://www.linkedin.com/in/yu-sun-455a3338/">
+                        Yu Sun<sup>3</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.cs.colostate.edu/~draper/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/bdraper.jpg" alt="Bruce A. Draper">
+                    </a>
+                    <a href="https://www.cs.colostate.edu/~draper/">
+                        Bruce A. Draper<sup>4</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.linkedin.com/in/quanyi-mo-7423b153">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/quanyimo.jpg" alt="Quanyi Mo">
+                    </a>
+                    <a href="https://www.linkedin.com/in/quanyi-mo-7423b153">
+                        Quanyi Mo<sup>4</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="http://cvprlab.uniparthenope.it/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/apetrosino.jpg" alt="Alfredo Petrosino">
+                    </a>
+                    <a href="http://cvprlab.uniparthenope.it/">
+                        Alfredo Petrosino<sup>5</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.linkedin.com/in/kondra/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/skondra.jpg" alt="Shripad Kondra">
+                    </a>
+                    <a href="https://www.linkedin.com/in/kondra/">
+                        Shripad Kondra<sup>5</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://cv.snu.ac.kr/index.php/kmlee/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/kyoungmulee.jpg" alt="Kyoung Mu Lee">
+                    </a>
+                    <a href="https://cv.snu.ac.kr/index.php/kmlee/">
+                        Kyoung Mu Lee<sup>6</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://cvlab.postech.ac.kr/~mcho/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/minsucho.jpg" alt="Minsu Cho">
+                    </a>
+                    <a href="https://cvlab.postech.ac.kr/~mcho/">
+                        Minsu Cho<sup>6</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.cs.unc.edu/~hyojin/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/hyojinkim.jpg" alt="Hyojin Kim">
+                    </a>
+                    <a href="https://www.cs.unc.edu/~hyojin/">
+                        Hyojin Kim<sup>6</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.cse.ust.hk/~quan/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/longquan.jpg" alt="Long Quan">
+                    </a>
+                    <a href="https://www.cse.ust.hk/~quan/">
+                        Long Quan<sup>7</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://jkokkin.github.io/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/ikokkinos.jpg" alt="Iasonas Kokkinos">
+                    </a>
+                    <a href="https://jkokkin.github.io/">
+                        Iasonas Kokkinos<sup>8</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.linkedin.com/in/prof-nikos-paragios-20777869/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/nparagios.jpg" alt="Nikos Paragios">
+                    </a>
+                    <a href="https://www.linkedin.com/in/prof-nikos-paragios-20777869/">
+                        Nikos Paragios<sup>8</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="http://ccwu.me/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/changchangwu.jpg" alt="Changchang Wu">
+                    </a>
+                    <a href="http://ccwu.me/">
+                        Changchang Wu<sup>9</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://www.cs.unc.edu/~jmf/cv.html">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/jmfrahm.jpg" alt="Jan-Michael Frahm">
+                    </a>
+                    <a href="https://www.cs.unc.edu/~jmf/cv.html">
+                        Jan-Michael Frahm<sup>10</sup>
+                    </a>
+                </div>
+                <div class="member-card">
+                    <a href="https://people.inf.ethz.ch/marc.pollefeys/">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/mpollefeys.jpg" alt="Marc Pollefeys">
+                    </a>
+                    <a href="https://people.inf.ethz.ch/marc.pollefeys/">
+                        Marc Pollefeys<sup>11</sup>
+                    </a>
+                </div>
+            </div>
+            <div class="institution-key">
+                <sup>1</sup> [Pennsylvania State University], 
+                <sup>2</sup> [University of Toronto], 
+                <sup>3</sup> [University of California, Riverside], 
+                <sup>4</sup> [Colorado State University], 
+                <sup>5</sup> [University of Naples Parthenope], 
+                <sup>6</sup> [Seoul National University], 
+                <sup>7</sup> [Clear Water Bay, Kowloon], 
+                <sup>8</sup> [Ecole Centrale Paris], 
+                <sup>9</sup> [University of Washington at Seattle], 
+                <sup>10</sup> [University of North Carolina at Chapel Hill], 
+                <sup>11</sup> [ETH Zurich]
+            </div>
+        </div>
+
+        <div class="funding-note">This research is funded in part by <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1040711">NSF Award IIS-1040711</a>  and in part by funds from industry sponsors.</div>
+    </div>
+
+    <script>
+        const modalTriggers = document.getElementsByClassName("modal-trigger");
+        
+        // Set click events for opening the modal
+        // First grabs the html, then opens the modal
+        for (const modalTrigger of modalTriggers) {
+            modalTrigger.addEventListener("click", function (e) {
+                const modal = this.nextElementSibling;
+
+                modal.showModal();
+            });
+        }
+</script>
+<script>
+        const modalCloseButtons = document.getElementsByClassName("modal-close-button");
+
+        // Set click events for closing the modal
+        for (const modalCloseButton of modalCloseButtons) {
+            modalCloseButton.addEventListener("click", function (e) {
+                const modal = this.parentElement;
+
+                modal.close();
+            });
+        }
+</script>
+<script>
+        const modals = document.getElementsByClassName("course-modal");
+        
+        // Allows closing of the modal by clicking outside the modal
+        // Credit: https://stackoverflow.com/questions/25864259/how-to-close-the-new-html-dialog-tag-by-clicking-on-its-backdrop
+        for (const modal of modals) {
+    modal.addEventListener('click', function(event) {
+        const r = this.getBoundingClientRect(), x = event.clientX, y = event.clientY;
+        if (!(r.top <= y)) { modal.close(); return; }
+        if (!(y <= r.top + r.height)) { modal.close(); return; }
+        if (!(r.left <= x)) { modal.close(); return; }
+        if (!(x <= r.left + r.width)) { modal.close(); return; }
+    });
+}
+</script>
+</body>
+</html>

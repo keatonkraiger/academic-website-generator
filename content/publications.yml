@@ -23,7 +23,38 @@
     url: https://arxiv.org/pdf/2412.20666
   publisher: Arxiv Preprint
   highlight: 1
-  project_page: http://vision.cse.psu.edu/research/regularity_perception/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/r-vpd-recurrence-based-vanishing-point-detection/
+
+- title: EscherNet 101
+  image: https://sites.psu.edu/eecslpac/files/2025/02/escher_net.png
+  description: null
+  authors: Christopher Funk and Yanxi Liu
+  month: 3
+  year: 2023
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/2303.04208
+  publisher: Arxiv Preprint
+  highlight: 1
+  project_page: https://sites.psu.edu/eecslpac/explicit-and-implicit-regularity-perception/
+
+- title: A Light-Weight Contrastive Approach for Aligning Human Pose Sequences
+  image: https://sites.psu.edu/eecslpac/files/2024/11/pose-align.png
+  description: 'We propose a novel image-based method to estimate three key components
+    for stability computation: Center of Mass (CoM), Base of Support (BoS), and Center
+    of Pressure (CoP). Furthermore, we quantitatively validate our image-based methods
+    for computing two classic stability measures, CoMtoCoP and CoMtoBoS distances,
+    against values generated directly from laboratory-based sensor output using a
+    publicly available, multi-modality, ten-subject human motion dataset.'
+  authors: Robert T. Collins
+  month: 3
+  year: 2023
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/pdf/2303.04244
+  publisher: Arxiv Preprint
+  highlight: 1
+  project_page: https://sites.psu.edu/eecslpac/vision-to-dynamics/
 
 - title: Image-based Stability Quantification
   image: https://sites.psu.edu/eecslpac/files/2025/02/2022_image_stability.jpg
@@ -41,7 +72,7 @@
     url: https://ieeexplore.ieee.org/document/9968276
   publisher: IEEE Transactions on Neural Systems and Rehabilitation Engineering
   highlight: 1
-  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/vision-to-dynamics/  
 
 - title: Novel 3D Scene Understanding Applications From Recurrence in a Single Image
   image: https://sites.psu.edu/eecslpac/files/2024/11/3D.jpg
@@ -58,7 +89,25 @@
     url: https://arxiv.org/abs/2210.07991
   publisher: Arxiv Preprint
   highlight: 1
-  project_page: http://vision.cse.psu.edu/research/regularity_perception/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/vision-to-dynamics/
+
+- title: Image-based Stability Quantification
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2022_image_stability.jpg
+  description: 'We propose a novel image-based method to estimate three key components
+    for stability computation: Center of Mass (CoM), Base of Support (BoS), and Center
+    of Pressure (CoP). Furthermore, we quantitatively validate our image-based methods
+    for computing two classic stability measures, CoMtoCoP and CoMtoBoS distances,
+    against values generated directly from laboratory-based sensor output using a
+    publicly available, multi-modality, ten-subject human motion dataset.'
+  authors: Jesse Scott, John Challis, Robert T. Collins, Yanxi Liu
+  month: 5
+  year: 2022
+  link:
+    display: Arxiv Preprint
+    url: https://arxiv.org/abs/2206.11443
+  publisher: Arxiv Preprint
+  highlight: 1
+  project_page: https://sites.psu.edu/eecslpac/vision-to-dynamics/ 
 
 - title: Computational Symmetry
   image: https://sites.psu.edu/eecslpac/files/2025/02/2002liu5.jpg
@@ -89,7 +138,7 @@
     url: https://www.researchgate.net/profile/Yanxi_Liu/publication/343139766_From_Image_to_Stability_Learning_Dynamics_from_Human_Pose/links/5f1b00c892851cd5fa429131/From-Image-to-Stability-Learning-Dynamics-from-Human-Pose.pdf
   publisher: European Conference on Computer Vision (ECCV)
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/vision-to-dynamics/ 
 
 - title: 'From Kinematics To Dynamics: Estimating Center of Pressure and Base of Support
     from Video Frames of Human Motion'
@@ -104,7 +153,7 @@
     url: https://arxiv.org/pdf/2001.00657v1.pdf
   publisher: Arxiv Preprint
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/vision-to-dynamics/ 
 
 - title: 'Learning Dynamics from Kinematics: Estimating 2D Foot Pressure Maps from
     Video Frames'
@@ -119,7 +168,7 @@
     url: https://arxiv.org/pdf/1811.12607v4.pdf
   publisher: Arxiv Preprint
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/vision-to-dynamics/ 
 
 - title: 'Learning Dynamics from Kinematics: Estimating Foot Pressure from Video'
   image: https://sites.psu.edu/eecslpac/files/2025/02/2018_foot_pressure.png
@@ -133,7 +182,7 @@
     url: https://arxiv.org/pdf/1811.12607v2
   publisher: Arxiv Preprint
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/dynamicsFromKinematics/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/vision-to-dynamics/ 
 
 - title: 'Beyond Planar Symmetry: Modeling human perception of reflection and rotation
     symmetries in the wild'
@@ -163,7 +212,7 @@
     url: https://www.researchgate.net/publication/319311740_2017_ICCV_Challenge_Detecting_Symmetry_in_the_Wild
   publisher: International Conference on Computer Vision (ICCV) Workshop
   highlight: 0
-  project_page: null
+  project_page: https://sites.google.com/view/symcomp17
 
 - title: 4D Model-based Spatiotemporal Alignment of Scripted Taiji Quan Sequences
   image: https://sites.psu.edu/eecslpac/files/2025/02/2017spatiotemporal.jpg
@@ -191,7 +240,7 @@
   highlight: 0
   project_page: null
 
-- title: Regularity-driven Building Faï¿½ade Matching between Aerial and Street-Views
+- title: Regularity-driven Building Façade Matching between Aerial and Street-Views
   image: https://sites.psu.edu/eecslpac/files/2025/02/2016wolff.jpg
   description: null
   authors: Mark Wolff, Robert T. Collins, Yanxi Liu
@@ -217,6 +266,19 @@
   highlight: 0
   project_page: null
 
+- title: "LabelMe Symmetry: a tool for human symmetry perception"
+  image: https://sites.psu.edu/eecslpac/files/2025/02/2016funk.gif
+  description: null
+  authors: Christopher Funk, Yanxi Liu
+  month: 9
+  year: 2016
+  link:
+    display: Conference
+    url: https://www.researchgate.net/publication/296706719_SYMMETRY_reCAPTCHA
+  publisher: Vision Sciences Society
+  highlight: 0
+  project_page: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
+
 - title: Human Visual Perception of the 17 Wallpaper-Group Patterns using Timed Trials
   image: https://sites.psu.edu/eecslpac/files/2024/11/P4M-1.gif
   description: null
@@ -228,7 +290,7 @@
     url: https://www.researchgate.net/publication/307904113_Human_Visual_Perception_of_the_17_Wallpaper-Group_Patterns_using_Timed_Trials
   publisher: Vision Sciences Society
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
 
 - title: Symmetry features and group hierarchy model human symmetry perception
   image: https://sites.psu.edu/eecslpac/files/2025/02/2016_P4M_Cole.png
@@ -238,10 +300,10 @@
   year: 2016
   link:
     display: Conference
-    url: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+    url: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
   publisher: International Meeting of Psychonomic Society
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
 
 - title: Assessing tracking performance in complex scenarios using mean time between
     failures
@@ -270,7 +332,7 @@
   publisher: 'The Journal of Neuroscience: The Official Journal of the Society of
     Neuroscience'
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
 
 - title: Dancing with Turks
   image: https://sites.psu.edu/eecslpac/files/2024/12/danceICON.jpg
@@ -284,7 +346,7 @@
     url: https://www.researchgate.net/publication/280054406_Dancing_with_Turks_ACM_Multimedia_2015_long_paper
   publisher: ACM Multimedia Conference
   highlight: 0
-  project_page: null
+  project_page: https://sites.psu.edu/eecslpac/dancing-with-turks/
 
 - title: Parametric responses to rotation symmetry in mid-level visual cortex
   image: https://sites.psu.edu/eecslpac/files/2025/02/2015Kohler.png
@@ -298,7 +360,7 @@
     url: https://www.researchgate.net/publication/281519871_Parametric_responses_to_rotation_symmetry_in_mid-level_visual_cortex
   publisher: Vision Sciences Society
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
 
 - title: The Salience of Lower-Order Features in Highly Self-Similar Wallpaper Groups
   image: https://sites.psu.edu/eecslpac/files/2025/02/2015Vedak.jpg
@@ -311,7 +373,7 @@
     url: https://www.researchgate.net/publication/281519710_The_Salience_of_Lower-Order_Features_in_Highly_Self-Similar_Wallpaper_Groups
   publisher: Vision Sciences Society
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
 
 - title: The Neural Response to Visual Symmetry in Wallpaper Patterns
   image: https://sites.psu.edu/eecslpac/files/2025/02/2014Kohler.jpg
@@ -325,7 +387,7 @@
     url: https://jov.arvojournals.org/article.aspx?articleid=2145308
   publisher: Vision Sciences Society
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
 
 - title: Visual patterns with rotational symmetry activate distinct cortical regions
   image: https://sites.psu.edu/eecslpac/files/2025/02/2014ThomasNuero.jpg
@@ -339,7 +401,7 @@
     url: https://www.researchgate.net/publication/273089866_The_neural_response_to_visual_symmetry_in_wallpaper_patterns
   publisher: Presented for Society for Neuroscience
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/humanSymmetryDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/
 
 - title: Hybrid Stochastic/Deterministic Optimization for Tracking Sports Players
     and Pedestrians
@@ -407,7 +469,7 @@
     url: https://www.researchgate.net/publication/259482926_3D_Blob_based_Brain_Tumor_Detection_and_Segmentation_in_MR_Images
   publisher: IEEE Internation Symposium on Biomedical Imaging (ISBI) Beijing, China
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/brain-tumor-detection/
 
 - title: Automatic Detection of Exploding Aggregates in a Colloidal Suspension
   image: https://sites.psu.edu/eecslpac/files/2025/02/2014_automatic.png
@@ -435,7 +497,7 @@
     url: https://www.researchgate.net/publication/256476760_Symmetry_Detection_from_Real_World_Images_Competition_2013_Summary_and_Results
   publisher: Computer Vision and Pattern Recognition (CVPR) Workshop
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/symComp13/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/cvpr-2013-workshop/
 
 - title: Tracking Sports Players with Context-Conditioned Motion Models
   image: https://sites.psu.edu/eecslpac/files/2025/02/2013liuSport.jpg
@@ -487,7 +549,7 @@
     url: https://openaccess.thecvf.com/content_cvpr_2013/papers/Rujikietgumjorn_Optimized_Pedestrian_Detection_2013_CVPR_paper.pdf
   publisher: Computer Vision and Pattern Recognition (CVPR)
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/optdetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/optimized-pedestrian-detection/
 
 - title: Robust Autocalibration for Surveillance Camera Network
   image: https://sites.psu.edu/eecslpac/files/2025/02/2013wacvLiu.jpg
@@ -607,7 +669,7 @@
   publisher: 'Proceedings of the 5th International Conference on Bio-inspired Systems
     and Signal Processing, '
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/brain-tumor-detection/
 
 - title: Surveillance Camera Autocalibration based on Pedestrian Height Distributions
   image: https://sites.psu.edu/eecslpac/files/2025/02/2011bmvcLiu.jpg
@@ -634,7 +696,7 @@
     url: https://www.researchgate.net/publication/263963910_Supervised_Machine_Learning_for_Brain_Tumor_Detection_in_Structural_MRI
   publisher: Radiological Society of North America (RSNA)
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/tumorDetect/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/brain-tumor-detection/
 
 - title: A New Symmetry-Based Method For Mid-Sagittal Plane Extraction In Neuroimages
   image: https://sites.psu.edu/eecslpac/files/2025/02/2011ruppert1.jpg
@@ -741,7 +803,7 @@
     url: https://www.researchgate.net/publication/45200129_Skewed_Rotation_Symmetry_Group_Detection
   publisher: The IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/rotationSymmetryGroupDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/rotational-symmetry-detection/
 
 - title: Computational Symmetry in Computer Vision and Computer Graphics
   image: https://sites.psu.edu/eecslpac/files/2025/02/2010liu-CSinCVCG.jpg
@@ -1032,7 +1094,7 @@
     url: https://www.researchgate.net/publication/221362073_Rotation_symmetry_group_detection_via_frequency_analysis_of_frieze-expansions
   publisher: Computer Vision and Pattern Recognition (CVPR)
   highlight: 0
-  project_page: http://vision.cse.psu.edu/research/rotationSymmetryGroupDetection/index.shtml
+  project_page: https://sites.psu.edu/eecslpac/rotational-symmetry-detection/
 
 - title: Image De-fencing
   image: https://sites.psu.edu/eecslpac/files/2025/02/2008liu1.jpg

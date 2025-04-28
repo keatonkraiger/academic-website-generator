@@ -1,0 +1,37 @@
+title: Regularity-driven Urban Scene Understanding
+slug: project-url-slug  # For generating URLs/filenames
+featured_image: /mnt/e/Random/lab_site/imgs/regulariity_perception.jpg  # Optional hero/thumbnail image
+
+members:
+  - name: Yanxi Liu
+    image: /assets/imgs/people/yanxi.jpg
+    link: https://www.lipsum.com/
+    role: Principal Investigator  # Optional
+
+  - name: Robert T. Collins
+    image: https://sites.psu.edu/eecslpac/files/2024/11/bob-e1681759265217.jpg
+    link: https://www.cse.psu.edu/~rtc12/
+    institution: Pennsylvania State University
+
+  - name: Mark Wolff
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Mark_Wolff.jpg
+    link: null
+    institution: Pennsylvania State University 
+
+  - name: Jingchen Liu
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Jingchen_Liu.jpg
+    link: http://www.cse.psu.edu/~jxl1037/
+    institution: Pennsylvania State University 
+
+  - name: Minwoo Park
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Minwoo_Park.jpg
+    link: http://mipark2.weebly.com/
+    institution: NVIDIA
+  
+  - name: Kyle Brocklehurst
+    image: https://sites.psu.edu/eecslpac/files/2024/12/Kyle_Brocklehurst.jpg
+    link: http://vision.cse.psu.edu/people/kyleB/index.shtml
+    institution: Pennsylvania State University 
+
+description:
+  This is a research topic covering many of our publications. Explore some of them below.
