@@ -27,7 +27,7 @@ faculty:
   - name: Yanxi Liu
     status: faculty
     img: https://sites.psu.edu/eecslpac/files/2024/11/yanxi-e1681759219588.jpg
-    website: https://www.lipsum.com/
+    website: http://www.cse.psu.edu/~yanxi/
     email: yanxi@psu.edu
     education:
       - Ph.D. in Computer Science, University of Massachusetts
@@ -38,23 +38,40 @@ current_students:
   - name: Keaton Kraiger
     status: phd_student
     img: https://sites.psu.edu/eecslpac/files/2024/11/keatonK_small.jpg
-    website: https://www.lipsum.com/
+    website: https://keatonkraiger.github.io/
     education:
       - Ph.D. Student in Computer Science and Engineering
 
   - name: Skanda Bharadwaj
     status: phd_student
     img: https://sites.psu.edu/eecslpac/files/2024/11/skandaB_small.jpg
-    website: https://www.lipsum.com/
+    website: https://www.skandabharadwaj.com/
     education:
       - Ph.D. Student in Computer Science and Engineering
 
   - name: Shimian Zhang
     status: phd_student
     img: https://sites.psu.edu/eecslpac/files/2024/11/shimianZ.jpg
-    website: https://www.lipsum.com/
+    website: https://alexis97.github.io/
     education:
       - Ph.D. Student in Computer Science and Engineering
+
+# Current MS Stduents
+  # - name: Abhinav Sachdeva
+  #   status: ms_student 
+  #   img: 
+  #   website: https://abhinavsachdeva7.github.io/
+  #   education:
+  #     - M.S. Student in Computer Science 
+
+# Current undergrad students
+  - name: Kyle Chiem 
+    status: bs_student 
+    img: https://sites.psu.edu/eecslpac/files/2025/04/Kyle_Chiem.jpg
+    website: https://linkedin.com/in/kyle-chiem
+    education:
+      - B.S. Student in Computer Science 
+
 
 # Alumni Listed by Degree (Ph.D., M.S., B.S.)
 alumni:

@@ -9,19 +9,19 @@ datasets:
     img_url: https://sites.psu.edu/eecslpac/files/2025/04/psu-tmm100_source.gif
     description: >
       The PSU Taiji MultiModal (PSU-TMM100) Dataset contains 100 Taiji motion sequences, 24-form Simplified Taiji-Quan, aka Tai Chi, performed by 10 human subjects.
-    dataset_url: https://sites.psu.edu/eecslpac/vision-to-dynamics/
+    dataset_url: ./datasets/PSUTMM100.html
 
   - title:   Database of Near-Regular Textures
-    img_url: https://sites.psu.edu/eecslpac/files/2025/04/nrt.jpg
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/NRT_samples.png
     description: >
       This database contains textures from completely regular to completely irregular patterns, with a focus on near-regular textures. It also includes video of near-regular textures in motion. Also available: groundtruth for translation, rotation and reflection/glide-reflection symmetry detection algorithms.
-    dataset_url: https://vivid.cse.psu.edu/
+    dataset_url: ./datasets/NRT.html
 
   - title:   PSU HUB Dataset 
-    img_url: https://sites.psu.edu/eecslpac/files/2025/04/psuhubdataicon.png
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/PSU_hub_trajs.png
     description: >
       Ground truth trajectory and grouping information for pedestrians walking in the PSU student union building.
-    dataset_url: http://www.cse.psu.edu/~rcollins/Software/PSUHubDatasetReleaseV1.zip
+    dataset_url: ./datasets/PSUHub.html
 
   - title:  Deformed Lattice Detection In Real-World Images 
     img_url: https://sites.psu.edu/eecslpac/files/2025/04/lattice.png

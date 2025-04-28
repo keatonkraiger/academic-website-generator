@@ -65,6 +65,9 @@
   }
   
   /* ==================== BASE STYLES ==================== */
+  html {
+    scroll-behavior: smooth;
+  }
   
   body {
     margin: 0;
@@ -132,7 +135,7 @@
     box-sizing: border-box;
   }
   
-  .course-listing-content {
+  .course-listing-card {
     background: #fafafa;
     border-color: #fafafa;
     text-align: start;
@@ -140,7 +143,6 @@
   
     flex-direction: column;
     justify-content: center;
-    width: 100%;
   
     cursor: pointer;
   }
@@ -155,18 +157,11 @@
     }
   }
   
-  .project-listing-image,
-  .course-listing-image {
+  .project-listing-image {
     width: 300px;
     min-width: 300px;
     height: 220px;
     object-fit: cover;
-  }
-  
-  .course-listing-image {
-    width: 200px;
-    min-width: 200px;
-    height: auto;
   }
   
   .project-listing-content {
@@ -743,7 +738,6 @@
   }
   
   /* Dataset List */
-  
   .dataset-card {
     position: relative;
   }
@@ -776,11 +770,9 @@
     background-color: lightgrey;
     border-radius: 8px;
     padding: 1rem 2rem;
-    max-width: 900px;       /* Matches main content width */
     margin: 2rem auto;       /* Centers the block */
     box-sizing: border-box;
   }
-  
   
   .citation-block p {
     font-weight: bold;
@@ -852,6 +844,7 @@
   .acknowledgement-notes {
     color: grey;
     font-style: italic;
+    text-align: center;
   }
   
   /* Collapsible Content CSS */
@@ -965,14 +958,12 @@
       width: auto;
     }
   
-    .project-listing-card,
-    .course-listing-card {
+    .project-listing-card {
       height: auto;
       flex-direction: column;
     }
     
-    .project-listing-image,
-    .course-listing-image {
+    .project-listing-image {
       width: 100%;
       height: 200px;
       min-width: 0;
@@ -982,10 +973,6 @@
       width: 100%;
     }
   
-    .course-listing-content {
-      width: auto;
-    }
-  
     .download-card{
       display: flex;
       flex-direction: column;
@@ -993,23 +980,6 @@
     }
   }
   
-  /* ==================== Slideshow ==================== */
-  .slideshow-container {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 20px;
-  }
-  .slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  .slides img {
-    width: 100%;
-    flex-shrink: 0;
-  }
   /* ==================== Full News Page ==================== */
   .fullnews-container {
     width: 100%;
@@ -1203,6 +1173,54 @@
     margin: 20px 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  
+  /* ==================== Datasets ==================== */
+  /* ==================== Datasets ==================== */
+  .dataset-listing-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    height: 250px;
+    margin-bottom: 30px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .dataset-listing-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  .dataset-listing-content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .dataset-listing-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f09228;
+    margin: 0 0 10px 0;
+  }
+  
+  .dataset-listing-description {
+    font-size: 1rem;
+    color: #2d3748;
+    line-height: 1.6;
+  }
+  
+  .dataset-image-rect {
+    height: 60%;
+    width: auto;
+    max-width: 400px;
+    object-fit: contain;
+    flex-shrink: 0;
+    display: block;
   }
   
   /* ==================== Datasets ==================== */

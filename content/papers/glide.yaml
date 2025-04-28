@@ -1,0 +1,99 @@
+title:  Curved (Glide) Reflection Symmetry Detection   # Page title at the top
+
+papers:
+  - title: "Curved Symmetry Perception in the Wild"
+    members:
+      - name: Jingchen Liu 
+        image: https://sites.psu.edu/eecslpac/files/2024/12/Jingchen_Liu.jpg
+      - name: Yanxi Liu
+        image: https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg
+        link: https://www.cse.psu.edu/~yul11/
+    content:
+      - type: links
+        items:
+          - label: PDF
+            url: http://vision.cse.psu.edu/research/curvedSym/2010liu2.pdf
+          - label: Poster
+            url: http://vision.cse.psu.edu/research/curvedSym/curveSymPoster.pdf
+
+
+      - type: figure
+        path: https://sites.psu.edu/eecslpac/files/2025/04/glid_reflection.jpg
+        caption: 
+      
+      - type: abstract
+        text: |
+          We propose a novel approach with self-validation for detecting curved reflection symmetry patterns from real, unsegmented images. Our method benefits from the observation that any curved symmetry patterns can be approximated by a sequence of piecewise rigid reflection patterns. Pairs of symmetric feature points are first detected (including both inliers and outliers) and treated as `particles'. Multiple hypothesis sampling and pruning are used to sample a smooth path going through inlier particles and recover the curved reflection axis. Our approach generates explicit supporting region of the curved reflection symmetry and has the ability for intermediate self-validation, which make the detection more robust in comparison to the state-of-art algorithm. Experimental results on 200+ images demonstrate the effectiveness of the proposed approach.
+
+      - type: figure
+        path: https://sites.psu.edu/eecslpac/files/2025/04/glide_framework.jpg
+        caption: |
+         The framework of our approach: (A)input image; (B)detected SIFT feature points marked as pink dots and successfully matched feature point pairs connected using green dashed lines; (C)representing feature points pairs as yellow particles with red short lines indicating the directions of potential reflection symmetry axis; (D)Maximally connected components in particle pairwise consistency graph G; (E)Sampled optimal path from G; (F)Rectified region via TPS warping. 
+      - type: citation
+        text: |
+          @inproceedings{liu2010curved,
+            title={Curved reflection symmetry detection with self-validation},
+            author={Liu, Jingchen and Liu, Yanxi},
+            booktitle={Asian Conference on Computer Vision},
+            pages={102--114},
+            year={2010},
+            organization={Springer}
+          }
+
+  - title: "Curved Glide-Reflection Symmetry Detection"
+    content:
+      - type: links
+        items:
+          - label: PDF
+            url: https://vision.cse.psu.edu/research/curvedSym/2009lee2.pdf
+
+          - label: PDF 
+            url: http://vision.cse.psu.edu/publications/pdfs/2012curveSymPAMI.pdf
+
+      - type: figure
+        path: http://vision.cse.psu.edu/research/curvedSym/images/skResult.jpg
+        caption:
+      
+      - type: abstract
+        text: |
+          We generalize reflection symmetry detection to a curved glide-reflection symmetry detection problem. We propose a unifying, local feature-based approach for curved glidereflection symmetry detection from real, unsegmented images, where the classic reflection symmetry becomes one of four special cases. Our method detects and groups statistically dominant local reflection axes in a 3D parameter space. A curved glide-reflection symmetry axis is estimated by a set of contiguous local straight reflection axes. Experimental results of the proposed algorithm on 40 real world images demonstrate promising performance. 
+
+      - type: citation
+        text: |
+          @inproceedings{lee2009curved,
+            title={Curved glide-reflection symmetry detection},
+            author={Lee, Seungkyu and Liu, Yanxi},
+            booktitle={2009 IEEE Conference on Computer Vision and Pattern Recognition},
+            pages={1046--1053},
+            year={2009},
+            organization={IEEE}
+          }
+          @article{lee2011curved,
+            title={Curved glide-reflection symmetry detection},
+            author={Lee, Seungkyu and Liu, Yanxi},
+            journal={IEEE transactions on pattern analysis and machine intelligence},
+            volume={34},
+            number={2},
+            pages={266--278},
+            year={2011},
+            publisher={IEEE}
+          }
+
+
+downloads:
+  - title: Leaf Dataset 1
+    description: Submit this form to request access to the dataset files.
+    format: ZIP (8MB)
+    url: https://forms.gle/WayiZzAVVpeWuocz6
+  - title: Leaf Dataset 2
+    format: ZIP (32MB)
+    description: Submit this form to request access to the dataset files 
+    url: https://forms.gle/WayiZzAVVpeWuocz6 
+  - title: Spine X-Ray Dataset 
+    format: ZIP (1MB)
+    description: Submit this form to request access to the dataset files 
+    url: https://forms.gle/WayiZzAVVpeWuocz6  
+  - title: PAMI 2012 Reflection and Glide Reflection Dataset
+    format: ZIP (XGB)
+    description: Includes reflection ,glide reflection, curved reflection, and curved glide reflection subsets
+    url: 

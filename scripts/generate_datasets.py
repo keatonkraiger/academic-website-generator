@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup
 import yaml
 from pathlib import Path
 import argparse
@@ -85,13 +86,16 @@ html_template = """<!DOCTYPE html>
 def format_dataset_card(ds):
     return f'''
     <div class="dataset-listing-card">
-        <img src="{ds['img_url']}" alt="{ds['title']}" class="dataset-image-rect">
+        <div class="dataset-image-container">
+            <img src="{ds['img_url']}" alt="{ds['title']}" class="dataset-image-rect">
+        </div>
         <div class="dataset-listing-content">
             <h2 class="dataset-listing-title">{ds['title']}</h2>
             <p class="dataset-listing-description">{ds['description']}</p>
             <a href="{ds['dataset_url']}" class="dataset-listing-link">View Dataset</a>
         </div>
     </div>'''
+
 
 def generate_dataset_directory(yaml_file, output_file):
     with open(yaml_file, 'r', encoding='utf-8') as f:
@@ -107,6 +111,8 @@ def generate_dataset_directory(yaml_file, output_file):
     )
 
     Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+    soup = BeautifulSoup(html, 'html.parser')
+    html = soup.prettify()
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(html)
 

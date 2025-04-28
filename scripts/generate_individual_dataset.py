@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup
 import yaml
 from pathlib import Path
 import argparse
@@ -73,11 +74,11 @@ html_template = """<!DOCTYPE html>
 <body>
   {navbar}
   <div class="project-page-container">
-  
-    <hr class="styled-hr" />
-    <h1 class="project-page-title">
-    {title}</h1>
+  <hr class="styled-hr" />
+    <h1 style="text-align: center">{title}</h1>
+
     {funding_section}
+
     <hr class="styled-hr" />
 
     <div class="dataset-image">
@@ -146,8 +147,10 @@ def generate_dataset_page(yaml_path, output_path):
     )
 
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    soup = BeautifulSoup(html, 'html.parser')
+    html = soup.prettify()
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(html)
+        f.write(html) 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate individual dataset page")

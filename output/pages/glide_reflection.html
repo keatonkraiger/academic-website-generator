@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Curved (Glide) Reflection Symmetry Detection
+  </title>
+  <link href="../../assets/custom.css" rel="stylesheet" type="text/css"/>
+  <style>
+   .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a {
+    color: #1772d0;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links a:hover {
+    color: #f09228;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+  </style>
+ </head>
+ <body>
+  <nav class="navbar">
+   <div class="nav-container">
+    <a class="nav-brand" href="index.html">
+     LPAC
+    </a>
+    <div class="nav-links">
+     <a href="../index.html">
+      Home
+     </a>
+     <a href="../output/people.html">
+      People
+     </a>
+     <a href="../output/research.html">
+      Research
+     </a>
+     <a href="../output/publications.html">
+      Publications
+     </a>
+     <a href="../output/news.html">
+      News
+     </a>
+     <a href="../output/datasets.html">
+      Datasets
+     </a>
+    </div>
+   </div>
+  </nav>
+  <div class="projects-wrapper">
+   <div class="projects-container">
+    <h1 class="section-title">
+     Curved (Glide) Reflection Symmetry Detection
+    </h1>
+    <div class="paper-block">
+     <h2 class="paper-title">
+      Curved Symmetry Perception in the Wild
+     </h2>
+     <div class="paper-authors">
+      Jingchen Liu,
+      <a href="https://www.cse.psu.edu/~yul11/" target="_blank">
+       Yanxi Liu
+      </a>
+     </div>
+     <div class="paper-content-links">
+      <a href="http://vision.cse.psu.edu/research/curvedSym/2010liu2.pdf" target="_blank">
+       [PDF]
+      </a>
+      <a href="http://vision.cse.psu.edu/research/curvedSym/curveSymPoster.pdf" target="_blank">
+       [Poster]
+      </a>
+     </div>
+     <div class="wide-figure">
+      <img alt="Figure" src="https://sites.psu.edu/eecslpac/files/2025/04/glid_reflection.jpg"/>
+     </div>
+     <div class="abstract-block">
+      <h3>
+       Abstract
+      </h3>
+      <p>
+       We propose a novel approach with self-validation for detecting curved reflection symmetry patterns from real, unsegmented images. Our method benefits from the observation that any curved symmetry patterns can be approximated by a sequence of piecewise rigid reflection patterns. Pairs of symmetric feature points are first detected (including both inliers and outliers) and treated as `particles'. Multiple hypothesis sampling and pruning are used to sample a smooth path going through inlier particles and recover the curved reflection axis. Our approach generates explicit supporting region of the curved reflection symmetry and has the ability for intermediate self-validation, which make the detection more robust in comparison to the state-of-art algorithm. Experimental results on 200+ images demonstrate the effectiveness of the proposed approach.
+      </p>
+     </div>
+     <div class="wide-figure">
+      <img alt="Figure" src="https://sites.psu.edu/eecslpac/files/2025/04/glide_framework.jpg"/>
+      <p class="figure-caption">
+       The framework of our approach: (A)input image; (B)detected SIFT feature points marked as pink dots and successfully matched feature point pairs connected using green dashed lines; (C)representing feature points pairs as yellow particles with red short lines indicating the directions of potential reflection symmetry axis; (D)Maximally connected components in particle pairwise consistency graph G; (E)Sampled optimal path from G; (F)Rectified region via TPS warping.
+      </p>
+     </div>
+     <div class="citation-block">
+      <p>
+       <b>
+        Citation:
+       </b>
+      </p>
+      <pre class="dataset-citation">@inproceedings{liu2010curved,
+  title={Curved reflection symmetry detection with self-validation},
+  author={Liu, Jingchen and Liu, Yanxi},
+  booktitle={Asian Conference on Computer Vision},
+  pages={102--114},
+  year={2010},
+  organization={Springer}
+}
+</pre>
+     </div>
+    </div>
+    <div class="paper-block">
+     <h2 class="paper-title">
+      Curved Glide-Reflection Symmetry Detection
+     </h2>
+     <div class="paper-content-links">
+      <a href="https://vision.cse.psu.edu/research/curvedSym/2009lee2.pdf" target="_blank">
+       [PDF]
+      </a>
+      <a href="http://vision.cse.psu.edu/publications/pdfs/2012curveSymPAMI.pdf" target="_blank">
+       [PDF]
+      </a>
+     </div>
+     <div class="wide-figure">
+      <img alt="Figure" src="http://vision.cse.psu.edu/research/curvedSym/images/skResult.jpg"/>
+     </div>
+     <div class="abstract-block">
+      <h3>
+       Abstract
+      </h3>
+      <p>
+       We generalize reflection symmetry detection to a curved glide-reflection symmetry detection problem. We propose a unifying, local feature-based approach for curved glidereflection symmetry detection from real, unsegmented images, where the classic reflection symmetry becomes one of four special cases. Our method detects and groups statistically dominant local reflection axes in a 3D parameter space. A curved glide-reflection symmetry axis is estimated by a set of contiguous local straight reflection axes. Experimental results of the proposed algorithm on 40 real world images demonstrate promising performance.
+      </p>
+     </div>
+     <div class="citation-block">
+      <p>
+       <b>
+        Citation:
+       </b>
+      </p>
+      <pre class="dataset-citation">@inproceedings{lee2009curved,
+  title={Curved glide-reflection symmetry detection},
+  author={Lee, Seungkyu and Liu, Yanxi},
+  booktitle={2009 IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1046--1053},
+  year={2009},
+  organization={IEEE}
+}
+@article{lee2011curved,
+  title={Curved glide-reflection symmetry detection},
+  author={Lee, Seungkyu and Liu, Yanxi},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={34},
+  number={2},
+  pages={266--278},
+  year={2011},
+  publisher={IEEE}
+}
+</pre>
+     </div>
+    </div>
+    <div class="downloads-section">
+     <h2>
+      Related Datasets
+     </h2>
+     <div class="download-card">
+      <div class="download-info">
+       <p class="download-title">
+        Leaf Dataset 1
+       </p>
+       <p class="download-description">
+        Submit this form to request access to the dataset files.
+       </p>
+       <p class="download-meta">
+        ZIP (8MB)
+       </p>
+      </div>
+      <div class="download-options">
+       <a href="https://forms.gle/WayiZzAVVpeWuocz6" rel="noopener" target="_blank">
+        Download
+       </a>
+      </div>
+     </div>
+     <div class="download-card">
+      <div class="download-info">
+       <p class="download-title">
+        Leaf Dataset 2
+       </p>
+       <p class="download-description">
+        Submit this form to request access to the dataset files
+       </p>
+       <p class="download-meta">
+        ZIP (32MB)
+       </p>
+      </div>
+      <div class="download-options">
+       <a href="https://forms.gle/WayiZzAVVpeWuocz6" rel="noopener" target="_blank">
+        Download
+       </a>
+      </div>
+     </div>
+     <div class="download-card">
+      <div class="download-info">
+       <p class="download-title">
+        Spine X-Ray Dataset
+       </p>
+       <p class="download-description">
+        Submit this form to request access to the dataset files
+       </p>
+       <p class="download-meta">
+        ZIP (1MB)
+       </p>
+      </div>
+      <div class="download-options">
+       <a href="https://forms.gle/WayiZzAVVpeWuocz6" rel="noopener" target="_blank">
+        Download
+       </a>
+      </div>
+     </div>
+     <div class="download-card">
+      <div class="download-info">
+       <p class="download-title">
+        PAMI 2012 Reflection and Glide Reflection Dataset
+       </p>
+       <p class="download-description">
+        Includes reflection ,glide reflection, curved reflection, and curved glide reflection subsets
+       </p>
+       <p class="download-meta">
+        ZIP (XGB)
+       </p>
+      </div>
+      <div class="download-options">
+       <a href="None" rel="noopener" target="_blank">
+        Download
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

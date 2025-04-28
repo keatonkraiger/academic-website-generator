@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup
 import yaml
 import math
 import argparse
@@ -130,8 +131,15 @@ def generate_people_page(yaml_path, output_path):
     body = ""
     if data.get('faculty'):
         body += format_section(data['faculty'], "Faculty")
+    # Current students section
     if data.get('current_students'):
-        body += format_section(data['current_students'], "Graduate Students")
+        grad_students = [p for p in data['current_students'] if p.get('status') in ['phd_student', 'ms_student']]
+        undergrad_students = [p for p in data['current_students'] if p.get('status') == 'bs_student']
+        if grad_students:
+            body += format_section(grad_students, "Graduate Students")
+        if undergrad_students:
+            body += format_section(undergrad_students, "Undergraduate Students")
+
     if data.get('alumni'):
         body += '<h2 style="text-align: center;"><span style="color: #055099;">Alumni</span></h2>'
         phd = [p for p in data['alumni'] if any('Ph.D.' in ed for ed in p['education'])]
@@ -145,8 +153,10 @@ def generate_people_page(yaml_path, output_path):
 
     html = html_template.format(title="Lab Members", navbar=navbar_html, style=style_html, body=body)
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    soup = BeautifulSoup(html, 'html.parser')
+    html = soup.prettify()
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(html)
+        f.write(html) 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Generate people page from YAML data")

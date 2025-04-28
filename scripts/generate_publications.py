@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup
 import yaml
 import argparse
 from pathlib import Path
@@ -122,9 +123,11 @@ def generate_publications_page(yaml_file, output_file):
     html = html_template.format(title="Publications", navbar=navbar_html, style=style_html, body=content)
 
     Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+    soup = BeautifulSoup(html, 'html.parser')
+    html = soup.prettify()
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(html)
-
+        
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Generate publications page from YAML data")
     parser.add_argument('--yaml_path', type=str, help="Path to the YAML file containing publication data")

@@ -1,5 +1,5 @@
 title: PSU Hub Dataset
-image: https://sites.psu.edu/eecslpac/files/2025/04/PSU_Hub_Example-300x278.png
+image: https://sites.psu.edu/eecslpac/files/2025/04/PSU_hub_trajs.png
 description: |
   The HUB dataset consists of two 15-minute sequences taken in the Penn State student union building (also known as “The HUB”). The first sequence, called SU2-L, has low-density crowds, and the second sequence, SU2-H, has higher crowd density and is thus more difficult. Each sequence is broken into a series of short 20-second clips. All people in the middle frame of each clip were detected and tracked by human volunteers to collect ground truth trajectories.
 
@@ -32,4 +32,4 @@ downloads:
   - title: Dataset Request Form
     description: Submit this form to request access to the code and dataset files.
     format: ZIP (2MB)
-    url: https://docs.google.com/forms/d/e/1FAIpQLSeuunUe6UusFokOzFtrsPOZLbvYYjV4jfLQit4Ggy0OS40BIQ/viewform?usp=sharing
+    url: https://forms.gle/QCJdWgysK5BqWYLf6

@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="/assets/custom.css">
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explicit and Implicit Regularity Perception</title>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="../assets/custom.css">
+    <style>
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a {
+    color: #1772d0;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links a:hover {
+    color: #f09228;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+</style>
+  </head>
+  <body>
+    
+<nav class="navbar">
+  <div class="nav-container">
+    <a href='index.html' class='nav-brand'>LPAC</a>
+    <div class='nav-links'>
+      <a href='../index.html'>Home</a>
+      <a href='../output/people.html'>People</a>
+      <a href='../output/research.html'>Research</a>
+      <a href='../output/publications.html'>Publications</a>
+      <a href='../output/news.html'>News</a>
+      <a href='../output/datasets.html'>Datasets</a>
+    </div>
+  </div>
+</nav>
+
     <div class="project-page-container">
+<<<<<<< Updated upstream
         <h1 class="project-page-title">Explicit and Implicit Regularity Perception</h1>
         
         <div class="project-page-section">
@@ -57,9 +115,35 @@
         </div>
     
 <div class="project-page-section"><div class="project-page-description">This is an era of pervasive big data, streaming in from all sorts of sensors such as medical scanners, surveillance cameras, smart appliances and cellphones. Even equipped with the most powerful hardware and software for data processing, one may still get lost in this massive collection of noisy data and miss “seeing the forest for the trees”. This project addresses a fundamental issue in the data sciences: what are we looking for in a seemingly structure-less complex data set? Based on proven mathematical theories about symmetry and inspired by human vision, the investigator will construct a roadmap for discovering all possible potential patterns in these datasets and provide computationally effective tools to discover such patterns even in their distorted and disguised forms. Such a relentless pattern-seeking algorithm will illustrate the power of a “treasure hunt” type search, promote automatic pattern discovery, and fill a gap in current practice of data analysis, thus advancing data science. The outcome from this project will be applicable to data sets from diverse fields, from biomedical domains such as drug discovery, gene mapping and human movement monitoring, to computer vision applications like driverless car navigation, urban scene understanding, and anomalous activity detection for surveillance.
+=======
+      <h1 class="project-page-title">Explicit and Implicit Regularity Perception</h1>
+      <div class="project-page-section">
+      <div class="project-members">
+      <div class="member-card">
+        <a href="https://www.cse.psu.edu/~yul11/"><img src="https://sites.psu.edu/eecslpac/files/2024/12/Yanxi_Liu.jpg" alt="Yanxi Liu"></a>
+        <a href="https://www.cse.psu.edu/~yul11/">Yanxi Liu<sup></sup></a>
+      </div>
+      <div class="member-card">
+        <a href="https://alexis97.github.io/"><img src="https://sites.psu.edu/eecslpac/files/2024/12/Shimian_Zhang.jpg" alt="Shimian Zhang"></a>
+        <a href="https://alexis97.github.io/">Shimian Zhang<sup></sup></a>
+      </div>
+      <div class="member-card">
+        <a href="https://www.skandabharadwaj.com/"><img src="https://sites.psu.edu/eecslpac/files/2024/12/Skanda_Bharadwaj.jpg" alt="Skanda Bharadwaj"></a>
+        <a href="https://www.skandabharadwaj.com/">Skanda Bharadwaj<sup></sup></a>
+      </div>
+      <div class="member-card">
+        <a href="https://keatonkraiger.github.io/"><img src="https://sites.psu.edu/eecslpac/files/2024/12/Keaton_Kraiger.jpg" alt="Keaton Kraiger"></a>
+        <a href="https://keatonkraiger.github.io/">Keaton Kraiger<sup></sup></a>
+      </div></div>
+      <div class="collaborator-row"></div>
+      <div class="institution-key"></div>
+    </div>
+<div class="project-page-section"><div class="project-page-description">"This is an era of pervasive big data, streaming in from all sorts of sensors such as medical scanners, surveillance cameras, smart appliances and cellphones. Even equipped with the most powerful hardware and software for data processing, one may still get lost in this massive collection of noisy data and miss “seeing the forest for the trees”. This project addresses a fundamental issue in the data sciences: what are we looking for in a seemingly structure-less complex data set? Based on proven mathematical theories about symmetry and inspired by human vision, the investigator will construct a roadmap for discovering all possible potential patterns in these datasets and provide computationally effective tools to discover such patterns even in their distorted and disguised forms. Such a relentless pattern-seeking algorithm will illustrate the power of a “treasure hunt” type search, promote automatic pattern discovery, and fill a gap in current practice of data analysis, thus advancing data science. The outcome from this project will be applicable to data sets from diverse fields, from biomedical domains such as drug discovery, gene mapping and human movement monitoring, to computer vision applications like driverless car navigation, urban scene understanding, and anomalous activity detection for surveillance.
+>>>>>>> Stashed changes
 <br><br>
 This research formulates a symmetry group theory-based regularity space and constructs a computational platform for pattern-seeking algorithms that are principle-driven and human perception-inspired. The transitions among zero states of the proposed regularity-space, guided by group theory and learned from human perception, will be governed by a seamless marriage with Bayesian probability theory. The two key ingredients of a pattern, minimum cells and inter-cell topology, will be explored extensively on large scale, multimodality, high dimensional real-world sensory data. The aims are to construct and validate computational tools facilitating effective unsupervised recurring pattern discovery, followed by recovering geometric transformations, and finally by quantitatively linking the full regularity-perception spectrum from regular, near-regular to irregular. The finiteness, uniqueness and completeness of this group theory-based regularity space will provide a sound computational framework to guide pattern seeking in general data science.
 </div></div>
+<<<<<<< Updated upstream
 <div class="project-page-section"><h1 class="page-section-title">Publications</h1><div class="publications-list">
             <div class="publication-card">
                 <a href="https://arxiv.org/abs/2303.04208">
@@ -76,6 +160,40 @@ This research formulates a symmetry group theory-based regularity space and cons
             </div>
         </div></div>
         <div class="funding-note">This research is funded in part by <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1909315&HistoricalAwards=false">NSF Award #1909315</a> and <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1248076&HistoricalAwards=false">NSF Award #1248076</a></div>
+=======
+<div class="project-page-section"><h2>Publications</h2><div class="publications-list">
+          <div class="publication-card">
+            <a href="Recurrence-based Vanishing Point Detection">
+              <img src="https://sites.psu.edu/eecslpac/files/2025/02/rec_based_vanish.png" alt="Recurrence-based Vanishing Point Detection">
+              <div class="publication-title">Recurrence-based Vanishing Point Detection</div>
+            </a>
+          </div>
+          <div class="publication-card">
+            <a href="https://arxiv.org/abs/2303.04208">
+              <img src="https://sites.psu.edu/eecslpac/files/2025/02/escher_net.png" alt="EscherNet 101">
+              <div class="publication-title">EscherNet 101</div>
+            </a>
+          </div>
+          <div class="publication-card">
+            <a href="https://arxiv.org/abs/2210.07991">
+              <img src="http://vision.cse.psu.edu/research/icons/rp3d_2022.png" alt="3D Scene Understanding From Recurrence in a Single Image">
+              <div class="publication-title">3D Scene Understanding From Recurrence in a Single Image</div>
+            </a>
+          </div>
+          <div class="publication-card">
+            <a href="http://vision.cse.psu.edu/research/beyondPlanarSymmetry/index.shtml">
+              <img src="https://sites.psu.edu/eecslpac/files/2025/02/BPS.jpg" alt="Beyond Planar Symmetry: Modeling human perception of reflection and rotation symmetries in the wild">
+              <div class="publication-title">Beyond Planar Symmetry: Modeling human perception of reflection and rotation symmetries in the wild</div>
+            </a>
+          </div>
+          <div class="publication-card">
+            <a href="http://vision.cse.psu.edu/research/recur/index.shtml">
+              <img src="http://vision.cse.psu.edu/research/icons/mnSpace.png" alt="Recurring Pattern Detection as a Joint Optimization">
+              <div class="publication-title">Recurring Pattern Detection as a Joint Optimization</div>
+            </a>
+          </div></div></div>
+      <div class="funding-note">This research is funded in part by <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1909315&HistoricalAwards=false">NSF Award #1909315</a> and <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1248076&HistoricalAwards=false">NSF Award #1248076</a></div>
+>>>>>>> Stashed changes
     </div>
-</body>
+  </body>
 </html>

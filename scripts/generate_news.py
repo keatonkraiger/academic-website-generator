@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup
 import argparse
 import yaml
 from pathlib import Path
@@ -112,6 +113,10 @@ def generate_news_page(yaml_path, output_path):
     )
 
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    soup = BeautifulSoup(html, 'html.parser')
+    html = soup.prettify()
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(html)
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
 

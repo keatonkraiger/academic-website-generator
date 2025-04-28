@@ -90,6 +90,7 @@ a:focus, a:hover {
 body, td, th, tr, p, a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
+  color:#000;
 }
 
 strong { font-size: 14px; }
@@ -299,7 +300,7 @@ name { font-size: 32px; }
 .person-name {
   display: block;
   font-weight: bold;
-  margin-top: 5px;
+  font-size: 1.5em;
 }
 
 .person img {
@@ -328,7 +329,7 @@ a {
 
 .person-edu {
   display: block;
-  font-size: 0.9em;
+  font-size: 1.25em;
   color: #666;
 }
 
@@ -456,7 +457,7 @@ colophon { display: none; }
   font-size: 3rem;
   font-weight: 300;
   color: #1a1a1a;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -754,6 +755,7 @@ colophon { display: none; }
 .dataset-description {
   font-size: medium;
   line-height: 2rem;
+  color:#000;
 }
 
 .dataset-link {
@@ -842,7 +844,7 @@ colophon { display: none; }
 }
 
 .acknowledgement-notes {
-  color: grey;
+  color: #999999;
   font-style: italic;
   text-align: center;
 }
@@ -1214,13 +1216,13 @@ colophon { display: none; }
   line-height: 1.6;
 }
 
-.dataset-image-rect {
-  height: 60%;
-  width: auto;
-  max-width: 400px;
-  object-fit: contain;
-  flex-shrink: 0;
+.dataset-image img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 /* ==================== Datasets ==================== */
@@ -1262,12 +1264,23 @@ colophon { display: none; }
   line-height: 1.6;
 }
 
-.dataset-image-rect {
-  max-height: 300px;
-  aspect-ratio: 16 / 9;     
-  object-fit: contain;      
+.dataset-image-container {
+  width: 400px;
+  height: 200;
   flex-shrink: 0;
-} 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.dataset-image-rect {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 
 
 /* ==================== Downloads ==================== */
@@ -1338,5 +1351,37 @@ colophon { display: none; }
   border: none; /* Remove the default gray border */
   height: 4px; /* Thicker line */
   background-color: #055099; /* Blue color (or any hex code you want) */
-  margin: 2rem 0; /* Nice spacing above and below */
+}
+
+/* ==================== Paper pages ==================== */
+.wide-figure img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+.figure-caption {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.paper-content-links {
+  margin: 10px 0;
+}
+
+.paper-content-links a {
+  margin-right: 15px;
+  font-weight: bold;
+  color: #055099;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.paper-content-links a:hover {
+  text-decoration: underline;
+  color: #f09228;
 }
