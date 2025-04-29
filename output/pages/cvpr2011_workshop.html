@@ -39,6 +39,37 @@
         width: 30%;
         border-right: none;
         }
+
+        .modal-card {
+            position: relative;
+            overflow: hidden;
+            background: #fafafa;
+            border-color: #fafafa;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;  
+            cursor: pointer;  
+            width: 100%;
+        }  
+        
+        .modal-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .modal-card img {
+            display: block;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .modal-card a {
+            width: 100%;
+            padding: 10px 0px;
+            text-align: center;
+            font-weight: bold;
+        }
     </style>
 
     <div class="project-page-container">
@@ -286,6 +317,11 @@
                         <div style="margin-left: 20px;">
                             See in the <strong>Resources</strong> section.
                             Also see <a href="#cvpr-workshop">CVPR 2011 workshop.</a>
+                        </div><br>
+                        <strong>Tech Report:</strong>
+                        <div style="margin-left: 20px;">
+                            A technical report has been published summarizing method and results of the competition:<br>
+                            <a href="https://sites.psu.edu/eecslpac/files/2025/04/TR-CSE-11-012.pdf">[PDF]</a> (3.0 MB)
                         </div>
                     </div>
                 </div>
@@ -297,17 +333,19 @@
             <div class="project-section-description">
                 <strong>Training Data, Test Data, Ground Truth, and Results:</strong><br><br>
                 <div style="display: flex; align-items: center; gap: 2rem;">
-                    <div class="course-listing-card modal-trigger">
-                        <div class="course-listing-content" style="display: flex; justify-content: center;">
-                            <h1 class="course-title"">Translation Dataset</h1>
-                        </div>
+
+                    <div class="modal-card modal-trigger">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/translationThumb.jpg">
+                        <a>Translation Dataset</a>
                     </div>
 
                     <dialog class="course-modal">
                         <div class="modal-close-button">✕</div>
                         <div class="modal-content">
-                            <h1 class="page-section-title">Translational Symmetry</h1>
-
+                            <h1 class="project-page-title" style="font-size: xx-large;">Translational Symmetry</h1>
+                            
+                            <img class="featured-image" src="https://sites.psu.edu/eecslpac/files/2025/04/translationalSamples.jpg" alt="translational Featured Image">
+                            <br><br>
                             <div class="project-page-description">
                                 We provide a data set of 20 images with translation symmetry. They show a variety of objects with varying difficulty: buildings, fences, cloth, etc.<br><br>
                                 The information in the ground truth files follows this format:<br><br>
@@ -326,50 +364,58 @@
                             <h1 class="page-section-title">Download Links</h1>
                             <div class="download-link-list">
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Training Images and Ground Truth
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Training Images and Ground Truth
+                                        </p>
+                                        <p class="download-meta">ZIP (12.5 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download (13.1 mb)</a>
+                                        <a href="https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/kbc5823_psu_edu/EToJCDjlWoBEie--EQR8SzcB6yUyGOTx8KEEsvVv0ds0Qg?e=KaPysG&download=1">Download</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="download-link-list">
+
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Test Images Sets
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Test Images Sets
+                                        </p>
+                                        <p class="download-meta">Set 1: ZIP (9.2 MB) | Set 2a: ZIP (6.4 MB) | Set 2b: ZIP (1.2 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download Set 1 (9.2 mb)</a>
-                                        <a href="#">Download Set 2a (6.4 mb)</a>
-                                        <a href="#">Download Set 2b (1.2 mb)</a>
+                                        <a href="https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/kbc5823_psu_edu/ETrqT3vE1RpKkEzs6ojYUrkBk89iLIMzKfRbYCvXPgUctw?e=wzgXQC&download=1">Download Set 1</a>
+                                        <a href="https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/kbc5823_psu_edu/ERI5LB1CnVFKj25Jh-Q81JABRPSFDhf9RZRYN9UQpRtQ8g?e=Cmi095&download=1">Download Set 2a</a>
+                                        <a href="https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/kbc5823_psu_edu/EWp2jU84fOZKg8TaOfjorFMB8U_WOJ62EVHI9tceSpLffw?e=IT02Nk&download=1">Download Set 2b</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="download-link-list">
+
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Results
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Results
+                                        </p>
+                                        <p class="download-meta">PDF (19.6 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download (19.6 mb)</a>
+                                        <a href="https://sites.psu.edu/eecslpac/files/2025/04/RotationReflection_V13_wrapup.pdf?download=1">Download (19.6 mb)</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </dialog>
 
-                    <div class="course-listing-card modal-trigger">
-                        <div class="course-listing-content"  style="display: flex; justify-content: center;">
-                            <h1 class="course-title">Rotation Dataset</h1>
-                        </div>
+                    <div class="modal-card modal-trigger">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/rotationThumb.jpg">
+                        <a>Rotation Dataset</a>
                     </div>
 
                     <dialog class="course-modal">
                         <div class="modal-close-button">✕</div>
                         <div class="modal-content">
-                            <h1 class="page-section-title">Rotation Symmetry</h1>
+                            <h1 class="project-page-title" style="font-size: xx-large;">Rotation Symmetry</h1>
 
+                            <img class="featured-image" src="https://sites.psu.edu/eecslpac/files/2025/04/rotationSamples.jpg" alt="rotation Featured Image">
+                            <br><br>
                             <div class="project-page-description">
                                 We provide a data set of 20 images with rotation symmetry. 10 of them have a single rotation center, such as the one shown above, 10 of them have multiple rotation centers. With the images, we provide ground truth files, which label and describe the rotation symmetries in the image.<br><br>
                                 The information in the ground truth files follows this format for each row:<br><br>
@@ -386,48 +432,58 @@
                             <h1 class="page-section-title">Download Links</h1>
                             <div class="download-link-list">
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Training Images and Ground Truth
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Training Images and Ground Truth
+                                        </p>
+                                        <p class="download-meta">ZIP (1.28 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download (1.3 mb)</a>
+                                        <a href="https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/kbc5823_psu_edu/EdoWi_p2osxDgOXdl-ZwV1QBuPNI0I3TbboSAmWGyrAf1Q?e=LorgL0&download=1">Download</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="download-link-list">
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Test Images Sets
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Test Images Sets
+                                        </p>
+                                        <p class="download-meta">ZIP (0.4 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download (0.4 mb)</a>
+                                        <a href="https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/kbc5823_psu_edu/EcX3OdjCiltOspvCWe4rXaUBKeteM71-YoZzjRBPk0Xpng?e=sSj7y1&download=1">Download (0.4 mb)</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="download-link-list">
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Results
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Results
+                                        </p>
+                                        <p class="download-meta">PDF (19.6 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download (19.6 mb)</a>
+                                        <a href="https://sites.psu.edu/eecslpac/files/2025/04/RotationReflection_V13_wrapup.pdf?download=1">Download (19.6 mb)</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </dialog>
 
-                    <div class="course-listing-card modal-trigger">
-                        <div class="course-listing-content"  style="display: flex; justify-content: center;">
-                            <h1 class="course-title">Reflection Dataset</h1>
-                        </div>
+                    <div class="modal-card modal-trigger">
+                        <img src="https://sites.psu.edu/eecslpac/files/2025/04/reflectioThumb.jpg">
+                        <a>Reflection Dataset</a>
                     </div>
 
                     <dialog class="course-modal">
                         <div class="modal-close-button">✕</div>
                         <div class="modal-content">
-                            <h1 class="page-section-title">Rotation Symmetry</h1>
+                            <h1 class="project-page-title" style="font-size: xx-large;">Reflection Symmetry</h1>
 
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yHEZsksDnRg?si=-8mQop8rOOpooAfN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; object-fit: contain; margin: 0 auto;"></iframe>
+                            <br><br>
                             <div class="project-page-description">
                                 We provide an extensive data set of real and synthetic images with reflection symmetry. Some have a single axis of reflection, others have multiple axes of reflection. With the images we provide a ground truth labeling of the axis or axes of reflection in the image, as well as an ellipse indicating the extent of the area exhibiting symmetry. These are stored in the form of a Matlab cell array. We also provide an interface, explained in the video below, which you may use to label ground truth on your own image set.
                             </div>   
@@ -435,38 +491,48 @@
                             <h1 class="page-section-title">Download Links</h1>
                             <div class="download-link-list">
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Training Images and Ground Truth
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Training Images and Ground Truth
+                                        </p>
+                                        <p class="download-meta">ZIP (24.4 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download (25.6 mb)</a>
+                                        <a href="https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/kbc5823_psu_edu/EeVlfhmyx5ZMkJfTii1199sBRgBQe9bDEBnkm983RX3M8w?download=1">Download (24.4 mb)</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="download-link-list">
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Test Images Sets
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Test Images Sets
+                                        </p>
+                                        <p class="download-meta">ZIP (4.6 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download (4.6 mb)</a>
+                                        <a href="https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/kbc5823_psu_edu/EWBiy4GfP0dEkVPIuZ-Naz4BYL2PSyD9WOskJyQs1LhmQA?e=JiYQR7&download=1">Download (4.6 mb)</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="download-link-list">
                                 <div class="download-card">
-                                    <div class="download-title" style="font-weight: bolder;">
-                                        Results
+                                    <div class="download-info">
+                                        <p class="download-title" style="font-weight: bolder;">
+                                            Results
+                                        </p>
+                                        <p class="download-meta">PDF (9.6 MB)</p>
                                     </div>
                                     <div class="download-options">
-                                        <a href="#">Download (9.6 mb)</a>
+                                        <a href="https://sites.psu.edu/eecslpac/files/2025/04/TranslationSymmetry_V15_wrapup.pdf?download=1">Download (9.6 mb)</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </dialog>
-
-                </div>
+                
+                
+                </div><br>
                 Relevant survey paper: <a href="http://www.nowpublishers.com/product.aspx?product=CGV&doi=0600000008">Computational Symmetry in Computer Vision and Computer Graphics</a><br>
                 Online order form for it: <a href="https://www.nowpublishers.com/bookorder.aspx?doi=0600000008&product=CGV">[Order Form]</a><br><br>
                 Relevant Databases:
@@ -532,7 +598,7 @@
                                 <div class="caption">Bruce Draper</div>
                             </div>
                         </td>
-                    </tr>
+                    </tr>  
                     <tr>
                         <td></td>
                         <td><a href="">Multi-Scale Kernel Operators for Reflection and Rotation Symmetry</a></td>
