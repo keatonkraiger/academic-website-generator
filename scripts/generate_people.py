@@ -162,6 +162,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Generate people page from YAML data")
     parser.add_argument('--yaml_path', type=str, help="Path to the YAML file containing people data")
     parser.add_argument('--output_path', type=str, help="Path to the output HTML file")
+    parser.add_argument('--link_mode', choices=['local', 'wp'], default='local', help="Not needed for people page but kept anyways")
     args = parser.parse_args()
 
     generate_people_page(args.yaml_path, args.output_path)

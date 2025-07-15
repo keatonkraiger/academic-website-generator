@@ -85,24 +85,23 @@ html_template = """<!DOCTYPE html>
 </html>
 """
 
-def format_project_card(project):
+def format_project_card(project, link_mode):
+    url = project["local_url"] if link_mode == "local" else project["wp_url"]
     return f'''
-    {"<a href='" + project['project_url'] + "'" if project.get('project_url') else "<div"} 
-    class="project-listing-card">
+    <a href="{url}" class="project-listing-card">
         <img src="{project['img_url']}" alt="{project['name']}" class="project-listing-image">
         <div class="project-listing-content">
             <h2 class="project-listing-title">{project['name']}</h2>
             <p class="project-listing-description">{project['description']}</p>
         </div>
-    {"</a>" if project.get('project_url') else "</div>"}
-    '''
+    </a>'''
 
-def generate_research_page(yaml_file, output_file):
+def generate_research_page(yaml_file, output_file, link_mode):
     with open(yaml_file, 'r', encoding='utf-8') as f:
         data = yaml.safe_load(f)
 
-    ongoing = "".join(format_project_card(p) for p in data['projects']['ongoing'])
-    previous = "".join(format_project_card(p) for p in data['projects']['previous'])
+    ongoing = "".join(format_project_card(p, link_mode) for p in data['projects']['ongoing'])
+    previous = "".join(format_project_card(p, link_mode) for p in data['projects']['previous'])
 
     html = html_template.format(
         title="Research Projects",
@@ -122,6 +121,7 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser(description="Generate research projects page from YAML data")
     argparser.add_argument('--yaml_path', type=str, help="Path to the YAML file containing research data")
     argparser.add_argument('--output_path', type=str, help="Path to the output HTML file")
+    argparser.add_argument('--link_mode', choices=['local', 'wp'], default='local', help="Not needed for people page but kept anyways")
     args = argparser.parse_args()
 
-    generate_research_page(args.yaml_path, args.output_path)
+    generate_research_page(args.yaml_path, args.output_path, args.link_mode)

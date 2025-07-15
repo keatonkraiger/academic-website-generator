@@ -3,120 +3,147 @@ projects:
     - name: "Vision to Dynamics"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/dynamicsData.jpg"
       description: "NEW DATA SET PSU-TMM100 RELEASE!"
-      project_url: "https://sites.psu.edu/eecslpac/vision-to-dynamics"
+      wp_url: "https://sites.psu.edu/eecslpac/vision-to-dynamics"
+      local_url: ./pages/vision_to_dynamics.html
       status: ongoing
 
     - name: "Explicit and Implicit Regularity Perception"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/regulariity_perception.jpg"
       description: "This research formulates a symmetry group theory-based regularity space and constructs a computational platform for pattern-seeking algorithms that are principle-driven and human perception-inspired."
-      project_url: "https://sites.psu.edu/eecslpac/explicit-and-implicit-regularity-perception/"
+      wp_url: "https://sites.psu.edu/eecslpac/explicit-and-implicit-regularity-perception/"
+      local_url: ./pages/regularity.html
       status: ongoing
 
     - name: "Symmetry Group-based Regularity Perception in Human and Computer Vision"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/P4M.gif"
       description: "This research integrates theoretical, experimental, and algorithmic thrusts to construct a novel conceptual framework for predicting and understanding the full range of regularity perception, both in humans, by measuring human brain activation and behavior, and in machines, through a computational framework for adaptive symmetry detection in computer vision."
-      project_url: "https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/"
+      wp_url: "https://sites.psu.edu/eecslpac/symmetry-group-based-regularity-perception-in-human-and-computer-vision/"
+      local_url: ./pages/human_symmetry_detection.html
       status: ongoing
 
   previous:
     - name: "Detecting Symmetry in the Wild - A Competition"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/iccv2017_SymmetryChallenge.jpg"
       description: "ICCV 2017 workshop in Venice, Italy"
-      project_url: "http://vision.cse.psu.edu/research/symComp13/index.shtml"
+      local_url: "https://sites.google.com/view/symcomp17"
+      wp_url: "https://sites.google.com/view/symcomp17"
       status: previous 
 
     - name: "Dancing with Turks"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/danceICON.jpg"
       description: "Motion analysis and comparison of dance movements."
-      project_url: "http://vision.cse.psu.edu/research/MTurkDancing/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/dancing-with-turks/"
+      local_url: ./pages/dancing_with_turks.html
       status: previous
 
     - name: "Optimized Pedestrian Detection"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/optdetection.jpg"
       description: "We propose a quadratic unconstrained binary optimization (QUBO) framework for reasoning about multiple object detections with spatial overlaps."
-      project_url: "http://vision.cse.psu.edu/research/optdetection/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/optimized-pedestrian-detection/"
+      local_url: ./pages/pedestrian_detection.html
       status: previous
 
     - name: "Tracking and Association"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/figureground.jpg"
       description: "Multi-object tracking and data association research."
-      project_url: "http://vision.cse.psu.edu/research/figureground/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/tracking-and-association/"
+      local_url: ./pages/tracking.html
       status: previous
 
     - name: "Brain Tumor Detection/Segmentation"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/2012yu1.jpg"
       description: "We use supervised and unsupervised learning to classify blobby tumor candidates."
-      project_url: "http://vision.cse.psu.edu/research/tumorDetect/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/brain-tumor-detection/"
+      local_url: ./pages/brain_tumor_detection.html
       status: previous
 
     - name: "Symmetry Detection from Real World Images - A Competition (2013)"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/symmetry13.jpg"
       description: "CVPR2013 workshop and competition"
-      project_url: "http://vision.cse.psu.edu/research/symComp13/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/cvpr-2013-workshop/"
+      local_url: ./pages/cvpr2013_workshop.html
       status: previous
 
     - name: "Symmetry Detection from Real World Images - A Competition (2011)"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/symmetry11.jpg"
       description: "CVPR2011 workshop and competition"
-      project_url: "http://vision.cse.psu.edu/research/symmComp/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/cvpr-2011-competition/"
+      local_url: ./pages/cvpr2011_workshop.html
+      status: previous
+
+    - name: "Curved Glide Reflection"
+      img_url: "https://sites.psu.edu/eecslpac/files/2025/04/glid_reflection.jpg"
+      description: "We propose a novel approach with self-validation for detecting curved reflection symmetry patterns from real, unsegmented images"
+      wp_url: "https://sites.psu.edu/eecslpac/glide-reflection/"
+      local_url: ./pages/glide_reflection.html
       status: previous
 
     - name: "Gait Detection"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/gait.png"
       description: "Vision-based gait is an attractive biometric because it can be observed remotely and in low resolution images/videos"
-      project_url: "http://vision.cse.psu.edu/research/gait/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/gait-detection/"
+      local_url: ./pages/gait_detection.html
       status: previous
 
     - name: "CSDD Features"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/CSDD.jpg"
       description: "CSDD Features: Center-Surround Distribution Distance for Feature Extraction and Matching"
-      project_url: "http://vision.cse.psu.edu/research/CSDD/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/csdd-features/"
+      local_url: ./pages/csdd_features.html
       status: previous
 
     - name: "A Statistical Quantification of Human Brain Asymmetry"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/asqohba.jpg"
       description: "Constructing image index features to retrieve medically similar cases from a multimedia medical database."
-      project_url: "http://vision.cse.psu.edu/research/brainAsym/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/statistical-quantification-brain-asymmetry/"
+      local_url: 
       status: previous
 
     - name: "Facial Asymmetry as a Biometric"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/faaab.jpg"  
       description: "We are investigating the effect of facial asymmetry measurement statistics as a biometric under expression variations."
-      project_url: "http://www.ri.cmu.edu/research_project_detail.html?project_id=437&menu_id=261"
+      wp_url: "https://www.ri.cmu.edu/project/facial-asymmetry-as-a-biometric/"
+      local_url: 
       status: previous
 
     - name: "Performance Evaluation of State-of-Art Symmetry Detection Algorithms"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/performanceEvaluation.jpg"
       description: "Performance Evaluation of State-of-the-Art Discrete Symmetry Detection Algorithms"
-      project_url: "http://vision.cse.psu.edu/research/performanceEvaluation/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/performance-evaluation-discrete-symmetry-algs/"
+      local_url: 
       status: previous
 
     - name: "Rotation Symmetry Group Detection"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/rotationSymmetryGroupDetection.jpg"
       description: "Rotation Symmetry Group Detection Via Frequency Analysis of Frieze-Expansions."
-      project_url: "http://vision.cse.psu.edu/research/rotationSymmetryGroupDetection/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/rotational-symmetry-detection/"
+      local_url: ./pages/rotation_symm_detection.html
       status: previous
 
     - name: "Texture Replacement in Real Images"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/triri.jpg"
       description: "We are developing methods to replace some specified texture patterns in an image while preserving lighting effects, shadows and occlusions."
-      project_url: "http://www.ri.cmu.edu/research_project_detail.html?project_id=473&menu_id=261"
+      wp_url: "https://www.ri.cmu.edu/project/texture-replacement-in-real-images/"
+      local_url: "https://www.ri.cmu.edu/project/texture-replacement-in-real-images/"
       status: previous
 
     - name: "Texture Synthesis on Near-Regular Patterns"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/tsonrp.jpg"
       description: "We are developing near regular texture synthesis algorithms for improved natural appearances."
-      project_url: "http://www.ri.cmu.edu/research_project_detail.html?project_id=472&menu_id=261"
+      wp_url: "https://www.cs.cmu.edu/~wclin/nrt.htm#:~:text=Near%2Dregular%20Texture%20Synthesis&text=We%20consider%20textures%20as%20different,geometric%20regularity%20is%20well%20preserved"
+      local_url: "https://www.cs.cmu.edu/~wclin/nrt.htm#:~:text=Near%2Dregular%20Texture%20Synthesis&text=We%20consider%20textures%20as%20different,geometric%20regularity%20is%20well%20preserved" 
       status: previous
 
     - name: "A Computational Model for Repeated Pattern Perception using Crystallographic Groups"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/acmfrppucg.jpg"
       description: "We are developing a computational model for repeated pattern perception that is able to automatically classify a given pattern into one of the 7 frieze groups, one of the 17 wallpaper groups, or one of the 230 space groups."
-      project_url: "http://www.ri.cmu.edu/research_project_detail.html?project_id=439&menu_id=261"
+      wp_url: "https://www.ri.cmu.edu/project/a-computational-model-for-repeated-pattern-perception-using-crystallographic-groups/"
+      local_url: "https://www.ri.cmu.edu/project/a-computational-model-for-repeated-pattern-perception-using-crystallographic-groups/"
       status: previous
 
     - name: "Smart Camera Network Calibration"
       img_url: "https://sites.psu.edu/eecslpac/files/2024/12/SSCN.jpg"
       description: "LPAC camera network for computer vision research."
-      project_url: "http://vision.cse.psu.edu/research/SSCN/index.shtml"
+      wp_url: "https://sites.psu.edu/eecslpac/lpac-camera-calibration-network/"
+      local_url: "https://sites.psu.edu/eecslpac/lpac-camera-calibration-network/"
       status: previous

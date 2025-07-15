@@ -14,15 +14,17 @@ A lightweight, YAML-based static website generator designed predominantly for ac
    - `datasets/*.yaml` - Individual dataset pages
 
 2. Generate HTML:
-```bash
-python generate_people.py --yaml_path data/people.yml --output_path output/people.html
-python generate_publications.py --yaml_path data/publications.yml --output_path output/publications.html 
-python generate_research.py --yaml_path data/research.yml --output_path output/research.html
-python generate_datasets.py --yaml_path data/datasets.yml --output_path output/datasets.html
-python generate_news.py --yaml_path data/news.yml --output_path output/news.html
+When developing locally, you can run the generators with the `--link_mode local` flag to generate links that work in your local environment. For production, use `--link_mode wp` to generate links that are compatible with WordPress.
 
-python generate_project.py --yaml_path data/projects/vision_to_dyanmics.yml --output_path output/projects/vision_to_dynamics.html
-python generate_individual_dataset.py --yaml_path data/datasets/psuhub.yml --output_path output/datasets/PSUHub.html
+```bash
+python generate_people.py --yaml_path data/people.yml --output_path output/people.html -- link_mode local
+python generate_publications.py --yaml_path data/publications.yml --output_path output/publications.html --link_mode local
+python generate_research.py --yaml_path data/research.yml --output_path output/research.html --link_mode local
+python generate_datasets.py --yaml_path data/datasets.yml --output_path output/datasets.html --link_mode local
+python generate_news.py --yaml_path data/news.yml --output_path output/news.html --link_mode local
+
+python generate_project.py --yaml_path data/projects/vision_to_dyanmics.yml --output_path output/projects/vision_to_dynamics.html --link_mode local
+python generate_individual_dataset.py --yaml_path data/datasets/psuhub.yml --output_path output/datasets/PSUHub.html --link_mode local
 ```
 
 ## Local Development
@@ -35,7 +37,8 @@ python generate_individual_dataset.py --yaml_path data/datasets/psuhub.yml --out
 |     └── ...
 │   └── custom.css
 ├── scripts/        # Python generators
-└── output/         # Generated HTML
+├── wp_output/  # Generated HTML meant to be copied and pasted into WordPress
+└── local_output/         # Generated HTML that you can view/navigate locally
 ```
 
 Serve the site locally in any way you prefer. For example, using Python's built-in HTTP server:

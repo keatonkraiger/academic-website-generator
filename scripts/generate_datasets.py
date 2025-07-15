@@ -83,7 +83,8 @@ html_template = """<!DOCTYPE html>
 </html>
 """
 
-def format_dataset_card(ds):
+def format_dataset_card(ds, link_mode="local"):
+    url = ds["local_url"] if link_mode == "local" else ds["wp_url"]
     return f'''
     <div class="dataset-listing-card">
         <div class="dataset-image-container">
@@ -92,16 +93,17 @@ def format_dataset_card(ds):
         <div class="dataset-listing-content">
             <h2 class="dataset-listing-title">{ds['title']}</h2>
             <p class="dataset-listing-description">{ds['description']}</p>
-            <a href="{ds['dataset_url']}" class="dataset-listing-link">View Dataset</a>
+            <a href="{url}" class="dataset-listing-link">View Dataset</a>
         </div>
     </div>'''
 
 
-def generate_dataset_directory(yaml_file, output_file):
+
+def generate_dataset_directory(yaml_file, output_file, link_mode):
     with open(yaml_file, 'r', encoding='utf-8') as f:
         data = yaml.safe_load(f)
 
-    cards = "\n".join([format_dataset_card(ds) for ds in data['datasets']])
+    cards = "\n".join([format_dataset_card(ds, link_mode) for ds in data['datasets']])
 
     html = html_template.format(
         title="Datasets",
@@ -120,6 +122,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate dataset directory HTML")
     parser.add_argument("--yaml_path", type=str, required=True)
     parser.add_argument("--output_path", type=str, required=True)
+    parser.add_argument("--link_mode", choices=["local", "wp"], default="local", help="Use local or WordPress links")
     args = parser.parse_args()
 
-    generate_dataset_directory(args.yaml_path, args.output_path)
+    generate_dataset_directory(args.yaml_path, args.output_path, args.link_mode)

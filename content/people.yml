@@ -57,12 +57,12 @@ current_students:
       - Ph.D. Student in Computer Science and Engineering
 
 # Current MS Stduents
-  # - name: Abhinav Sachdeva
-  #   status: ms_student 
-  #   img: 
-  #   website: https://abhinavsachdeva7.github.io/
-  #   education:
-  #     - M.S. Student in Computer Science 
+  - name: Abhinav Sachdeva
+    status: ms_student 
+    img: https://sites.psu.edu/eecslpac/files/2025/07/abhinav.png
+    website: https://abhinavsachdeva7.github.io/
+    education:
+      - M.S. Student in Computer Science 
 
 # Current undergrad students
   - name: Kyle Chiem 
