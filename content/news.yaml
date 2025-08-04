@@ -1,4 +1,34 @@
+# - date:
+#   title:
+#   content: <p> <a href="link">[Hyperlink]</a>
 news:
+- date: 05/18/2025
+  title: Shimian Zhang won best oral at Symmetry 2025!
+  content: |
+   <p> Shimian Zhang's presentation of <a href="https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/182370/files/2025/05/sciforum-118094-Shimian-Zhang.pdf">Learn From Human Eyes: Zero-Shot Recurring Pattern Detection on a Multi-Perception Benchmark</a> takes
+    best oral at <a href="https://sciforum.net/event/symmetry2025">Symmetry 2025</a>.
+- date: 05/18/2025
+  title: Professor Yanxi Liu gives talk at Symmetry 2025
+  content: |
+    <p> Professors Yanxi Liu gave her keynote speaker’s talk at <a href="https://sciforum.net/event/symmetry2025">Symmetry 2025</a> on the topic of “Zeros” for Data Science.
+- date: 04/20/2025
+  title: Abstract accepted at Symmetry 2025
+  content: |
+    <p> Shimian Zhang, Keaton Kraiger, Skanda Bharadwaj, Robert Collins, and Yanxi Liu’s abstract <a href="https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/182370/files/2025/05/sciforum-118094-Shimian-Zhang.pdf">Learn From Human Eyes: Zero-Shot Recurring Pattern Detection on a Multi-Perception Benchmark</a>
+    to <a href="https://sciforum.net/event/symmetry2025">Symmetry 2025</a>
+- date: 02/03/2025
+  title: LPAC students attended the NYC Vision Day 2025 held at the New York Marriott at the Brooklyn Bridge.
+  content: <p> Keaton Kraiger and Mr. Skanda Bharadwaj attended the 2nd NYC Vision Day 2025 and presented the ongoing projects at LPAC.
+- date: 10/28/2024
+  title: Congratulations to Skanda Bharadwaj, Robert T. Collins, and Yanxi Liu for having a paper accepted to WACV 2025!
+  content: <p> Mr. Skanda Bharadwaj, Dr. Robert Collins, and Dr. Yanxi Liu have a paper accepted to the Winter Conference on Appliocations of Computer Vision 2025 titled “Recurrence-based Vanihishing Point Detection”. The arXiv preprint is available <a href="https://arxiv.org/abs/2412.20666">here</a>.
+- date: 10/17/2024
+  title: Professor Robert Collins and Yanxi Liu give talk at GRASP
+  content: Professor Robert Collins and Yanxi Liu give "Vision to Dynamics" talk at the General Robotics, Automation, Sensing and Perception lab at UPenn. <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.grasp.upenn.edu%2Fevents%2Ffall-2024-grasp-seminar-bob-collins-yanxi-liu%2F&data=05%7C02%7Ckbk5531%40psu.edu%7Cc7fb7d2baee94e40d50f08ddc3bd9294%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C638881941193681359%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=DQ500aRaIIOoJu8B3%2BHJmdUciNTPf0jL7j3kpEZsGJw%3D&reserved=0">[Event page]</a>.
+- date: 3/20/2025
+  title: Professor Yanxi Liu gives Distinguished Seminar at GMU
+  content: |
+    Professor Yanxi Liu gives Distinguished Research Seminar entitled "Human versus Machine Perception of Patterns OR A visual Turing Test: 'Are you a human or a robot?'" at George Mason University.
 - date: 3/15/2024
   title: LPAC Alumnus, Minwoo Park, selected as one of the PSU CSE outstanding Engineering
     Awardees for 2024

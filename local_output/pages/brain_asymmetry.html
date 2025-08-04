@@ -83,12 +83,12 @@
 
             <div class="collapsible-list">
                 <div class="collapsible-item">
-                    <div class="collapsible">
+                    <div class="collapsible active">
                         <div class="collapsible-title">MSP Extraction</div>
-                        <span class="collapsible-arrow">▼</span>
+                        <span class="collapsible-arrow active">▼</span>
                     </div>
 
-                    <div class="collapsible-content">
+                    <div class="collapsible-content shown" style="height: auto;">
                         <div class="collapsible-misc">
                             <div class="publications-list">
                                 <div class="publication-card">
@@ -132,12 +132,12 @@
                     </div>
                 </div>
                 <div class="collapsible-item">
-                    <div class="collapsible">
+                    <div class="collapsible active">
                         <div class="collapsible-title">Alzheimer's Disease Diagnosis</div>
-                        <span class="collapsible-arrow">▼</span>
+                        <span class="collapsible-arrow active">▼</span>
                     </div>
 
-                    <div class="collapsible-content">
+                    <div class="collapsible-content shown" style="height: auto;">
                         <div class="collapsible-misc">
                             <div class="publications-list">
                                 <div class="publication-card">
@@ -189,35 +189,36 @@
 
     </div>
     <script>
-        var collapsibles = document.getElementsByClassName("collapsible");
+  document.addEventListener("DOMContentLoaded", function () {
+    var collapsibles = document.getElementsByClassName("collapsible");
 
-        for (var i = 0; i < collapsibles.length; i++) {
-            collapsibles[i].addEventListener("click", function (e) {
-                let arrow = this.querySelector(".collapsible-arrow");
-                let content = this.nextElementSibling;
+    for (var i = 0; i < collapsibles.length; i++) {
+      const trigger = collapsibles[i];
+      const arrow = trigger.querySelector(".collapsible-arrow");
+      const content = trigger.nextElementSibling;
 
-                this.classList.toggle("active");
-                arrow.classList.toggle("active");
-                
-                if (content.style.height === "0px" || content.style.height === "") {
-                    // Expand: Set height to the scrollHeight (natural height)
-                    content.style.height = content.scrollHeight + "px";
+      // If open by default, set proper height
+      if (content.classList.contains("shown")) {
+        content.style.height = content.scrollHeight + "px";
+      }
 
-                    // Wait for transition to finish before showing content
-                    setTimeout(() => {
-                        content.classList.add("shown");
-                    }, 0); // Match transition duration
-                } else {
-                    // Collapse: Reset height before shrinking
-                    content.classList.remove("shown");
-                    
-                    // Wait for opacity to change before shrinking
-                    setTimeout(() => {
-                        content.style.height = "0px";
-                    }, 0);
-                }
-            })
+      // Toggle logic
+      trigger.addEventListener("click", function () {
+        const isOpen = content.classList.contains("shown");
+
+        this.classList.toggle("active");
+        arrow.classList.toggle("active");
+
+        if (isOpen) {
+          content.classList.remove("shown");
+          content.style.height = "0px";
+        } else {
+          content.style.height = content.scrollHeight + "px";
+          content.classList.add("shown");
         }
+      });
+    }
+  });
     </script>
 </body>
 </html>

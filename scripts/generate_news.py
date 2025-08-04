@@ -9,11 +9,11 @@ navbar_html = """
     <a href='index.html' class='nav-brand'>LPAC</a>
     <div class='nav-links'>
       <a href='../index.html'>Home</a>
-      <a href='../output/people.html'>People</a>
-      <a href='../output/research.html'>Research</a>
-      <a href='../output/publications.html'>Publications</a>
-      <a href='../output/news.html'>News</a>
-      <a href='../output/datasets.html'>Datasets</a>
+      <a href='../local_output/people.html'>People</a>
+      <a href='../local_output/research.html'>Research</a>
+      <a href='../local_output/publications.html'>Publications</a>
+      <a href='../local_output/news.html'>News</a>
+      <a href='../local_output/datasets.html'>Datasets</a>
     </div>
   </div>
 </nav>
@@ -113,10 +113,6 @@ def generate_news_page(yaml_path, output_path):
     )
 
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-    soup = BeautifulSoup(html, 'html.parser')
-    html = soup.prettify()
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(html)
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
 

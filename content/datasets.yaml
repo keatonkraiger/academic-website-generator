@@ -1,17 +1,17 @@
 datasets:
-  - title:   RPVP 
-    img_url: https://sites.psu.edu/eecslpac/files/2025/04/RPVP.png
-    description: >
-      We created two VP benchmark datasets – (a) Synthetic images (RPVP-Synthetic) comprised of 3,200 images created in Blender with the ground truth VP and cam- era parameters (intrinsic and extrinsic matrices) used to create the 2D images, and (b) Real-world images (RPVP-Real) with 1,400 annotated real-world images containing RPs.
-    wp_url: https://sites.psu.edu/eecslpac/rpvp/
-    local_url: 
-
   - title:    PSU Taiji MultiModal (PSU-TMM100) Dataset 
     img_url: https://sites.psu.edu/eecslpac/files/2025/04/psu-tmm100_source.gif
     description: >
       The PSU Taiji MultiModal (PSU-TMM100) Dataset contains 100 Taiji motion sequences, 24-form Simplified Taiji-Quan, aka Tai Chi, performed by 10 human subjects.
     wp_url: https://sites.psu.edu/eecslpac/vision-to-dynamics
     local_url: ./datasets/PSUTMM100.html
+
+  - title:   RPVP 
+    img_url: https://sites.psu.edu/eecslpac/files/2025/04/RPVP.png
+    description: >
+      We created two VP benchmark datasets – (a) Synthetic images (RPVP-Synthetic) comprised of 3,200 images created in Blender with the ground truth VP and cam- era parameters (intrinsic and extrinsic matrices) used to create the 2D images, and (b) Real-world images (RPVP-Real) with 1,400 annotated real-world images containing RPs.
+    wp_url: https://sites.psu.edu/eecslpac/rpvp/
+    local_url: 
 
   - title:   Database of Near-Regular Textures
     img_url: https://sites.psu.edu/eecslpac/files/2025/04/NRT_samples.png
@@ -42,9 +42,9 @@ datasets:
     wp_url: https://sites.psu.edu/eecslpac/lattice-detection/
 
   - title:  Digital Papercutting 
-    img_url: https://sites.psu.edu/eecslpac/files/2025/04/papercut.jpg
+    img_url: https://sites.psu.edu/eecslpac/files/2025/08/paperThumb.png
     description: >
       Papercutting is a widespread and ancient artform which, as far as we could tell, had no previous computational treatment. We developed algorithms to analyze the symmetry of papercut patterns and produce efficient folding and cutting plans.
-    wp_url: http://vision.cse.psu.edu/publications/pdfs/papercuttingSketch.pdf
-    local_url: http://vision.cse.psu.edu/publications/pdfs/papercuttingSketch.pdf
+    wp_url: https://sites.psu.edu/eecslpac/files/2025/08/papercuttingSketch.pdf
+    local_url: https://sites.psu.edu/eecslpac/files/2025/08/papercuttingSketch.pdf
 

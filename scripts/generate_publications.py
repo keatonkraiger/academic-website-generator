@@ -9,11 +9,11 @@ navbar_html = """
     <a href='index.html' class='nav-brand'>LPAC</a>
     <div class='nav-links'>
       <a href='../index.html'>Home</a>
-      <a href='../output/people.html'>People</a>
-      <a href='../output/research.html'>Research</a>
-      <a href='../output/publications.html'>Publications</a>
-      <a href='../output/news.html'>News</a>
-      <a href='../output/datasets.html'>Datasets</a>
+      <a href='../local_output/people.html'>People</a>
+      <a href='../local_output/research.html'>Research</a>
+      <a href='../local_output/publications.html'>Publications</a>
+      <a href='../local_output/news.html'>News</a>
+      <a href='../local_output/datasets.html'>Datasets</a>
     </div>
   </div>
 </nav>
@@ -132,6 +132,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Generate publications page from YAML data")
     parser.add_argument('--yaml_path', type=str, help="Path to the YAML file containing publication data")
     parser.add_argument('--output_path', type=str, help="Path to the output HTML file")
+    parser.add_argument("--link_mode", choices=["local", "wp"], default="local", help="Use local or WordPress links")
     args = parser.parse_args()
 
     generate_publications_page(args.yaml_path, args.output_path)

@@ -3,6 +3,90 @@ import yaml
 from pathlib import Path
 import argparse
 
+navbar_html = """
+<nav class="navbar">
+  <div class="nav-container">
+    <a href='index.html' class='nav-brand'>LPAC</a>
+    <div class='nav-links'>
+      <a href='../index.html'>Home</a>
+      <a href='../local_output/people.html'>People</a>
+      <a href='../local_output/research.html'>Research</a>
+      <a href='../local_output/publications.html'>Publications</a>
+      <a href='../local_output/news.html'>News</a>
+      <a href='../local_output/datasets.html'>Datasets</a>
+    </div>
+  </div>
+</nav>
+"""
+
+style_html = """
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    color: #1772d0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a {
+    color: #1772d0;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links a:hover {
+    color: #f09228;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+"""
+
+html_template = """<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=\"UTF-8\">
+    <title>{title}</title>
+    <link rel=\"stylesheet\" type=\"text/css\" href=\"../assets/custom.css\">
+    <style>{style}</style>
+  </head>
+  <body>
+    {navbar}
+    <div class=\"fullnews-container\">
+      <h1 class=\"fullnews-header\">News</h1>
+      <div class=\"fullnews-table-container\">
+        <table class=\"fullnews-table\" border=\"0\">
+          <tbody>
+            {rows}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+"""
+
 project_template = '''<!DOCTYPE html>
 <html>
 <head>

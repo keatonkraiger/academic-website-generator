@@ -9,11 +9,11 @@ navbar_html = """
     <a href='index.html' class='nav-brand'>LPAC</a>
     <div class='nav-links'>
       <a href='../index.html'>Home</a>
-      <a href='../output/people.html'>People</a>
-      <a href='../output/research.html'>Research</a>
-      <a href='../output/publications.html'>Publications</a>
-      <a href='../output/news.html'>News</a>
-      <a href='../output/datasets.html'>Datasets</a>
+      <a href='../local_output/people.html'>People</a>
+      <a href='../local_output/research.html'>Research</a>
+      <a href='../local_output/publications.html'>Publications</a>
+      <a href='../local_output/news.html'>News</a>
+      <a href='../local_output/datasets.html'>Datasets</a>
     </div>
   </div>
 </nav>
@@ -86,16 +86,16 @@ html_template = """<!DOCTYPE html>
 def format_dataset_card(ds, link_mode="local"):
     url = ds["local_url"] if link_mode == "local" else ds["wp_url"]
     return f'''
-    <div class="dataset-listing-card">
+    <a href="{url}" class="dataset-listing-card">
         <div class="dataset-image-container">
             <img src="{ds['img_url']}" alt="{ds['title']}" class="dataset-image-rect">
         </div>
         <div class="dataset-listing-content">
             <h2 class="dataset-listing-title">{ds['title']}</h2>
             <p class="dataset-listing-description">{ds['description']}</p>
-            <a href="{url}" class="dataset-listing-link">View Dataset</a>
         </div>
-    </div>'''
+    </a>'''
+
 
 
 
